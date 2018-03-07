@@ -10,10 +10,13 @@ Most important things to do
 - pyrimidine 
 
 3. Mapping to mouse, rat
+- infer homolog genes (mouse, rat)
 
-4. Create simulations with the model (FBA)
+4. Lookup ENSG & Proteins for given genes
 
-5. Minimal web interface for information display
+5. Create simulations with the model (FBA)
+
+6. Minimal web interface for information display
 
 * Webservices (Retrieve information on the fly)
     * UniProt
