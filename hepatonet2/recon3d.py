@@ -203,6 +203,7 @@ def create_genes(model, out_dir):
     # rules
     pass
 
+
 def create_gene_associations(model, outdir):
     """ Parses the gene association rules.
 
@@ -212,8 +213,6 @@ def create_gene_associations(model, outdir):
     """
     # rules
     pass
-
-
 
 
 if __name__ == "__main__":
@@ -238,6 +237,12 @@ if __name__ == "__main__":
     reactions, bounds = create_reactions(model, repo_dir)
     # pprint(bounds)
     # pprint(reactions)
+
+    print("*** GENES ***")
+    reactions, bounds = create_reactions(model, repo_dir)
+
+    print("*** GENE ASSOCIATIONS ***")
+    reactions, bounds = create_reactions(model, repo_dir)
 
     # additional gene information
     # "nbt.4072 - S4.xlsx" "Supplement Data File 8"
