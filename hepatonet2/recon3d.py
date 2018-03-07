@@ -8,6 +8,8 @@ internal data base.
 import os
 import scipy.io
 from pprint import pprint
+from collections import defaultdict
+import numpy as np
 
 
 def loadmat(filename):
@@ -47,57 +49,159 @@ def _todict(matobj):
 
 # Read the Matlab files and store in the repository
 
+import re
 
-def create_species(model, out_dir):
+def create_species(model, repo_dir):
     """ Creates the species files from the given mat model.
 
     :param model:
     :return:
     """
 
-    # metCharges
-    # metCHEBIID
-    # metFormulas
-    # metHMDBID
-    # metInCHIString
-    # metKEGGId
-    # metNames
-    # metPdMap
-    # metPubChemID
-    # metReconMap
-    # metSmiles
-    # mets
+    substances = defaultdict(dict)
+    species = defaultdict(dict)
+    compartments = set()
+    pattern = r'(.*)\[(.*)\]'
 
-    # compartmentsrule
+    metCharges = model['metCharges']
+    metCHEBIID = model['metCHEBIID']
+    metFormulas = model['metFormulas']
+    metHMDBID = model['metHMDBID']
+    metInChIString = model['metInChIString']
+    metKEGGID = model['metKEGGID']
+    metNames = model['metNames']
+    metPdMap = model['metPdMap']
+    metPubChemID = model['metPubChemID']
+    metReconMap = model['metReconMap']
+    metSmiles = model['metReconMap']
+
+    for idx, met in enumerate(model["mets"]):
+        # parse substance and compartment
+        match = re.match(pattern, met)
+        substance_id = match.group(1)
+        compartment_id = match.group(2)
+
+        compartments.add(compartment_id)
+
+        # create substance
+        if not substance_id in substances:
+
+            substances[substance_id] = {
+                'reconid': substance_id,
+                'charge': metCharges[idx],
+                'formula': metFormulas[idx],
+                'chebi': metCHEBIID[idx],
+                'hmdb': metHMDBID[idx],
+                'inchi': metInChIString[idx],
+                'kegg': metKEGGID[idx],
+                'reconname': metNames[idx],
+                'pubchem': metPubChemID[idx],
+                'smilex': metSmiles[idx]
+            }
+
+        # create species
+        species[met] = {
+            'reconid': met,
+            'substance': substance_id,
+            'compartment': compartment_id,
+            'pdmap': metPdMap[idx],
+            'reconmap': metReconMap[idx],
+        }
+
+    return substances, species, compartments
 
 
-def create_reactions(model, out_dir):
+def create_reactions(model, repo_dir):
     """ Creates the species files from the given mat model.
 
     :param model:
     :return:
     """
-    # rxns
+    reactions = defaultdict(dict)
+    bounds = defaultdict(dict)
+    exchanges = None
+    sinks = None
+    compartments = set()
+    # pattern = r'([A-Z|0-9|_]*)(.*)'
 
-    # parse stoichiometry (S)
-    # ub, lb
+    ub = model['ub']
+    lb = model['lb']
+    rxnCOG = model['rxnCOG']
+    rxnConfidenceScores = model['rxnConfidenceScores']
+    rxnECNumbers = model['rxnECNumbers']
+    rxnKEGGID = model['rxnKEGGID']
+    rxnKeggOrthology = model['rxnKeggOrthology']
+    rxnNames = model['rxnNames']
+    rxnNotes = model['rxnNotes']
+    rxnReconMap = model['rxnReconMap']
+    rxnReferences = model['rxnReferences']
+    subSystems = model['subSystems']
 
-    # rxnCOG
-    # rxnConfidenceScores
-    # rxnECNumbers
-    # rxnKEGGID
-    # rxnKeggOrthology
-    # rxnNames
-    # rxnNotes
-    # rxnReconMap
-    # rxnReferences
-    # subsystems
+    mets = model['mets']
+    S = model['S']
+    print(type(S))
+    print(S.shape)
 
-    # compartments
+    for idx, rxn in enumerate(model["rxns"]):
+        # parse substance and compartment
+        # match = re.match(pattern, rxn)
+        # reaction_id = match.group(1)
+        # compartment_id = match.group(2)
+        # print(rxn, reaction_id, compartment_id)
+
+        # store bounds
+        bounds[rxn] = {
+            'ub': ub[idx],
+            'lb': lb[idx]
+        }
+
+        # create species
+        reactions[rxn] = {
+            'recon_id': rxn,
+            'cog': rxnCOG[idx],
+            'recon_confidence': rxnConfidenceScores[idx],
+            'ec': rxnECNumbers[idx],
+            'kegg': rxnKEGGID[idx],
+            'kegg_orthology': rxnKeggOrthology[idx],
+            'recon_name': rxnNames[idx],
+            'recon_notes': rxnNotes[idx],
+            'recon_map': rxnReconMap[idx],
+            'recon_references': rxnReferences[idx],
+            'subsystems': subSystems[idx],
+        }
+
+        # create reaction equation (irreversibility via bounds)
+        col = S[:, idx]
+        s_indices = np.nonzero(col)[0]
+        left, right = [], []
+
+        for s_idx in s_indices:
+            stoichiometry = col[s_idx].data[0]
+            met = mets[s_idx]
+            if stoichiometry < 0:
+                left.append((stoichiometry, met))
+            else:
+                right.append((stoichiometry, met))
+
+        reversibility = "<=>"
+        if bounds[rxn]['ub'] == 0:
+            reversibility = "<="
+        if bounds[rxn]['lb'] == 0:
+            reversibility = "=>"
+        if bounds[rxn]['lb'] == 0 and bounds[rxn]['ub'] == 0:
+            reversibility = "|"
+
+        # print(left, reversibility, right)
+        reactions['rxn_left'] = left
+        reactions['rxn_right'] = right
+        reactions['rxn_reversibility'] = reversibility
+
+    return reactions, bounds
 
 
 def create_genes(model, out_dir):
     # rules
+    pass
 
 def create_gene_associations(model, outdir):
     """ Parses the gene association rules.
@@ -115,16 +219,28 @@ def create_gene_associations(model, outdir):
 if __name__ == "__main__":
     dir_cur = os.path.dirname(os.path.realpath(__file__))
     dir_recon = os.path.join(dir_cur, '..', 'input', 'models', 'recon3d')
-
     RECON3D_MODEL_MAT = os.path.join(dir_recon, "Recon3DModel_301.mat")
     RECON3D_MAT = os.path.join(dir_recon, "Recon3D_301.mat")
 
+    # Create a parts repository from given model
+    repo_dir = os.path.join(dir_cur, "..", "repository")
+
     mat = loadmat(RECON3D_MODEL_MAT)
     model = mat["Recon3DModel"]
-    pprint(list(model.keys()))
+
+    print("*** SPECIES ***")
+    substances, species, compartments = create_species(model, repo_dir)
+    # pprint(substances)
+    # pprint(species)
+    pprint(compartments)
+
+    print("*** REACTIONS ***")
+    reactions, bounds = create_reactions(model, repo_dir)
+    # pprint(bounds)
+    # pprint(reactions)
 
     # additional gene information
-    "nbt.4072 - S4.xlsx" "Supplement Data File 8"
+    # "nbt.4072 - S4.xlsx" "Supplement Data File 8"
     # biomart services
 
 
