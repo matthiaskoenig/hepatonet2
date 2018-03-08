@@ -1,0 +1,54 @@
+{
+  "11486.1": {
+    "ensemble": "ENSMUSG00000017697",
+    "entrez": "11486",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSMUSP00000017841",
+    "uniprot": [
+      "Q4FK28",
+      "P03958"
+    ]
+  },
+  "170789.1": {
+    "ensemble": "ENSMUSG00000017307",
+    "entrez": "170789",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSMUSP00000099383",
+    "uniprot": [
+      "Q3U965",
+      "Q8BZR4",
+      "P58137"
+    ]
+  },
+  "170789.2": {
+    "ensemble": "ENSMUSG00000017307",
+    "entrez": "170789",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSMUSP00000099383",
+    "uniprot": [
+      "Q3U965",
+      "Q8BZR4",
+      "P58137"
+    ]
+  },
+  "170789.3": {
+    "ensemble": "ENSMUSG00000017307",
+    "entrez": "170789",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSMUSP00000099383",
+    "uniprot": [
+      "Q3U965",
+      "Q8BZR4",
+      "P58137"
+    ]
+  },
+  "26384.1": {
+    "ensemble": "ENSMUSG00000052102",
+    "entrez": "26384",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSMUSP00000069081",
+    "uniprot": [
+      "O88958"
+    ]
+  }
+}

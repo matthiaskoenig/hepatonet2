@@ -92,6 +92,73 @@ def get_homologies(symbols, out_dir, species=['mouse', 'rat']):
             json.dump(homologies, f, sort_keys=True, indent=2)
 
 
+def get_homolog_genes(human_genes, species='mouse'):
+    """ Get the homolog genes and entrez mapping.
+
+    :param species:
+    :return:
+    """
+    client = EnsemblRestClient()
+
+    with open(os.path.join(repo_dir, "genes", "{}_homologies.json".format(species)), "r") as f_homo:
+
+        entrez_map = {}
+        homo_genes = {}
+
+        homologies = json.load(f_homo)
+        Nsymbols = len(human_genes)
+        for k, gid in enumerate(human_genes):
+
+            gene = human_genes[gid]
+            entrez_human, variant_human = gid.split('.')
+            symbol = gene.get('ensemble', None)
+            print("[{}|{}] {}".format(k, Nsymbols, symbol))
+
+            if symbol:
+                # look for the homology information
+                homologs = homologies.get(symbol)
+                if len(homologs) == 0:
+                    warnings.warn("No homolog for: {}".format(symbol))
+                    continue
+                if len(homologs) > 1:
+                    warnings.warn("More than one homolog for: {}".format(symbol))
+                homolog = homologs[0]
+
+                target = homolog.get('target')
+                if target:
+                    ensemble = target['id']
+                    g = {
+                        'ensemble': ensemble,
+                        'protein_id': target.get('protein_id'),
+                        'homology_type': homolog.get('type'),
+                    }
+                    xrefs = client.get_xrefs(symbol)
+                    # pprint(xrefs)
+                    for xref in xrefs:
+                        dbname = xref['dbname']
+                        dbid = xref['primary_id']
+                        if dbname == "EntrezGene":
+                            g['entrez'] = dbid
+                        elif dbname == "HGNC":
+                            g['hgnc'] = dbid
+                        elif dbname == "MIM_GENE":
+                            g['mim'] = dbid
+                        elif dbname == "Uniprot_gn":
+                            if "uniprot" in g:
+                                g['uniprot'].append(dbid)
+                            else:
+                                g['uniprot'] = [dbid]
+                    print('*' * 40)
+                    pprint(g)
+                    print('*' * 40)
+
+                    if 'entrez' in g:
+                        entrez_g = g['entrez']
+                        entrez_map[entrez_human] = entrez_g
+                        homo_genes['{}.{}'.format(entrez_g, variant_human)] = g
+
+    return homo_genes, entrez_map
+
 
 if __name__ == '__main__':
 
@@ -121,64 +188,16 @@ if __name__ == '__main__':
     # -------------------------------------------
     # Perform gene mapping
     # -------------------------------------------
-    client = EnsemblRestClient()
-    s = "mouse"
     with open(os.path.join(repo_dir, "genes", "human_genes.json"), "r") as f_human_genes:
         human_genes = json.load(f_human_genes)
+        for s in species:
+            mapped_genes, entrez_map = get_homolog_genes(human_genes, species=s)
 
-        entrez_map = {}
+        # write new genes
+        with open(os.path.join(repo_dir, 'genes', "{}_genes.json".format(s)), "w") as f:
+            json.dump(mapped_genes, f, sort_keys=True, indent=2)
 
-        with open(os.path.join(repo_dir, "genes", "{}_homologies.json".format(s)), "r") as f_homo:
-            homologies = json.load(f_homo)
-
-            for k, gid in enumerate(human_genes):
-                gene = human_genes[gid]
-                entrez = gid.split('.')[0]
-
-                ensemble = gene.get('ensemble', None)
-                if ensemble:
-                    # look for the homology information
-                    homologs = homologies.get(ensemble)
-                    print(homologs)
-
-                    if len(homologs) == 0:
-                        warnings.warn("No homolog for: {}".format(ensemble))
-                        continue
-                    if len(homologs) > 1:
-                        warnings.warn("More than one homolog for: {}".format(ensemble))
-                    homolog = homologs[0]
-
-                    target = homolog.get('target')
-                    if target:
-                        symbol = target['id']
-                        g = {
-                            'ensemble': symbol,
-                            'protein_id': target.get('protein_id'),
-                            'homology_type': homolog.get('type'),
-                        }
-                        xrefs = client.get_xrefs(symbol)
-                        #pprint(xrefs)
-                        for xref in xrefs:
-                            dbname = xref['dbname']
-                            dbid = xref['primary_id']
-                            if dbname == "EntrezGene":
-                                g['entrez'] = dbid
-                            elif dbname == "HGNC":
-                                g['hgnc'] = dbid
-                            elif dbname == "MIM_GENE":
-                                g['mim'] == dbid
-                            elif dbname == "Uniprot_gn":
-                                if "uniprot" in g:
-                                    g['uniprot'].append(dbid)
-                                else:
-                                    g['uniprot'] = [dbid]
-                        print('*' * 40)
-                        pprint(g)
-                        print('*' * 40)
-
-                if k == 4:
-                    break
-
+        # write gene association mapping
 
 
     # some problems with gene transcripts which have to be solved (alternative versions from gene to protein)

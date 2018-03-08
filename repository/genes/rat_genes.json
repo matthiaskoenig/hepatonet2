@@ -1,0 +1,29 @@
+{
+  "170588.1": {
+    "ensemble": "ENSRNOG00000015187",
+    "entrez": "170588",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSRNOP00000020740"
+  },
+  "170588.2": {
+    "ensemble": "ENSRNOG00000015187",
+    "entrez": "170588",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSRNOP00000020740"
+  },
+  "170588.3": {
+    "ensemble": "ENSRNOG00000015187",
+    "entrez": "170588",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSRNOP00000020740"
+  },
+  "24165.1": {
+    "ensemble": "ENSRNOG00000010265",
+    "entrez": "24165",
+    "homology_type": "ortholog_one2one",
+    "protein_id": "ENSRNOP00000014151",
+    "uniprot": [
+      "Q920P6"
+    ]
+  }
+}
