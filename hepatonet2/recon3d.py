@@ -208,6 +208,14 @@ def parse_reactions(model):
     return reactions, bounds
 
 
+def _value_by_key(row, key):
+    """ Returns the value or None from given DataFrame row """
+    value = row[key].iloc[0]
+    if pd.isna(value):
+        return None
+    return value
+
+
 def parse_genes(model, info_df):
     # rules
     recon_genes = model['genes']
@@ -224,9 +232,18 @@ def parse_genes(model, info_df):
         g["entrez"] = entrez_id
         g["entrez_version"] = entrez_version
 
-        if len(row)>0:
-            g["ensemble"] = row["Ensembl Gene ID"].iloc[0]
+        if len(row) > 0:
+            g["ensemble"] = _value_by_key(row, "Ensembl Gene ID")
+            g["hgnc"] = _value_by_key(row, "HGNC symbol")
+            g["description"] = _value_by_key(row, "Description")
+            g["mim"] = _value_by_key(row, "MIM Gene Accession")
+            g["uniprot"] = _value_by_key(row, "UniProt/SwissProt ID")
+            g["hpa"] = _value_by_key(row, "Human Protein Atlas Antibody ID")
+            g["go"] = _value_by_key(row, "GO Term Accession")
+            g["go_name"] = _value_by_key(row, "GO Term Name")
+            g["go_definition"] = _value_by_key(row, "GO Term Definition")
 
+        g = {k: v for k, v in g.items() if v is not None}
         genes[gid] = g
 
     return genes
@@ -239,8 +256,11 @@ def parse_gene_associations(model, outdir):
     :param outdir:
     :return:
     """
+    rules = model['rules']
+    genes = {}
+
     # rules
-    pass
+    return associations
 
 
 if __name__ == "__main__":
@@ -274,9 +294,7 @@ if __name__ == "__main__":
         with open(os.path.join(repo_dir, "reactions.json"), "w") as f:
             json.dump(reactions, f, sort_keys=True, indent=2)
 
-
     print("*** GENES ***")
-
     # additional gene information
     # "nbt.4072-S4.xlsx" "Supplement Data File 8"
     # biomart services
@@ -287,13 +305,11 @@ if __name__ == "__main__":
     print(info_df.head())
     genes = parse_genes(model, info_df)
     print("genes:", len(genes))
-    with open(os.path.join(repo_dir, "genes.json"), "w") as f:
+    with open(os.path.join(repo_dir, "genes", "human_genes.json"), "w") as f:
         json.dump(genes, f, sort_keys=True, indent=2)
 
-
-
     print("*** GENE ASSOCIATIONS ***")
-    reactions, bounds = parse_reactions(model, repo_dir)
+    reactions, bounds = parse_gene_associations(model, repo_dir)
 
 
 
