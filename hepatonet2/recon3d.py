@@ -208,9 +208,28 @@ def parse_reactions(model):
     return reactions, bounds
 
 
-def parse_genes(model):
+def parse_genes(model, info_df):
     # rules
-    pass
+    recon_genes = model['genes']
+    genes = {}
+    for gid in recon_genes:
+        if gid == "0":
+            print("invalid gene:", gid)
+            continue
+        entrez_id, entrez_version = [int(t) for t in gid.split('.')]
+
+        row = info_df[info_df["EntrezGene ID"] == entrez_id]
+
+        g = dict()
+        g["entrez"] = entrez_id
+        g["entrez_version"] = entrez_version
+
+        if len(row)>0:
+            g["ensemble"] = row["Ensembl Gene ID"].iloc[0]
+
+        genes[gid] = g
+
+    return genes
 
 
 def parse_gene_associations(model, outdir):
@@ -229,6 +248,8 @@ if __name__ == "__main__":
     dir_recon = os.path.join(dir_cur, '..', 'input', 'models', 'recon3d')
     RECON3D_MODEL_MAT = os.path.join(dir_recon, "Recon3DModel_301.mat")
     RECON3D_MAT = os.path.join(dir_recon, "Recon3D_301.mat")
+    RECON3D_S4 = os.path.join(dir_recon, "nbt.4072-S4.xlsx")
+    print(RECON3D_S4)
 
     # Create a parts repository from given model
     repo_dir = os.path.join(dir_cur, "..", "repository")
@@ -255,11 +276,20 @@ if __name__ == "__main__":
 
 
     print("*** GENES ***")
-    genes = parse_genes(model, repo_dir)
 
     # additional gene information
-    # "nbt.4072 - S4.xlsx" "Supplement Data File 8"
+    # "nbt.4072-S4.xlsx" "Supplement Data File 8"
     # biomart services
+    import pandas as pd
+    xls = pd.ExcelFile(RECON3D_S4)
+
+    info_df = xls.parse("Supplement Data File 8", skiprows=1)
+    print(info_df.head())
+    genes = parse_genes(model, info_df)
+    print("genes:", len(genes))
+    with open(os.path.join(repo_dir, "genes.json"), "w") as f:
+        json.dump(genes, f, sort_keys=True, indent=2)
+
 
 
     print("*** GENE ASSOCIATIONS ***")

@@ -4,3 +4,4 @@ yml
 numpy
 scipy
 django
+xlrd
