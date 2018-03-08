@@ -1,6 +1,8 @@
 """
 Query homologs from ensmble for given genes.
 
+http://ensemblgenomes.org/info/access/rest
+
 searches the homolog genes
 https://rest.ensembl.org/homology/id/ENSG00000106633?content-type=application/json&target_species=mouse
 """
@@ -90,31 +92,25 @@ def get_homologies(symbols, out_dir, species=['mouse', 'rat']):
             json.dump(homologies, f, sort_keys=True, indent=2)
 
 
-def get_xrefs(symbols, out_dir):
-
-    # get the cross references for symbol
-    # EntrezGene
-    # HGNC
-    # MIM_GENE
-    # Uniprot_gn
-
-    # return gene for species (keep the transcripts for now)
-
-
-    pass
-
 
 if __name__ == '__main__':
+
+    import warnings
 
     # Get all the homolog information from ensemble for genes
     dir_cur = os.path.dirname(os.path.realpath(__file__))
     repo_dir = os.path.join(dir_cur, "..", "repository")
+    print(repo_dir)
 
     retrieve_homologies = False
 
     species = ["mouse", "rat"]
+
+    # -------------------------------------------
+    # Calculate homologies, this takes very long
+    # -------------------------------------------
     if retrieve_homologies:
-        # Calculate homologies, this takes very long
+
         symbols = []
         with open(os.path.join(repo_dir, "genes", "human_genes.json"), "r") as f_human_genes:
             human_genes = json.load(f_human_genes)
@@ -122,11 +118,66 @@ if __name__ == '__main__':
 
         get_homologies(symbols=symbols, out_dir=os.path.join(repo_dir, "genes"), species=species)
 
-    # TODO:
-    # get the cross-references
+    # -------------------------------------------
+    # Perform gene mapping
+    # -------------------------------------------
+    client = EnsemblRestClient()
+    s = "mouse"
     with open(os.path.join(repo_dir, "genes", "human_genes.json"), "r") as f_human_genes:
         human_genes = json.load(f_human_genes)
 
+        entrez_map = {}
+
+        with open(os.path.join(repo_dir, "genes", "{}_homologies.json".format(s)), "r") as f_homo:
+            homologies = json.load(f_homo)
+
+            for k, gid in enumerate(human_genes):
+                gene = human_genes[gid]
+                entrez = gid.split('.')[0]
+
+                ensemble = gene.get('ensemble', None)
+                if ensemble:
+                    # look for the homology information
+                    homologs = homologies.get(ensemble)
+                    print(homologs)
+
+                    if len(homologs) == 0:
+                        warnings.warn("No homolog for: {}".format(ensemble))
+                        continue
+                    if len(homologs) > 1:
+                        warnings.warn("More than one homolog for: {}".format(ensemble))
+                    homolog = homologs[0]
+
+                    target = homolog.get('target')
+                    if target:
+                        symbol = target['id']
+                        g = {
+                            'ensemble': symbol,
+                            'protein_id': target.get('protein_id'),
+                            'homology_type': homolog.get('type'),
+                        }
+                        xrefs = client.get_xrefs(symbol)
+                        #pprint(xrefs)
+                        for xref in xrefs:
+                            dbname = xref['dbname']
+                            dbid = xref['primary_id']
+                            if dbname == "EntrezGene":
+                                g['entrez'] = dbid
+                            elif dbname == "HGNC":
+                                g['hgnc'] = dbid
+                            elif dbname == "MIM_GENE":
+                                g['mim'] == dbid
+                            elif dbname == "Uniprot_gn":
+                                if "uniprot" in g:
+                                    g['uniprot'].append(dbid)
+                                else:
+                                    g['uniprot'] = [dbid]
+                        print('*' * 40)
+                        pprint(g)
+                        print('*' * 40)
+
+                if k == 4:
+                    break
 
 
 
