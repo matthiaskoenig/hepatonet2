@@ -8,17 +8,15 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=recon3d
 The next step is mapping the available gene/protein information to mouse and rat.
 The mapping is performed using the biomart services and python library.
 
+Mapping of genes via Ensemble homology information
+https://rest.ensembl.org/documentation/info/homology_ensemblgene
+
 http://biomart.org/  
 http://biomart.org/martservice_9.html  
 https://github.com/sebriois/biomart  
 
-Mapping of genes via Ensemble homology information
-https://rest.ensembl.org/documentation/info/homology_ensemblgene
-
 UniProt REST API
 http://www.uniprot.org/help/programmatic_access
-
-
 
 
 ## 3. Create minimal SBML models for central carbon starting from small pathways

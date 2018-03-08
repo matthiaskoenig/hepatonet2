@@ -233,7 +233,10 @@ def parse_genes(model, info_df):
         g["entrez_version"] = entrez_version
 
         if len(row) > 0:
-            g["ensemble"] = _value_by_key(row, "Ensembl Gene ID")
+            ensemble = _value_by_key(row, "Ensembl Gene ID")
+            if ensemble and ensemble.startswith("ENSG"):
+                # some pseudogenes incorrect
+                g["ensemble"] = ensemble
             g["hgnc"] = _value_by_key(row, "HGNC symbol")
             g["description"] = _value_by_key(row, "Description")
             g["mim"] = _value_by_key(row, "MIM Gene Accession")
@@ -329,10 +332,3 @@ if __name__ == "__main__":
     print("associations:", len(associations))
     with open(os.path.join(repo_dir, "genes", "human_gene_associations.json"), "w") as f:
         json.dump(associations, f, sort_keys=True, indent=2)
-
-
-
-
-
-
-
