@@ -257,7 +257,23 @@ def parse_gene_associations(model, outdir):
     :return:
     """
     rules = model['rules']
-    genes = {}
+    genes = model['genes']
+    rxns = model['rxns']
+
+    associations = dict()
+    pattern = re.compile(r'x\([0-9]+\)')
+
+    for k in range(len(rules)):
+        rule = _value_by_idx(rules, k)
+        rxn_id = rxns[k]
+        if rule:
+            # replace gene ids in rule
+            matches = re.findall(pattern, rule)
+            for match in matches:
+                idx = int(match[2:(len(match)-1)]) - 1  # zero indexed python, one indexed matlab
+                rule = rule.replace(match, genes[idx])
+
+            associations[rxn_id] = rule
 
     # rules
     return associations
@@ -294,22 +310,26 @@ if __name__ == "__main__":
         with open(os.path.join(repo_dir, "reactions.json"), "w") as f:
             json.dump(reactions, f, sort_keys=True, indent=2)
 
-    print("*** GENES ***")
-    # additional gene information
-    # "nbt.4072-S4.xlsx" "Supplement Data File 8"
-    # biomart services
-    import pandas as pd
-    xls = pd.ExcelFile(RECON3D_S4)
+        print("*** GENES ***")
+        # additional gene information
+        # "nbt.4072-S4.xlsx" "Supplement Data File 8"
+        # biomart services
+        import pandas as pd
+        xls = pd.ExcelFile(RECON3D_S4)
 
-    info_df = xls.parse("Supplement Data File 8", skiprows=1)
-    print(info_df.head())
-    genes = parse_genes(model, info_df)
-    print("genes:", len(genes))
-    with open(os.path.join(repo_dir, "genes", "human_genes.json"), "w") as f:
-        json.dump(genes, f, sort_keys=True, indent=2)
+        info_df = xls.parse("Supplement Data File 8", skiprows=1)
+        # print(info_df.head())
+        genes = parse_genes(model, info_df)
+        print("genes:", len(genes))
+        with open(os.path.join(repo_dir, "genes", "human_genes.json"), "w") as f:
+            json.dump(genes, f, sort_keys=True, indent=2)
 
     print("*** GENE ASSOCIATIONS ***")
-    reactions, bounds = parse_gene_associations(model, repo_dir)
+    associations = parse_gene_associations(model, repo_dir)
+    print("associations:", len(associations))
+    with open(os.path.join(repo_dir, "genes", "human_gene_associations.json"), "w") as f:
+        json.dump(associations, f, sort_keys=True, indent=2)
+
 
 
 
