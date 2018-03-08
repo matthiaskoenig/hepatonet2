@@ -51,13 +51,22 @@ def _todict(matobj):
 
 import re
 
+def _value_by_idx(array, idx):
+    """ Returns the value or None. """
+    value = array[idx]
+    if isinstance(value, np.ndarray) and len(value) == 0:
+        return None
+    if isinstance(value, np.int64):
+        return int(value)
+    return value
+
+
 def create_species(model, repo_dir):
     """ Creates the species files from the given mat model.
 
     :param model:
     :return:
     """
-
     substances = defaultdict(dict)
     species = defaultdict(dict)
     compartments = set()
@@ -80,33 +89,33 @@ def create_species(model, repo_dir):
         match = re.match(pattern, met)
         substance_id = match.group(1)
         compartment_id = match.group(2)
-
         compartments.add(compartment_id)
 
         # create substance
         if not substance_id in substances:
-
-            substances[substance_id] = {
-                'reconid': substance_id,
-                'charge': metCharges[idx],
-                'formula': metFormulas[idx],
-                'chebi': metCHEBIID[idx],
-                'hmdb': metHMDBID[idx],
-                'inchi': metInChIString[idx],
-                'kegg': metKEGGID[idx],
-                'reconname': metNames[idx],
-                'pubchem': metPubChemID[idx],
-                'smilex': metSmiles[idx]
-            }
+            s = dict()
+            s['reconid'] = substance_id
+            s['charge'] = _value_by_idx(metCharges, idx)
+            s['formula'] = _value_by_idx(metFormulas, idx)
+            s['chebi'] = _value_by_idx(metCHEBIID, idx)
+            s['hmdb'] = _value_by_idx(metHMDBID, idx)
+            s['inchi'] = _value_by_idx(metInChIString, idx)
+            s['kegg'] = _value_by_idx(metKEGGID, idx)
+            s['reconname'] = _value_by_idx(metNames, idx)
+            s['pubchem'] = _value_by_idx(metPubChemID, idx)
+            s['smilex'] = _value_by_idx(metSmiles, idx)
+            s = {k: v for k, v in s.items() if v is not None}
+            substances[substance_id] = s
 
         # create species
-        species[met] = {
-            'reconid': met,
-            'substance': substance_id,
-            'compartment': compartment_id,
-            'pdmap': metPdMap[idx],
-            'reconmap': metReconMap[idx],
-        }
+        m = dict()
+        m['reconid'] = met
+        m['substance'] = substance_id
+        m['compartment'] = compartment_id
+        m['pdmap'] = _value_by_idx(metPdMap, idx)
+        m['reconmap'] = _value_by_idx(metReconMap, idx)
+        m = {k: v for k, v in m.items() if v is not None}
+        species[met] = m
 
     return substances, species, compartments
 
@@ -231,7 +240,19 @@ if __name__ == "__main__":
     substances, species, compartments = create_species(model, repo_dir)
     # pprint(substances)
     # pprint(species)
-    pprint(compartments)
+    # pprint(compartments)
+
+    # TODO: store information as JSON
+    import json
+    print("substances:", len(substances))
+    with open(os.path.join(repo_dir, "substances.json"), "w") as f:
+        json.dump(substances, f, sort_keys=True, indent=2)
+    print("species:", len(species))
+    with open(os.path.join(repo_dir, "species.json"), "w") as f:
+        json.dump(species, f, sort_keys=True, indent=2)
+
+
+    exit()
 
     print("*** REACTIONS ***")
     reactions, bounds = create_reactions(model, repo_dir)

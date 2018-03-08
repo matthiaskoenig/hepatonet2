@@ -3,3 +3,4 @@ pandas
 yml
 numpy
 scipy
+django
