@@ -5545,7 +5545,6 @@
     "uniprot": "Q8N2A8"
   },
   "201288.1": {
-    "ensemble": "pseudogene based on EntrezGene",
     "entrez": 201288,
     "entrez_version": 1,
     "hgnc": "NOS2P2"
@@ -20134,7 +20133,6 @@
     "mim": 600941.0
   },
   "645740.1": {
-    "ensemble": "pseudogene based on EntrezGene",
     "entrez": 645740,
     "entrez_version": 1,
     "hgnc": "NOS2P1"
@@ -25488,7 +25486,6 @@
     "mim": 300171.0
   },
   "8781.1": {
-    "ensemble": "pseudogene based on EntrezGene",
     "entrez": 8781,
     "entrez_version": 1,
     "hgnc": "PSPHP1"

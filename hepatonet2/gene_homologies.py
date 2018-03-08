@@ -117,7 +117,7 @@ def get_homolog_genes(human_genes, species='mouse'):
             if symbol:
                 # look for the homology information
                 homologs = homologies.get(symbol)
-                if len(homologs) == 0:
+                if not homologs or len(homologs) == 0:
                     warnings.warn("No homolog for: {}".format(symbol))
                     continue
                 if len(homologs) > 1:
@@ -132,7 +132,7 @@ def get_homolog_genes(human_genes, species='mouse'):
                         'protein_id': target.get('protein_id'),
                         'homology_type': homolog.get('type'),
                     }
-                    xrefs = client.get_xrefs(symbol)
+                    xrefs = client.get_xrefs(ensemble)
                     # pprint(xrefs)
                     for xref in xrefs:
                         dbname = xref['dbname']
@@ -148,9 +148,7 @@ def get_homolog_genes(human_genes, species='mouse'):
                                 g['uniprot'].append(dbid)
                             else:
                                 g['uniprot'] = [dbid]
-                    print('*' * 40)
-                    pprint(g)
-                    print('*' * 40)
+                    # pprint(g)
 
                     if 'entrez' in g:
                         entrez_g = g['entrez']
@@ -170,7 +168,7 @@ if __name__ == '__main__':
     print(repo_dir)
 
     retrieve_homologies = False
-
+    map_genes = True
     species = ["mouse", "rat"]
 
     # -------------------------------------------
@@ -188,19 +186,27 @@ if __name__ == '__main__':
     # -------------------------------------------
     # Perform gene mapping
     # -------------------------------------------
-    with open(os.path.join(repo_dir, "genes", "human_genes.json"), "r") as f_human_genes:
-        human_genes = json.load(f_human_genes)
-        for s in species:
-            mapped_genes, entrez_map = get_homolog_genes(human_genes, species=s)
+    # FIXME: some problems with gene transcripts which have to be solved (alternative versions from gene to protein)
+    if map_genes:
+        with open(os.path.join(repo_dir, "genes", "human_genes.json"), "r") as f_human_genes:
+            human_genes = json.load(f_human_genes)
+            for s in species:
+                mapped_genes, entrez_map = get_homolog_genes(human_genes, species=s)
 
-        # write new genes
-        with open(os.path.join(repo_dir, 'genes', "{}_genes.json".format(s)), "w") as f:
-            json.dump(mapped_genes, f, sort_keys=True, indent=2)
+                # write new genes
+                with open(os.path.join(repo_dir, 'genes', "{}_genes.json".format(s)), "w") as f:
+                    json.dump(mapped_genes, f, sort_keys=True, indent=2)
 
-        # write gene association mapping
+                with open(os.path.join(repo_dir, 'genes', "human2{}.json".format(s)), "w") as f:
+                    json.dump(entrez_map, f, sort_keys=True, indent=2)
 
+    # -------------------------------------------
+    # Perform gene association mapping
+    # -------------------------------------------
+    with open(os.path.join(repo_dir, "genes", "human_gene_associations.json"), "r") as f_gas:
+        gas = json.read(f_gas)
+        print(gas)
 
-    # some problems with gene transcripts which have to be solved (alternative versions from gene to protein)
 
 
 

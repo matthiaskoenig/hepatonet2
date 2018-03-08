@@ -62,7 +62,7 @@ def _value_by_idx(array, idx):
     return value
 
 
-def parse_species(model, repo_dir):
+def parse_species(model):
     """ Creates the species files from the given mat model.
 
     :param model:
@@ -296,9 +296,9 @@ if __name__ == "__main__":
     mat = loadmat(RECON3D_MODEL_MAT)
     model = mat["Recon3DModel"]
 
-    if False:
+    if True:
         print("*** SPECIES ***")
-        substances, species, compartments = parse_species(model, repo_dir)
+        substances, species, compartments = parse_species(model)
 
         print("substances:", len(substances))
         with open(os.path.join(repo_dir, "substances.json"), "w") as f:
@@ -308,7 +308,7 @@ if __name__ == "__main__":
             json.dump(species, f, sort_keys=True, indent=2)
 
         print("*** REACTIONS ***")
-        reactions, bounds = parse_reactions(model, repo_dir)
+        reactions, bounds = parse_reactions(model)
         print("reactions:", len(reactions))
         with open(os.path.join(repo_dir, "reactions.json"), "w") as f:
             json.dump(reactions, f, sort_keys=True, indent=2)
@@ -327,8 +327,8 @@ if __name__ == "__main__":
         with open(os.path.join(repo_dir, "genes", "human_genes.json"), "w") as f:
             json.dump(genes, f, sort_keys=True, indent=2)
 
-    print("*** GENE ASSOCIATIONS ***")
-    associations = parse_gene_associations(model, repo_dir)
-    print("associations:", len(associations))
-    with open(os.path.join(repo_dir, "genes", "human_gene_associations.json"), "w") as f:
-        json.dump(associations, f, sort_keys=True, indent=2)
+        print("*** GENE ASSOCIATIONS ***")
+        associations = parse_gene_associations(model, repo_dir)
+        print("associations:", len(associations))
+        with open(os.path.join(repo_dir, "genes", "human_gene_associations.json"), "w") as f:
+            json.dump(associations, f, sort_keys=True, indent=2)
