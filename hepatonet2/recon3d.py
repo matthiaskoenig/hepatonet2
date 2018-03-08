@@ -6,6 +6,7 @@ internal data base.
 
 """
 import os
+import json
 import scipy.io
 from pprint import pprint
 from collections import defaultdict
@@ -56,12 +57,12 @@ def _value_by_idx(array, idx):
     value = array[idx]
     if isinstance(value, np.ndarray) and len(value) == 0:
         return None
-    if isinstance(value, np.int64):
+    if isinstance(value, (np.int, np.uint, np.int64, np.int16, np.uint8)):
         return int(value)
     return value
 
 
-def create_species(model, repo_dir):
+def parse_species(model, repo_dir):
     """ Creates the species files from the given mat model.
 
     :param model:
@@ -120,7 +121,7 @@ def create_species(model, repo_dir):
     return substances, species, compartments
 
 
-def create_reactions(model, repo_dir):
+def parse_reactions(model):
     """ Creates the species files from the given mat model.
 
     :param model:
@@ -148,8 +149,6 @@ def create_reactions(model, repo_dir):
 
     mets = model['mets']
     S = model['S']
-    print(type(S))
-    print(S.shape)
 
     for idx, rxn in enumerate(model["rxns"]):
         # parse substance and compartment
@@ -160,24 +159,23 @@ def create_reactions(model, repo_dir):
 
         # store bounds
         bounds[rxn] = {
-            'ub': ub[idx],
-            'lb': lb[idx]
+            'ub': _value_by_idx(ub, idx),
+            'lb': _value_by_idx(lb, idx),
         }
 
         # create species
-        reactions[rxn] = {
-            'recon_id': rxn,
-            'cog': rxnCOG[idx],
-            'recon_confidence': rxnConfidenceScores[idx],
-            'ec': rxnECNumbers[idx],
-            'kegg': rxnKEGGID[idx],
-            'kegg_orthology': rxnKeggOrthology[idx],
-            'recon_name': rxnNames[idx],
-            'recon_notes': rxnNotes[idx],
-            'recon_map': rxnReconMap[idx],
-            'recon_references': rxnReferences[idx],
-            'subsystems': subSystems[idx],
-        }
+        r = dict()
+        r['recon_id'] = rxn
+        r['cog'] = _value_by_idx(rxnCOG, idx)
+        r['recon_confidence'] = _value_by_idx(rxnConfidenceScores, idx)
+        r['ec'] = _value_by_idx(rxnECNumbers, idx)
+        r['kegg'] = _value_by_idx(rxnKEGGID, idx)
+        r['kegg_orthology'] = _value_by_idx(rxnKeggOrthology, idx)
+        r['recon_name'] = _value_by_idx(rxnNames, idx)
+        r['recon_notes'] = _value_by_idx(rxnNotes, idx)
+        r['recon_map'] = _value_by_idx(rxnReconMap, idx)
+        r['recon_references'] = _value_by_idx(rxnReferences, idx)
+        r['subsystems'] = _value_by_idx(subSystems, idx)
 
         # create reaction equation (irreversibility via bounds)
         col = S[:, idx]
@@ -185,7 +183,7 @@ def create_reactions(model, repo_dir):
         left, right = [], []
 
         for s_idx in s_indices:
-            stoichiometry = col[s_idx].data[0]
+            stoichiometry = float(col[s_idx].data[0])
             met = mets[s_idx]
             if stoichiometry < 0:
                 left.append((stoichiometry, met))
@@ -201,19 +199,21 @@ def create_reactions(model, repo_dir):
             reversibility = "|"
 
         # print(left, reversibility, right)
-        reactions['rxn_left'] = left
-        reactions['rxn_right'] = right
-        reactions['rxn_reversibility'] = reversibility
+        r['rxn_left'] = left
+        r['rxn_right'] = right
+        r['rxn_reversibility'] = reversibility
+        r = {k: v for k, v in r.items() if v is not None}
+        reactions[rxn] = r
 
     return reactions, bounds
 
 
-def create_genes(model, out_dir):
+def parse_genes(model):
     # rules
     pass
 
 
-def create_gene_associations(model, outdir):
+def parse_gene_associations(model, outdir):
     """ Parses the gene association rules.
 
     :param model:
@@ -236,38 +236,36 @@ if __name__ == "__main__":
     mat = loadmat(RECON3D_MODEL_MAT)
     model = mat["Recon3DModel"]
 
-    print("*** SPECIES ***")
-    substances, species, compartments = create_species(model, repo_dir)
-    # pprint(substances)
-    # pprint(species)
-    # pprint(compartments)
+    if False:
+        print("*** SPECIES ***")
+        substances, species, compartments = parse_species(model, repo_dir)
 
-    # TODO: store information as JSON
-    import json
-    print("substances:", len(substances))
-    with open(os.path.join(repo_dir, "substances.json"), "w") as f:
-        json.dump(substances, f, sort_keys=True, indent=2)
-    print("species:", len(species))
-    with open(os.path.join(repo_dir, "species.json"), "w") as f:
-        json.dump(species, f, sort_keys=True, indent=2)
+        print("substances:", len(substances))
+        with open(os.path.join(repo_dir, "substances.json"), "w") as f:
+            json.dump(substances, f, sort_keys=True, indent=2)
+        print("species:", len(species))
+        with open(os.path.join(repo_dir, "species.json"), "w") as f:
+            json.dump(species, f, sort_keys=True, indent=2)
 
+        print("*** REACTIONS ***")
+        reactions, bounds = parse_reactions(model, repo_dir)
+        print("reactions:", len(reactions))
+        with open(os.path.join(repo_dir, "reactions.json"), "w") as f:
+            json.dump(reactions, f, sort_keys=True, indent=2)
 
-    exit()
-
-    print("*** REACTIONS ***")
-    reactions, bounds = create_reactions(model, repo_dir)
-    # pprint(bounds)
-    # pprint(reactions)
 
     print("*** GENES ***")
-    reactions, bounds = create_reactions(model, repo_dir)
-
-    print("*** GENE ASSOCIATIONS ***")
-    reactions, bounds = create_reactions(model, repo_dir)
+    genes = parse_genes(model, repo_dir)
 
     # additional gene information
     # "nbt.4072 - S4.xlsx" "Supplement Data File 8"
     # biomart services
+
+
+    print("*** GENE ASSOCIATIONS ***")
+    reactions, bounds = parse_reactions(model, repo_dir)
+
+
 
 
 
