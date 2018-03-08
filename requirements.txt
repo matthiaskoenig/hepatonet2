@@ -6,3 +6,4 @@ scipy
 django
 xlrd
 requests
+python-libsbml
