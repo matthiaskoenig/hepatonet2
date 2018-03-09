@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="glycolysis_gluconeogenesis">
+    <listOfReactions>
+      <reaction id="R_G6PPer" name="Glucose-6-Phosphate Phosphatase, Edoplasmic Reticular"/>
+      <reaction id="R_ENO" name="Enolase"/>
+      <reaction id="R_ALDD2x" name="Aldehyde Dehydrogenase (Acetaldehyde, NAD)"/>
+      <reaction id="R_FBP" name="Fructose-Bisphosphatase"/>
+      <reaction id="R_r0413" name="DATP:Pyruvate O2-Phosphotransferase"/>
+      <reaction id="R_PGM" name="Phosphoglycerate Mutase"/>
+      <reaction id="R_PDHm" name="Pyruvate Dehydrogenase"/>
+      <reaction id="R_ALCD2yf" name="Alcohol Dehydrogenase (Ethanol, NADP), Forward Reaction"/>
+      <reaction id="R_HEX1" name="Hexokinase (D-Glucose:ATP)"/>
+      <reaction id="R_PEPCKm" name="Phosphoenolpyruvate Carboxykinase (GTP)"/>
+      <reaction id="R_ACSm" name="Acetyl Coenzyme A Synthetase"/>
+      <reaction id="R_r0173" name="(S)-Lactate:NAD+ Oxidoreductase"/>
+      <reaction id="R_HMR_7748" name="Alpha-D-Glucose 6-Phosphate Ketol-Isomerase"/>
+      <reaction id="R_PEPCK" name="Phosphoenolpyruvate Carboxykinase (GTP)"/>
+      <reaction id="R_ALDD2xm" name="Aldehyde Dehydrogenase (Acetylaldehyde, NAD), Mitochondrial"/>
+      <reaction id="R_HMR_7749" name="Beta-D-Glucose 6-Phosphate Ketol-Isomerase"/>
+      <reaction id="R_PFK" name="Phosphofructokinase"/>
+      <reaction id="R_PGI" name="Glucose-6-Phosphate Isomerase"/>
+      <reaction id="R_LDH_L" name="L-Lactate Dehydrogenase"/>
+      <reaction id="R_r0165" name="UTP:Pyruvate O2-Phosphotransferase"/>
+      <reaction id="R_PGK" name="Phosphoglycerate Kinase"/>
+      <reaction id="R_G3PD2m" name="Glycerol-3-Phosphate Dehydrogenase (FAD), Mitochondrial"/>
+      <reaction id="R_FBA" name="Fructose-Bisphosphate Aldolase"/>
+      <reaction id="R_DPGM" name="Diphosphoglyceromutase"/>
+      <reaction id="R_r0153" name="CTP:Pyruvate O2-Phosphotransferase"/>
+      <reaction id="R_r0354" name="Hexokinase"/>
+      <reaction id="R_ACS" name="Acetyl Coenzyme A Synthetase"/>
+      <reaction id="R_TPI" name="Triose-Phosphate Isomerase"/>
+      <reaction id="R_r0280" name="DATP:Pyruvate O2-Phosphotransferase"/>
+      <reaction id="R_GAPD" name="Glyceraldehyde-3-Phosphate Dehydrogenase"/>
+      <reaction id="R_ALDD2y" name="Aldehyde Dehydrogenase (Acetaldehyde, NADP)"/>
+      <reaction id="R_CBPPer" name="Carbamoyl Phosphate Phosphotransferase, Endoplasmic Reticulum"/>
+      <reaction id="R_DPGase" name="Diphosphoglycerate Phosphatase"/>
+      <reaction id="R_PYK" name="Pyruvate Kinase"/>
+      <reaction id="R_r0202" name="Sn-Glycerol-3-Phosphate:NAD+ 2-Oxidoreductase"/>
+      <reaction id="R_CAT2p" name="Catalase A, Peroxisomal (Ethanol)"/>
+      <reaction id="R_r0355" name="Hexokinase"/>
+      <reaction id="R_ACYP" name="Acylphosphatase"/>
+      <reaction id="R_PGMT" name="Phosphoglucomutase"/>
+      <reaction id="R_ALCD2if" name="Alcohol Dehydrogenase, Forward Rxn (Ethanol -&gt; Acetaldehyde)"/>
+      <reaction id="R_r0122" name="GTP:Pyruvate O2-Phosphotransferase"/>
+      <reaction id="R_ETOHMO" name="Ethanol Monooxygenase"/>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,10 +1,10 @@
 # Workflow Model building (TODO)
 
-## 1. Import Recon3D
+## [x] 1. Import Recon3D
 Read all the available Recon3D information from the latest Human Reconstruction (Recon3D, Mar 2018).
 https://www.ncbi.nlm.nih.gov/pubmed/?term=recon3d
 
-## 2. Mapping to different species (mouse, rat)
+## [x] 2. Mapping to different species (mouse, rat)
 The next step is mapping the available gene/protein information to mouse and rat.
 The mapping is performed using the biomart services and python library.
 
@@ -18,8 +18,8 @@ https://github.com/sebriois/biomart
 UniProt REST API
 http://www.uniprot.org/help/programmatic_access
 
-
-## 3. Create minimal SBML models for central carbon starting from small pathways
+## [ ] 3. Create SBML models
+Full SBML model mapped to different species and models for pathways and core model
 - glycolysis, 
 - TCA
 - pentose phospate
@@ -34,8 +34,8 @@ http://www.uniprot.org/help/programmatic_access
 * Ensemble
 * Pubmed
 
-## 6. Minimal web interface to access information
-
+## 6. Minimal web interface
+Provide access to the information of the model
 
 Misc
 * Import old small model (FBA)
