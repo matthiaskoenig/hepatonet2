@@ -57,7 +57,7 @@ def create_sbml_for_subsystem(subsystem, organism):
             if rinfo.get("subsystems") == subsystem:
                 # create reaction
                 print(rid)
-                r = model.createReaction()  # libsbml.Reaction
+                r = model.createReaction()  # type: libsbml.Reaction
                 recon_id = rinfo.get('recon_id')
                 r.setId("R_{}".format(recon_id))
                 recon_name = rinfo.get('recon_name')
@@ -67,9 +67,18 @@ def create_sbml_for_subsystem(subsystem, organism):
                 reversibility = rinfo.get('reversibility')
                 if reversibility and reversibility == "=>":
                     reversible = False
-                r.setReversibility(True)
+                r.setReversible(reversible)
 
                 # add species for the reactions
+                for stoichiometry, species_id in rinfo['rxn_left']:
+                    print(stoichiometry, species_id)
+
+                    specie = species[species_id]
+                    compartment_id = specie['compartment']
+
+
+                for stoichiometry, species_id in rinfo['rxn_left']:
+                    print(stoichiometry, species_id)
 
                 # add compartments for the species
 
