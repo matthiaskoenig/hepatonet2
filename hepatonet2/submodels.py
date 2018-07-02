@@ -81,9 +81,8 @@ def create_sbml_for_subsystem(subsystem, organism):
             members.append(member.getIdRef())
         subsystems[key] = members
 
-
-    doc = libsbml.SBMLDocument(3, 2)  # type: libsbml.SBMLDocument
-    # TODO: add fbc package
+    sbmlns = libsbml.SBMLNamespaces(3, 2, 'fbc', 2)
+    doc = libsbml.SBMLDocument(sbmlns)  # type: libsbml.SBMLDocument
     model = doc.createModel()  # type: libsbml.Model
     model.setId(_normalize_to_sid(subsystem))
 
@@ -106,6 +105,7 @@ def create_sbml_for_subsystem(subsystem, organism):
 
         # parse the geneProduct information
         # TODO: implement (add on reaction and as gene product)
+
     print(species_ids)
 
     # compartments
@@ -115,7 +115,7 @@ def create_sbml_for_subsystem(subsystem, organism):
         compartment_ids.add(c_recon.getId())
     print(compartment_ids)
 
-    # add compartments in model
+    # add compartments
     for cid in compartment_ids:
         c_recon = model_recon.getCompartment(cid)  # type: libsbml.Compartment
         c = model.createCompartment()  # type: libsbml.Compartment
@@ -124,10 +124,10 @@ def create_sbml_for_subsystem(subsystem, organism):
         c.setMetaId(c_recon.getMetaId())
         c.setName(c_recon.getName())
         c.setSBOTerm(c_recon.getSBOTerm())
-        # c.setUnits(c_recon.getUnits())  # FIXME (no units so far)
+        # c.setUnits(c_recon.getUnits())  # FIXME (no units so far), register in listOfUnitDefinitions
         c.setAnnotation(c_recon.getAnnotation())
 
-    # add species in model
+    # add species
     for sid in species_ids:
         s_recon = model_recon.getSpecies(sid)  # type: libsbml.Species
         s = model.createSpecies()  # type: libsbml.Species
@@ -139,17 +139,13 @@ def create_sbml_for_subsystem(subsystem, organism):
         s.setHasOnlySubstanceUnits(s_recon.getHasOnlySubstanceUnits())
         s.setName(s_recon.getName())
         s.setSBOTerm(s.getSBOTerm())
-        annotation = s_recon.getAnnotation()
         s.setAnnotation(s_recon.getAnnotation())
 
         # fbc
         s_recon_fbc = s_recon.getPlugin("fbc")  # type: libsbml.FbcSpeciesPlugin
         s_fbc = s.getPlugin("fbc")  # type: libsbml.FbcSpeciesPlugin
-        print(s_recon_fbc)
-        print(s_fbc)
-        # s_fbc.setCharge(s_recon_fbc.getCharge())
-        # s_fbc.setChemicalFormula(s_recon_fbc.getChemicalFormula())
-        # TODO: FIXME fbc
+        s_fbc.setCharge(s_recon_fbc.getCharge())
+        s_fbc.setChemicalFormula(s_recon_fbc.getChemicalFormula())
 
     # add reactions
     for rid in reaction_ids:
@@ -163,33 +159,38 @@ def create_sbml_for_subsystem(subsystem, organism):
         r.setFast(r_recon.getFast())
         r.setReversible(r_recon.getReversible())
 
-        # TODO: FBC flux bounds
+        # fbc
+        r_recon_fbc = r_recon.getPlugin("fbc")  # type: libsbml.FbcReactionPlugin
+        r_fbc = r.getPlugin("fbc")  # type: libsbml.FbcReactionPlugin
+        r_fbc.setLowerFluxBound(r_recon_fbc.getLowerFluxBound())
+        r_fbc.setUpperFluxBound(r_recon_fbc.getUpperFluxBound())
+
         for sref_recon in r_recon.getListOfReactants():  # type: libsbml.SpeciesReference
-            s = model.getSpecies(sref_recon.getSpecies())
+            sid = sref_recon.getSpecies()
+            s = model.getSpecies(sid)
             r.addReactant(s)  # type: libsbml.SpeciesReference
-            #sref = r.getReactant(s.getId())
-            #sref.setConstant(sref_recon.getConstant())
-            #sref.setStoichiometry(sref_recon.getStoichiometry())
-            #sref.setSBOTerm(sref_recon.getSBOTerm())
+            sref = r.getReactant(sid)
+            sref.setConstant(sref_recon.getConstant())
+            sref.setStoichiometry(sref_recon.getStoichiometry())
+            sref.setSBOTerm(sref_recon.getSBOTerm())
 
         for sref_recon in r_recon.getListOfProducts():  # type: libsbml.SpeciesReference
-            s = model.getSpecies(sref_recon.getSpecies())
+            sid = sref_recon.getSpecies()
+            s = model.getSpecies(sid)
             r.addProduct(s)  # type: libsbml.SpeciesReference
-            #sref = r.getProduct(s.getId())
-            #sref.setConstant(sref_recon.getConstant())
-            #sref.setStoichiometry(sref_recon.getStoichiometry())
-            #sref.setSBOTerm(sref_recon.getSBOTerm())
+            sref = r.getProduct(sid)
+            sref.setConstant(sref_recon.getConstant())
+            sref.setStoichiometry(sref_recon.getStoichiometry())
+            sref.setSBOTerm(sref_recon.getSBOTerm())
 
-        '''
-        # TODO: implement   
+        # FIXME: implement modifiers on reactions
+        '''          
         for sref_recon in r_recon.getListOfModifiers():  # type: libsbml.SpeciesReference
             s = model.getSpecies(sref_recon.getSpecies())
             r.addModifier(s)  # type: libsbml.SpeciesReference
             sref = r.getModifier(s.getId())
             sref.setSBOTerm(sref_recon.getSBOTerm())
-            
         '''
-
 
     # add gene products
     # TODO: implement
