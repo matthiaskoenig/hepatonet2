@@ -30,98 +30,14 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="M_CE5643_c" id="M_CE5643_c" name="Peroxynitrite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="NO3">
+      <species metaid="M_CE5021_c" id="M_CE5021_c" name="Alpha-tocopheryl hydroquinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C29H52O3">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_CE5643_c">
+            <rdf:Description rdf:about="#M_CE5021_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/CE5643"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1395"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25941"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25942"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02179"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16845"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM6378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd17155"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_q10_c" id="M_q10_c" name="Ubiquinone-10" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H90O4">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_q10_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/q10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UBIQUINONE-10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46241"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46245"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9854"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01072"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C11378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D01065"/>
-                  <rdf:li rdf:resource="http://identifiers.org/lipidmaps/LMPR02010001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8440"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd08232"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_CE5022_c" id="M_CE5022_c" name="Alpha-tocopheryl quinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C29H50O3">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_CE5022_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/CE5022"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM164520"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_no2_c" id="M_no2_c" name="Nitrite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="NO2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_no2_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/no2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NITRITE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14658"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16301"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25567"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44396"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7585"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02786"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00088"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM107"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00075"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_q10h2_c" id="M_q10h2_c" name="Ubiquinol-10" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H92O4">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_q10h2_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/q10h2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-9958"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:64183"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB13111"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM9200"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd25915"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/CE5021"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM166990"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -160,29 +76,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_q10_m" id="M_q10_m" name="Ubiquinone-10" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H90O4">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_q10_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/q10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UBIQUINONE-10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46241"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46245"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9854"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01072"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C11378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D01065"/>
-                  <rdf:li rdf:resource="http://identifiers.org/lipidmaps/LMPR02010001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8440"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd08232"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="M_gtocophe_c" id="M_gtocophe_c" name="Gamma-Tocopherol" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C28H48O2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -208,6 +101,29 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="M_no2_c" id="M_no2_c" name="Nitrite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="NO2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_no2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/no2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NITRITE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14658"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16301"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25567"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44396"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7585"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02786"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00088"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM107"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00075"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_CE7047_c" id="M_CE7047_c" name="Gama-tocopheroxyl radical" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C28H47O2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -222,14 +138,45 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_CE5021_c" id="M_CE5021_c" name="Alpha-tocopheryl hydroquinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C29H52O3">
+      <species metaid="M_CE5643_c" id="M_CE5643_c" name="Peroxynitrite" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="NO3">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_CE5021_c">
+            <rdf:Description rdf:about="#M_CE5643_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/CE5021"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM166990"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/CE5643"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1395"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25941"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25942"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02179"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16845"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM6378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd17155"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -292,25 +239,78 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+      <species metaid="M_q10_c" id="M_q10_c" name="Ubiquinone-10" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H90O4">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_c">
+            <rdf:Description rdf:about="#M_q10_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/q10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UBIQUINONE-10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46241"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46245"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9854"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01072"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C11378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D01065"/>
+                  <rdf:li rdf:resource="http://identifiers.org/lipidmaps/LMPR02010001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8440"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd08232"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_q10_m" id="M_q10_m" name="Ubiquinone-10" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H90O4">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_q10_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/q10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UBIQUINONE-10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46241"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46245"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9854"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01072"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C11378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D01065"/>
+                  <rdf:li rdf:resource="http://identifiers.org/lipidmaps/LMPR02010001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8440"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd08232"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_q10h2_c" id="M_q10h2_c" name="Ubiquinol-10" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C59H92O4">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_q10h2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/q10h2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-9958"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:64183"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB13111"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM9200"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd25915"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_CE5022_c" id="M_CE5022_c" name="Alpha-tocopheryl quinone" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C29H50O3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_CE5022_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/CE5022"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM164520"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -319,6 +319,27 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
+      <reaction metaid="R_HMR_6500" sboTerm="SBO:0000375" id="R_HMR_6500" name="HMR 6500" reversible="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_HMR_6500">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HMR_6500"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_CE5021_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_q10_m" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_CE5022_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_q10h2_m" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction metaid="R_RE2705C" sboTerm="SBO:0000375" id="R_RE2705C" name="RE2705" reversible="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -362,6 +383,26 @@
           <speciesReference sboTerm="SBO:0000011" species="M_q10h2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="R_HMR_6456" sboTerm="SBO:0000375" id="R_HMR_6456" name="HMR 6456" reversible="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_HMR_6456">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HMR_6456"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_CE7047_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_gtocophe_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction metaid="R_RE2948C" sboTerm="SBO:0000375" id="R_RE2948C" name="RE2948" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -383,47 +424,6 @@
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_CE5986_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_HMR_6456" sboTerm="SBO:0000375" id="R_HMR_6456" name="HMR 6456" reversible="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HMR_6456">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HMR_6456"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_CE7047_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_gtocophe_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_HMR_6500" sboTerm="SBO:0000375" id="R_HMR_6500" name="HMR 6500" reversible="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HMR_6500">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HMR_6500"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_CE5021_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_q10_m" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_CE5022_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_q10h2_m" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
     </listOfReactions>

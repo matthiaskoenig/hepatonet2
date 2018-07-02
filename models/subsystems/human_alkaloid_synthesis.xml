@@ -17,14 +17,14 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="M_coke_r" id="M_coke_r" name="Cocaine" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H21NO4">
+      <species metaid="M_egme_r" id="M_egme_r" name="Ecgonine methyl ester" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H17NO3">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_coke_r">
+            <rdf:Description rdf:about="#M_egme_r">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/coke"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM167466"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/egme"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM164755"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -56,14 +56,41 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_egme_r" id="M_egme_r" name="Ecgonine methyl ester" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H17NO3">
+      <species metaid="M_coke_r" id="M_coke_r" name="Cocaine" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H21NO4">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_egme_r">
+            <rdf:Description rdf:about="#M_coke_r">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/egme"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM164755"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/coke"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM167466"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_bz_r" id="M_bz_r" name="Benzoate" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H5O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_bz_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/bz"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BENZOATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13879"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16150"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22717"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22722"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3029"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30746"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41051"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01870"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00180"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00539"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00038"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM217"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00153"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -126,33 +153,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_bz_r" id="M_bz_r" name="Benzoate" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H5O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_bz_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/bz"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BENZOATE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13879"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16150"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22717"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22722"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3029"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30746"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41051"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01870"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00180"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00539"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00038"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM217"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00153"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
     </listOfSpecies>
     <listOfReactions>
       <reaction metaid="R_COKECBESr" sboTerm="SBO:0000375" id="R_COKECBESr" name="Carboxylesterase (cocaine) (er)" reversible="false">
@@ -195,6 +195,7 @@
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/8824"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/605278"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000172831"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O00748"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000091813"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000029744"/>
                 </rdf:Bag>

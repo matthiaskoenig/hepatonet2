@@ -53,7 +53,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
     print("*" * 80)
     model_recon = doc_recon.getModel()  # type: libsbml.Model
 
-    # parse subsystems (FIXME: only needed once)
+    # parse subsystems
     subsystems = defaultdict(list)
     model_recon_groups = model_recon.getPlugin("groups")  # type: libsbml.GroupsModelPlugin
     for group in model_recon_groups.getListOfGroups():  # type: libsbml.Group
@@ -67,13 +67,20 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
     doc = libsbml.SBMLDocument(sbmlns)  # type: libsbml.SBMLDocument
     doc.setPackageRequired("fbc", False)
     model = doc.createModel()  # type: libsbml.Model
-    model.setId(_normalize_to_sid(subsystem))
+    if subsystem:
+        model.setId(_normalize_to_sid(subsystem))
+    else:
+        model.setId("recon3d")
 
     model_fbc = model.getPlugin("fbc")  # type: libsbml.FbcModelPlugin
     model_fbc.setStrict(False)
 
     # reaction ids for subsystem
-    reaction_ids = set(subsystems[subsystem])
+    if subsystem:
+        reaction_ids = set(subsystems[subsystem])
+    else:
+        # full model
+        reaction_ids = [r.getId() for r in model_recon.getListOfReactions()]
     compartment_ids = set()
     species_ids = set()
     geneproducts = dict()
@@ -268,6 +275,23 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
             code = gp.addCVTerm(term)
             # print("CODE:", code)
 
+    def add_uniprot_term(gp, g_dict):
+        if g_dict and "ensemble" in g_dict:
+            uniprot_ids = g_dict.get("uniprot")
+            if not uniprot_ids:
+                return
+
+            if isinstance(uniprot_ids, str):
+                uniprot_ids = [uniprot_ids, ]
+
+            for uniprot_id in uniprot_ids:
+                term = libsbml.CVTerm()  # type: libsbml.CVTerm
+                term.setQualifierType(libsbml.BIOLOGICAL_QUALIFIER)
+                term.setBiologicalQualifierType(libsbml.BQB_IS_ENCODED_BY)
+                term.addResource("https://identifier.org/uniprot/{}".format(uniprot_id))
+                code = gp.addCVTerm(term)
+                # print("CODE:", code)
+
     # mapping to ensemble
     for gp in model_fbc.getListOfGeneProducts():  # type: libsbml.GeneProduct
         gpid = gp.getId()
@@ -276,6 +300,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
         # human gene
         g_dict = human_genes.get(gid)
         add_ensemble_term(gp, g_dict)
+        add_uniprot_term(gp, g_dict)
 
         # other species (via ensemble id mapping)
         tokens = gid.split(".")
@@ -290,6 +315,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
             gid_mouse = gid_mouse + '.' + gid_version
             g_dict = mouse_genes.get(gid_mouse)
             add_ensemble_term(gp, g_dict)
+            add_uniprot_term(gp, g_dict)
 
         # rat
         gid_rat = human2rat.get(gid_core)
@@ -297,6 +323,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
             gid_rat = gid_rat + '.' + gid_version
             g_dict = rat_genes.get(gid_rat)
             add_ensemble_term(gp, g_dict)
+            add_uniprot_term(gp, g_dict)
 
     return doc
 
@@ -306,9 +333,8 @@ if __name__ == "__main__":
 
     # Create submodels
     # subsystems = ['Glycolysis/gluconeogenesis']
-    subsystems = ['Hippurate metabolism']
-
-    # subsystems = subsystems_dict.keys()
+    # subsystems = ['Hippurate metabolism']
+    subsystems = subsystems_dict.keys()
     organism = "human"
 
     # load RECON3D reference
@@ -316,10 +342,16 @@ if __name__ == "__main__":
     print(path_recon)
     doc_recon = libsbml.readSBMLFromFile(path_recon)  # type: libsbml.SBMLDocument
 
+    # create all subsystems
     for subsystem in subsystems:
         doc = create_sbml_for_subsystem(doc_recon=doc_recon, subsystem=subsystem, organism=organism)
         sbml_path = os.path.join(models_dir, "subsystems", "{}_{}.xml".format(organism, _normalize_to_sid(subsystem)))
         libsbml.writeSBMLToFile(doc, sbml_path)
         print(sbml_path)
 
+    # create annotated RECON3D
+    doc = create_sbml_for_subsystem(doc_recon=doc_recon, subsystem=None, organism=organism)
+    sbml_path = os.path.join(models_dir, "recon3d", "{}_recon3d.xml".format(organism))
+    libsbml.writeSBMLToFile(doc, sbml_path)
+    print(sbml_path)
 

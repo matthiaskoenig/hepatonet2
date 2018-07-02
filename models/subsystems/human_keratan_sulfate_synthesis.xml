@@ -17,6 +17,85 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
+      <species metaid="M_ksii_core4_pre10_g" id="M_ksii_core4_pre10_g" name="Keratan sulfate II biosynthesis, precursor 10" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C89H143N7O69S2X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core4_pre10_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12010"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_udpgal_g" id="M_udpgal_g" name="UDPgalactose" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_udpgal_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udpgal"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-14553"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13487"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13495"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18307"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22100"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42751"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58439"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:66914"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:67119"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9811"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62573"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00052"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10609"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM89795"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00043"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd30770"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core4_pre1_g" id="M_ksii_core4_pre1_g" name="Keratan sulfate II biosynthesis, precursor 1" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C36H60N3O25X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core4_pre1_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12008"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_pap_g" id="M_pap_g" name="Adenosine 3&apos;,5&apos;-bisphosphate" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H11N5O10P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_pap_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pap"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:3-5-ADP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13735"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17985"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22240"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2475"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58343"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00054"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM45"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00045"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_ksii_core4_pre5_g" id="M_ksii_core4_pre5_g" name="Keratan sulfate II biosynthesis, precursor 5" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C69H112N6O48X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -25,103 +104,6 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre5"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12017"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core2_pre1_g" id="M_ksii_core2_pre1_g" name="Keratan sulfate II biosynthesis, precursor 1" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C33H53N3O23X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre1_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12007"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core2_g" id="M_ksii_core2_g" name="Keratan sulfate II (core 2-linked)" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C81H129N6O67S3X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7463"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core4_pre2_g" id="M_ksii_core4_pre2_g" name="Keratan sulfate II boisynthesis, precursor 2" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C47H76N4O33X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre2_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12026"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core4_pre8_g" id="M_ksii_core4_pre8_g" name="Keratan sulfate II biosynthesis, precursor 8" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C83H134N7O61SX">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre8_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre8"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12022"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core2_pre2_g" id="M_ksii_core2_pre2_g" name="Keratan sulfate II biosynthesis, precursor 2" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C39H63N3O28X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre2_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12011"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_cmpacna_g" id="M_cmpacna_g" name="CMP-N-acetylneuraminate" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C20H29N4O16P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_cmpacna_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/cmpacna"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CMP-N-ACETYL-NEURAMINATE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13276"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13279"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16556"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:20875"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3278"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44441"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57812"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:59434"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62695"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00128"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10616"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM141"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00112"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -158,56 +140,42 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core4_pre1_g" id="M_ksii_core4_pre1_g" name="Keratan sulfate II biosynthesis, precursor 1" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C36H60N3O25X">
+      <species metaid="M_ksii_core4_g" id="M_ksii_core4_g" name="Keratan sulfate II (core 4-linked)" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C89H142N7O72S3X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre1_g">
+            <rdf:Description rdf:about="#M_ksii_core4_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7464"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core2_pre4_g" id="M_ksii_core2_pre4_g" name="Keratan sulfate II biosynthesis, precursor 4" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C53H86N4O38X">
+      <species metaid="M_ksii_core4_pre2_g" id="M_ksii_core4_pre2_g" name="Keratan sulfate II boisynthesis, precursor 2" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C47H76N4O33X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre4_g">
+            <rdf:Description rdf:about="#M_ksii_core4_pre2_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12014"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12026"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core2_pre6_g" id="M_ksii_core2_pre6_g" name="Keratan sulfate II biosynthesis, precursor 6" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C61H98N5O46SX">
+      <species metaid="M_ksii_core4_pre4_g" id="M_ksii_core4_pre4_g" name="Keratan sulfate II biosynthesis, precursor 4" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C61H99N5O43X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre6_g">
+            <rdf:Description rdf:about="#M_ksii_core4_pre4_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre6"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12019"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core4_pre6_g" id="M_ksii_core4_pre6_g" name="Keratan sulfate II biosynthesis, precursor 6" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C69H111N6O51SX">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre6_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre6"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12015"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -244,29 +212,39 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_core2_g" id="M_core2_g" name="Core2 g" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C22H37N2O15X">
+      <species metaid="M_h_g" id="M_h_g" name="H+" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_core2_g">
+            <rdf:Description rdf:about="#M_h_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/core2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:Core2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8447"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core4_pre3_g" id="M_ksii_core4_pre3_g" name="Keratan sulfate II biosynthesis, precursor 3" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C55H89N5O38X">
+      <species metaid="M_ksii_core2_g" id="M_ksii_core2_g" name="Keratan sulfate II (core 2-linked)" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C81H129N6O67S3X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre3_g">
+            <rdf:Description rdf:about="#M_ksii_core2_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12013"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7463"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -297,65 +275,87 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_pap_g" id="M_pap_g" name="Adenosine 3&apos;,5&apos;-bisphosphate" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H11N5O10P2">
+      <species metaid="M_cmpacna_g" id="M_cmpacna_g" name="CMP-N-acetylneuraminate" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C20H29N4O16P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_pap_g">
+            <rdf:Description rdf:about="#M_cmpacna_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pap"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:3-5-ADP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13735"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17985"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22240"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2475"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58343"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00054"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM45"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00045"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/cmpacna"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CMP-N-ACETYL-NEURAMINATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13276"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13279"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16556"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:20875"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3278"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44441"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57812"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:59434"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62695"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00128"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10616"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM141"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00112"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core4_pre7_g" id="M_ksii_core4_pre7_g" name="Keratan sulfate II biosynthesis, precursor 7" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C75H121N6O56SX">
+      <species metaid="M_ksii_core2_pre4_g" id="M_ksii_core2_pre4_g" name="Keratan sulfate II biosynthesis, precursor 4" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C53H86N4O38X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre7_g">
+            <rdf:Description rdf:about="#M_ksii_core2_pre4_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12020"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12014"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_udpgal_g" id="M_udpgal_g" name="UDPgalactose" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2">
+      <species metaid="M_core4_g" id="M_core4_g" name="Core4 g" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C24H40N3O15X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_udpgal_g">
+            <rdf:Description rdf:about="#M_core4_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udpgal"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-14553"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13487"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13495"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18307"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22100"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42751"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58439"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:66914"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:67119"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9811"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62573"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00052"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10609"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM89795"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00043"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd30770"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/core4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:GLUCOSAMINYL-16-ETCETERA-GALACTOSAMINYL-"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04917"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G00029"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27106"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core2_pre5_g" id="M_ksii_core2_pre5_g" name="Keratan sulfate II biosynthesis, precursor 5" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C61H99N5O43X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core2_pre5_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12016"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core2_pre2_g" id="M_ksii_core2_pre2_g" name="Keratan sulfate II biosynthesis, precursor 2" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C39H63N3O28X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core2_pre2_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12011"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -400,20 +400,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core4_pre4_g" id="M_ksii_core4_pre4_g" name="Keratan sulfate II biosynthesis, precursor 4" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C61H99N5O43X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre4_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12015"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="M_ksii_core2_pre8_g" id="M_ksii_core2_pre8_g" name="Keratan sulfate II biosynthesis, precursor 8" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C75H121N6O56SX">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -428,113 +414,14 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core2_pre3_g" id="M_ksii_core2_pre3_g" name="Keratan sulfate II biosynthesis, precursor 3" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C47H76N4O33X">
+      <species metaid="M_ksii_core4_pre6_g" id="M_ksii_core4_pre6_g" name="Keratan sulfate II biosynthesis, precursor 6" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C69H111N6O51SX">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre3_g">
+            <rdf:Description rdf:about="#M_ksii_core4_pre6_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12012"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core2_pre10_g" id="M_ksii_core2_pre10_g" name="Keratan sulfate II biosynthesis, precursor 10" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C81H130N6O64S2X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre10_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12009"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core2_pre7_g" id="M_ksii_core2_pre7_g" name="Keratan sulfate II biosynthesis, precursor 7" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C67H108N5O51SX">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre7_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12021"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core4_g" id="M_ksii_core4_g" name="Keratan sulfate II (core 4-linked)" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C89H142N7O72S3X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7464"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_g" id="M_h_g" name="H+" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ksii_core2_pre5_g" id="M_ksii_core2_pre5_g" name="Keratan sulfate II biosynthesis, precursor 5" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C61H99N5O43X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core2_pre5_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12016"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_core4_g" id="M_core4_g" name="Core4 g" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C24H40N3O15X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_core4_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/core4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:GLUCOSAMINYL-16-ETCETERA-GALACTOSAMINYL-"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04917"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G00029"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4704"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27106"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre6"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12018"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -555,14 +442,127 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_ksii_core4_pre10_g" id="M_ksii_core4_pre10_g" name="Keratan sulfate II biosynthesis, precursor 10" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C89H143N7O69S2X">
+      <species metaid="M_ksii_core4_pre7_g" id="M_ksii_core4_pre7_g" name="Keratan sulfate II biosynthesis, precursor 7" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C75H121N6O56SX">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ksii_core4_pre10_g">
+            <rdf:Description rdf:about="#M_ksii_core4_pre7_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12010"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre7"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12020"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core2_pre3_g" id="M_ksii_core2_pre3_g" name="Keratan sulfate II biosynthesis, precursor 3" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C47H76N4O33X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core2_pre3_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12012"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core2_pre1_g" id="M_ksii_core2_pre1_g" name="Keratan sulfate II biosynthesis, precursor 1" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C33H53N3O23X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core2_pre1_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core2_pre7_g" id="M_ksii_core2_pre7_g" name="Keratan sulfate II biosynthesis, precursor 7" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C67H108N5O51SX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core2_pre7_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre7"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12021"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core4_pre8_g" id="M_ksii_core4_pre8_g" name="Keratan sulfate II biosynthesis, precursor 8" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C83H134N7O61SX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core4_pre8_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12022"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core2_pre6_g" id="M_ksii_core2_pre6_g" name="Keratan sulfate II biosynthesis, precursor 6" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C61H98N5O46SX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core2_pre6_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre6"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12019"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core4_pre3_g" id="M_ksii_core4_pre3_g" name="Keratan sulfate II biosynthesis, precursor 3" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C55H89N5O38X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core4_pre3_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core4_pre3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12013"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_core2_g" id="M_core2_g" name="Core2 g" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C22H37N2O15X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_core2_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/core2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:Core2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8447"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ksii_core2_pre10_g" id="M_ksii_core2_pre10_g" name="Keratan sulfate II biosynthesis, precursor 10" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C81H130N6O64S2X">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ksii_core2_pre10_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ksii_core2_pre10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12009"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -571,304 +571,14 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_S6T18g" sboTerm="SBO:0000375" id="R_S6T18g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
+      <reaction metaid="R_S23T2g" sboTerm="SBO:0000375" id="R_S23T2g" name="Beta-galactoside alpha-2,3-sialyltransferase (core 2)" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6T18g">
+            <rdf:Description rdf:about="#R_S23T2g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T18g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104192"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre10_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_8534_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9469_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_G14T18g" sboTerm="SBO:0000375" id="R_G14T18g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_G14T18g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T18g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99810"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_core4_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="2" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre1_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="2" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_S6T3g" sboTerm="SBO:0000375" id="R_S6T3g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6T3g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T3g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104202"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre10_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_8534_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9469_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_G14T4g" sboTerm="SBO:0000375" id="R_G14T4g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_G14T4g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T4g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99816"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre6_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre7_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_G14T3g" sboTerm="SBO:0000375" id="R_G14T3g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_G14T3g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T3g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99815"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre3_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre4_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_S6T16g" sboTerm="SBO:0000375" id="R_S6T16g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6T16g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T16g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104190"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre5_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre6_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_10164_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9435_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_23563_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_23563_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_4166_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_G14T2g" sboTerm="SBO:0000375" id="R_G14T2g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_G14T2g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T2g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99814"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre1_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre2_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_AG13T2g" sboTerm="SBO:0000375" id="R_AG13T2g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_AG13T2g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T2g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95516"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre4_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre5_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_AG13T1g" sboTerm="SBO:0000375" id="R_AG13T1g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_AG13T1g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T1g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95515"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre2_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre3_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_S23T4g" sboTerm="SBO:0000375" id="R_S23T4g" name="Beta-galactoside alpha-2,3-sialyltransferase" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S23T4g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S23T4g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104125"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S23T2g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104123"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -876,12 +586,12 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_cmpacna_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre1_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_core2_g" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_cmp_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre2_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre1_g" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or sboTerm="SBO:0000174">
@@ -892,26 +602,26 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_S6T1g" sboTerm="SBO:0000375" id="R_S6T1g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
+      <reaction metaid="R_S6T2g" sboTerm="SBO:0000375" id="R_S6T2g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6T1g">
+            <rdf:Description rdf:about="#R_S6T2g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T1g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104194"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T2g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104201"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre5_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre8_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre6_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre9_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -956,62 +666,26 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_AG13T17g" sboTerm="SBO:0000375" id="R_AG13T17g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
+      <reaction metaid="R_G14T4g" sboTerm="SBO:0000375" id="R_G14T4g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_AG13T17g">
+            <rdf:Description rdf:about="#R_G14T4g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T17g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95513"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T4g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99816"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre4_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre5_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_G14T21g" sboTerm="SBO:0000375" id="R_G14T21g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_G14T21g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T21g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99813"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre9_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre6_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre10_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre7_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -1024,166 +698,71 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_S23T2g" sboTerm="SBO:0000375" id="R_S23T2g" name="Beta-galactoside alpha-2,3-sialyltransferase (core 2)" reversible="false">
+      <reaction metaid="R_S6T16g" sboTerm="SBO:0000375" id="R_S6T16g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S23T2g">
+            <rdf:Description rdf:about="#R_S6T16g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S23T2g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104123"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T16g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104190"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_cmpacna_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_core2_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre5_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_cmp_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre1_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre6_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_6483_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_6484_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_6482_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_6482_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10164_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9435_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_23563_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_23563_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_4166_AT1"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_AG13T3g" sboTerm="SBO:0000375" id="R_AG13T3g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
+      <reaction metaid="R_AG13T2g" sboTerm="SBO:0000375" id="R_AG13T2g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_AG13T3g">
+            <rdf:Description rdf:about="#R_AG13T2g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T3g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95517"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T2g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95516"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre7_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre4_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre8_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre5_g" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
             <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
             <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_S6T17g" sboTerm="SBO:0000375" id="R_S6T17g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6T17g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T17g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104191"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre8_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre9_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_10164_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9435_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_23563_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_23563_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_4166_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_S6T2g" sboTerm="SBO:0000375" id="R_S6T2g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6T2g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T2g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104201"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre8_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre9_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_10164_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9435_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_23563_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_23563_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_4166_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_G14T19g" sboTerm="SBO:0000375" id="R_G14T19g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_G14T19g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T19g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99811"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre3_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre4_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1216,42 +795,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
             <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
             <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_AG13T16g" sboTerm="SBO:0000375" id="R_AG13T16g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_AG13T16g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T16g"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95512"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre2_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre3_g" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
-            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1291,49 +834,465 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction metaid="R_G14T3g" sboTerm="SBO:0000375" id="R_G14T3g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_G14T3g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T3g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99815"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre3_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre4_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_AG13T1g" sboTerm="SBO:0000375" id="R_AG13T1g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_AG13T1g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T1g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95515"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre2_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre3_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_G14T2g" sboTerm="SBO:0000375" id="R_G14T2g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_G14T2g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T2g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99814"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre1_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre2_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S6T17g" sboTerm="SBO:0000375" id="R_S6T17g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S6T17g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T17g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104191"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre8_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre9_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_10164_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9435_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_23563_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_23563_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_4166_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_G14T21g" sboTerm="SBO:0000375" id="R_G14T21g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_G14T21g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T21g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99813"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre9_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre10_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_AG13T3g" sboTerm="SBO:0000375" id="R_AG13T3g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_AG13T3g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T3g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95517"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre7_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre8_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S6T1g" sboTerm="SBO:0000375" id="R_S6T1g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S6T1g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T1g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104194"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre5_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_pre6_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_10164_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9435_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_23563_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_23563_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_4166_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_AG13T17g" sboTerm="SBO:0000375" id="R_AG13T17g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_AG13T17g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T17g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95513"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre4_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre5_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S6T18g" sboTerm="SBO:0000375" id="R_S6T18g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S6T18g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T18g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104192"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre10_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_8534_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9469_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_AG13T16g" sboTerm="SBO:0000375" id="R_AG13T16g" name="N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_AG13T16g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/AG13T16g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95512"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre2_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_uacgam_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre3_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_93010_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_146712_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10678_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_79369_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_11041_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_374907_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_10331_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S23T4g" sboTerm="SBO:0000375" id="R_S23T4g" name="Beta-galactoside alpha-2,3-sialyltransferase" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S23T4g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S23T4g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104125"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_cmpacna_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre1_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_cmp_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre2_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_6483_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_6484_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_6482_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_6482_AT2"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S6T3g" sboTerm="SBO:0000375" id="R_S6T3g" name="Galactose/N-acetylglucosamine 6-O-sulfotransferase, Golgi apparatus" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S6T3g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6T3g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104202"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core2_pre10_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_paps_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core2_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pap_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_8534_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9469_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_G14T19g" sboTerm="SBO:0000375" id="R_G14T19g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_G14T19g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T19g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99811"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ksii_core4_pre3_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre4_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_G14T18g" sboTerm="SBO:0000375" id="R_G14T18g" name="Beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase, Golgi" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_G14T18g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/G14T18g"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99810"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_core4_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_udpgal_g" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_g" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ksii_core4_pre1_g" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_g" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_2683_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT2"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8703_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_8704_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_9334_AT1"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfGeneProducts>
-      <fbc:geneProduct metaid="G_9469_AT1" fbc:id="G_9469_AT1" fbc:label="9469_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_9469_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS7312.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/07052"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/9469"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/603799"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000122863"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000057337"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000000572"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_8534_AT1" fbc:id="G_8534_AT1" fbc:label="8534_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_8534_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS7913.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/07051"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/8534"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:1034575966"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:4502841"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:578820889"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/603797"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000175264"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000027221"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000007989"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="G_8703_AT1" fbc:id="G_8703_AT1" fbc:label="8703_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -1344,66 +1303,12 @@
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/8703"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/604014"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000158850"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O60512"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000052423"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q3U260"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q91YY2"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000003551"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_2683_AT1" fbc:id="G_2683_AT1" fbc:label="2683_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_2683_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS6535.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/00659"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/2683"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/137060"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000086062"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000028413"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000059461"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_8704_AT2" fbc:id="G_8704_AT2" fbc:label="8704_AT2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_8704_AT2">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS506.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS55596.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/04928"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/8704"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/604013"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000117411"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000028541"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000019609"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_9334_AT1" fbc:id="G_9334_AT1" fbc:label="9334_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_9334_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS13420.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/06807"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/9334"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/604016"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000158470"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000017929"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008283"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q6P768"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1422,8 +1327,103 @@
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/8704"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/604013"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000117411"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O60909"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000028541"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/B1ASJ2"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9Z2Y2"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000019609"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D4A2A5"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_9334_AT1" fbc:id="G_9334_AT1" fbc:label="9334_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_9334_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS13420.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/06807"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/9334"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/604016"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000158470"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O43286"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000017929"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9JMK0"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008283"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/F1LZL3"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_2683_AT1" fbc:id="G_2683_AT1" fbc:label="2683_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_2683_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS6535.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/00659"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/2683"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/137060"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000086062"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/P15291"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000028413"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/B1AXY5"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q3U478"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/P15535"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000059461"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/G3V722"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_8704_AT2" fbc:id="G_8704_AT2" fbc:label="8704_AT2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_8704_AT2">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS506.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS55596.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/04928"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/8704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/604013"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000117411"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O60909"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000028541"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/B1ASJ2"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9Z2Y2"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000019609"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D4A2A5"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_11041_AT1" fbc:id="G_11041_AT1" fbc:label="11041_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_11041_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS8136.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/09270"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/11041"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:5802984"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/605517"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000174684"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O43505"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000047379"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8BWP8"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1441,46 +1441,34 @@
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/10678"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/605581"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000170340"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9NY97"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000051650"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q3TVJ9"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9Z222"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000009267"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZEF9"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_93010_AT1" fbc:id="G_93010_AT1" fbc:label="93010_AT1">
+      <fbc:geneProduct metaid="G_79369_AT1" fbc:id="G_79369_AT1" fbc:label="79369_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_93010_AT1">
+            <rdf:Description rdf:about="#G_79369_AT1">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS46540.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/12512"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/93010"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/615313"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000156966"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000079445"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000018267"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_374907_AT1" fbc:id="G_374907_AT1" fbc:label="374907_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_374907_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS12582.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/12510"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/374907"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/615357"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000177191"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000059479"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000020606"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS9227.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/12058"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/79369"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/605864"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000176383"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9C0J1"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000029431"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q1RLK6"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008544"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D4A3H6"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1498,7 +1486,53 @@
                   <rdf:li rdf:resource="http://identifiers.org/omim/605863"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000179913"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031803"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q5JCS9"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000018764"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZX31"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_93010_AT1" fbc:id="G_93010_AT1" fbc:label="93010_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_93010_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS46540.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/12512"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/93010"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/615313"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000156966"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8NFL0"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000079445"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8K0J2"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000018267"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q66H69"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_374907_AT2" fbc:id="G_374907_AT2" fbc:label="374907_AT2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_374907_AT2">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS12582.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/12510"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/374907"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/615357"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000177191"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q7Z7M8"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000059479"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8R3I9"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000020606"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZE36"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1516,8 +1550,12 @@
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/10678"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/605581"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000170340"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9NY97"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000051650"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q3TVJ9"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9Z222"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000009267"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZEF9"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1540,48 +1578,10 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_79369_AT1" fbc:id="G_79369_AT1" fbc:label="79369_AT1">
+      <fbc:geneProduct metaid="G_374907_AT1" fbc:id="G_374907_AT1" fbc:label="374907_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_79369_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS9227.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/12058"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/79369"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/605864"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000176383"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000029431"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008544"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_11041_AT1" fbc:id="G_11041_AT1" fbc:label="11041_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_11041_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS8136.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/09270"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/11041"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:5802984"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/605517"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000174684"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000047379"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_374907_AT2" fbc:id="G_374907_AT2" fbc:label="374907_AT2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_374907_AT2">
+            <rdf:Description rdf:about="#G_374907_AT1">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS12582.1"/>
@@ -1589,82 +1589,11 @@
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/374907"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/615357"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000177191"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q7Z7M8"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000059479"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8R3I9"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000020606"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_23563_AT2" fbc:id="G_23563_AT2" fbc:label="23563_AT2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_23563_AT2">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10919.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/07059"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/23563"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/604817"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000135702"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031952"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000021521"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_10164_AT1" fbc:id="G_10164_AT1" fbc:label="10164_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_10164_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10902.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/10164"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000140835"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000035930"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000016953"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_4166_AT1" fbc:id="G_4166_AT1" fbc:label="4166_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_4166_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10918.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/05597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/4166"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/605294"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000183196"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031952"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000021521"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_9435_AT1" fbc:id="G_9435_AT1" fbc:label="9435_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_9435_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS3129.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/04814"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/9435"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/603798"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000175040"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000033350"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000047734"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZE36"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1682,65 +1611,144 @@
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/23563"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/604817"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000135702"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9GZS9"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031952"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9QUP4"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000021521"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D4A9P8"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_6483_AT1" fbc:id="G_6483_AT1" fbc:label="6483_AT1">
+      <fbc:geneProduct metaid="G_23563_AT2" fbc:id="G_23563_AT2" fbc:label="23563_AT2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_6483_AT1">
+            <rdf:Description rdf:about="#G_23563_AT2">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10890.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/06220"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6483"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/607188"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000157350"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031749"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000017932"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10919.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/07059"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/23563"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/604817"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000135702"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9GZS9"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031952"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9QUP4"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000021521"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D4A9P8"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_6482_AT1" fbc:id="G_6482_AT1" fbc:label="6482_AT1">
+      <fbc:geneProduct metaid="G_4166_AT1" fbc:id="G_4166_AT1" fbc:label="4166_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_6482_AT1">
+            <rdf:Description rdf:about="#G_4166_AT1">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS6373.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/06219"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6482"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/607187"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000008513"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000013846"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008209"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10918.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/05597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/4166"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/605294"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000183196"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9GZX3"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031952"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9QUP4"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000021521"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D4A9P8"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_6482_AT2" fbc:id="G_6482_AT2" fbc:label="6482_AT2">
+      <fbc:geneProduct metaid="G_9435_AT1" fbc:id="G_9435_AT1" fbc:label="9435_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_6482_AT2">
+            <rdf:Description rdf:about="#G_9435_AT1">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS6373.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/06219"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6482"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/607187"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000008513"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000013846"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008209"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS3129.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/04814"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/9435"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/603798"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000175040"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9Y4C5"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000033350"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q80WV3"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000047734"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_10164_AT1" fbc:id="G_10164_AT1" fbc:label="10164_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_10164_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10902.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/10164"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000140835"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8NCG5"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000035930"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000016953"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZLS2"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_9469_AT1" fbc:id="G_9469_AT1" fbc:label="9469_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_9469_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS7312.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/07052"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/9469"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/603799"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000122863"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q7LGC8"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000057337"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/G5E8X5"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O88199"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000000572"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/F1LN90"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_8534_AT1" fbc:id="G_8534_AT1" fbc:label="8534_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_8534_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS7913.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/07051"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/8534"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:1034575966"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:4502841"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigi/gi:578820889"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/603797"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000175264"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O43916"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000027221"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q3UY35"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9EQC0"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000007989"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q5RJQ0"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1768,7 +1776,75 @@
                   <rdf:li rdf:resource="http://identifiers.org/omim/104240"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000110080"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000032038"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q91Y74"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000009850"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/P61131"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_6482_AT1" fbc:id="G_6482_AT1" fbc:label="6482_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_6482_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS6373.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/06219"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6482"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/607187"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000008513"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q11201"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000013846"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q544T4"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/P54751"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008209"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_6483_AT1" fbc:id="G_6483_AT1" fbc:label="6483_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_6483_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS10890.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/06220"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6483"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/607188"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000157350"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q16842"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000031749"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q11204"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000017932"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/G3V8B2"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_6482_AT2" fbc:id="G_6482_AT2" fbc:label="6482_AT2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_6482_AT2">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS6373.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/06219"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6482"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/607187"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000008513"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q11201"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000013846"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q544T4"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/P54751"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000008209"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
