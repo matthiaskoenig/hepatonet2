@@ -4,6 +4,7 @@ Create SBML models for the available submodels
 import os
 import json
 from collections import defaultdict
+import warnings
 
 import libsbml
 
@@ -30,24 +31,6 @@ def parse_submodels():
     return subsystems
 
 
-def parse_submodels_recon3d():
-    """ Parses the subsystem information from SBML file
-
-    :return:
-    """
-    subsystems = defaultdict(list)
-    with open(os.path.join(repo_dir, "reactions.json"), "r") as f_reactions:
-        reactions = json.load(f_reactions)
-        for rid, r in reactions.items():
-            subsystem = r.get("subsystems")
-            subsystems[subsystem].append(rid)
-
-        with open(os.path.join(repo_dir, "subsystems.json"), "w") as f_subsystems:
-            json.dump(subsystems, f_subsystems, sort_keys=True, indent=2)
-    return subsystems
-
-
-
 def _normalize_to_sid(text):
     """ Process text to be SID conform. """
     # FIXME: use regular expressions for multiple replacements
@@ -58,20 +41,19 @@ def _normalize_to_sid(text):
     return text
 
 
-def create_sbml_for_subsystem(subsystem, organism):
+def create_sbml_for_subsystem(doc_recon, subsystem, organism):
     """ Creates the SBML model for the given subsystem.
 
     :param subsystem:
     :param organism:
     :return:
     """
-    # load RECON3D reference
-    path_recon = os.path.join(input_dir, "models", "recon3d", "Recon3D.xml")
-    print(path_recon)
-    doc_recon = libsbml.readSBMLFromFile(path_recon)  # type: libsbml.SBMLDocument
+    print("*" * 80)
+    print(subsystem)
+    print("*" * 80)
     model_recon = doc_recon.getModel()  # type: libsbml.Model
 
-    # parse subsystems
+    # parse subsystems (FIXME: only needed once)
     subsystems = defaultdict(list)
     model_recon_groups = model_recon.getPlugin("groups")  # type: libsbml.GroupsModelPlugin
     for group in model_recon_groups.getListOfGroups():  # type: libsbml.Group
@@ -232,8 +214,76 @@ def create_sbml_for_subsystem(subsystem, organism):
         # TODO: implement
 
 
-    # mapping to mouse
-    # TODO: implement
+    def gid_from_gpid(gpid):
+        gid = gpid.replace("G_", "")
+        gid = gid.replace("_AT", ".")
+        return gid
+
+
+    # Load gene and gene mapping information
+
+    human_genes = None
+    mouse_genes = None
+    rat_genes = None
+    human2mouse = None
+    human2rat = None
+
+    with open(os.path.join(repo_dir, "genes", "human_genes.json"), "r") as f_human_genes:
+        human_genes = json.load(f_human_genes)
+    with open(os.path.join(repo_dir, "genes", "mouse_genes.json"), "r") as f_mouse_genes:
+        mouse_genes = json.load(f_mouse_genes)
+    with open(os.path.join(repo_dir, "genes", "rat_genes.json"), "r") as f_rat_genes:
+        rat_genes = json.load(f_rat_genes)
+
+    with open(os.path.join(repo_dir, "genes", "human2mouse.json"), "r") as f_human2mouse:
+        human2mouse = json.load(f_human2mouse)
+    with open(os.path.join(repo_dir, "genes", "human2rat.json"), "r") as f_human2rat:
+        human2rat = json.load(f_human2rat)
+
+    def add_ensemble_term(gp, g_dict):
+        if g_dict and "ensemble" in g_dict:
+            ensemble_id = g_dict["ensemble"]
+            term = libsbml.CVTerm()  # type: libsbml.CVTerm
+            term.setQualifierType(libsbml.BIOLOGICAL_QUALIFIER)
+            term.setBiologicalQualifierType(libsbml.BQB_IS_ENCODED_BY)
+            term.addResource("https://identifier.org/ensemble/{}".format(ensemble_id))
+            code = gp.addCVTerm(term)
+            # print("CODE:", code)
+
+
+    # mapping to ensemble and 2 mouse (for all the gene products perform the mapping)
+    for gp in model_fbc.getListOfGeneProducts():  # type: libsbml.GeneProduct
+        gpid = gp.getId()
+        gid = gid_from_gpid(gpid)
+
+        # human gene
+        g_dict = human_genes.get(gid)
+        add_ensemble_term(gp, g_dict)
+
+        # other species (via ensemble id mapping)
+        tokens = gid.split(".")
+        if len(tokens) != 2:
+            warnings.warn("Gene identifier could not be split: {}".format(gid))
+            if len(tokens) == 1:
+                gid_core = gid
+                gid_version = 1
+        else:
+            gid_core, gid_version = tokens[0], tokens[1]
+            # print(gid_core, gid_version)
+
+        # mouse
+        gid_mouse = human2mouse.get(gid_core)
+        if gid_mouse:
+            gid_mouse = gid_mouse + '.' + gid_version
+            g_dict = mouse_genes.get(gid_mouse)
+            add_ensemble_term(gp, g_dict)
+
+        # rat
+        gid_rat = human2rat.get(gid_core)
+        if gid_rat:
+            gid_rat = gid_rat + '.' + gid_version
+            g_dict = rat_genes.get(gid_rat)
+            add_ensemble_term(gp, g_dict)
 
     return doc
 
@@ -242,11 +292,17 @@ if __name__ == "__main__":
     subsystems_dict = parse_submodels()
 
     # Create submodels
-    subsystems = ['Glycolysis/gluconeogenesis']
-    # subsystems = subsystems_dict.keys()
+    # subsystems = ['Glycolysis/gluconeogenesis']
+    subsystems = subsystems_dict.keys()
     organism = "human"
+
+    # load RECON3D reference
+    path_recon = os.path.join(input_dir, "models", "recon3d", "Recon3D.xml")
+    print(path_recon)
+    doc_recon = libsbml.readSBMLFromFile(path_recon)  # type: libsbml.SBMLDocument
+
     for subsystem in subsystems:
-        doc = create_sbml_for_subsystem(subsystem=subsystem, organism=organism)
+        doc = create_sbml_for_subsystem(doc_recon=doc_recon, subsystem=subsystem, organism=organism)
         sbml_path = os.path.join(models_dir, "subsystems", "{}_{}.xml".format(organism, _normalize_to_sid(subsystem)))
         libsbml.writeSBMLToFile(doc, sbml_path)
         print(sbml_path)

@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="xenobiotics_metabolism">
-    <listOfReactions>
-      <reaction name="EX_ptvstm13(e)" reversible="true"/>
-      <reaction name="EX_lvstacid(e)" reversible="true"/>
-    </listOfReactions>
-  </model>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2">
+  <model id="xenobiotics_metabolism"/>
 </sbml>
