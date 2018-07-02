@@ -29,6 +29,25 @@ def parse_submodels():
             json.dump(subsystems, f_subsystems, sort_keys=True, indent=2)
     return subsystems
 
+
+def parse_submodels_recon3d():
+    """ Parses the subsystem information from SBML file
+
+    :return:
+    """
+    subsystems = defaultdict(list)
+    with open(os.path.join(repo_dir, "reactions.json"), "r") as f_reactions:
+        reactions = json.load(f_reactions)
+        for rid, r in reactions.items():
+            subsystem = r.get("subsystems")
+            subsystems[subsystem].append(rid)
+
+        with open(os.path.join(repo_dir, "subsystems.json"), "w") as f_subsystems:
+            json.dump(subsystems, f_subsystems, sort_keys=True, indent=2)
+    return subsystems
+
+
+
 def _normalize_to_sid(text):
     """ Process text to be SID conform. """
     # FIXME: use regular expressions for multiple replacements
@@ -52,6 +71,16 @@ def create_sbml_for_subsystem(subsystem, organism):
     doc_recon = libsbml.readSBMLFromFile(path_recon)  # type: libsbml.SBMLDocument
     model_recon = doc_recon.getModel()  # type: libsbml.Model
 
+    # parse subsystems
+    subsystems = defaultdict(list)
+    model_recon_groups = model_recon.getPlugin("groups")  # type: libsbml.GroupsModelPlugin
+    for group in model_recon_groups.getListOfGroups():  # type: libsbml.Group
+        key = group.getName()
+        members = []
+        for member in group.getListOfMembers():  # type: libsbml.Member
+            members.append(member.getIdRef())
+        subsystems[key] = members
+
 
     doc = libsbml.SBMLDocument(3, 2)  # type: libsbml.SBMLDocument
     # TODO: add fbc package
@@ -59,31 +88,32 @@ def create_sbml_for_subsystem(subsystem, organism):
     model.setId(_normalize_to_sid(subsystem))
 
     # reaction ids for subsystem
-    reaction_ids = set()
+    reaction_ids = set(subsystems[subsystem])
     compartment_ids = set()
     species_ids = set()
     geneproduct_ids = set()
+    print(reaction_ids)
 
-    with open(os.path.join(repo_dir, "reactions.json"), "r") as f_reactions:
-        reactions = json.load(f_reactions)
+    # species
+    for rid in reaction_ids:
+        r_recon = model_recon.getReaction(rid)  # type: libsbml.Reaction
+        for s in r_recon.getListOfReactants():  # type: libsbml.SpeciesReference
+            species_ids.add(s.getSpecies())
+        for s in r_recon.getListOfProducts():
+            species_ids.add(s.getSpecies())
+        for s in r_recon.getListOfModifiers():
+            species_ids.add(s.getSpecies())
 
-        for rid, rinfo in reactions.items():
-            if rinfo.get("subsystems") == subsystem:
-                reaction_ids.add(rid)
-                r_recon = model_recon.getReaction(rid)  # type: libsbml.Reaction
-                for s in r_recon.getListOfReactants():  # type: libsbml.SpeciesReference
-                    species_ids.add(s.getSpecies())
-                for s in r_recon.getListOfProducts():
-                    species_ids.add(s.getSpecies())
-                for s in r_recon.getListOfModifiers():
-                    species_ids.add(s.getSpecies())
-
-                # parse the geneProduct information
+        # parse the geneProduct information
+        # TODO: implement (add on reaction and as gene product)
+    print(species_ids)
 
     # compartments
     for sid in species_ids:
-        c_recon = model_recon.getSpecies(sid)
+        s_recon = model_recon.getSpecies(sid)  # type: libsbml.Species
+        c_recon = model_recon.getCompartment(s_recon.getCompartment())
         compartment_ids.add(c_recon.getId())
+    print(compartment_ids)
 
     # add compartments in model
     for cid in compartment_ids:
@@ -102,64 +132,71 @@ def create_sbml_for_subsystem(subsystem, organism):
         s_recon = model_recon.getSpecies(sid)  # type: libsbml.Species
         s = model.createSpecies()  # type: libsbml.Species
         s.setId(s_recon.getId())
+        s.setMetaId(s_recon.getMetaId())
         s.setBoundaryCondition(s_recon.getBoundaryCondition())
         s.setCompartment(s_recon.getCompartment())
         s.setConstant(s_recon.getConstant())
         s.setHasOnlySubstanceUnits(s_recon.getHasOnlySubstanceUnits())
         s.setName(s_recon.getName())
+        s.setSBOTerm(s.getSBOTerm())
+        annotation = s_recon.getAnnotation()
+        s.setAnnotation(s_recon.getAnnotation())
 
         # fbc
         s_recon_fbc = s_recon.getPlugin("fbc")  # type: libsbml.FbcSpeciesPlugin
         s_fbc = s.getPlugin("fbc")  # type: libsbml.FbcSpeciesPlugin
-        s_fbc.setCharge(s_recon_fbc.getCharge())
-        s_fbc.setChemicalFormula(s_recon_fbc.getChemicalFormula())
+        print(s_recon_fbc)
+        print(s_fbc)
+        # s_fbc.setCharge(s_recon_fbc.getCharge())
+        # s_fbc.setChemicalFormula(s_recon_fbc.getChemicalFormula())
+        # TODO: FIXME fbc
+
+    # add reactions
+    for rid in reaction_ids:
+        r_recon = model_recon.getReaction(rid)  # type: libsbml.Reaction
+        r = model.createReaction()  # type: libsbml.Reaction
+        r.setId(r_recon.getId())
+        r.setMetaId(r_recon.getMetaId())
+        r.setAnnotation(r_recon.getAnnotation())
+        r.setName(r_recon.getName())
+        r.setSBOTerm(r_recon.getSBOTerm())
+        r.setFast(r_recon.getFast())
+        r.setReversible(r_recon.getReversible())
+
+        # TODO: FBC flux bounds
+        for sref_recon in r_recon.getListOfReactants():  # type: libsbml.SpeciesReference
+            s = model.getSpecies(sref_recon.getSpecies())
+            r.addReactant(s)  # type: libsbml.SpeciesReference
+            #sref = r.getReactant(s.getId())
+            #sref.setConstant(sref_recon.getConstant())
+            #sref.setStoichiometry(sref_recon.getStoichiometry())
+            #sref.setSBOTerm(sref_recon.getSBOTerm())
+
+        for sref_recon in r_recon.getListOfProducts():  # type: libsbml.SpeciesReference
+            s = model.getSpecies(sref_recon.getSpecies())
+            r.addProduct(s)  # type: libsbml.SpeciesReference
+            #sref = r.getProduct(s.getId())
+            #sref.setConstant(sref_recon.getConstant())
+            #sref.setStoichiometry(sref_recon.getStoichiometry())
+            #sref.setSBOTerm(sref_recon.getSBOTerm())
+
+        '''
+        # TODO: implement   
+        for sref_recon in r_recon.getListOfModifiers():  # type: libsbml.SpeciesReference
+            s = model.getSpecies(sref_recon.getSpecies())
+            r.addModifier(s)  # type: libsbml.SpeciesReference
+            sref = r.getModifier(s.getId())
+            sref.setSBOTerm(sref_recon.getSBOTerm())
+            
+        '''
 
 
+    # add gene products
+    # TODO: implement
 
 
-
-
-    with open(os.path.join(repo_dir, "reactions.json"), "r") as f_reactions, \
-         open(os.path.join(repo_dir, "species.json"), "r") as f_species, \
-         open(os.path.join(repo_dir, "substances.json"), "r") as f_substances:
-        reactions = json.load(f_reactions)
-        species = json.load(f_species)
-        substances = json.load(f_substances)
-
-        for rid, rinfo in reactions.items():
-            if rinfo.get("subsystems") == subsystem:
-                # create reaction
-                print(rid)
-                r = model.createReaction()  # type: libsbml.Reaction
-                recon_id = rinfo.get('recon_id')
-                r.setId("R_{}".format(recon_id))
-                recon_name = rinfo.get('recon_name')
-                if recon_name:
-                    r.setName(recon_name)
-                reversible = True
-                reversibility = rinfo.get('reversibility')
-                if reversibility and reversibility == "=>":
-                    reversible = False
-                r.setReversible(reversible)
-
-                # add species for the reactions
-                for stoichiometry, species_id in rinfo['rxn_left']:
-                    print(stoichiometry, species_id)
-
-                    specie = species[species_id]
-                    compartment_id = specie['compartment']
-
-                for stoichiometry, species_id in rinfo['rxn_right']:
-                    print(stoichiometry, species_id)
-
-                # add compartments for the species
-
-                # add reactions which belong to the subsystem
-
-                # add gene associations for the subsystem
-
-                # add annotations
-
+    # mapping to mouse
+    # TODO: implement
 
     return doc
 
