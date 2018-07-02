@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model>
+    <listOfReactions>
+      <reaction id="R_r0669" name="(S)-3-Hydroxyisobutyryl Coenzyme A Hydro-Lyase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_LEUTAm" name="Leucine Transaminase, Mitochondrial" reversible="true"/>
+      <reaction id="R_2HIVc" name="Formation of 2-Hydroxy-Isovalerate" reversible="true"/>
+      <reaction id="R_MCCCrm" name="Methylcrotonoyl Coenzyme A Carboxylase, Mitochondrial" reversible="true"/>
+      <reaction id="R_ACILEm" name="Acetylation of Isoleucine" reversible="true"/>
+      <reaction id="R_r0561" name="2-Methylpropanoyl Coenzyme A:Enzyme N6- (Dihydrolipoyl)Lysine S- (2-Methylpropanoyl)Transferase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_ILETAm" name="Isoleucine Transaminase, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0643" name="(S)-Methylmalonate Semialdehyde:NAD+ Oxidoreductase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_MMTSADm" name="Malonate-Semialdehyde Dehydrogenase (Acetylating), Mitochondrial" reversible="true"/>
+      <reaction id="R_3MGLUTACc" name="Formation of 3-Methyl-Glutaconate" reversible="true"/>
+      <reaction id="R_r0571" name="(S)-Methylmalonyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_ACOAD10m" name="Acyl Coenzyme A Dehydrogenase (2-Methylbutanoyl Coenzyme A), Mitochondrial" reversible="true"/>
+      <reaction id="R_3H3MGLTc" name="Formation of 3-Hydroxy-3-Methyl-Glutarate" reversible="true"/>
+      <reaction id="R_r0655" name="3-Methylbutanoyl Coenzyme A: (Acceptor) 2, 3-Oxidoreductase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_OIVD3m" name="2-Oxoisovalerate Dehydrogenase (Acylating" reversible="true"/>
+      <reaction id="R_3HBCOAHLm" name="3-Hydroxyisobutyryl Coenzyme A Hydrolase, Mitochondrial" reversible="true"/>
+      <reaction id="R_MMCDm" name="Methylmalonyl Coenzyme A Decarboxylase, Mitochondrial" reversible="true"/>
+      <reaction id="R_ACOAD9m" name="Acyl Coenzyme A Dehydrogenase (Isobutyryl Coenzyme A), Mitochondrial" reversible="true"/>
+      <reaction id="R_VALTAm" name="Valine Transaminase, Mitochondiral" reversible="true"/>
+      <reaction id="R_VALTA" name="Valine Transaminase" reversible="true"/>
+      <reaction id="R_OCOAT1m" name="3-Oxoacid Coa-Transferase" reversible="true"/>
+      <reaction id="R_MMSAD1m" name="Methylmalonate-Semialdehyde Dehydrogenase" reversible="true"/>
+      <reaction id="R_MGCHrm" name="Methylglutaconyl Coenzyme A Hydratase (Reversible), Mitochondrial" reversible="true"/>
+      <reaction id="R_2M3HBUc" name="Formation of 2-Methyl-3-Hydroxy-Butyrate" reversible="true"/>
+      <reaction id="R_r0560" name="2-Methylpropanoyl Coenzyme A:Oxygen 2, 3-Oxidoreductase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_ILETA" name="Isoleucine Transaminase" reversible="true"/>
+      <reaction id="R_ECOAH9m" name="2-Methylprop-2-Enoyl Coenzyme A (2-Methylbut-2-Enoyl Coenzyme A), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE1266C" name="RE1266C" reversible="true"/>
+      <reaction id="R_OIVD2m" name="2-Oxoisovalerate Dehydrogenase (Acylating" reversible="true"/>
+      <reaction id="R_3HIVAcm" name="Formation of 3-Hydroxy-Isovalerate" reversible="true"/>
+      <reaction id="R_r0603" name="(S)-2-Methylbutanoyl Coenzyme A:Acceptor 2, 3-Oxidoreductase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_ECOAH12m" name="3-Hydroxyacyl Coenzyme A Dehydratase (3-Hydroxyisobutyryl Coenzyme A), Mitochondrial" reversible="true"/>
+      <reaction id="R_2H3MVc" name="Formation of 2-Hydroxy-3-Methyl-Valerate" reversible="true"/>
+      <reaction id="R_MMMm" name="Methylmalonyl Coenzyme A Mutase" reversible="true"/>
+      <reaction id="R_MMEm" name="Methylmalonyl Coenzyme A Epimerase/Racemase" reversible="true"/>
+      <reaction id="R_ACACT10m" name="Acetyl Coenzyme A C-Acetyltransferase, Mitochondrial" reversible="true"/>
+      <reaction id="R_HIBDm" name="3-Hydroxyisobutyrate Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_3AIBTm" name="L-3-Aminoisobutyrate Transaminase, Mitochondrial" reversible="true"/>
+      <reaction id="R_OIVD1m" name="2-Oxoisovalerate Dehydrogenase (Acylating" reversible="true"/>
+      <reaction id="R_LEUTA" name="Leucine Transaminase" reversible="true"/>
+      <reaction id="R_HACD9m" name="3-Hydroxyacyl Coenzyme A Dehydrogenase (2-Methylacetoacetyl Coenzyme A), Mitochondrial" reversible="true"/>
+      <reaction id="R_ACOAD8m" name="Acyl Coenzyme A Dehydrogenase (Isovaleryl Coenzyme A), Mitochondrial" reversible="true"/>
+      <reaction id="R_ACLEUm" name="Acetylation of Leucine" reversible="true"/>
+      <reaction id="R_3MGLUTRc" name="Formation of 3-Methyl-Glutarate" reversible="true"/>
+      <reaction id="R_PHACGLYc" name="Glycine N-Acyltransferase, Phenylacetate" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

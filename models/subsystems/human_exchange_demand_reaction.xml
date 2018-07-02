@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="exchange_demand_reaction">
+    <listOfReactions>
+      <reaction name="Exchange of Gd2 " reversible="true"/>
+      <reaction name="Demand for  6-Hydroxydopamine-Quinone" reversible="true"/>
+      <reaction name="DM_dopa[c]" reversible="true"/>
+      <reaction name="Exchange of 15-Deoxy-Prostaglandin J2" reversible="true"/>
+      <reaction name="Exchange of Globoside (Homo Sapiens) " reversible="true"/>
+      <reaction name="Demand for  Thiamin,  Mitochondrial" reversible="true"/>
+      <reaction name="Sink for Chenodeoxycholate" reversible="true"/>
+      <reaction name="Exchange of 2-Methoxyestrone" reversible="true"/>
+      <reaction name="Exchange of Guanidinoacetic Acid" reversible="true"/>
+      <reaction name="Exchange of 1-Eicosadienoylglycerophosphocholine (Delta 11, 14)" reversible="true"/>
+      <reaction name="Exchange of Glycylsarcosine" reversible="true"/>
+      <reaction name="Exchange of Phenylpyruvate" reversible="true"/>
+      <reaction name="EX_tcdca3s(e)" reversible="true"/>
+      <reaction name="Exchange of ArgLeuPhe" reversible="true"/>
+      <reaction name="EX_h2co3[e]" reversible="true"/>
+      <reaction name="Exchange of Androst-4-Ene-3, 17-Dione" reversible="true"/>
+      <reaction name="Exchange of 4, 17 Dihydroxy Estradiol " reversible="true"/>
+      <reaction name="Exchange of Reduced Glutathione " reversible="true"/>
+      <reaction name="Exchange of 12-Hydroperoxyeicosa-5, 8, 10, 14-Tetraenoate" reversible="true"/>
+      <reaction name="Exchange of D-Arabitol" reversible="true"/>
+      <reaction name="DM_3dhchol(c)" reversible="true"/>
+      <reaction name="exchange reaction for 6-exomethylene-lovastatin-acid form in bile" reversible="true"/>
+      <reaction name="Exchange of 1-Pentadecanoylglycerophosphoethanolamine (C15:0 Pe)" reversible="true"/>
+      <reaction name="Exchange of Type Iiia Glycolipid " reversible="true"/>
+      <reaction name="Exchange of CysGluHis" reversible="true"/>
+      <reaction name="Exchange of Thiocyanate " reversible="true"/>
+      <reaction name="Exchange of TyrAspArg" reversible="true"/>
+      <reaction name="Exchange of ProGlnPro" reversible="true"/>
+      <reaction name="Exchange of 1-Eicosapentenoylglycerophosphocholine (Delta 5, 8, 11, 14, 17), Sn1-Lpc (20:5)" reversible="true"/>
+      <reaction name="exchange reaction for taurine conjugate of S-ibuprofen in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of L-Arginine " reversible="true"/>
+      <reaction name="Exchange of 3&apos;-Carboxy-Alpha-Chromanol " reversible="true"/>
+      <reaction name="Sink for 7Alpha-Hydroxycholest-4-En-3-One" reversible="true"/>
+      <reaction id="R_DM_dgtp_n_" name="Demand for dGTP, Nuclear" reversible="true"/>
+      <reaction name="Exchange of Estrone Glucuronide " reversible="true"/>
+      <reaction name="Exchange of Ubiquinone" reversible="true"/>
+      <reaction name="Exchange of LysPheIle" reversible="true"/>
+      <reaction name="Exchange of CysSerMet" reversible="true"/>
+      <reaction name="Exchange of Laurate" reversible="true"/>
+      <reaction name="Exchange of Adrenaline " reversible="true"/>
+      <reaction name="exchange reaction for 4-beta-OH-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Haxglutamyl Folate (Dhf) " reversible="true"/>
+      <reaction name="Exchange of CysAspPhe" reversible="true"/>
+      <reaction name="Exchange of 8, 9-EET" reversible="true"/>
+      <reaction name="Exchange of Gamma-Linolenic Acid " reversible="true"/>
+      <reaction name="exchnage reaction for 5-hydroxy-fluvastatin-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="EX_ditp[e]" reversible="true"/>
+      <reaction name="Exchange of Oxalate " reversible="true"/>
+      <reaction name="Exchange of Kinetensin 1-8 " reversible="true"/>
+      <reaction name="Exchange of L-Kynurenine" reversible="true"/>
+      <reaction name="Exchange of ProLeuArg" reversible="true"/>
+      <reaction name="Exchange of ArgPheArg" reversible="true"/>
+      <reaction name="Exchange of 1-Palmitoleoylglycerophosphocholine (Delta 9)" reversible="true"/>
+      <reaction name="exchange reaction for Torasemide-M3 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of L-3-Amino-Isobutanoate " reversible="true"/>
+      <reaction name="Exchange of Sodium" reversible="true"/>
+      <reaction name="Exchange of Sarcosine " reversible="true"/>
+      <reaction id="R_DM_m_em_3gacpail_prot_hs_r_" name="Demand for  Phosphoethanolaminyl-Trimannosyl-Glucosaminyl-Acylphosphatidylinositol (H6),  Endoplasmatic Reticulum" reversible="true"/>
+      <reaction name="Exchange of 4-Hydroxyphenylacetate " reversible="true"/>
+      <reaction name="Exchange of Bicarbonate " reversible="true"/>
+      <reaction name="exchange reaction for 1,4-Dihydroxy-midazolam in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of MetTrpPhe" reversible="true"/>
+      <reaction name="Exchange of 9,10-Hydroxyoctadec-12(Z)-Enoate" reversible="true"/>
+      <reaction name="Exchange of 3-Oxodocosanoyl Coenzyme A " reversible="true"/>
+      <reaction name="Exchange of 1-Lignocericylglycerophosphocholine (24:0), Lysopc A C24" reversible="true"/>
+      <reaction name="Exchange of Lacto-N-Fucopentaosyl Iii Ceramide " reversible="true"/>
+      <reaction name="Exchange of Lipoamide " reversible="true"/>
+      <reaction name="exchange reaction for Torasemide-M1 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Succinic Semialdehyde" reversible="true"/>
+      <reaction name="exchange reaction for acetaminophen-sulphate in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Ammonia " reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-Seryl-Aspartate " reversible="true"/>
+      <reaction name="Exchange of Agmatinium" reversible="true"/>
+      <reaction name="Exchange of GlnAsnGln" reversible="true"/>
+      <reaction id="R_DM_gpi_sig_er_" name="Demand for  Glycophosphatidylinositol (Gpi) Signal Sequence (C-Terminal Peptide),  Endoplasmatic Reticulum" reversible="true"/>
+      <reaction name="exchange reaction for 3-hydroxy pravastatin in portal blood" reversible="true"/>
+      <reaction name="exchange reaction for Losartan-E3174 in portal blood" reversible="true"/>
+      <reaction name="Exchange of 2-Deoxyadenosine" reversible="true"/>
+      <reaction name="Exchange of 7-Ketolithocholate" reversible="true"/>
+      <reaction name="exchange reaction for 6-hydroxy-fluvastatin-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 1-Linoleoylglycerophosphocholine (Delta 9, 12)" reversible="true"/>
+      <reaction name="Exchange of ArgValCys" reversible="true"/>
+      <reaction name="Exchange of [ (2R, 3S, 4R, 5R)-5- (2, 4-Dioxo-1, 2, 3, 4-Tetrahydropyrimidin-1-Yl)-3, 4-Dihydroxyoxolan-2-Yl]Methyl {[ (3R, 4S, 5S, 6R)-3, 4, 5-Trihydroxy-6- (Hydroxymethyl)Oxan-2-Yl Phosphonato]Oxy}Phosphonate" reversible="true"/>
+      <reaction name="Sink_cys_L[c]" reversible="true"/>
+      <reaction name="Exchange of 5, 6-Dihydrothymine" reversible="true"/>
+      <reaction name="Exchange of Linoleoyl Ethanolamide" reversible="true"/>
+      <reaction name="Exchange of Thiamin Triphosphate " reversible="true"/>
+      <reaction name="Sink_pro_L[c]" reversible="true"/>
+      <reaction name="Exchange of Histamine " reversible="true"/>
+      <reaction name="Exchange of 3-Ketolactose" reversible="true"/>
+      <reaction name="Exchange of Acetone " reversible="true"/>
+      <reaction name="Exchange of Lysopc A C28:1 (Delta 5)" reversible="true"/>
+      <reaction name="Exchange of Phosphoenolpyruvate" reversible="true"/>
+      <reaction name="EX_1a25dhvitd2(e)" reversible="true"/>
+      <reaction name="Sink for 3Alpha, 7Alpha-Dihydroxy-5Beta-Cholestanate" reversible="true"/>
+      <reaction name="Exchange of 7Alpha-Hydroxycholest-4-En-3-One" reversible="true"/>
+      <reaction name="EX_M03153[e]" reversible="true"/>
+      <reaction name="Exchange of L-Saccharopinate" reversible="true"/>
+      <reaction name="Exchange of Testosterone Sulfate " reversible="true"/>
+      <reaction name="Exchange of Tyrtyr" reversible="true"/>
+      <reaction name="Exchange of Adipoyl Carnitine" reversible="true"/>
+      <reaction name="exchnage reaction for 6-hydroxy-fluvastatin in bile" reversible="true"/>
+      <reaction name="sink_doco13ecoa[c]" reversible="true"/>
+      <reaction name="Exchange of N-Carbamoyl-L-Aspartate" reversible="true"/>
+      <reaction name="Exchange of L-3-Cyanoalanine " reversible="true"/>
+      <reaction name="Demand of Myelin Sheat" reversible="true"/>
+      <reaction name="DM_4glu56dihdind[c]" reversible="true"/>
+      <reaction name="Exchange of N(8)-Acetylspermidine" reversible="true"/>
+      <reaction name="Exchange of 9-O-Acetylated Gt3 (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of Xanthurenic Acid " reversible="true"/>
+      <reaction name="Exchange of L-Sulfolactate " reversible="true"/>
+      <reaction name="Exchange of Cholesta-5, 7-Dien-3Beta-Ol" reversible="true"/>
+      <reaction name="Exchange of Anthranilate" reversible="true"/>
+      <reaction name="Exchange of Beta Glucan-Taurodeoxycholic Acid Complex" reversible="true"/>
+      <reaction name="Demand for ITP, Nuclear" reversible="true"/>
+      <reaction name="Sink for 7-Ketolithocholate" reversible="true"/>
+      <reaction name="sink_avite1[c]" reversible="true"/>
+      <reaction name="Exchange of IleProLys" reversible="true"/>
+      <reaction name="Exchange of Leukotriene C4 " reversible="true"/>
+      <reaction id="R_DM_Asn_X_Ser_Thr_ly_" name="Demand for Asn-X-Ser/Thr, Lysosomal" reversible="true"/>
+      <reaction name="Exchange of dTMP" reversible="true"/>
+      <reaction id="R_DM_atp_c_" name="Demand for ATP, Cytosolic" reversible="true"/>
+      <reaction name="Exchange of Formaldehyde" reversible="true"/>
+      <reaction name="Exchange of Tetradecadienoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Core 8 (Mucin O-Glycan) " reversible="true"/>
+      <reaction name="Exchange of N-Acetylneuraminate " reversible="true"/>
+      <reaction name="Exchange of L-Lactate " reversible="true"/>
+      <reaction name="EX_C13856[e]" reversible="true"/>
+      <reaction name="Exchange of TyrArgSer" reversible="true"/>
+      <reaction name="Exchange of 3-Phospho-D-Glycerate" reversible="true"/>
+      <reaction name="Demand for  Sphingosine 1-Phosphate" reversible="true"/>
+      <reaction name="Exchange of Beta-Hydroxy-Beta-Methylbutyrate" reversible="true"/>
+      <reaction name="Exchange of Peptidyl-L-Lysine " reversible="true"/>
+      <reaction name="Exchange of Homocitrulline" reversible="true"/>
+      <reaction name="Exchange of GlyValHis" reversible="true"/>
+      <reaction name="Exchange of 18R-Hydroxy-5Z,8Z,11Z,14Z,16E-Eicosapentaenoic Acid" reversible="true"/>
+      <reaction name="Exchange of L-Oleoylcarnitine" reversible="true"/>
+      <reaction name="Exchange of LysValPhe" reversible="true"/>
+      <reaction id="R_DM_dttp_n_" name="Demand for dTTP, Nuclear" reversible="true"/>
+      <reaction name="Exchange of S-Adenosyl-L-Homocysteine" reversible="true"/>
+      <reaction name="Exchange of (R)-Pantothenate " reversible="true"/>
+      <reaction name="Exchange of Sphinganine 1-Phosphate " reversible="true"/>
+      <reaction name="Exchange of ValTrpPhe" reversible="true"/>
+      <reaction name="EX_lca24g(e)" reversible="true"/>
+      <reaction name="Exchange of Keratan Sulfate I, Degradation Product 1 " reversible="true"/>
+      <reaction name="Exchange of 24R, 25-Dihydroxyvitamin D3 " reversible="true"/>
+      <reaction name="Exchange of Methylmalonate" reversible="true"/>
+      <reaction name="Exchange of Cis-Aconitate" reversible="true"/>
+      <reaction name="Sink for Cervonic Acid, C22:6 N-3" reversible="true"/>
+      <reaction name="exchange reaction for 6-beta-hydroxy simvastatin acid in bile" reversible="true"/>
+      <reaction name="Exchange of 11, 12-EET" reversible="true"/>
+      <reaction name="Exchange of Chondroitin Sulfate C (Galnac6S-Glca) Proteoglycan " reversible="true"/>
+      <reaction name="Ursodeoxycholic acid exchange" reversible="true"/>
+      <reaction name="Exchange of Hydroxy Coumarin " reversible="true"/>
+      <reaction name="Exchange of TyrLeuArg" reversible="true"/>
+      <reaction name="Exchange of 3,4-Dihydroxymandelate" reversible="true"/>
+      <reaction name="Exchange of D-Glucose " reversible="true"/>
+      <reaction name="exchange reaction for pitavastatin-M3 in bile" reversible="true"/>
+      <reaction name="Exchange of 2-Phospho-D-Glycerate" reversible="true"/>
+      <reaction name="Exchange of Core 5 (Mucin O-Glycan) " reversible="true"/>
+      <reaction name="Exchange of Pyridoxal" reversible="true"/>
+      <reaction name="Exchange of TyrArgGlu" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/16:0)" reversible="true"/>
+      <reaction name="Exchange of Hydroxy Proline" reversible="true"/>
+      <reaction name="Exchange of HisArgCys" reversible="true"/>
+      <reaction name="Exchange of PheAsnMet" reversible="true"/>
+      <reaction name="Exchange of Cholesterol Ester (from FullR2) " reversible="true"/>
+      <reaction name="Exchange of Methylammonium" reversible="true"/>
+      <reaction name="Demand for  15S-Hydroperoxyeicosatetraenoate,  Nuclear" reversible="true"/>
+      <reaction name="Exchange of Kinetensin 4-8 " reversible="true"/>
+      <reaction name="Exchange of ValSerArg" reversible="true"/>
+      <reaction name="Exchange of Heme" reversible="true"/>
+      <reaction name="Exchange of ArgValTrp" reversible="true"/>
+      <reaction name="Exchange of D-Fructose 1,6-Bisphosphate" reversible="true"/>
+      <reaction name="sink_lnlncacoa[c]" reversible="true"/>
+      <reaction name="Exchange of Hydroxylated Ebastine " reversible="true"/>
+      <reaction name="Exchange of Apo C1" reversible="true"/>
+      <reaction name="Exchange of 3&apos;, 8&apos;-Ld1 " reversible="true"/>
+      <reaction name="Exchange of Citrate " reversible="true"/>
+      <reaction name="Exchange of (Gal)2 (Galnac)1 (Glc)1 (GlcNac)1 (LFuc)2 (Cer)1 " reversible="true"/>
+      <reaction name="Exchange of Water " reversible="true"/>
+      <reaction name="Exchange of 12 (13)-Epome" reversible="true"/>
+      <reaction name="Exchange of 5Alpha-Dihydrotestosterone Sulfate " reversible="true"/>
+      <reaction name="Exchange of Maltotriose " reversible="true"/>
+      <reaction name="Exchange of L-Arginosuccinic Acid" reversible="true"/>
+      <reaction name="Exchange of Sphingosine 1-Phosphate " reversible="true"/>
+      <reaction name="Exchange of Alloxan " reversible="true"/>
+      <reaction name="exchange reaction for 3-alpha-5-beta-dihydroxy pravastatin in portal blood" reversible="true"/>
+      <reaction name="Exchange of 15-Keto-Prostaglandin F2A" reversible="true"/>
+      <reaction name="Exchange of Starch, Structure 1 (1, 6-{7[1, 4-Glc], 4[1, 4-Glc]}) " reversible="true"/>
+      <reaction name="Exchange of Cis-5, 8-Tetradecadienoic Acid " reversible="true"/>
+      <reaction name="Exchange of Aldosterone " reversible="true"/>
+      <reaction name="Exchange of Hexaglutamyl Folate (Thf) " reversible="true"/>
+      <reaction name="Exchange of 9-Cis-Retinol " reversible="true"/>
+      <reaction name="Exchange of 3-Iodo-L-Tyrosine" reversible="true"/>
+      <reaction id="R_biomass_maintenance_noTrTr" name="Biomass maintenance reaction without replication, transcription, and translation precursors" reversible="true"/>
+      <reaction name="Exchange of Heptaglutamyl Folate (Thf) " reversible="true"/>
+      <reaction name="Exchange of Cholesterol" reversible="true"/>
+      <reaction name="EX_M00003[e]" reversible="true"/>
+      <reaction name="Exchange of GlyLysCys" reversible="true"/>
+      <reaction name="Exchange of 17Alpha-Hydroxypregnenolone" reversible="true"/>
+      <reaction name="Exchange of Iii3Fuc-Nlc6Cer " reversible="true"/>
+      <reaction name="Exchange of Androsterone Glucuronide " reversible="true"/>
+      <reaction name="Exchange of 5-S-Cysteinyldopamine " reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-Sebacic Acid" reversible="true"/>
+      <reaction name="exchange reaction for midazolam in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of HisArgSer" reversible="true"/>
+      <reaction name="Exchange of TyrThr" reversible="true"/>
+      <reaction name="exchange reaction for 3-alpha-iso-pravastatin in portal blood" reversible="true"/>
+      <reaction name="Exchange of Adrenic Acid " reversible="true"/>
+      <reaction name="Exchange of Taurochenodeoxycholate " reversible="true"/>
+      <reaction name="Exchange of L-Iduronate" reversible="true"/>
+      <reaction name="exchange reaction for AM1Ac-cyclosporine in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Apo E" reversible="true"/>
+      <reaction name="Exchange of Acetyl Homoserine" reversible="true"/>
+      <reaction name="Exchange of 15(S)-HPETE" reversible="true"/>
+      <reaction name="Demand for  Phosphocreatine,  Cytosolic" reversible="true"/>
+      <reaction name="Exchange of Nc20:4 " reversible="true"/>
+      <reaction name="Exchange of Chenodeoxycholate " reversible="true"/>
+      <reaction name="Demand for  Tachysterol 3" reversible="true"/>
+      <reaction name="Glycophosphatidylinositol (Gpi)-Anchored Protein Precursor Sink" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy Butyryl Carnitine" reversible="true"/>
+      <reaction name="EX_M01870[e]" reversible="true"/>
+      <reaction name="Exchange of 1-Heptadecanoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of 1-Palmitoylglycerol" reversible="true"/>
+      <reaction name="Exchange of Docosanedioic Acid" reversible="true"/>
+      <reaction name="Exchange of O-Methylhippurate" reversible="true"/>
+      <reaction name="EX_M02053[e]" reversible="true"/>
+      <reaction name="Exchange of IDL_Hs" reversible="true"/>
+      <reaction id="R_biomass_maintenance" name="Biomass maintenance reaction without replication precursors" reversible="true"/>
+      <reaction name="EX_3dhlchol(e)" reversible="true"/>
+      <reaction name="Exchange of MetAsntyr" reversible="true"/>
+      <reaction name="Exchange of PheProArg" reversible="true"/>
+      <reaction name="Exchange of Beta-Carotene " reversible="true"/>
+      <reaction name="Exchange of Estradiol Glucuronide " reversible="true"/>
+      <reaction name="Exchange of 1-Stearoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of Cholate" reversible="true"/>
+      <reaction name="Exchange of (-)-Salsolinol" reversible="true"/>
+      <reaction name="sink_thmpp[c]" reversible="true"/>
+      <reaction id="R_DM_hretn_n_" name="Demand for 4-Hydroxy Retinoic Acid " reversible="true"/>
+      <reaction name="Exchange of TrpIleTrp" reversible="true"/>
+      <reaction name="exchange reaction for oxypurinol-1-riboside in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/21:0)" reversible="true"/>
+      <reaction name="exchange reaction for atorvastatin in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of Keratan Sulfate I " reversible="true"/>
+      <reaction name="EX_12dhchol(e)" reversible="true"/>
+      <reaction name="Excahnge of 3-Hydroxy-Glutarate" reversible="true"/>
+      <reaction name="Exchange of 5Alpha-Pregnane-3, 20-Dione" reversible="true"/>
+      <reaction name="DM_isochol(c)" reversible="true"/>
+      <reaction name="Exchange of O-Acetylcarnitine" reversible="true"/>
+      <reaction name="DM_tcdca3s(c)" reversible="true"/>
+      <reaction name="Exchange of Spermidine Monoaldehyde 1 " reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/22:1)" reversible="true"/>
+      <reaction name="Exchange of Kinetensin 1-7 " reversible="true"/>
+      <reaction name="Exchange of Vi3Neuac-Nlc6Cer " reversible="true"/>
+      <reaction id="R_DM_sTn_antigen_g_" name="Demand for  Sialyl-Tn Antigen,  Golgi Apparatus" reversible="true"/>
+      <reaction name="Exchange of Neocasomorphin (1-5) " reversible="true"/>
+      <reaction name="Exchange of Flavin Adenine Dinucleotide Oxidized" reversible="true"/>
+      <reaction name="exchange reaction for 7-beta-OH-gliclazide-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of AsnMetPro" reversible="true"/>
+      <reaction name="Exchange of Tryptamine" reversible="true"/>
+      <reaction name="Exchange of TrpLeuVal" reversible="true"/>
+      <reaction name="DM_CE4888[c]" reversible="true"/>
+      <reaction name="Exchange of Disialyl-T Antigen " reversible="true"/>
+      <reaction name="Exchange of Peroxynitrite" reversible="true"/>
+      <reaction name="Exchange of Butyryl Carnitine" reversible="true"/>
+      <reaction name="DM_adrnl[c]" reversible="true"/>
+      <reaction name="Exchange of ValArgGly" reversible="true"/>
+      <reaction name="Exchange of L-Tyrosine " reversible="true"/>
+      <reaction name="exchange reaction for AM1c-glucuronide in bile" reversible="true"/>
+      <reaction name="Exchange of TrpGluPro" reversible="true"/>
+      <reaction name="EX_M03051[e]" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin D2 " reversible="true"/>
+      <reaction name="Exchange of Hexanoyl-Glycine" reversible="true"/>
+      <reaction name="Exchange of 4-Acetamidobutanoate" reversible="true"/>
+      <reaction name="EX_M01989[e]" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/20:1)" reversible="true"/>
+      <reaction name="Exchange of 3-Methyl-2-Oxopentanoate" reversible="true"/>
+      <reaction name="sink_odecoa[c]" reversible="true"/>
+      <reaction name="Exchange of Debrisoquine " reversible="true"/>
+      <reaction name="Sink_met_L[c]" reversible="true"/>
+      <reaction name="Exchange of Glycerol " reversible="true"/>
+      <reaction name="Exchange of Xanthylic Acid" reversible="true"/>
+      <reaction name="Exchange of 4-Nitrophenyl Phosphate" reversible="true"/>
+      <reaction name="exchange reaction for 3-OH-acetaminophen in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 8, 9 Epxoy Aflatoxin B1 " reversible="true"/>
+      <reaction name="Exchange of 5Alpha-Androstane-3, 17-Dione" reversible="true"/>
+      <reaction id="R_DM_avite2_c_" name="Demand for Alpha-Tocotrienol" reversible="true"/>
+      <reaction name="Exchange of Dopamine 4-O-Glucuronide " reversible="true"/>
+      <reaction name="Exchange of Trans-Delta-2-Heptadecanoic Acid" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin-G2 " reversible="true"/>
+      <reaction name="Demand for  Sodium,  Peroxisomal" reversible="true"/>
+      <reaction name="Exchange of 2-Methyl-3-Hydroxy-Butyrate" reversible="true"/>
+      <reaction name="Transport of (R)-3-Hydroxybutanoate  via H+ Symport" reversible="true"/>
+      <reaction name="sink_11_cis_retfa[c]" reversible="true"/>
+      <reaction name="Exchange of Vaccenic Acid " reversible="true"/>
+      <reaction name="DM_ca3s(c)" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin H2 " reversible="true"/>
+      <reaction name="Exchange of 3Alpha-Hydroxy-5Beta-Androstan-17-One" reversible="true"/>
+      <reaction name="Exchange of 4-Hydroxy-2-Nonenal" reversible="true"/>
+      <reaction name="exchange reaction for 7-alpha-OH-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of N-Acetylmethionine" reversible="true"/>
+      <reaction name="Exchange of Uroporphyrin I" reversible="true"/>
+      <reaction name="EX_lca3g(e)" reversible="true"/>
+      <reaction name="Exchange of HisTrpHis" reversible="true"/>
+      <reaction name="Exchange of Glycoursodeoxycholate " reversible="true"/>
+      <reaction name="Exchange of Iv3-A-Neuac, Iii3-A-Fuc-Nlc4Cer " reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxyhexadecanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of TrpThrIle" reversible="true"/>
+      <reaction name="DM_4abut[c]" reversible="true"/>
+      <reaction id="R_DM_gncore2_g_" name="Demand for gncore  2, Golgi Apparatus" reversible="true"/>
+      <reaction name="Exchange of 1-Dihomo-Linolenoylglycerophosphoethanolamine (20:3, Delta 8, 11, 14)" reversible="true"/>
+      <reaction name="Exchange of Pectin-Glycocholate Complex" reversible="true"/>
+      <reaction name="Exchange of UMP " reversible="true"/>
+      <reaction name="Exchange of Galactitol" reversible="true"/>
+      <reaction name="exchange reaction for nifedipine in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of GluGlu" reversible="true"/>
+      <reaction name="Demand for Adenosine-5&apos;-Diphosphate-D-Ribose 2-Phosphate" reversible="true"/>
+      <reaction name="Exchange of Leb Glycolipid " reversible="true"/>
+      <reaction name="Exchange of De-Fuc Form of Pa6 (W/O Peptide Linkage) " reversible="true"/>
+      <reaction name="exchnage reaction for des-isoproylpropionic-acid-fluvastatin in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 7-Alpha, 25-Dihydroxycholesterol " reversible="true"/>
+      <reaction name="Exchange of Linoelaidic Acid " reversible="true"/>
+      <reaction name="Demand for 1-Phosphatidyl-1D-Myo-Inositol 3, 5-Bisphosphate" reversible="true"/>
+      <reaction name="Exchange of Calcitriol" reversible="true"/>
+      <reaction name="Exchange of 5-S-Glutathionyl-Dopamine " reversible="true"/>
+      <reaction name="Exchange of N-Carbamoyl-Beta-Alaninate" reversible="true"/>
+      <reaction name="Exchange of L-Threonate" reversible="true"/>
+      <reaction name="exchange reaction for AM1A (cyclosporine) in portal blood" reversible="true"/>
+      <reaction name="exchange reaction for N-desmethyl-rosuvastatin in bile" reversible="true"/>
+      <reaction name="EX_isochol(e)" reversible="true"/>
+      <reaction name="Exchange of Myo-Inositol " reversible="true"/>
+      <reaction name="Exchange of 1-Linoleoylglycerophosphoethanolamine (Delta 9, 12)" reversible="true"/>
+      <reaction name="Exchange of Heptadecanoate " reversible="true"/>
+      <reaction name="Exchange of AspMetAsp" reversible="true"/>
+      <reaction name="Exchange of Thromboxane B2" reversible="true"/>
+      <reaction name="EX_M02447[e]" reversible="true"/>
+      <reaction id="R_ACER21g" name="Alkaline Ceramidase 2 (Acer2) Or Alkaline Ceramidase 3 (Acer3)" reversible="true"/>
+      <reaction name="Exchange of Tetradecenoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of LeuSerTrp" reversible="true"/>
+      <reaction name="Exchange of MetGlntyr" reversible="true"/>
+      <reaction name="Exchange of Oxaloacetate" reversible="true"/>
+      <reaction name="EX_M02446[e]" reversible="true"/>
+      <reaction name="Exchange of Biliverdin" reversible="true"/>
+      <reaction name="Exchange of dTTP" reversible="true"/>
+      <reaction name="EX_M01197[e]" reversible="true"/>
+      <reaction name="Sink_glu_L[c]" reversible="true"/>
+      <reaction name="Exchange of 2-Methylcitrate " reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxydodecanoyl Carnitine" reversible="true"/>
+      <reaction name="sink_pmtcoa[c]" reversible="true"/>
+      <reaction name="Exchange of Cyanosulfurous Acid Anion " reversible="true"/>
+      <reaction name="Exchange of 1-Pentadecanoylglycerophosphocholine, Sn1-Lpc (15:0)" reversible="true"/>
+      <reaction name="Exchange of L-Carnitine" reversible="true"/>
+      <reaction name="Demand for  Gd3,  Lysosomal" reversible="true"/>
+      <reaction name="Exchange of Maltoheptaose " reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxypropionate" reversible="true"/>
+      <reaction name="DM_dca3s(c)" reversible="true"/>
+      <reaction name="Exchange of GlyHisAsn" reversible="true"/>
+      <reaction id="R_DM_dgpi_prot_hs_r_" name="Demand for  Deacylated-Glycophosphatidylinositol (Gpi)-Anchored Protein,  Endoplasmatic Reticulum" reversible="true"/>
+      <reaction name="Exchange of Testosterone " reversible="true"/>
+      <reaction name="Exchange of Octanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of LysLysLys" reversible="true"/>
+      <reaction name="Exchange of Taurocholic Acid " reversible="true"/>
+      <reaction id="R_DM_datp_n_" name="Demand for dATP, Nuclear" reversible="true"/>
+      <reaction name="Exchange of TyrCysThr" reversible="true"/>
+      <reaction name="Exchange of Decanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of 2, 6 Dimethylheptanoyl Carnitine " reversible="true"/>
+      <reaction name="Demand for Formate" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxydecanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Deoxyuridine" reversible="true"/>
+      <reaction name="Exchange of SerArgAla" reversible="true"/>
+      <reaction name="Exchange of ArgtyrVal" reversible="true"/>
+      <reaction name="Exchange of L-Alanine" reversible="true"/>
+      <reaction name="Exchange of D-Sorbitol" reversible="true"/>
+      <reaction name="Sink for Glycolithocholate" reversible="true"/>
+      <reaction name="Exchange of Lipoxin A4" reversible="true"/>
+      <reaction name="Exchange of 5,10-Methylenetetrahydrofolate" reversible="true"/>
+      <reaction name="Exchange of ArgProMet" reversible="true"/>
+      <reaction name="Exchange of Cis-11-Retinol " reversible="true"/>
+      <reaction name="Exchange of Oxidized Glutathione " reversible="true"/>
+      <reaction name="Demand for  Sodium,  Golgi Apparatus" reversible="true"/>
+      <reaction name="Demand for  Gd3,  Golgi" reversible="true"/>
+      <reaction name="Exchange of PhePhe" reversible="true"/>
+      <reaction name="Exchange of 4-Nitrophenyl Sulfate " reversible="true"/>
+      <reaction name="Demand for  Sodium,  Endoplasmic Reticulum" reversible="true"/>
+      <reaction name="Demand for 1D-Myo-Inositol 1,3,4-Trisphosphate" reversible="true"/>
+      <reaction name="sink_tag_hs[c]" reversible="true"/>
+      <reaction name="Sink_val_L[c]" reversible="true"/>
+      <reaction name="Exchange of AsnCysCys" reversible="true"/>
+      <reaction name="exchange reaction for AM4N9-cyclosporine in hepatic vein" reversible="true"/>
+      <reaction name="DM_tdca3s(c)" reversible="true"/>
+      <reaction name="EX_M02451[e]" reversible="true"/>
+      <reaction name="Exchange of Tolbutamide " reversible="true"/>
+      <reaction name="Exchange of 5-Methoxytryptophol" reversible="true"/>
+      <reaction name="Exchange of Heparan Sulfate Proteoglycan " reversible="true"/>
+      <reaction name="Exchange of Blirubin Mono-Glucuronide" reversible="true"/>
+      <reaction name="EX_7dhchol(e)" reversible="true"/>
+      <reaction name="Exchange of Phosphate " reversible="true"/>
+      <reaction name="Exchange of CysGluTrp" reversible="true"/>
+      <reaction name="Exchange of Chondroitin Sulfate D (GlcNac6S-Glca2S) Proteoglycan " reversible="true"/>
+      <reaction name="Exchange of ProTrpLys" reversible="true"/>
+      <reaction name="EX_hdca6g(e)" reversible="true"/>
+      <reaction name="Exchange of Beta Glucans" reversible="true"/>
+      <reaction name="Exchange of Taurodeoxycholic Acid" reversible="true"/>
+      <reaction name="Sink_arg_L[c]" reversible="true"/>
+      <reaction name="exchange reaction for Methyl-hydroxy-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-D-Glucosamine " reversible="true"/>
+      <reaction name="EX_M02561[e]" reversible="true"/>
+      <reaction name="Exchange of gncore 1 (Mucin O-Glycan) " reversible="true"/>
+      <reaction name="Exchange of ProCys" reversible="true"/>
+      <reaction name="EX_3dhchol(e)" reversible="true"/>
+      <reaction name="exchange reaction for R-3-hydroxy-ibuprofen in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of O-Phospho-L-Serine" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-Seryl-Aspartyl-Lysyl-Proline " reversible="true"/>
+      <reaction name="Exchange of GlyLysPhe" reversible="true"/>
+      <reaction name="Demand for  15S-Hydroperoxyeicosatetraenoate,  Endoplasmic Reticulum" reversible="true"/>
+      <reaction name="Exchange of 3- (3-Hydroxy-Phenyl)Propionate Hydroxy Derivative Glucuronide" reversible="true"/>
+      <reaction name="Exchange of 5,15-Dihydroxyeicosatetraenoic Acid" reversible="true"/>
+      <reaction name="Exchange of Carbon Monoxide " reversible="true"/>
+      <reaction name="DM_hdca6g(c)" reversible="true"/>
+      <reaction name="Exchange of Quinonoid Dihydrobiopterin" reversible="true"/>
+      <reaction name="Exchange of TyrAla" reversible="true"/>
+      <reaction name="Sink_lys_L[c]" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin E1 " reversible="true"/>
+      <reaction name="EX_M03134[e]" reversible="true"/>
+      <reaction name="Exchange of PheAsp" reversible="true"/>
+      <reaction name="Exchange of HDL_Hs" reversible="true"/>
+      <reaction name="exchange reaction for cerivastatin-M1 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Cocaine" reversible="true"/>
+      <reaction name="Exchange of N (2)-Acetyl-L-Ornithine" reversible="true"/>
+      <reaction name="Exchange of TrpGlyAsp" reversible="true"/>
+      <reaction name="Exchange of Ethanol " reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy Tetradecenoyl-7-Carnitine" reversible="true"/>
+      <reaction name="Exchange of Leukotriene E4 " reversible="true"/>
+      <reaction name="exchange reaction for ibuprofen_R in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of Nervonic Acid " reversible="true"/>
+      <reaction name="Ex_icit[e]" reversible="true"/>
+      <reaction id="R_DM_sprm_c_" name="Demand for  Spermine,  Cytosolic" reversible="true"/>
+      <reaction name="DM_cbl2[m]" reversible="true"/>
+      <reaction name="Exchange of 1-Stearoylglycerophosphoinositol" reversible="true"/>
+      <reaction name="Exchange of IleGlnGlu" reversible="true"/>
+      <reaction name="Exchange of HisPheArg" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxyhexadecenoyl Carnitine" reversible="true"/>
+      <reaction name="exchange reaction for 13,15-O-didesmethyl tacrolimus in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of (Gal)3 (Glc)1 (GlcNac)1 (LFuc)1 (Cer)1 " reversible="true"/>
+      <reaction name="Exchange of Maltotetraose" reversible="true"/>
+      <reaction name="Exchange of Type Iiiab " reversible="true"/>
+      <reaction name="Exchange of 1-Docosatetraenoylglycerophosphocholine (Delta 7, 10, 13, 16), Sn1-Lpc (22:4)" reversible="true"/>
+      <reaction name="Exchange of Erythro-5-Hydroxy-L-Lysinium" reversible="true"/>
+      <reaction name="Demand for  Gda1" reversible="true"/>
+      <reaction name="Sink_ser_L[c]" reversible="true"/>
+      <reaction name="Exchange of TyrCysGly" reversible="true"/>
+      <reaction name="Exchange of Acetate " reversible="true"/>
+      <reaction name="Exchange of 1-Eicosatetraenoylglycerophosphocholine (Delta 8, 11, 14, 17), Sn1-Lpc (20:4)" reversible="true"/>
+      <reaction name="exchange reaction for 3-hydroxy-lovastatin acid form in bile" reversible="true"/>
+      <reaction name="Exchange of Allopregnanolone" reversible="true"/>
+      <reaction name="Exchange of UDP " reversible="true"/>
+      <reaction name="Exchange of D-Gluconate" reversible="true"/>
+      <reaction name="Exchange of IDP " reversible="true"/>
+      <reaction name="Exchange of Gt1A (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of GDP " reversible="true"/>
+      <reaction name="Exchange of Pantetheine" reversible="true"/>
+      <reaction name="Exchange of Indole-3-Acetate" reversible="true"/>
+      <reaction name="Exchange of Acetyl Leucine" reversible="true"/>
+      <reaction name="Exchange of AlaArgGly" reversible="true"/>
+      <reaction name="Exchange of ValVal" reversible="true"/>
+      <reaction name="Exchange of 2-Oleoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of MetGlyArg" reversible="true"/>
+      <reaction name="Exchange of Trehalose" reversible="true"/>
+      <reaction name="sink_nad[c]" reversible="true"/>
+      <reaction name="Exchange of ValLeuPhe" reversible="true"/>
+      <reaction name="EX_3dhdchol(e)" reversible="true"/>
+      <reaction name="Exchange of Gamma-Glutamyl-3-Aminopropiononitrile" reversible="true"/>
+      <reaction name="Exchange of Trptyrtyr" reversible="true"/>
+      <reaction name="Exchange of Isobutyrylglycine" reversible="true"/>
+      <reaction name="Exchange of Docosenoic Acid (C22:1)" reversible="true"/>
+      <reaction name="Exchange of Elaidic Acid " reversible="true"/>
+      <reaction name="Exchange of Nitric Oxide" reversible="true"/>
+      <reaction name="Exchange of 3-Methyl-Crotonyl-Glycine" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin E2 " reversible="true"/>
+      <reaction name="Exchange of Lignoceric Acid " reversible="true"/>
+      <reaction name="Exchange/Demand Reaction" reversible="true"/>
+      <reaction name="exchange reaction for 4-OH-midazolam in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin-B1 " reversible="true"/>
+      <reaction name="EX_M01238[e]" reversible="true"/>
+      <reaction name="Exchange of 3-Methyl-Thio-Propionate" reversible="true"/>
+      <reaction name="Exchange of Lysopc A C26:1 (Delta 5)" reversible="true"/>
+      <reaction name="Exchange of 3&apos;-UMP " reversible="true"/>
+      <reaction name="Exchange of Retinol " reversible="true"/>
+      <reaction name="exchange reaction for midazolam-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of De-Fuc Form of Pa6 " reversible="true"/>
+      <reaction name="Exchange of PheGlnPhe" reversible="true"/>
+      <reaction name="Exchange of Lipoxin B4" reversible="true"/>
+      <reaction name="Exchange of Carbon Dioxide " reversible="true"/>
+      <reaction id="R_DM_melanin_c_" name="Demand for Melanin, Cytosolic" reversible="true"/>
+      <reaction name="Exchange of V3Fuc, Iii3Fuc-Nlc6Cer " reversible="true"/>
+      <reaction name="Exchange of TrpPhe" reversible="true"/>
+      <reaction name="Exchange of 1-Oleoylglycerophosphoethanolamine (Delta 9)" reversible="true"/>
+      <reaction name="Exchange of Hydroxide Ion" reversible="true"/>
+      <reaction name="Exchange of CysGlnMet" reversible="true"/>
+      <reaction name="Exchange of Malonyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Gq1B (Homo Sapiens) " reversible="true"/>
+      <reaction name="EX_hyochol(e)" reversible="true"/>
+      <reaction name="exchange reaction for Losartan-M4 (glucuronide derivative) in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Docosa-4, 7, 10, 13, 16-Pentaenoic Acid (N-6) " reversible="true"/>
+      <reaction name="DM_udca3s(c)" reversible="true"/>
+      <reaction name="Exchange of ValLystyr" reversible="true"/>
+      <reaction name="Exchange of Pentaglutamyl Folate (Dhf) " reversible="true"/>
+      <reaction name="Exchange of Suberyl Carnitine" reversible="true"/>
+      <reaction name="Demand for  Gd3,  Mitochondria" reversible="true"/>
+      <reaction name="Demand for 4-Aminobutanoate, Nuclear" reversible="true"/>
+      <reaction name="Exchange of 3, 4-Dihydroxyphenylethanol " reversible="true"/>
+      <reaction name="exchange reaction for 31-O-Desmethyl,19-Hydroxy,37, 39-Epoxy-tacrolimus in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of TrpGlnGln" reversible="true"/>
+      <reaction name="DM_uchol(c)" reversible="true"/>
+      <reaction name="Exchange of 7-Alpha, 27-Dihydroxycholesterol " reversible="true"/>
+      <reaction name="Exchange of AsntyrThr" reversible="true"/>
+      <reaction name="Exchange of 1-Arachidonoylglycerophosphoinositol" reversible="true"/>
+      <reaction name="Exchange of Acetylcholine " reversible="true"/>
+      <reaction name="DM_lca3s(c)" reversible="true"/>
+      <reaction name="Sink for Cholate" reversible="true"/>
+      <reaction name="Exchange of Tyr-194 of Apo-Glycogenin Protein (Primer for Glycogen Synthesis) " reversible="true"/>
+      <reaction name="DM_cdca24g(c)" reversible="true"/>
+      <reaction name="Exchange of Retinoate " reversible="true"/>
+      <reaction name="Exchange of Pentaglutamyl Folate (Thf) " reversible="true"/>
+      <reaction name="exchange reaction for atorvastatin-lactone in portal blood" reversible="true"/>
+      <reaction name="Exchange of Tetradecanoate (N-C14:0)" reversible="true"/>
+      <reaction name="Exchange of Digalactosylceramidesulfate " reversible="true"/>
+      <reaction name="Exchange of TrpGluLeu" reversible="true"/>
+      <reaction name="Exchange of Tauroursodeoxycholate " reversible="true"/>
+      <reaction name="Exchange of Cortisol " reversible="true"/>
+      <reaction name="Exchange of Chenodeoxyglycocholate " reversible="true"/>
+      <reaction name="Exchange of Acetyl-Glycine" reversible="true"/>
+      <reaction name="Exchange of Riboflavin" reversible="true"/>
+      <reaction name="Exchange of TrpGlyVal" reversible="true"/>
+      <reaction name="EX_coprost(e)" reversible="true"/>
+      <reaction name="exchange reaction of pravastatin glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Urocanate" reversible="true"/>
+      <reaction name="Exchange of Picolinic Acid" reversible="true"/>
+      <reaction name="Sink_ala_L[c]" reversible="true"/>
+      <reaction name="DM_7dhchol(c)" reversible="true"/>
+      <reaction name="Exchange of 11-Deoxycortisol" reversible="true"/>
+      <reaction name="Exchange of Glycylleucine " reversible="true"/>
+      <reaction name="Exchange of Docosatetraenoyl Ethanolamide (22:4, Delta 7, 10, 13, 16)" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-Tetradecanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Tetradecenoate (N-C14:1)" reversible="true"/>
+      <reaction name="Exchange of Arachidyl Coenzyme A " reversible="true"/>
+      <reaction name="Exchange of 26-Hydroxycholesterol" reversible="true"/>
+      <reaction name="Exchange of AspAsnGlu" reversible="true"/>
+      <reaction name="Exchange of Deoxyguanosine" reversible="true"/>
+      <reaction name="Exchange of AspGlu" reversible="true"/>
+      <reaction name="EX_M01235[e]" reversible="true"/>
+      <reaction name="Demand for  2-Hydroxyhexadecanal,  Cytosolic" reversible="true"/>
+      <reaction name="Exchange of Pyridoxine" reversible="true"/>
+      <reaction name="DM_CE1261[c]" reversible="true"/>
+      <reaction name="Exchange of Nicotinamide Adenine Dinucleotide " reversible="true"/>
+      <reaction name="EX_7dhcdchol(e)" reversible="true"/>
+      <reaction name="Exchange of 1-Linoleoylglycerol" reversible="true"/>
+      <reaction name="DM_thyochol(c)" reversible="true"/>
+      <reaction name="Exchange of Ebastine " reversible="true"/>
+      <reaction name="exchange reaction for 3-hydroxy-simvastatin-acid form form in bile" reversible="true"/>
+      <reaction name="Exchange of Tridecanoyl Thanolamide (C13:0)" reversible="true"/>
+      <reaction name="sink_pydx[c]" reversible="true"/>
+      <reaction name="Exchange of PheLeuAsp" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-D-Mannosamine" reversible="true"/>
+      <reaction name="Exchange of 14, 15-EET" reversible="true"/>
+      <reaction name="Exchange of Lysophosphatidylcholine" reversible="true"/>
+      <reaction name="6-Oxo-Prostaglandin F1Alpha" reversible="true"/>
+      <reaction name="Exchange of Metanephrine" reversible="true"/>
+      <reaction name="Exchange of O-Propanoylcarnitine" reversible="true"/>
+      <reaction name="Exchange of Hexanoate" reversible="true"/>
+      <reaction name="Exchange of AsnAsnArg" reversible="true"/>
+      <reaction name="Exchange of 5(S)-HETE" reversible="true"/>
+      <reaction name="Demand for 2-Oxoglutarate" reversible="true"/>
+      <reaction name="Exchange of D-Mannose" reversible="true"/>
+      <reaction name="exchange reaction of 3-S-hydroxy-pravastatin-tetranor in hepatic vein" reversible="true"/>
+      <reaction name="DM_gcdca3s(c)" reversible="true"/>
+      <reaction name="Exchange of Nitrite " reversible="true"/>
+      <reaction name="Exchange of Tetradecanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of IleArgIle" reversible="true"/>
+      <reaction name="Exchange of 3-Hydoxy-Suberic Acid" reversible="true"/>
+      <reaction name="Exchange of TrpLys" reversible="true"/>
+      <reaction name="exchange reaction for oxypurinol-7-riboside in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Melatonine" reversible="true"/>
+      <reaction name="Exchange of Sulfate " reversible="true"/>
+      <reaction name="Exchange of GluMetHis" reversible="true"/>
+      <reaction name="Exchange of LeuTrp" reversible="true"/>
+      <reaction name="Exchange of MetPheArg" reversible="true"/>
+      <reaction name="Exchange of 1-Docosapentenoylglycerophosphocholine (Delta 7, 10, 13, 16, 19), Sn1-Lpc (22:5)-W3" reversible="true"/>
+      <reaction name="Exchange of 5 Hydroxy Omeprazole " reversible="true"/>
+      <reaction name="Exchange of (5Z, 9E, 14Z)- (8Xi, 11R, 12S)-11, 12-Epoxy-8-Hydroxyicosa-5, 9, 14-Trienoate " reversible="true"/>
+      <reaction name="Exchange of TrpMetArg" reversible="true"/>
+      <reaction name="Exchange of R Total 3 Position " reversible="true"/>
+      <reaction name="Exchange of CDP " reversible="true"/>
+      <reaction name="EX_M01582[e]" reversible="true"/>
+      <reaction name="Exchange of 6 Beta Hydroxy Testosterone " reversible="true"/>
+      <reaction name="Demand for  Potassium,  Golgi Apparatus" reversible="true"/>
+      <reaction name="Benzoic Acid Exchange" reversible="true"/>
+      <reaction name="Exchange of 7Z, 10Z-Hexadecadienoic Acid" reversible="true"/>
+      <reaction name="Exchange of Coproporphyrinogeni" reversible="true"/>
+      <reaction name="exchange reaction for R-2-hydroxy-ibuprofen in hepatic vein" reversible="true"/>
+      <reaction name="exchange reaction for fluvastatin in intestinal lumen" reversible="true"/>
+      <reaction name="sink_lnlncgcoa[c]" reversible="true"/>
+      <reaction name="Exchange of 18 Hydroxy Arachidonic Acid" reversible="true"/>
+      <reaction name="Exchange of 4-Pyridoxate " reversible="true"/>
+      <reaction name="Exchange of Glycerone" reversible="true"/>
+      <reaction name="Demand for 1D-Myo-Inositol 1,4,5-Trisphosphate" reversible="true"/>
+      <reaction name="Exchange of 1-Docosahexenoylglyceroethanolamine (Delta 4, 7, 10, 13, 16, 19), Lpe (22:6)" reversible="true"/>
+      <reaction name="Exchange of Heptaglutamyl Folate (Dhf) " reversible="true"/>
+      <reaction name="Exchange of Sphingosine" reversible="true"/>
+      <reaction name="exchange reaction for pravastatin-lactone in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Gd1C (Homo Sapiens) " reversible="true"/>
+      <reaction name="exchange reaction for trans-lactone-fluvastatin in hepatic vein" reversible="true"/>
+      <reaction name="sink_retinol[c]" reversible="true"/>
+      <reaction name="Exchange of Deoxycytidine" reversible="true"/>
+      <reaction name="DM_lca24g(c)" reversible="true"/>
+      <reaction name="Exchange of Stearidonic Acid " reversible="true"/>
+      <reaction name="Exchange of 2-Methoxyestradiol-17Beta" reversible="true"/>
+      <reaction name="Exchange of D-Fructose" reversible="true"/>
+      <reaction id="R_DM_dsT_antigen_g_" name="Demand for  Disialyl-T Antigen,  Golgi Apparatus" reversible="true"/>
+      <reaction name="Exchange of 1-Heptadecanoylglycerophosphoethanolamine (C17:0 Pe)" reversible="true"/>
+      <reaction name="Exchange of Methylglyoxal " reversible="true"/>
+      <reaction name="Exchange of Menaquinone 7 " reversible="true"/>
+      <reaction name="Exchange of Lysyl-Proline " reversible="true"/>
+      <reaction name="Exchange of 2-Oxoglutarate " reversible="true"/>
+      <reaction name="Exchange of Thymine " reversible="true"/>
+      <reaction name="Exchange of R Total 2 Position " reversible="true"/>
+      <reaction name="EX_M00117[e]" reversible="true"/>
+      <reaction name="Exchange of ValPheArg" reversible="true"/>
+      <reaction name="exchange reaction for AM1 (cyclosporine) in portal blood" reversible="true"/>
+      <reaction name="Sink_asn_L[c]" reversible="true"/>
+      <reaction name="exchange reaction for 3-hydroxy-iso-delta-4,5-hydroxy acid form of lovastatin in bile" reversible="true"/>
+      <reaction name="EX_kdn[e]" reversible="true"/>
+      <reaction name="Exchange of ArgGluGlu" reversible="true"/>
+      <reaction name="Exchange of Adenine " reversible="true"/>
+      <reaction name="exchange reaction for 7-beta-OH-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Maltohexaose " reversible="true"/>
+      <reaction name="Exchange of Kinetensin " reversible="true"/>
+      <reaction id="R_DM_4hrpo" name="Demand for Trans-4-Hydroxy-L-Proline" reversible="true"/>
+      <reaction name="Sink for Glycoursodeoxycholate" reversible="true"/>
+      <reaction name="sink_retfa[c]" reversible="true"/>
+      <reaction name="DM_hca24g(c)" reversible="true"/>
+      <reaction name="Exchange of D-Xylose " reversible="true"/>
+      <reaction name="Exchange of Leukotriene F4 " reversible="true"/>
+      <reaction name="exchange reaction for dehydro-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Cysteinyl-Glycine " reversible="true"/>
+      <reaction name="Exchange of 1-Methylnicotinamide" reversible="true"/>
+      <reaction name="sink_tmndnccoa[c]" reversible="true"/>
+      <reaction name="Exchange of Dopamine 3-O-Glucuronide " reversible="true"/>
+      <reaction name="Exchange of Xylu_D" reversible="true"/>
+      <reaction id="R_DM_dem2emgacpail_prot_hs_r_" name="Demand for  Deacylated-(Phosphoethanolaminyl-Dimannosyl),(Phosphoethanolaminyl)-Mannosyl-Glucosaminyl-Acylphosphatidylinositol,  Endoplasmatic Reticulum" reversible="true"/>
+      <reaction name="Exchange of 4-Methyl-2-Oxopentanoate" reversible="true"/>
+      <reaction name="EX_hca6g(e)" reversible="true"/>
+      <reaction name="Exchange of Phosphatidylcholine (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of Ethanolamine Phosphate" reversible="true"/>
+      <reaction name="Exchange of Gp1C (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of ArgHisThr" reversible="true"/>
+      <reaction name="sink_c226coa[c]" reversible="true"/>
+      <reaction name="Exchange of Alpha-N-Phenylacetyl-L-Glutamine " reversible="true"/>
+      <reaction name="Exchange of Stearoyl Ethanolamide" reversible="true"/>
+      <reaction id="R_DM_anth" name="Demand for Anthranilate" reversible="true"/>
+      <reaction name="Exchange of Choline" reversible="true"/>
+      <reaction name="Exchange of Disialyl Galactosylgloboside (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of HisAsp" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin I2 " reversible="true"/>
+      <reaction name="Exchange of 1, 2-Diacyl-Sn-Glycerol (Didodecanoyl, N-C12:0) " reversible="true"/>
+      <reaction name="Exchange of TrpGlyLeu" reversible="true"/>
+      <reaction name="Exchange of 3Alpha, 7Alpha, 12Alpha-Trihydroxy-5Beta-Cholestanoate" reversible="true"/>
+      <reaction name="Exchange of ProProArg" reversible="true"/>
+      <reaction name="Exchange of D-Lactate " reversible="true"/>
+      <reaction name="exchange reaction for 4-hydroxy-atorvastatin-acid in portal blood" reversible="true"/>
+      <reaction name="Exchange of Isovalerylglycine" reversible="true"/>
+      <reaction name="Exchange of Iv3-A-Neu5Ac, Iii4-A-Fuc-Lc4Cer " reversible="true"/>
+      <reaction name="Exchange of 6, 7-Dihydroxy-1, 2, 3, 4-Tetrahydroisoquinoline" reversible="true"/>
+      <reaction name="Exchange of Ceramide 1-Phosphate " reversible="true"/>
+      <reaction name="Sink_thr_L[c]" reversible="true"/>
+      <reaction name="Exchange of Estrone 3-Sulfate " reversible="true"/>
+      <reaction name="Exchange of 2&apos;,3&apos;-Cyclic UMP " reversible="true"/>
+      <reaction name="Exchange of Choline Phosphate" reversible="true"/>
+      <reaction name="Exchange of Core 7 (Mucin O-Glycan) " reversible="true"/>
+      <reaction name="Exchange of Ethylmalonic Acid" reversible="true"/>
+      <reaction name="Exchange of 6-Hydroxymelatonin" reversible="true"/>
+      <reaction name="DM_CE5026[c]" reversible="true"/>
+      <reaction name="Exchange of L-Arabinose " reversible="true"/>
+      <reaction name="Exchange of Chondroitin Sulfate B / Dermatan Sulfate (Idoa2S-Galnac4S) Proteoglycan " reversible="true"/>
+      <reaction name="Exchange of Palmitoleoyl-Carnitine" reversible="true"/>
+      <reaction name="Exchange of Sulfoglycolithocholate " reversible="true"/>
+      <reaction name="HMR_9712" reversible="true"/>
+      <reaction name="Exchange of ArgSerSer" reversible="true"/>
+      <reaction name="Exchange of Alanylalanine" reversible="true"/>
+      <reaction name="Sink for Sulfotaurolithocholate" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:0/24:0)" reversible="true"/>
+      <reaction name="Exchange of TrpHisMet" reversible="true"/>
+      <reaction name="Exchange of Iron (Fe3+) " reversible="true"/>
+      <reaction name="Exchange of 1-Docosapentenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16), Sn1-Lpc (22:5)-W6" reversible="true"/>
+      <reaction name="Exchange of Hydrogen Cyanide " reversible="true"/>
+      <reaction name="EX_M02449[e]" reversible="true"/>
+      <reaction name="EX_M01807[e]" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/20:0)" reversible="true"/>
+      <reaction name="Exchange of Ley Glycolipid " reversible="true"/>
+      <reaction name="Exchange of Prostaglandin J2" reversible="true"/>
+      <reaction name="Exchange of D-Glucuronate " reversible="true"/>
+      <reaction name="DM_gdca3s(c)" reversible="true"/>
+      <reaction name="Exchange of GlnProGlu" reversible="true"/>
+      <reaction name="exchange reaction for allopurinol in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of LeuAlaArg" reversible="true"/>
+      <reaction name="EX_M01966[e]" reversible="true"/>
+      <reaction name="Exchange of Leukotriene A4 " reversible="true"/>
+      <reaction name="EX_ca3s(e)" reversible="true"/>
+      <reaction name="Exchange of Fatty Acid Retinol " reversible="true"/>
+      <reaction name="Exchange of Etiocholan-3Alpha-Ol-17-One 3-Glucuronide " reversible="true"/>
+      <reaction name="sink_9_cis_retfa[c]" reversible="true"/>
+      <reaction name="Exchange of Deoxycytidylic Acid" reversible="true"/>
+      <reaction name="Exchange of N-Methylsalsolinol" reversible="true"/>
+      <reaction name="sink_pydxn[c]" reversible="true"/>
+      <reaction name="Exchange of W-Carboxy Leukotriene B4" reversible="true"/>
+      <reaction name="Exchange of 5-Oxoprolinate" reversible="true"/>
+      <reaction name="Exchange of Hydrogen Peroxide " reversible="true"/>
+      <reaction name="Exchange of Cholesteryl Docosahexanoate, Cholesterol-Ester (22:6, Delta 4, 7, 10, 13, 16, 19)" reversible="true"/>
+      <reaction name="Exchange of L-Citrulline " reversible="true"/>
+      <reaction name="Exchange of D-Galactose" reversible="true"/>
+      <reaction name="exchange reaction for 4-OH-midazolam-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Dihomo-Gamma-Linolenoyl Ethanolamide" reversible="true"/>
+      <reaction name="Exchange of 9-Cis-Retinoate" reversible="true"/>
+      <reaction name="Exchange of Taurine " reversible="true"/>
+      <reaction name="Exchange of 2-Hydroxyestrone" reversible="true"/>
+      <reaction name="Exchange " reversible="true"/>
+      <reaction name="Exchange of Perillyl Alcohol " reversible="true"/>
+      <reaction name="Exchange of PheLysPro" reversible="true"/>
+      <reaction name="Exchange of ATP " reversible="true"/>
+      <reaction name="sink_tmndnc[c]" reversible="true"/>
+      <reaction name="Exchange of N(Tele)-Methylhistaminium" reversible="true"/>
+      <reaction name="Exchange of 2-Hydroxy-3-Methyl-Valerate" reversible="true"/>
+      <reaction name="exchange reaction for Losartan-M1 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of N-Acylsphingosine " reversible="true"/>
+      <reaction name="Exchange of ProAsnCys" reversible="true"/>
+      <reaction name="Exchange of D-Aspartate " reversible="true"/>
+      <reaction name="Exchange of 1-Hexadecenoylglycerophosphoethanolamine (C16:1 Pe, Delta 9)" reversible="true"/>
+      <reaction name="exchange reaction for pravastatin in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of 1, 4-Butanediammonium" reversible="true"/>
+      <reaction name="Exchange of 4-Hydroxybenzoate" reversible="true"/>
+      <reaction name="Exchange of Aquacob (III)Alamin " reversible="true"/>
+      <reaction name="exchange reaction for 15, 31-O-Didesmethyl-tacrolimus in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 7, 8-Dihydroneopterin 3-Triphosphate" reversible="true"/>
+      <reaction name="EX_icdchol(e)" reversible="true"/>
+      <reaction name="Exchange of AspProLys" reversible="true"/>
+      <reaction name="Exchange of Tetracosapentaenoic Acid, N-3 " reversible="true"/>
+      <reaction name="Exchange of 34Dhpha" reversible="true"/>
+      <reaction id="R_DM_mem2emgacpail_prot_hs_r_" name="Demand for  ({[(mannosyl),(phosphoethanolaminyl)]-dimannosyl},{phosphoethanolaminyl})-mannosyl-glucosaminyl-acylphosphatidylinositol-Protein (M4B),  Endoplasmatic Reticulum" reversible="true"/>
+      <reaction name="Exchange of L-Xylulose" reversible="true"/>
+      <reaction name="Exchange of Propionyl-Glycine" reversible="true"/>
+      <reaction name="Exchange of Homocarnosine" reversible="true"/>
+      <reaction name="exchange reaction for cerivastatin in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of Nicotinate " reversible="true"/>
+      <reaction name="exchange reaction for AM19-cyclosporine in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of PhePheAsn" reversible="true"/>
+      <reaction name="sink_btn[c]" reversible="true"/>
+      <reaction name="EX_M02457[e]" reversible="true"/>
+      <reaction name="Exchange of Estradiol " reversible="true"/>
+      <reaction name="Exchange of Formyl-N-Acetyl-5-Methoxykynurenamine" reversible="true"/>
+      <reaction name="Exchange of Triiodothyronine " reversible="true"/>
+      <reaction name="Exchange of CysAsnMet" reversible="true"/>
+      <reaction name="Exchange of Guar Gum-Taurocholic Acid Complex" reversible="true"/>
+      <reaction name="EX_uchol(e)" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-L-Cysteine" reversible="true"/>
+      <reaction name="Exchange of O-Arachidonoyl Ethanolamine" reversible="true"/>
+      <reaction name="Exchange of Dopamine 3-O-Sulfate " reversible="true"/>
+      <reaction name="Exchange of ThrSerArg" reversible="true"/>
+      <reaction name="Exchange of Sphingosylphosphorylcholine (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of Decadienoyl Carnitine" reversible="true"/>
+      <reaction name="exchange reaction for oxypurinol in portal blood" reversible="true"/>
+      <reaction name="EX_M00019[e]" reversible="true"/>
+      <reaction name="Exchange of Ribitol " reversible="true"/>
+      <reaction name="exchange reaction for glucuronide-conjugate of 3-methoxy-acetaminophen in hepatic vein" reversible="true"/>
+      <reaction name="exchange reaction for AM1c-cyclosporine in hepatic vein" reversible="true"/>
+      <reaction name="EX_M00260[e]" reversible="true"/>
+      <reaction name="Exchange of ApoB100" reversible="true"/>
+      <reaction name="Exchange of Apo C2" reversible="true"/>
+      <reaction name="Sink_tyr_L[c]" reversible="true"/>
+      <reaction name="Demand for N-Acetylmethionine" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/22:0)" reversible="true"/>
+      <reaction name="EX_tdca3s(e)" reversible="true"/>
+      <reaction name="EX_ca24g(e)" reversible="true"/>
+      <reaction name="Exchange of Quinolinic Acid" reversible="true"/>
+      <reaction name="Exchange of 1-Docosahexaenoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of ProValGln" reversible="true"/>
+      <reaction name="Exchange/Demand Reaction" reversible="true"/>
+      <reaction name="Exchange of L-Tryptophan " reversible="true"/>
+      <reaction name="Exchange of Kinetensin 1-3 " reversible="true"/>
+      <reaction name="Exchange of Cytosine " reversible="true"/>
+      <reaction name="exchange reaction for Torasemide-M5 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 9, 12, 15)" reversible="true"/>
+      <reaction name="Exchange of 5-O-Phosphonato-Alpha-D-Ribofuranosyl Diphosphate" reversible="true"/>
+      <reaction name="Exchange of Protoporphyrin" reversible="true"/>
+      <reaction name="exchange reaction for torasemide in intestinal lumen" reversible="true"/>
+      <reaction name="exchange reaction for glucuronide-thiomethyl-acetaminophen conjugate in hepatic vein" reversible="true"/>
+      <reaction name="sink_lnlc[c]" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-Isovalerate" reversible="true"/>
+      <reaction name="Exchange of AspValAsn" reversible="true"/>
+      <reaction name="sink_phyQ[c]" reversible="true"/>
+      <reaction name="EX_M01111[e]" reversible="true"/>
+      <reaction name="exchange reaction for Losartan-M5 in hepatic vein" reversible="true"/>
+      <reaction name="exchange reaction for simvastatin in intestinal lumen" reversible="true"/>
+      <reaction id="R_DM_kdn_c_" name="Demand for  2-Keto-3-Deoxy-D-Glycero-D-Galactononic Acid,  Cytosolic" reversible="true"/>
+      <reaction name="Demand for Phosphatidylethanolamine" reversible="true"/>
+      <reaction name="exchange reaction for AM1c9-cyclosporine in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of S-Adenosylmethioninamine" reversible="true"/>
+      <reaction name="Exchange of 21-Hydroxypregnenolone" reversible="true"/>
+      <reaction name="EX_M00510[e]" reversible="true"/>
+      <reaction name="Exchange of Glycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of 3-Keto-Beta-D-Galactose" reversible="true"/>
+      <reaction name="Exchange of 5-Hydroxy-Hexanoate" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/23:0)" reversible="true"/>
+      <reaction name="Exchange of Pristanic Acid" reversible="true"/>
+      <reaction name="Exchange of L-Phenylalanine" reversible="true"/>
+      <reaction name="Exchange of ArgArg" reversible="true"/>
+      <reaction name="Sink for Glycochenodeoxycholate" reversible="true"/>
+      <reaction name="Exchange of 1-Didecanoylglycerophosphoethanolamine (C12:0 Pe)" reversible="true"/>
+      <reaction name="exchange reaction for6-beta-hydroxy-methyl-simvastatin-acid form in bile" reversible="true"/>
+      <reaction name="Sink for Cholestane-3, 7, 12, 24, 25-Pentol" reversible="true"/>
+      <reaction name="Exchange of ThrHisHis" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/18:1)" reversible="true"/>
+      <reaction name="Demand for Menaquinone-8" reversible="true"/>
+      <reaction name="Exchange of Oleoyl Ethanolamide" reversible="true"/>
+      <reaction name="Exchange of Hypotaurine" reversible="true"/>
+      <reaction name="Sink_ile_L[c]" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-Beta-D-Glucosaminyl-1, 2-Alpha-D-Mannosyl-1, 3- (N-Acetyl-Beta-D-Glucosaminyl-1, 2-Alpha-D-Mannosyl-1, 6)- (N-Acetyl-Beta-D-Glucosaminyl-1, 4)-Beta-D-Mannosyl-1, 4-N-Acetyl-Beta-D-Glucosaminyl-R " reversible="true"/>
+      <reaction id="R_DM_ethamp_r_" name="Demand for Ethanolamine Phosphate" reversible="true"/>
+      <reaction name="Exchange of TyrTrpPhe" reversible="true"/>
+      <reaction name="Exchange of Dopamine 4-O-Sulfate " reversible="true"/>
+      <reaction name="Exchange of 6, 7-Dihydroxy-1, 2, 3, 4-Tetrahydroisoquinoline" reversible="true"/>
+      <reaction name="Exchange of HisMet" reversible="true"/>
+      <reaction name="Exchange of L-Prolinylglycine" reversible="true"/>
+      <reaction name="Exchange of Leucylleucine" reversible="true"/>
+      <reaction name="Exchange of HisLysGlu" reversible="true"/>
+      <reaction name="Exchange of Calctriol" reversible="true"/>
+      <reaction name="EX_M00234[e]" reversible="true"/>
+      <reaction name="Exchange of Superoxide Anion " reversible="true"/>
+      <reaction name="Exchange of CMP " reversible="true"/>
+      <reaction name="Exchange of TrpProVal" reversible="true"/>
+      <reaction id="R_DM_T_antigen_g_" name="Demand for  T-Antigen (Core 1),  Golgi Apparatus" reversible="true"/>
+      <reaction name="Exchange of AspGluTrp" reversible="true"/>
+      <reaction name="Exchange of Methanol " reversible="true"/>
+      <reaction name="Exchange of ArgGlyGly" reversible="true"/>
+      <reaction name="Exchange of Phenylacetate" reversible="true"/>
+      <reaction name="Exchange of UDP-D-Galactose " reversible="true"/>
+      <reaction name="Exchange of 13-Cis-Retinoyl Glucuronide " reversible="true"/>
+      <reaction name="Exchange of 3, 4-Dihydroxy-L-Phenylalanine " reversible="true"/>
+      <reaction name="exchange reaction for 6-exomethylene-lovastatin in portal blood" reversible="true"/>
+      <reaction name="Exchange of Decenoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of ThrtyrMet" reversible="true"/>
+      <reaction name="Exchange of Iodide " reversible="true"/>
+      <reaction name="Exchange of Corticosterone " reversible="true"/>
+      <reaction name="exchange reaction for 1-hydroxy-ibuprofen in hepatic vein" reversible="true"/>
+      <reaction name="Demand for Menaquinone-11" reversible="true"/>
+      <reaction name="Exchange of Estrone" reversible="true"/>
+      <reaction name="Exchange of 19-Hydroxyandrost-4-Ene-3, 17-Dione" reversible="true"/>
+      <reaction name="Exchange of Alpha-D-Glucose 1-Phosphate" reversible="true"/>
+      <reaction name="Exchange of Maltodecaose " reversible="true"/>
+      <reaction name="Exchange of Xanthosine" reversible="true"/>
+      <reaction id="R_DM_Lcystin" name="Demand for L-Cystine" reversible="true"/>
+      <reaction name="Exchange of W-Hydroxyl Arachidonic Acid" reversible="true"/>
+      <reaction name="Exchange of Glutaconate" reversible="true"/>
+      <reaction name="Exchange of HisCysCys" reversible="true"/>
+      <reaction name="Exchange of L-Histidine" reversible="true"/>
+      <reaction name="Exchange of Tetracosatetraenoic Acid N-6 " reversible="true"/>
+      <reaction name="Exchange of L-Aspartate " reversible="true"/>
+      <reaction name="Exchange of (24S)-24-Hydroxycholesterol" reversible="true"/>
+      <reaction name="Exchange of 2-Oxoadipate" reversible="true"/>
+      <reaction name="exchange reaction for 2-hydroxy-atorvastatin-lactone in portal blood" reversible="true"/>
+      <reaction name="Transport of 5Beta-Cholestane-3Alpha, 7Alpha, 12Alpha, 24S, 25-Pentol, ABC Transport" reversible="true"/>
+      <reaction name="Exchange of Elaidic Carnitine" reversible="true"/>
+      <reaction name="Exchange of Hexadecenoyl Ethanolamide, C16:1-Ethanolamide (Delta 9)" reversible="true"/>
+      <reaction name="Exchange of Glutaryl Carnitine" reversible="true"/>
+      <reaction name="Demand for Menaquinone-10" reversible="true"/>
+      <reaction name="Exchange of Leukotriene B4 " reversible="true"/>
+      <reaction id="R_biomass_reaction" name="Generic Human Biomass Reaction" reversible="true"/>
+      <reaction name="Exchange of 1-Myristoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of Cholesterol Sulfate" reversible="true"/>
+      <reaction name="Exchange of Hydroxylated Taxol " reversible="true"/>
+      <reaction name="Exchange of Urea " reversible="true"/>
+      <reaction name="exchange reaction for rosuvastatin-5S-lactone in bile" reversible="true"/>
+      <reaction name="Exchange of N6, N6, N6-Trimethyl-L-Lysine" reversible="true"/>
+      <reaction name="Exchange of Phosphatidylserine (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of Sebacic Acid" reversible="true"/>
+      <reaction name="Exchange of Heptadecanoyl Thanolamide (C17:0)" reversible="true"/>
+      <reaction name="Exchange of Apo C3" reversible="true"/>
+      <reaction name="sink_coa[c]" reversible="true"/>
+      <reaction name="Exchange of ValTrpVal" reversible="true"/>
+      <reaction name="Exchange of Pectins" reversible="true"/>
+      <reaction name="exchange reaction of 5,6-epoxy-3-alpha-iso-pravastatin in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 5-Amino-4-Oxopentanoate" reversible="true"/>
+      <reaction name="Exchange of 5, 8, 11, 14, 17-Eicosapentenoic Acid" reversible="true"/>
+      <reaction name="Exchange of Phylloquinone " reversible="true"/>
+      <reaction name="exchange reaction for gliclazide in intestinal lumen" reversible="true"/>
+      <reaction name="sink_thmtp[c]" reversible="true"/>
+      <reaction name="Exchange of Sialyl (2, 3) Sialyl (2, 6) Galactosylgloboside (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of 3- (4-Hydroxyphenyl)Lactate" reversible="true"/>
+      <reaction name="Exchange of TyrPhetyr" reversible="true"/>
+      <reaction name="Sink for Band Protein, Cytosolic" reversible="true"/>
+      <reaction name="DM_CE5025[c]" reversible="true"/>
+      <reaction name="Exchange of Isovaleryl Carnitine" reversible="true"/>
+      <reaction name="exchange reaction for 2-hydroxy-atorvastatin-lactone-glucuronide in bile" reversible="true"/>
+      <reaction name="Exchange of PheLysAla" reversible="true"/>
+      <reaction name="Exchange of 1-Linoleoyl-Cholesterol, Cholesterol-Ester (18:2, Delta 9, 12)" reversible="true"/>
+      <reaction name="Exchange of Lactose-6P" reversible="true"/>
+      <reaction name="Exchange of Lauroyl Carnitine" reversible="true"/>
+      <reaction name="Demand for  Ascorbic Acid" reversible="true"/>
+      <reaction name="Exchange of HisProLys" reversible="true"/>
+      <reaction name="Exchange of TrpThrGlu" reversible="true"/>
+      <reaction name="Exchange of Thromboxane-B2 " reversible="true"/>
+      <reaction name="exchange reaction for Losartan-N2-glucuronide / Losartan-M7 in portal blood" reversible="true"/>
+      <reaction name="Exchange of Tetracosahexaenoic Acid, N-3 " reversible="true"/>
+      <reaction name="Exchange of ThrMetArg" reversible="true"/>
+      <reaction name="Exchange of ITP" reversible="true"/>
+      <reaction name="Exchange of AMP " reversible="true"/>
+      <reaction name="Exchange of L-Methionine " reversible="true"/>
+      <reaction name="Exchange of Gm1-Pool" reversible="true"/>
+      <reaction name="exchange reaction for rosuvastatin in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of TrpGluGly" reversible="true"/>
+      <reaction name="Exchange of Nicotinamide " reversible="true"/>
+      <reaction name="EX_dca3g(e)" reversible="true"/>
+      <reaction name="Exchange of 15-Hydroxy- (8Z, 11Z, 13E)-Eicosatrienoate" reversible="true"/>
+      <reaction name="Exchange of Ammonioacetone" reversible="true"/>
+      <reaction name="DM_tym[c]" reversible="true"/>
+      <reaction name="Exchange of Malonic Dialdehyde" reversible="true"/>
+      <reaction name="exchange reaction for cysteine-conjugate-acetaminophen in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Anandamide" reversible="true"/>
+      <reaction name="Exchange of Acetaldehyde " reversible="true"/>
+      <reaction name="Exchange of Glycerone Phosphate" reversible="true"/>
+      <reaction name="Exchange of GluIleLys" reversible="true"/>
+      <reaction name="Sink_leu_L[c]" reversible="true"/>
+      <reaction name="DM_tca3s(c)" reversible="true"/>
+      <reaction name="EX_M02837[e]" reversible="true"/>
+      <reaction name="Exchange of TrpAspAsp" reversible="true"/>
+      <reaction name="Exchange of (R)-Mevalonate" reversible="true"/>
+      <reaction name="Exchange of N(1)-Acetylspermidine" reversible="true"/>
+      <reaction name="Exchange of 11-Deoxycorticosterone" reversible="true"/>
+      <reaction name="Exchange of Dephospho Coenzyme A" reversible="true"/>
+      <reaction name="exchange reaction for R-carboxy ibuprofen in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Omega Hydroxy Tetradecanoate (N-C14:0) " reversible="true"/>
+      <reaction name="Exchange of Norepinephrine " reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/14:0)" reversible="true"/>
+      <reaction name="Exchange of ThrAsntyr" reversible="true"/>
+      <reaction name="Exchange of Serotonin " reversible="true"/>
+      <reaction name="exchange reaction of hydroxy metabolite of nifedipine in portal vein" reversible="true"/>
+      <reaction name="EX_M00315[e]" reversible="true"/>
+      <reaction name="exchange reaction for 6-beta-OH-gliclazide-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Glycylphenylalaine" reversible="true"/>
+      <reaction name="Exchange of Mevalonate-Lactone" reversible="true"/>
+      <reaction name="Exchange of Beta-Casomorphin (1-6) " reversible="true"/>
+      <reaction name="Exchange of Bilirubin " reversible="true"/>
+      <reaction name="Exchange of Octanoate (N-C8:0)" reversible="true"/>
+      <reaction name="Exchange of (E)-Carveol " reversible="true"/>
+      <reaction name="Exchange of 9-O-Acetylated Gd3 (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of 1-Stearoylglycerophosphoethanolamine" reversible="true"/>
+      <reaction name="Exchange of ProHis" reversible="true"/>
+      <reaction name="EX_gcdca3s(e)" reversible="true"/>
+      <reaction name="Exchange of Triiodothyronine Sulfate " reversible="true"/>
+      <reaction name="Exchange of TrptyrGln" reversible="true"/>
+      <reaction name="Exchange of Menaquinone 10 " reversible="true"/>
+      <reaction name="DM_7dhcdchol(c)" reversible="true"/>
+      <reaction name="Exchange of D-Glucosamine" reversible="true"/>
+      <reaction name="EX_gpi_sig[e]" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin-A2 " reversible="true"/>
+      <reaction name="Exchange of L-Cystine " reversible="true"/>
+      <reaction name="Exchange of 1-Eicosatrienoylglycerophosphocholine (Delta 11, 14, 17)" reversible="true"/>
+      <reaction name="exchange reaction for 6-epi-pravastatin in portal blood" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-Tyrosine" reversible="true"/>
+      <reaction name="Exchange of Glycolithocholate " reversible="true"/>
+      <reaction name="Exchange of 2-Hydroxyestradiol-17Beta" reversible="true"/>
+      <reaction name="Exchange of Adenosine-5&apos;-Diphosphate-Ribose" reversible="true"/>
+      <reaction name="Exchange of TrpGlyPhe" reversible="true"/>
+      <reaction id="R_DM_dgtp_m_" name="Demand for dGTP, Mitochondrial" reversible="true"/>
+      <reaction name="Exchange of L-Cystathionine" reversible="true"/>
+      <reaction name="Exchange of 1-Palmitoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of Beta Glucan-Taurocholic Acid Complex" reversible="true"/>
+      <reaction name="Exchange of Succinate " reversible="true"/>
+      <reaction name="Exchange of L-Thyroxine " reversible="true"/>
+      <reaction name="Exchange of Nicotinamide Adenine Dinucleotide Phosphate " reversible="true"/>
+      <reaction name="Exchange of ProArgCys" reversible="true"/>
+      <reaction name="DM_nrpphr[c]" reversible="true"/>
+      <reaction name="Exchange of Fatty Acid 9-Cis-Retinol " reversible="true"/>
+      <reaction name="Exchange of 2-Linoleoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of Ornithine " reversible="true"/>
+      <reaction name="exchange reaction for carboxy-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin F2Alpha " reversible="true"/>
+      <reaction name="Sink for 3Alpha, 7Alpha, 12Alpha-Trihydroxy-5Beta-Cholestanoate" reversible="true"/>
+      <reaction name="Exchange of ({[ (2R, 3S, 5R)-3-Hydroxy-5- (5-Methyl-2, 4-Dioxo-1, 2, 3, 4-Tetrahydropyrimidin-1-Yl)Oxolan-2-Yl]Methyl Phosphonato}Oxy)Phosphonate " reversible="true"/>
+      <reaction name="Exchange of 11-Dehydrothromboxane B2" reversible="true"/>
+      <reaction name="Exchange of 4-S-Glutathionyl-5, 6-Dihydroxyindoline " reversible="true"/>
+      <reaction name="exchange reaction for 13-O-desmethyl tacrolimus in intestinal lumen" reversible="true"/>
+      <reaction name="exchange reaction for 6-beta-hydroxy-lovastatin in portal blood" reversible="true"/>
+      <reaction name="Exchange of Guanine " reversible="true"/>
+      <reaction name="Exchange of 5Alpha-Dihydrotestosterone " reversible="true"/>
+      <reaction name="Exchange of Antipyrene " reversible="true"/>
+      <reaction name="Exchange of 5-Hydroxy-L-Tryptophan " reversible="true"/>
+      <reaction name="Exchange of Dodecanedioyl Carnitine" reversible="true"/>
+      <reaction name="exchange reaction for 2-hydroxy-atorvastatin-acid in portal blood" reversible="true"/>
+      <reaction name="Exchange of Thiamin" reversible="true"/>
+      <reaction name="Exchange of 4-Ammoniobutanal" reversible="true"/>
+      <reaction name="exchange reaction for acetaminophen-glucuronide-conjugate in portal blood" reversible="true"/>
+      <reaction id="R_DM_dctp_n_" name="Demand for dCTP, Nuclear" reversible="true"/>
+      <reaction name="Exchange of (+)-Alpha-Pinene " reversible="true"/>
+      <reaction name="Exchange of 24R, 25-Dihyoxyvitamin D2 " reversible="true"/>
+      <reaction name="EX_M01881[e]" reversible="true"/>
+      <reaction name="Exchange of GlnHisHis" reversible="true"/>
+      <reaction name="Sink for 5(S)-HPETE" reversible="true"/>
+      <reaction name="Exchange of L-Pipecolic Acid" reversible="true"/>
+      <reaction name="EX_M02155[e]" reversible="true"/>
+      <reaction name="Exchange of Lanosterol" reversible="true"/>
+      <reaction name="Exchange of Clupanodonic Acid (Docosapentaenoic (N-3)) " reversible="true"/>
+      <reaction name="Demand for  Phytosphingosine-1-Phosphate, " reversible="true"/>
+      <reaction name="EX_M00341[e]" reversible="true"/>
+      <reaction name="Exchange of 1-Eicosenoylglycerophosphocholine (Delta 11) , Sn1-Lpc (20:1)" reversible="true"/>
+      <reaction name="Exchange of TrpIleLys" reversible="true"/>
+      <reaction name="Sink for Sulfoglycolithocholate" reversible="true"/>
+      <reaction name="Exchange of CDP-Ethanolamine " reversible="true"/>
+      <reaction name="Exchange of 4-Aminobutanoate " reversible="true"/>
+      <reaction name="Exchange of Starch, Structure 2 (1, 6-{2[1, 4-Glc], [1, 4-Glc]})" reversible="true"/>
+      <reaction name="Exchange of L-Homocysteine" reversible="true"/>
+      <reaction name="Exchange of Phetyr" reversible="true"/>
+      <reaction id="R_DM_dctp_m_" name="Demand for dCTP" reversible="true"/>
+      <reaction name="Exchange of Methyl-Succinate" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxyoctadecanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of MetHisLys" reversible="true"/>
+      <reaction name="EX_rbl_D[e]" reversible="true"/>
+      <reaction name="EX_M01872[e]" reversible="true"/>
+      <reaction name="Exchange of Dehydroascorbide" reversible="true"/>
+      <reaction name="Exchange of 2-Linoleoylglycerophosphoethanolamine" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/15:0)" reversible="true"/>
+      <reaction name="Exchange of D-Arginine" reversible="true"/>
+      <reaction name="Exchange of Formate " reversible="true"/>
+      <reaction name="Demand for Menaquinone-7" reversible="true"/>
+      <reaction name="Exchange of 5-Amino-2-Oxopentanoic Acid" reversible="true"/>
+      <reaction name="Exchange of Coumarin " reversible="true"/>
+      <reaction name="Exchange of Keratan Sulfate Ii (Core 4-Linked) " reversible="true"/>
+      <reaction name="Exchange of ArgAlaAla" reversible="true"/>
+      <reaction name="Exchange of ADPribose 2&apos;-Phosphate " reversible="true"/>
+      <reaction name="DM_1a2425thvitd2[m]" reversible="true"/>
+      <reaction name="Exchange of Gd1Beta (Homo Sapiens) " reversible="true"/>
+      <reaction name="EX_M01207[e]" reversible="true"/>
+      <reaction name="Exchange of 4-Methylpentanal " reversible="true"/>
+      <reaction name="Exchange of 6,7-Dihydrobiopterin" reversible="true"/>
+      <reaction name="Exchange of 5-Formyltetrahydrofolate " reversible="true"/>
+      <reaction name="Exchange of Aflatoxin B1 " reversible="true"/>
+      <reaction name="EX_thyochol(e)" reversible="true"/>
+      <reaction name="Exchange of Homogentisate" reversible="true"/>
+      <reaction name="Demand for Palmitoyl Coenzyme A" reversible="true"/>
+      <reaction name="Exchange of 25-Hydroxyvitamin D2 " reversible="true"/>
+      <reaction name="Exchange of 10-Formyltetrahydrofolate " reversible="true"/>
+      <reaction name="Demand for  All-Trans-Retinoate,  Nuclear" reversible="true"/>
+      <reaction name="Exchange of ProHistyr" reversible="true"/>
+      <reaction name="Exchange of L-Proline " reversible="true"/>
+      <reaction name="Exchange of Dodecanedioic Acid" reversible="true"/>
+      <reaction name="Exchange of LysGlnPhe" reversible="true"/>
+      <reaction name="Exchange of TrpValAsp" reversible="true"/>
+      <reaction name="Exchange of AlaLysThr" reversible="true"/>
+      <reaction name="Exchange of ArgArgMet" reversible="true"/>
+      <reaction name="Exchange of Octadecanoate (N-C18:0)" reversible="true"/>
+      <reaction name="EX_tudca3s(e)" reversible="true"/>
+      <reaction name="Exchange of Cholesteryl Arachidonate, Cholesterol-Ester (20:4, Delta 5, 8, 11, 14)" reversible="true"/>
+      <reaction name="exchange reaction for 1-hydroxy S-ibuprofen-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of TrpThrtyr" reversible="true"/>
+      <reaction name="Exchange of Carnosine" reversible="true"/>
+      <reaction name="Exchange of Fatty Acid 11-Cis-Retinol " reversible="true"/>
+      <reaction name="exchange reaction for AM1A4N-cyclosporine in bile" reversible="true"/>
+      <reaction name="EX_M00021[e]" reversible="true"/>
+      <reaction name="Sink for Taurolithocholate" reversible="true"/>
+      <reaction name="Demand for  (2S,3R)-2-Azaniumyl-3-Hydroxyoctadecyl Phosphate" reversible="true"/>
+      <reaction name="Exchange of 16-Glucuronide-Estriol " reversible="true"/>
+      <reaction name="Exchange of ThrPheArg" reversible="true"/>
+      <reaction name="exchange reaction of desacyl dehydro-pravastatin in hepatic vein" reversible="true"/>
+      <reaction name="sink_25hvitd2[c]" reversible="true"/>
+      <reaction name="Exchange of Pentadecanoyl Thanolamide (C15:0)" reversible="true"/>
+      <reaction name="Exchange of Glycocholate " reversible="true"/>
+      <reaction name="Exchange of Limonene " reversible="true"/>
+      <reaction name="Exchange of Leukotriene B5" reversible="true"/>
+      <reaction name="Exchange of Fumarate" reversible="true"/>
+      <reaction name="Exchange of Galactosamine " reversible="true"/>
+      <reaction name="Exchange of Monoacylglycerol 2 (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of GTP " reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxyoctadecadienoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Glycogen, Structure 5 (Glycogenin-2[1, 4-Glc])" reversible="true"/>
+      <reaction name="Exchange of R Total " reversible="true"/>
+      <reaction name="Exchange of ArgLysAsp" reversible="true"/>
+      <reaction name="Exchange of Gd1A" reversible="true"/>
+      <reaction name="Exchange of Cortisone" reversible="true"/>
+      <reaction name="Exchange of CystyrAsn" reversible="true"/>
+      <reaction name="Exchange of 15-Deoxy-Pgd2" reversible="true"/>
+      <reaction name="Exchange of ProGluLys" reversible="true"/>
+      <reaction name="exchange reaction for thiomethyl-sulphoxide-acetaminophen-sulphate in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Spermidine Dialdehyde " reversible="true"/>
+      <reaction name="Exchange of Coenzyme A" reversible="true"/>
+      <reaction name="Exchange of 3, 5-Diiodo-L-Tyrosine" reversible="true"/>
+      <reaction name="EX_dolichol_L[e]" reversible="true"/>
+      <reaction name="Exchange of ProLysPro" reversible="true"/>
+      <reaction name="Exchange of GMP " reversible="true"/>
+      <reaction name="Exchange of Octadecenoate (N-C18:1) " reversible="true"/>
+      <reaction name="Exchange of SerArgTrp" reversible="true"/>
+      <reaction name="Exchange of SerGlyGlu" reversible="true"/>
+      <reaction name="Exchange of 3&apos;, 5&apos;-Cyclic GMP " reversible="true"/>
+      <reaction name="Exchange of LeuAspLys" reversible="true"/>
+      <reaction name="Exchange of Hydrosulfide" reversible="true"/>
+      <reaction name="Exchange of AspHisCys" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy Trans5, 8Tetradecadienoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of AlaAsnLeu" reversible="true"/>
+      <reaction name="Exchange of 13(S)-HPODE" reversible="true"/>
+      <reaction name="EX_M02613[e]" reversible="true"/>
+      <reaction name="Exchange of D-Galactosyl-N-Acylsphingosine " reversible="true"/>
+      <reaction name="DM_5cysdopa[c]" reversible="true"/>
+      <reaction name="Exchange of Propionate " reversible="true"/>
+      <reaction name="Exchange of 2-Oxobutanoate" reversible="true"/>
+      <reaction name="Exchange of TyrAlaPhe" reversible="true"/>
+      <reaction id="R_DM_oretn_n_" name="Demand for 4-Oxo-Retonoic Acid " reversible="true"/>
+      <reaction name="DM_3dhlchol(c)" reversible="true"/>
+      <reaction name="Exchange of Beta-Alanine " reversible="true"/>
+      <reaction id="R_DM_dttp_m_" name="Demand for dTTP" reversible="true"/>
+      <reaction name="EX_adpman[e]" reversible="true"/>
+      <reaction name="Exchange of Maltopentaose " reversible="true"/>
+      <reaction name="EX_hretn[e]" reversible="true"/>
+      <reaction name="Exchange of GlcNac-Alpha-1, 4-Core 2 " reversible="true"/>
+      <reaction name="DM_3dhcdchol(c)" reversible="true"/>
+      <reaction name="exchange reaction for deoxy-fluvastatin-dinor in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Behenic Acid" reversible="true"/>
+      <reaction name="Sink for 7Alpha, 12Alpha-Dihydroxycholest-4-En-3-One" reversible="true"/>
+      <reaction name="Exchange of Hypoxanthine " reversible="true"/>
+      <reaction name="EX_M00241[e]" reversible="true"/>
+      <reaction name="Exchange of Kynurenic Acid" reversible="true"/>
+      <reaction name="Exchange of Sulfate Derivative of Norepinephrine " reversible="true"/>
+      <reaction name="Exchange of PheTrpLeu" reversible="true"/>
+      <reaction name="Exchange of 12 Hydroxy Arachidonic Acid" reversible="true"/>
+      <reaction name="Exchange of Gama-Carboxyethyl-Hydroxychroman " reversible="true"/>
+      <reaction name="Exchange of Ppi" reversible="true"/>
+      <reaction name="Exchange of Suberic Acid" reversible="true"/>
+      <reaction name="EX_caproic[e]" reversible="true"/>
+      <reaction name="Exchange of Bilirubin Beta-Diglucuronide " reversible="true"/>
+      <reaction name="Exchange of Pectin-Deoxycholic Acid Complex" reversible="true"/>
+      <reaction name="DM_Lkynr[c]" reversible="true"/>
+      <reaction name="Exchange of 15(S)-HEPE" reversible="true"/>
+      <reaction name="Exchange of CysLeuThr" reversible="true"/>
+      <reaction id="R_DM_n5m2masn_g_" name="Demand for  ((N-Acetyl-D-Glucosaminyl)5-(Alpha-D-Mannosyl)2-Beta-D-Mannosyl-Diacetylchitobiosyl)-L-Asparagine (Protein),  Golgi Apparatus" reversible="true"/>
+      <reaction name="Exchange of 3-Methylimidazoleacetic Acid " reversible="true"/>
+      <reaction id="R_DM_yvite_c_" name="Demand for Gamma-Tocopherol " reversible="true"/>
+      <reaction name="Exchange of Hypochlorous Acid " reversible="true"/>
+      <reaction name="Exchange of Tyramine O-Sulfate " reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:0/25:0)" reversible="true"/>
+      <reaction name="Demand for 1D-Myo-Inositol 1,3,4,5-Tetrakisphosphate" reversible="true"/>
+      <reaction name="Exchange of Lea Glycolipid " reversible="true"/>
+      <reaction name="Demand for  Nitrite" reversible="true"/>
+      <reaction name="Exchange of CMP-N-Acetyl-Beta-Neuraminate " reversible="true"/>
+      <reaction name="Exchange of 7Alpha, 12Alpha-Dihydroxycholest-4-En-3-One" reversible="true"/>
+      <reaction name="Exchange of 1-NoNADecanoylglycerophosphocholine, Sn1-Lpc (19:0)" reversible="true"/>
+      <reaction name="Exchange of Leukotriene D4 " reversible="true"/>
+      <reaction name="exchange reaction of lactone form of nifedipine in portal vein" reversible="true"/>
+      <reaction name="Exchange of Timnodonic Acid " reversible="true"/>
+      <reaction name="Exchange of Glycerophosphoric Acid" reversible="true"/>
+      <reaction name="EX_gudca3s(e)" reversible="true"/>
+      <reaction name="Exchange of GlntyrLeu" reversible="true"/>
+      <reaction name="Exchange of 1-Eicosatrienoylglycerophosphoethanolamine (Delta 11, 14, 17), Lpe (20:3)" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-2-Methylpropanoate" reversible="true"/>
+      <reaction name="sink_nadp[c]" reversible="true"/>
+      <reaction name="Exchange of 1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 6, 9, 12)" reversible="true"/>
+      <reaction name="Exchange of Deoxycholic Acid" reversible="true"/>
+      <reaction name="Exchange of N-Formimidoyl-L-Glutamate" reversible="true"/>
+      <reaction name="Exchange of Succinic Semialdehyde" reversible="true"/>
+      <reaction name="Citrulline Sink" reversible="true"/>
+      <reaction name="Exchange of HisHisLys" reversible="true"/>
+      <reaction name="Exchange of L-Serine" reversible="true"/>
+      <reaction name="Exchange of Lysopc A C28:0" reversible="true"/>
+      <reaction name="sink_glygn2[c]" reversible="true"/>
+      <reaction name="Exchange of 2, 4 Dihydroxy Nitrophenol " reversible="true"/>
+      <reaction name="Exchange of Reverse-Triiodthyronine " reversible="true"/>
+      <reaction name="EX_gdca3s(e)" reversible="true"/>
+      <reaction name="EX_M00017[e]" reversible="true"/>
+      <reaction name="exchange reaction for AM4N (cyclosporine) in portal blood" reversible="true"/>
+      <reaction name="Exchange of Core 4 (Mucin O-Glycan) " reversible="true"/>
+      <reaction name="Exchange of Gamma-Tocopherol" reversible="true"/>
+      <reaction name="Exchange of Adenosine" reversible="true"/>
+      <reaction name="Exchange of 12,13-Hydroxyoctadec-9(Z)-Enoate" reversible="true"/>
+      <reaction name="Exchange of Sialyl-Tn Antigen " reversible="true"/>
+      <reaction name="exchange reaction for Losartan-M2 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 10-Formyltetrahydrofolate-[Glu] (6) " reversible="true"/>
+      <reaction name="Exchange of L-Palmitoylcarnitine" reversible="true"/>
+      <reaction name="Exchange of ThrGlntyr" reversible="true"/>
+      <reaction name="Exchange of 4-Nitrophenol " reversible="true"/>
+      <reaction name="Exchange of Dehydroepiandrosterone Sulfate " reversible="true"/>
+      <reaction name="Exchange of 7, 8-Dihydrofolate " reversible="true"/>
+      <reaction name="Exchange of HisLysIle" reversible="true"/>
+      <reaction name="Exchange of ArgAlaThr" reversible="true"/>
+      <reaction name="Exchange of L-Arabinitol " reversible="true"/>
+      <reaction name="Exchange of PheThrLys" reversible="true"/>
+      <reaction name="exchange reaction for 15-O-desmethyl tacrolimus in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of Hexadecanoate (N-C16:0) " reversible="true"/>
+      <reaction name="EX_hca24g(e)" reversible="true"/>
+      <reaction name="Exchange of AlaArgCys" reversible="true"/>
+      <reaction name="Exchange of AlaHisAla" reversible="true"/>
+      <reaction name="Exchange of 16Alpha-Hydroxyestrone" reversible="true"/>
+      <reaction name="Exchange of 5-Amino-1- (5-Phospho-D-Ribosyl)Imidazole-4-Carboxamide" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin" reversible="true"/>
+      <reaction name="DM_12dhchol(c)" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin C1 " reversible="true"/>
+      <reaction name="Exchange of Cholesterol-Ester-Palm" reversible="true"/>
+      <reaction name="Exchange of 4-Hydroxy-Butyrate" reversible="true"/>
+      <reaction name="exchange reaction for pitavastatin in intestinal lumen" reversible="true"/>
+      <reaction name="DM_ca24g(c)" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/17:0)" reversible="true"/>
+      <reaction name="Exchange of Chondroitin Sulfate A (Galnac4S-Glca) Proteoglycan " reversible="true"/>
+      <reaction name="Exchange of Phosphatidylethanolamine" reversible="true"/>
+      <reaction name="Exchange of Alpha-Cehc-Glucuronide " reversible="true"/>
+      <reaction name="Sink for Glycocholate" reversible="true"/>
+      <reaction name="Exchange of Spermidine" reversible="true"/>
+      <reaction name="EX_M00008[e]" reversible="true"/>
+      <reaction name="Exchange of Squalene" reversible="true"/>
+      <reaction name="Exchange of Diglyceride" reversible="true"/>
+      <reaction name="Exchange of AspLysGlu" reversible="true"/>
+      <reaction name="exchange reaction for S-3-hydroxy-ibuprofen in hepatic vein" reversible="true"/>
+      <reaction name="sink_hdca[c]" reversible="true"/>
+      <reaction name="Exchange of Gm2-Pool" reversible="true"/>
+      <reaction name="Exchange of ArgArgLys" reversible="true"/>
+      <reaction name="Exchange of Hexacosanoate (N-C26:0) " reversible="true"/>
+      <reaction name="Exchange of GluMet" reversible="true"/>
+      <reaction name="Exchange of ADP " reversible="true"/>
+      <reaction name="Exchange of L-Leucine " reversible="true"/>
+      <reaction name="Demand for  Gm1 " reversible="true"/>
+      <reaction name="Exchange of Ornithine" reversible="true"/>
+      <reaction name="EX_C01601[e]" reversible="true"/>
+      <reaction name="Exchange of Pyridoxal 5-Phosphate" reversible="true"/>
+      <reaction name="Exchange of (Gal)4 (Glc)1 (GlcNac)3 (LFuc)3 (Cer)1 " reversible="true"/>
+      <reaction name="Exchange of 4 Hydroxy Tolbutamide " reversible="true"/>
+      <reaction name="Exchange of Omega Hydroxy Hexadecanoate (N-C16:0) " reversible="true"/>
+      <reaction name="DM_hista[c]" reversible="true"/>
+      <reaction name="exchange reaction for 1-OH-midazolam in portal blood" reversible="true"/>
+      <reaction name="exchange reaction for N-desisopropyl-fluvastatin in bile" reversible="true"/>
+      <reaction name="Exchange of CysCys" reversible="true"/>
+      <reaction name="Exchange of ArgGluPro" reversible="true"/>
+      <reaction id="R_ACER12r" name="Alkaline Ceramidase 1 (Acer1) Or Alkaline Ceramidase 3 (Acer3)" reversible="true"/>
+      <reaction name="exchange reaction for des-isopropyl-dihydro-fluvastatin-tetranor-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 5(S)-HPETE" reversible="true"/>
+      <reaction name="EX_M02560[e]" reversible="true"/>
+      <reaction name="Exchange of Spermine Dialdehyde " reversible="true"/>
+      <reaction name="Demand for 5(S)-HPETE " reversible="true"/>
+      <reaction name="Sink_asp_L[c]" reversible="true"/>
+      <reaction name="exchange reaction for 4-hydroxy-atorvastatin-lactone in portal blood" reversible="true"/>
+      <reaction name="Exchange of ThrArgtyr" reversible="true"/>
+      <reaction name="Exchange of 15(R)-HEPE" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-L-Aspartate" reversible="true"/>
+      <reaction name="EX_M02956[e]" reversible="true"/>
+      <reaction name="Sink_trp_L[c]" reversible="true"/>
+      <reaction name="Exchange of 25-Hydroxycholesterol" reversible="true"/>
+      <reaction name="Exchange of Cysteaminium" reversible="true"/>
+      <reaction name="Exchange of Biotin " reversible="true"/>
+      <reaction name="Exchange of Proton" reversible="true"/>
+      <reaction name="Exchange of Xanthine " reversible="true"/>
+      <reaction id="R_DM_13_cis_oretn_n_" name="13-Cis-Oxo-Retinoic Acid Demand" reversible="true"/>
+      <reaction name="Exchange of Glycine Betaine " reversible="true"/>
+      <reaction name="Exchange of C12:0-Ethanolamide, Didecanoyl Ethanolamide" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin-C2 " reversible="true"/>
+      <reaction name="Exchange of dGTP" reversible="true"/>
+      <reaction name="Exchange of 3-Methoxy-4-Hydroxymandelate" reversible="true"/>
+      <reaction id="R_DM_pnto_R" name="Demand for (R)-Pantothenate" reversible="true"/>
+      <reaction name="Exchange of 3-Methyl-Glutaconate" reversible="true"/>
+      <reaction name="Exchange of 1-Arachidonoyl-Glycero-3-Phosphocholine" reversible="true"/>
+      <reaction name="Exchange of L-Glutamate " reversible="true"/>
+      <reaction name="exchange reaction for S-2-hydroxy-ibuprofen in hepatic vein" reversible="true"/>
+      <reaction id="R_DM_core8_g_" name="Demand for Core8, Golgi Apparatus" reversible="true"/>
+      <reaction name="Exchange of PhetyrLys" reversible="true"/>
+      <reaction name="Exchnage for W-Hydroxyl Leukotriene B4" reversible="true"/>
+      <reaction name="Exchange of 5, 6-Dihydrouracil" reversible="true"/>
+      <reaction name="Exchange of HisLysAla" reversible="true"/>
+      <reaction name="Exchange of Glycogen, Structure 4 (Glycogenin-1, 6-{2[1, 4-Glc], [1, 4-Glc]})" reversible="true"/>
+      <reaction name="Exchange of Octenoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of IMP " reversible="true"/>
+      <reaction name="Exchange of 1-Myristoylglycerophosphoethanolamine (C14:0 Pe)" reversible="true"/>
+      <reaction name="Exchange of 9 (10)-Epome" reversible="true"/>
+      <reaction name="Exchange of L-Threonine " reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/16:1)" reversible="true"/>
+      <reaction name="Exchange of Alpha-Pinene-Oxide " reversible="true"/>
+      <reaction name="Exchange of Acetyl-Lysine" reversible="true"/>
+      <reaction name="Exchange of N- (Omega)-Hydroxyarginine" reversible="true"/>
+      <reaction name="EX_lca3s(e)" reversible="true"/>
+      <reaction name="Exchange of Glycerol-2-Phosphate" reversible="true"/>
+      <reaction name="Exchange of HisLysThr" reversible="true"/>
+      <reaction name="exchange reaction for S-carboxy ibuprofen in hepatic vein" reversible="true"/>
+      <reaction name="Demand for  Sodium,  Cytosolic" reversible="true"/>
+      <reaction name="Exchange of AspHisPro" reversible="true"/>
+      <reaction name="Exchange of N,N-Dimethylglycine" reversible="true"/>
+      <reaction name="Exchange of 5, 12, 20-Trihete" reversible="true"/>
+      <reaction id="R_DM_fol" name="Demand for Folic Aicd" reversible="true"/>
+      <reaction name="DM_ind56qn[c]" reversible="true"/>
+      <reaction name="Exchange of Apoa1 " reversible="true"/>
+      <reaction name="Exchange of ProTrpThr" reversible="true"/>
+      <reaction name="Exchange of LeuTrpArg" reversible="true"/>
+      <reaction name="Exchange of L-Valine " reversible="true"/>
+      <reaction name="Exchange of TyrValMet" reversible="true"/>
+      <reaction id="R_DM_13_cis_retn_n_" name="13-Cis-Retinoate Demand" reversible="true"/>
+      <reaction name="Exchange of Gamma-Glutamyl-Beta-Cyanoalanine" reversible="true"/>
+      <reaction name="exchange reaction of triol metabolite of pravastatin in hepatic vein" reversible="true"/>
+      <reaction name="EX_M01820[e]" reversible="true"/>
+      <reaction name="Exchange of Beta-Casomorphin " reversible="true"/>
+      <reaction name="Exchange of 7-Hydroxy-Octanoate" reversible="true"/>
+      <reaction name="Exchange of 3- (3-Hydroxy-Phenyl)Propionate " reversible="true"/>
+      <reaction name="Exchange of 20Alpha-Hydroxyprogesterone " reversible="true"/>
+      <reaction name="Exchange of Pentadecanoate " reversible="true"/>
+      <reaction name="Exchange of 1-Alkyl 2-Acteylglycerol 3-Phosphocholine (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of 3-Mercaptolactate-Cysteine Disulfide " reversible="true"/>
+      <reaction name="Exchange of CTP" reversible="true"/>
+      <reaction name="sink_chol[c]" reversible="true"/>
+      <reaction name="Exchange of C14:0-Ethanolamide, Tetradecanoyl Ethanolamide" reversible="true"/>
+      <reaction name="Exchange of GluTrpAla" reversible="true"/>
+      <reaction name="Exchange of Gal-GlcNac-Gal Globoside (Homo Sapiens) " reversible="true"/>
+      <reaction name="exchange reaction for 3-hydroxy S-ibuprofen-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Chitin " reversible="true"/>
+      <reaction name="Exchange of Hexanoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Tiglyl Carnitine" reversible="true"/>
+      <reaction name="Sink for Taurodeoxycholic Acid" reversible="true"/>
+      <reaction name="exchnage reaction for 5-hydroxy-fluvastatin in bile" reversible="true"/>
+      <reaction name="Exchange of Spermidine Monoaldehyde 2 " reversible="true"/>
+      <reaction name="Exchange of 2-Methylbutyrylglycine" reversible="true"/>
+      <reaction name="Exchange of 16Alpha-Hydroxydehydroepiandrosterone" reversible="true"/>
+      <reaction name="exchange reaction for cerivastatin-M23 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Phenylacetylglycine " reversible="true"/>
+      <reaction name="Exchange of 5,6,7,8-Tetrahydrobiopterin" reversible="true"/>
+      <reaction name="Exchange of Acetyl-Vanilalanine" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-L-Asparagine" reversible="true"/>
+      <reaction name="Exchange of ArgAlaPhe" reversible="true"/>
+      <reaction name="Exchange of 3, 4-Dihydroxyphenylethyleneglycol " reversible="true"/>
+      <reaction name="Exchange of 3-Methoxytyramine" reversible="true"/>
+      <reaction name="Exchange of Beta Glucan-Glycocholate Complex" reversible="true"/>
+      <reaction name="Exchange of Uracil " reversible="true"/>
+      <reaction name="exchange reaction for lovastatin in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of Suberyl-Glycine" reversible="true"/>
+      <reaction name="DM_btn[n]" reversible="true"/>
+      <reaction name="Demand for Band Membrane Protein (Methylated, Universal, Erythrocyte -&gt; 2.1,3,4.1)" reversible="true"/>
+      <reaction name="Exchange of 3-O-Methyldopa" reversible="true"/>
+      <reaction id="R_DM_bvite_c_" name="Demand for Beta-Tocopherol" reversible="true"/>
+      <reaction name="Exchange of Hexadecanediocacid" reversible="true"/>
+      <reaction name="Exchange of LysTrpArg" reversible="true"/>
+      <reaction name="Exchange of 6Z,9Z-Octadecadienoylcarnitine" reversible="true"/>
+      <reaction name="Exchange of 1-Docosatetraenoyglycerophosphoethanolamine (22:4, Delta 7, 10, 13, 16)" reversible="true"/>
+      <reaction name="Exchange of Xylitol" reversible="true"/>
+      <reaction name="Exchange of ArgProThr" reversible="true"/>
+      <reaction name="Exchange of ThrThrArg" reversible="true"/>
+      <reaction name="Exchange of SerPheLys" reversible="true"/>
+      <reaction name="DM_hyochol(c)" reversible="true"/>
+      <reaction name="Exchange of Alpha-Tocopherol " reversible="true"/>
+      <reaction name="Exchange of 13-Cis-Retinoate" reversible="true"/>
+      <reaction name="Exchange of Inosine " reversible="true"/>
+      <reaction name="Exchange of ProArgAsp" reversible="true"/>
+      <reaction name="Exchange of Trans, Cis, Cis-2, 11, 14-Eicosatrienoic Acid" reversible="true"/>
+      <reaction name="exchange reaction for 6-alpha-OH-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="EX_itacon[e]" reversible="true"/>
+      <reaction id="R_DM_core7_g_" name="Demand for Core7, Golgi Apparatus" reversible="true"/>
+      <reaction name="Exchange of Hyaluronan Biosynthesis, Precursor 1 " reversible="true"/>
+      <reaction name="Exchange of Gama-Cehc-Glucuronide " reversible="true"/>
+      <reaction name="sink_4abut[l]" reversible="true"/>
+      <reaction name="Exchange of ValHisAsn" reversible="true"/>
+      <reaction name="Exchange of Folate" reversible="true"/>
+      <reaction name="Exchange of Pregnenolone Sulfate" reversible="true"/>
+      <reaction name="Exchange of Maltononaose " reversible="true"/>
+      <reaction name="Exchange of HisMetGln" reversible="true"/>
+      <reaction name="Exchange of MetMetIle" reversible="true"/>
+      <reaction name="Exchange of Apelin (1-12) " reversible="true"/>
+      <reaction name="Exchange of LysArgLeu" reversible="true"/>
+      <reaction name="Demand for Vitamin D3" reversible="true"/>
+      <reaction name="Exchange of Creatine " reversible="true"/>
+      <reaction name="Exchange of D-3-Amino-Isobutanoate " reversible="true"/>
+      <reaction name="Exchange of Creatinine" reversible="true"/>
+      <reaction name="Exchange of TrpMetVal" reversible="true"/>
+      <reaction name="Exchange of GlnHisLys" reversible="true"/>
+      <reaction name="Exchange of Homocystine" reversible="true"/>
+      <reaction name="exchange reaction for 3,5-dihydrodiol-simvastatin-lactone form in bile" reversible="true"/>
+      <reaction name="Exchange of PheLeuHis" reversible="true"/>
+      <reaction name="Sink for Taurochenodeoxycholate" reversible="true"/>
+      <reaction name="DM_tudca3s(c)" reversible="true"/>
+      <reaction name="Exchange of Neuromedin N (1-4) " reversible="true"/>
+      <reaction name="DM_btn[m]" reversible="true"/>
+      <reaction name="Exchange of IleTrptyr" reversible="true"/>
+      <reaction name="exchange reaction for sulphate-thiomethyl-acetaminophen conjugate in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of PhetyrGln" reversible="true"/>
+      <reaction name="Exchange of S-Adenosyl-L-Methionine" reversible="true"/>
+      <reaction name="Exchange of Pectin-Taurocholic Acid Complex" reversible="true"/>
+      <reaction name="(S)-2-Aminobutanoate" reversible="true"/>
+      <reaction name="Exchange of Homovanillate" reversible="true"/>
+      <reaction name="exchange reaction for thiomethyl-sulphoxide-acetaminophen-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Gamma-L-Glutamyl-L-Cysteine" reversible="true"/>
+      <reaction name="Exchange of Uroporphyrinogeni" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-Adipate" reversible="true"/>
+      <reaction name="exchange reaction for AM1c4N9-cyclosporine in bile" reversible="true"/>
+      <reaction id="R_DM_Ser_Thr_ly_" name="Demand for Ser/Thr, Lysosomal" reversible="true"/>
+      <reaction name="Exchange of Palmitoylethanolamide" reversible="true"/>
+      <reaction name="Exchange of 1 Acyl Phosphoglycerol " reversible="true"/>
+      <reaction name="Exchange of Spermine" reversible="true"/>
+      <reaction name="Exchange of Porphobilinogen" reversible="true"/>
+      <reaction name="Exchange of L-Ascorbate " reversible="true"/>
+      <reaction name="Sink for Tauroursodeoxycholate" reversible="true"/>
+      <reaction name="Exchange of Docosahexaenoyl Ethanolamide" reversible="true"/>
+      <reaction name="Exchange of Leucylglycine" reversible="true"/>
+      <reaction name="Exchange of (Gal)6 (Glc)1 (GlcNac)3 (LFuc)2 (Cer)1 " reversible="true"/>
+      <reaction name="Exchange of Omeprazole " reversible="true"/>
+      <reaction name="Demand for Phosphatidylcholine" reversible="true"/>
+      <reaction name="EX_M00115[e]" reversible="true"/>
+      <reaction name="Exchange of D-Tagatose " reversible="true"/>
+      <reaction name="Exchange of GlyHisLys" reversible="true"/>
+      <reaction name="DM_gudca3s(c)" reversible="true"/>
+      <reaction name="Exchange of 1-Alkyl 2-Lysoglycerol 3-Phosphocholine " reversible="true"/>
+      <reaction name="Exchange of Lactose " reversible="true"/>
+      <reaction name="Exchange of AsntyrGly" reversible="true"/>
+      <reaction name="Exchange of LeuPro" reversible="true"/>
+      <reaction name="Exchange of GlnLysTrp" reversible="true"/>
+      <reaction name="Exchange of LysGluGlu" reversible="true"/>
+      <reaction name="Exchange of LysValTrp" reversible="true"/>
+      <reaction name="Exchange of 21-Hydroxyallopregnanolone" reversible="true"/>
+      <reaction name="exchange reaction for des-isopropyl-dihydro-fluvastatin-tetranor in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of 3-Methyl-2-Oxobutanoate" reversible="true"/>
+      <reaction name="EX_m3gacpail_prot_hs[e]" reversible="true"/>
+      <reaction name="Exchange of 7, 10, 13-Hexadecatrienoic Acid" reversible="true"/>
+      <reaction name="Exchange of 1-Docosahexenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16, 19), Sn1-Lpc (22:6)" reversible="true"/>
+      <reaction name="Exchange of Sulfocysteine" reversible="true"/>
+      <reaction id="R_DM_K_c_" name="Demand for Potassium" reversible="true"/>
+      <reaction name="Exchange of 5Beta-Cholestane-3Alpha, 7Alpha, 26-Triol" reversible="true"/>
+      <reaction name="EX_M02909[e]" reversible="true"/>
+      <reaction name="Exchange/Demand Reaction" reversible="true"/>
+      <reaction name="EX_hnifedipine[e]" reversible="true"/>
+      <reaction name="Exchange of GluAsnLeu" reversible="true"/>
+      <reaction name="DM_lca3g(c)" reversible="true"/>
+      <reaction id="R_DM_core5_g_" name="Demand for Core5, Golgi Apparatus" reversible="true"/>
+      <reaction name="exchange reaction for 6-beta-OH-gliclazide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of HisGluGln" reversible="true"/>
+      <reaction name="Exchange of ProPhe" reversible="true"/>
+      <reaction name="Sink_gln_L[c]" reversible="true"/>
+      <reaction name="Exchange of W Hydroxy Testosterone " reversible="true"/>
+      <reaction name="Exchange of TrpSertyr" reversible="true"/>
+      <reaction id="R_DM_datp_m_" name="Demand for dATP" reversible="true"/>
+      <reaction name="Exchange of Ubiquinol" reversible="true"/>
+      <reaction name="Exchange of 2,5-Dihydroxybenzoate" reversible="true"/>
+      <reaction name="Exchange of Phenyl Lactate" reversible="true"/>
+      <reaction name="Exchange of Urate " reversible="true"/>
+      <reaction name="Exchange of Psyllium-Glycocholic Acid Complex" reversible="true"/>
+      <reaction name="Exchange of Hyaluronan " reversible="true"/>
+      <reaction name="Exchange of LeuVal" reversible="true"/>
+      <reaction name="Exchange of (R)-Propane-1,2-Diol" reversible="true"/>
+      <reaction name="2-Hydroxyphenylacetate" reversible="true"/>
+      <reaction name="DM_srtn[c]" reversible="true"/>
+      <reaction name="Exchange of Iron (Fe2+)" reversible="true"/>
+      <reaction name="Exchange of Hippurate (Benzoylglycinate) " reversible="true"/>
+      <reaction name="Exchange of Guanosine" reversible="true"/>
+      <reaction name="Exchange of ArgCysSer" reversible="true"/>
+      <reaction name="DM_icdchol(c)" reversible="true"/>
+      <reaction name="Exchange of Omega Hydroxy Dodecanoate (N-C12:0) " reversible="true"/>
+      <reaction name="Exchange of GluThr" reversible="true"/>
+      <reaction name="Exchange of Galactosylglycerol" reversible="true"/>
+      <reaction name="Exchange of Gal-Gal-Gal-Gal-Gal-Glc-Cer (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of Glycylglycine" reversible="true"/>
+      <reaction name="Exchange of 1-Arachidonoyl-Sn-Glycero-3-Phosphoethanolamine" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-Octadecenoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Deoxyribose " reversible="true"/>
+      <reaction name="Exchange of 2-[ (4R)-4-[ (1S, 2S, 5R, 7R, 10R, 11S, 14R, 15R)-2, 15-Dimethyl-5- (Sulfonatooxy)Tetracyclo[8.7.0.0^{2, 7}.0^{11, 15}]Heptadecan-14-Yl]Pentanamido]Ethane-1-Sulfonate " reversible="true"/>
+      <reaction name="Exchange of L-Normetanephrine" reversible="true"/>
+      <reaction name="Exchange of Alpha-Linolenic Acid " reversible="true"/>
+      <reaction name="Exchange of SerTrpHis" reversible="true"/>
+      <reaction name="exchange reaction for 13,31-O-Didesmethyl-tacrolimus in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-L-Glutamate" reversible="true"/>
+      <reaction name="Exchange of dGMP" reversible="true"/>
+      <reaction name="Exchange of Beta-Tocopherol " reversible="true"/>
+      <reaction name="EX_M00265[e]" reversible="true"/>
+      <reaction name="Exchange of Trans-4-Coumarate" reversible="true"/>
+      <reaction name="Demand for Menaquinone-9" reversible="true"/>
+      <reaction name="Exchange of 3- (4-Hydroxyphenyl)Pyruvate" reversible="true"/>
+      <reaction name="Exchange " reversible="true"/>
+      <reaction name="Exchange of PhePheThr" reversible="true"/>
+      <reaction name="Exchange of Chondroitin Sulfate E (Galnac4, 6Dis-Glca) Proteoglycan " reversible="true"/>
+      <reaction name="Demand for (1R,2R,3R,4R,5R,6S)-2,3,5,6-Tetrahydroxy-4-(Phosphonatooxy)Cyclohexyl Phosphate" reversible="true"/>
+      <reaction name="exchange reaction for AM9 (cyclosporine) in portal blood" reversible="true"/>
+      <reaction name="Exchange of Desmosterol" reversible="true"/>
+      <reaction name="Exchange of Butyrate (N-C4:0) " reversible="true"/>
+      <reaction name="Exchange of 1-Palmitoylglycerophosphoethanolamine" reversible="true"/>
+      <reaction name="Exchange of Cyanate " reversible="true"/>
+      <reaction name="Exchange of Dopamine " reversible="true"/>
+      <reaction name="Exchange of L-Malate" reversible="true"/>
+      <reaction name="exchange reaction of 7-hydroxy-3-alpha-iso-pravastatin in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Arachidate" reversible="true"/>
+      <reaction name="Exchange of Acetyl Isoleucine" reversible="true"/>
+      <reaction name="Exchange of Retinal" reversible="true"/>
+      <reaction name="Exchange " reversible="true"/>
+      <reaction name="Exchange of Myo-Inositol 1-Phosphate" reversible="true"/>
+      <reaction name="Exchange of Gq1Balpha (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of Dihomo-Gamma-Linolenic Acid (N-6) " reversible="true"/>
+      <reaction name="Exchange of 2-Hydroxy-Isovalerate" reversible="true"/>
+      <reaction name="Sink_Ser_Gly_Ala_X_Gly, Endoplasmic Reticulum" reversible="true"/>
+      <reaction name="Sink for Deoxycholate" reversible="true"/>
+      <reaction name="Exchange of AspLysHis" reversible="true"/>
+      <reaction name="Exchange of Allantoin" reversible="true"/>
+      <reaction name="Exchange of Coproporphyrin I" reversible="true"/>
+      <reaction name="Exchange of L-Glutamine" reversible="true"/>
+      <reaction name="EX_M03117[e]" reversible="true"/>
+      <reaction name="Exchange of O-Octadecanoyl-R-Carnitine" reversible="true"/>
+      <reaction name="Sink_his_L[c]" reversible="true"/>
+      <reaction name="EX_M02108[e]" reversible="true"/>
+      <reaction name="exchange reaction for 12-hydroxy tacrolimus in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of Thymidine " reversible="true"/>
+      <reaction name="Exchange of Menaquinone 8 " reversible="true"/>
+      <reaction name="Exchange of Nifedipine " reversible="true"/>
+      <reaction id="R_DM_Ser_Gly_Ala_X_Gly_ly_" name="Demand for Ser-Gly/Ala-X-Gly, Lysosomal" reversible="true"/>
+      <reaction name="Exchange of Retinoyl Glucuronide " reversible="true"/>
+      <reaction name="Exchange of 1-Timnodnoyl-Cholesterol, Cholesterol-Ester (20:5, Delta 5, 8, 11, 14, 17)" reversible="true"/>
+      <reaction name="Demand for  15S-Hydroperoxyeicosatetraenoate,  Peroxisomal" reversible="true"/>
+      <reaction name="Exchange of Phosphorylase-Limit Dextrin" reversible="true"/>
+      <reaction name="Exchange of Succinyl Carnitine" reversible="true"/>
+      <reaction name="exchange reaction for Losartan-N1-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="sink_pydam[c]" reversible="true"/>
+      <reaction name="Exchange of Naphthalene " reversible="true"/>
+      <reaction name="Exchange of AsnPheAsp" reversible="true"/>
+      <reaction name="Exchange of MetArgLeu" reversible="true"/>
+      <reaction name="Exchange of Guar Gums" reversible="true"/>
+      <reaction name="Exchange of 5-Hydroxyindoleacetate" reversible="true"/>
+      <reaction name="EX_dca3s(e)" reversible="true"/>
+      <reaction name="exchange reaction for cyclosporine-sulphate in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of LeuProArg" reversible="true"/>
+      <reaction name="Exchange of Psyllium" reversible="true"/>
+      <reaction name="Exchange of Thiamin Monophosphate " reversible="true"/>
+      <reaction name="Exchange of 2-Methyl-3-Hydroxy-Valerate" reversible="true"/>
+      <reaction name="Exchange of Hexadecanedioic Acid Mono-L-Carnitine Ester" reversible="true"/>
+      <reaction name="Exchange of Ribose" reversible="true"/>
+      <reaction name="Exchange of L-Cysteine" reversible="true"/>
+      <reaction name="Exchange of Fucosyl Galactosylgloboside (Homo Sapiens) " reversible="true"/>
+      <reaction name="EX_M00010[e]" reversible="true"/>
+      <reaction name="Exchange of 1-Dihomo-Linolenoylglycerophosphocholine (20:3, Delta 8, 11, 14), Lysopc A C20:3" reversible="true"/>
+      <reaction name="Exchange of 10-Formyltetrahydrofolate-[Glu] (5) " reversible="true"/>
+      <reaction name="Exchange of D-Alanine " reversible="true"/>
+      <reaction name="exchange reaction for sulphate-conjugate-3-methoxy-acetaminophen in hepatic vein" reversible="true"/>
+      <reaction name="sink_stcoa[c]" reversible="true"/>
+      <reaction name="Demand for D-Galactosamine" reversible="true"/>
+      <reaction name="Exchange of Phenylacetylglycine" reversible="true"/>
+      <reaction name="Exchange of GluArgLeu" reversible="true"/>
+      <reaction name="Exchange of AspGluPro" reversible="true"/>
+      <reaction name="DM_gca3s(c)" reversible="true"/>
+      <reaction name="Exchange of 5, 6-EET" reversible="true"/>
+      <reaction name="Exchange of Dodecenoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of Keratan Sulfate Ii (Core 2-Linked) " reversible="true"/>
+      <reaction name="Exchange of Hexadecenoate (N-C16:1)" reversible="true"/>
+      <reaction name="Exchange of (S)-Glycerate " reversible="true"/>
+      <reaction name="Exchange of LeuAsnAsp" reversible="true"/>
+      <reaction name="Exchange of Demethylated Antipyrine " reversible="true"/>
+      <reaction name="Exchange of Thiosulfate " reversible="true"/>
+      <reaction name="Exchange of Linoleyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of SerCysArg" reversible="true"/>
+      <reaction name="Exchange of Phosphatidylglycerol (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of Testosterone Glucuronide " reversible="true"/>
+      <reaction name="DM_hca6g(c)" reversible="true"/>
+      <reaction name="Exchange of HisGlyLys" reversible="true"/>
+      <reaction name="exchange reaction for acetaminophen-mercapturate-conjugate in portal blood" reversible="true"/>
+      <reaction name="Exchange of Triacylglycerol (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of PheLeu" reversible="true"/>
+      <reaction name="DM_ach[c]" reversible="true"/>
+      <reaction name="sink_vitd3[c]" reversible="true"/>
+      <reaction name="Exchange of Tiglylglycine" reversible="true"/>
+      <reaction name="Exchange of Neocasomorphin " reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:0/24:1)" reversible="true"/>
+      <reaction name="Exchange of Naphthalene Epoxide " reversible="true"/>
+      <reaction name="Exchange of Thromboxane A2 " reversible="true"/>
+      <reaction name="EX_M00503[e]" reversible="true"/>
+      <reaction name="exchange reaction for cerivastatin-M24 in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin A1 " reversible="true"/>
+      <reaction name="Exchange of Androsterone Sulfate" reversible="true"/>
+      <reaction name="Exchange of Glycine" reversible="true"/>
+      <reaction name="Exchange of FMN" reversible="true"/>
+      <reaction name="Exchange of Pregnenolone" reversible="true"/>
+      <reaction name="Exchange of Pyruvate " reversible="true"/>
+      <reaction name="Exchange of (Gal)3 (Glc)1 (GlcNac)2 (LFuc)3 (Cer)1 " reversible="true"/>
+      <reaction name="Exchange of 14, 15-DIHETE" reversible="true"/>
+      <reaction name="Exchange of Dihydroneopterin" reversible="true"/>
+      <reaction name="exchange reaction for simvastatin dihydroxy acid form in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of HisLysVal" reversible="true"/>
+      <reaction name="Exchange of 1-Arachidonoyl Glycerol" reversible="true"/>
+      <reaction name="Exchange of Sphingomyelin (D18:1/18:0)" reversible="true"/>
+      <reaction name="Exchange of Phosphatidate" reversible="true"/>
+      <reaction name="Exchange of Androsterone " reversible="true"/>
+      <reaction name="Exchange of Acetyl-Threonine" reversible="true"/>
+      <reaction name="Exchange of 3Beta-Hydroxyandrost-5-En-17-One" reversible="true"/>
+      <reaction name="exchange reaction for 2-hydroxy-atorvastatin-acyl-glucuronide in bile" reversible="true"/>
+      <reaction name="Exchange of TrpGlutyr" reversible="true"/>
+      <reaction name="Exchange of TyrGlu" reversible="true"/>
+      <reaction name="Exchange of Sialyl (1, 3) Sialyl (2, 6) Galactosylgloboside (Homo Sapiens) " reversible="true"/>
+      <reaction name="EX_M03045[e]" reversible="true"/>
+      <reaction name="Exchange of Succinylacetone" reversible="true"/>
+      <reaction name="Exchange of 6-Trans-Leukotriene B4" reversible="true"/>
+      <reaction id="R_DM_ncam" name="Demand for Nicotinamide" reversible="true"/>
+      <reaction name="Exchange of 10-Formyltetrahydrofolate-[Glu] (7) " reversible="true"/>
+      <reaction name="Exchange of Biocytin " reversible="true"/>
+      <reaction name="exchange reaction of acid metabolite of nifedipine in portal vein" reversible="true"/>
+      <reaction name="Exchange of 5-S-Methyl-5-Thioadenosine" reversible="true"/>
+      <reaction name="Sink for 5Beta-Cholestane-3Alpha, 7Alpha, 26-Triol" reversible="true"/>
+      <reaction name="Exchange of AsnPheCys" reversible="true"/>
+      <reaction name="Sink for Lithocholate" reversible="true"/>
+      <reaction name="Exchange of ThrGlnGlu" reversible="true"/>
+      <reaction name="exchange reaction for S-carboxy ibuprofen glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of (+-)-5-Hydroxy-6E,8Z,11Z,14Z,17Z-Eicosapentaenoic Acid" reversible="true"/>
+      <reaction name="exchange reaction for AM1AL (cyclosporine) in portal blood" reversible="true"/>
+      <reaction name="Exchange of Psyllium-Taurodeoxycholic Acid Complex" reversible="true"/>
+      <reaction name="Exchange of IleSerArg" reversible="true"/>
+      <reaction name="Exchange of Glyoxylate" reversible="true"/>
+      <reaction name="Exchange of Glycolate" reversible="true"/>
+      <reaction name="EX_gca3s(e)" reversible="true"/>
+      <reaction name="Exchange of 5Alpha-Dihydrotestosterone Glucuronide " reversible="true"/>
+      <reaction name="Exchange of Eicosatetranoic Acid " reversible="true"/>
+      <reaction name="Exchange of D-Glyceraldehyde" reversible="true"/>
+      <reaction name="Exchange of Methyl-Histidine" reversible="true"/>
+      <reaction name="Exchange of ValProTrp" reversible="true"/>
+      <reaction name="EX_3dhcdchol(e)" reversible="true"/>
+      <reaction name="Exchange of Nitryl Chloride " reversible="true"/>
+      <reaction name="exchange reaction for threo-isomer of fluvastain in hepatic vein" reversible="true"/>
+      <reaction name="EX_tca3s(e)" reversible="true"/>
+      <reaction name="Exchange of Paclitaxel " reversible="true"/>
+      <reaction name="Exchange of CAMP " reversible="true"/>
+      <reaction name="Exchange of Prostaglandin-B2 " reversible="true"/>
+      <reaction name="Exchange of 4- (Trimethylammonio)Butanoate" reversible="true"/>
+      <reaction name="Exchange of GlnTrpGlu" reversible="true"/>
+      <reaction name="Exchange of Sucrose " reversible="true"/>
+      <reaction name="Exchange of Trans-Hexadec-2-Enoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of 2-Palmitoylglycerophosphocholine" reversible="true"/>
+      <reaction name="Exchange of Pa6 " reversible="true"/>
+      <reaction name="Sink_phe_L[c]" reversible="true"/>
+      <reaction name="Exchange of ThrIleArg" reversible="true"/>
+      <reaction name="Exchange of Gp1C Alpha (Homo Sapiens) " reversible="true"/>
+      <reaction name="Exchange of SerLysHis" reversible="true"/>
+      <reaction name="Exchange of 5Alpha-Androstane-3Alpha, 17Beta-Diol" reversible="true"/>
+      <reaction name="Exchange of Pyridoxamine" reversible="true"/>
+      <reaction name="Sink for Ursodeoxycholate" reversible="true"/>
+      <reaction name="Exchange of 3-Ureidoisobutyrate" reversible="true"/>
+      <reaction name="DM_dca24g(c)" reversible="true"/>
+      <reaction name="Exchange of Glypro" reversible="true"/>
+      <reaction name="Exchange of Oxugen" reversible="true"/>
+      <reaction name="EX_cdca3g(e)" reversible="true"/>
+      <reaction name="DM_coprost(c)" reversible="true"/>
+      <reaction name="EX_M02745[e]" reversible="true"/>
+      <reaction name="Exchange of LDL_Hs" reversible="true"/>
+      <reaction name="P-Cresol Exchange" reversible="true"/>
+      <reaction name="Sink for Tyr-194 Of Apo-Glycogenin Protein (Primer For Glycogen Synthesis)" reversible="true"/>
+      <reaction name="Exchange of Pantetheine 4-Phosphate" reversible="true"/>
+      <reaction name="Exchange of ArgCysGly" reversible="true"/>
+      <reaction name="Exchange of 1-Palmitoylglycerophosphoinositol" reversible="true"/>
+      <reaction name="Exchange of Vanil-Lactate" reversible="true"/>
+      <reaction name="Exchange of L-Isoleucine " reversible="true"/>
+      <reaction name="Exchange of Adipic Acid" reversible="true"/>
+      <reaction name="Exchange of PheSerTrp" reversible="true"/>
+      <reaction name="EX_cdca24g(e)" reversible="true"/>
+      <reaction name="Exchange of IleGlyArg" reversible="true"/>
+      <reaction name="Exchange of Uridine" reversible="true"/>
+      <reaction name="Exchange of Guar Gum-Deoxyxholic Acid Complex" reversible="true"/>
+      <reaction name="exchange reaction for 31-O-desmethyl tacrolimus in intestinal lumen" reversible="true"/>
+      <reaction name="sink_fe3[c]" reversible="true"/>
+      <reaction name="exchange reaction for ibuprofen_S in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of 5-Hydroxytryptophol" reversible="true"/>
+      <reaction name="Exchange of F1Alpha (Mucin O-Glycan) " reversible="true"/>
+      <reaction name="Exchange of Maltose " reversible="true"/>
+      <reaction name="Exchange of Guar Gum-Glycocholate Complex" reversible="true"/>
+      <reaction name="Exchange of Lipoate " reversible="true"/>
+      <reaction name="Exchnage for L-Cysteate" reversible="true"/>
+      <reaction name="Exchange of P-Cresol Sulfate " reversible="true"/>
+      <reaction name="exchange reaction of nitropyridine metabolite of nifedipine in portal vein" reversible="true"/>
+      <reaction name="Exchange of Glcr" reversible="true"/>
+      <reaction name="Exchange of Nc22:6 " reversible="true"/>
+      <reaction name="Exchange of LysCysHis" reversible="true"/>
+      <reaction name="Exchange of GluLeu" reversible="true"/>
+      <reaction name="Exchange of Spermine Monoaldehyde " reversible="true"/>
+      <reaction name="DM_hdca24g(c)" reversible="true"/>
+      <reaction name="Exchange of Tyramine" reversible="true"/>
+      <reaction name="Exchange of LeuLeuTrp" reversible="true"/>
+      <reaction name="Exchange of Psyllium-Taurocholic Acid Complex" reversible="true"/>
+      <reaction name="Exchange of Coproporphyrin Iii" reversible="true"/>
+      <reaction name="Exchange of Isomaltose" reversible="true"/>
+      <reaction name="Exchange of 3Alpha, 7Alpha-Dihydroxy-5Beta-Cholestanate" reversible="true"/>
+      <reaction name="Exchange of GlytyrLys" reversible="true"/>
+      <reaction name="Exchange of ProProPro" reversible="true"/>
+      <reaction name="Exchange of Deoxyinosine" reversible="true"/>
+      <reaction name="Exchange of L-2-Aminoadipate" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy Trans7, 10-Hexadecadienoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange of 2-Hydroxyadipic Acid" reversible="true"/>
+      <reaction name="Exchange of Prostaglandin-E3 " reversible="true"/>
+      <reaction name="Exchange of 1-Gamma-Linolenoyl-Cholesterol, Cholesterol-Ester (18:3, Delta 6, 9, 12)" reversible="true"/>
+      <reaction name="Exchange of Alpha-Tocotrienol " reversible="true"/>
+      <reaction name="Exchange of (Gal)4 (Glc)1 (GlcNac)2 (LFuc)1 (Cer)1 " reversible="true"/>
+      <reaction name="Exchange of 5, 6, 7, 8-Tetrahydrofolate " reversible="true"/>
+      <reaction name="Exchange of Acetoacetate " reversible="true"/>
+      <reaction name="sink_thf[c]" reversible="true"/>
+      <reaction name="DM_kynate[c]" reversible="true"/>
+      <reaction name="EX_dca24g(e)" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-3-Methyl-Glutarate" reversible="true"/>
+      <reaction name="Exchange of Trimethylenediaminium" reversible="true"/>
+      <reaction name="EX_udca3s(e)" reversible="true"/>
+      <reaction name="Exchange of Taurolithocholate " reversible="true"/>
+      <reaction name="Exchange of IleAsnHis" reversible="true"/>
+      <reaction name="Exchange of Hexanoate (N-C6:0)" reversible="true"/>
+      <reaction name="Exchange of L-Lysine " reversible="true"/>
+      <reaction name="Exchange of 17Alpha-Hydroxypregnenolone Sulfate" reversible="true"/>
+      <reaction name="Exchange of 2-Hydroxybutyrate " reversible="true"/>
+      <reaction name="Exchange of Linoleic Acid (All Cis C18:2) " reversible="true"/>
+      <reaction name="Exchange of 2-Stearoylglycerophosphocholine" reversible="true"/>
+      <reaction name="exchange reaction for acetaminophen-glutathione-conjugate in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of AsntyrPhe" reversible="true"/>
+      <reaction name="exchange reaction for tacrolimus in intestinal lumen" reversible="true"/>
+      <reaction name="Chenodeoxycholic acid 3-sulfate exchange" reversible="true"/>
+      <reaction name="Exchange of AspAlaArg" reversible="true"/>
+      <reaction name="Exchange of TrpArgAla" reversible="true"/>
+      <reaction name="sink_fad[c]" reversible="true"/>
+      <reaction name="DM_3dhdchol(c)" reversible="true"/>
+      <reaction name="Exchange of D-Glycerate" reversible="true"/>
+      <reaction name="EX_n5m2masn[e]" reversible="true"/>
+      <reaction name="Exchange of Apelin-13 " reversible="true"/>
+      <reaction name="Exchange of Menaquinone 9 " reversible="true"/>
+      <reaction name="Exchange of Neuromedin N " reversible="true"/>
+      <reaction id="R_MI1Pt" name="Transport of Myo-Inositol 1-Phosphate, Proton Symport" reversible="true"/>
+      <reaction name="Exchange of TrpProLeu" reversible="true"/>
+      <reaction name="Sink for Taurocholate" reversible="true"/>
+      <reaction name="Exchange of HisGlu" reversible="true"/>
+      <reaction name="Exchange of GlnLysLys" reversible="true"/>
+      <reaction name="Exchange of N-Acetylgalactosamine " reversible="true"/>
+      <reaction name="Exchange of 17Alpha-Hydroxyprogesterone" reversible="true"/>
+      <reaction name="Exchange of 5-Guanidino-2-Oxopentanoic Acid" reversible="true"/>
+      <reaction name="Exchange of L-Homoserine " reversible="true"/>
+      <reaction name="Exchange of 1-Vaccenoyl-Cholesterol, Cholesterol-Ester (18:1, Delta 11)" reversible="true"/>
+      <reaction name="Exchange of Lithocholate " reversible="true"/>
+      <reaction name="exchange reaction for 6-beta-carboxy-simvastatin-acid form in bile" reversible="true"/>
+      <reaction name="DM_cdca3g(c)" reversible="true"/>
+      <reaction name="DM_dca3g(c)" reversible="true"/>
+      <reaction name="Exchange of 1-Oleoylglycerophosphocholine (Delta 9)" reversible="true"/>
+      <reaction name="exchange reaction for 2-hydroxy S-ibuprofen-glucuronide in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Imidazol-4-Ylacetate" reversible="true"/>
+      <reaction name="exchange reaction for losartan in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of Tetracosapentaenoic Acid, N-6 " reversible="true"/>
+      <reaction name="Exchange of Glycogen, Structure 2 (Glycogenin-1, 6-{7[1, 4-Glc], 4[1, 4-Glc]}) " reversible="true"/>
+      <reaction name="Exchange of Sphinganine" reversible="true"/>
+      <reaction name="Exchange of 3-Methyl-Glutarate" reversible="true"/>
+      <reaction name="Exchange of Estriol" reversible="true"/>
+      <reaction name="Exchange of 5-L-Glutamyl-L-Alanine " reversible="true"/>
+      <reaction name="Exchange of Homocysteine Thiolactone" reversible="true"/>
+      <reaction name="Exchange of 25-Hydroxyvitamin D3 " reversible="true"/>
+      <reaction name="Exchange of Ethanolamine " reversible="true"/>
+      <reaction name="Exchange of HisGlnAla" reversible="true"/>
+      <reaction name="Exchange of L-Asparagine" reversible="true"/>
+      <reaction name="Exchange of Progesterone " reversible="true"/>
+      <reaction name="Demand for Taurine" reversible="true"/>
+      <reaction name="Exchange of Leutyrtyr" reversible="true"/>
+      <reaction name="Exchange of GluThrLys" reversible="true"/>
+      <reaction name="Exchange of Phosphocreatine" reversible="true"/>
+      <reaction name="Exchange of Cholesterol Ester " reversible="true"/>
+      <reaction name="Exchange of UTP " reversible="true"/>
+      <reaction name="exchange reaction for ibuprofen acyl glucuronide in portal blood" reversible="true"/>
+      <reaction name="Exchange of 1-Tridecanoylglycerophosphoethanolamine (C13:0 Pe)" reversible="true"/>
+      <reaction name="Demand for Phosphatidylethanolamine, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction name="Exchange of 1-Oleoylglycerol" reversible="true"/>
+      <reaction name="Exchange of 5-Methyltetrahydrofolate" reversible="true"/>
+      <reaction name="exchange reaction for cyclosporine in intestinal lumen" reversible="true"/>
+      <reaction name="Exchange of 4 Hydroxy Debrisoquine " reversible="true"/>
+      <reaction name="Exchange of 7-Alpha, 24(S)-Dihydroxycholesterol " reversible="true"/>
+      <reaction name="Exchange of AlaGlyLys" reversible="true"/>
+      <reaction name="DM_CE1562[c]" reversible="true"/>
+      <reaction name="Exchange of Menaquinone 11 " reversible="true"/>
+      <reaction name="EX_M03131[e]" reversible="true"/>
+      <reaction name="Exchange of L-Fucose " reversible="true"/>
+      <reaction name="Exchange of LystyrIle" reversible="true"/>
+      <reaction name="Exchange of Cytidine" reversible="true"/>
+      <reaction name="Sink for Sulfochenodeoxycholate" reversible="true"/>
+      <reaction name="Exchange of 3-Hydroxy-Isovaleryl Carnitine" reversible="true"/>
+      <reaction name="exchange reaction of 3-keto-5,6,-dihydroxy-pravastatin in hepatic vein" reversible="true"/>
+      <reaction name="Exchange of Sulfite " reversible="true"/>
+      <reaction name="Exchange of Malonyl Coenzyme A " reversible="true"/>
+      <reaction name="EX_hdca24g(e)" reversible="true"/>
+      <reaction name="Exchange of (Gal)3 (Glc)1 (GlcNac)1 (LFuc)2 (Cer)1 " reversible="true"/>
+      <reaction name="Sink for 3, 4-Dihydroxyphenylacetaldehyde" reversible="true"/>
+      <reaction name="Exchange of TrpProGly" reversible="true"/>
+      <reaction name="Exchange of Chitobiose " reversible="true"/>
+      <reaction name="Exchange of Kalium" reversible="true"/>
+      <reaction name="Exchange of Orotate" reversible="true"/>
+      <reaction name="Exchange of 11-Cis-Eicosenoate" reversible="true"/>
+      <reaction name="exchange reaction for acetaminophen in small intestinal lumen" reversible="true"/>
+      <reaction name="Exchange " reversible="true"/>
+      <reaction name="sink_lnlccoa[c]" reversible="true"/>
+      <reaction name="exchange reaction for 1-OH-midazolam-glucuronide in portal blood" reversible="true"/>
+      <reaction name="Sink_gly[c]" reversible="true"/>
+      <reaction name="Exchange of 1-Stearoylglycerol" reversible="true"/>
+      <reaction name="Exchange of TrpAlaPro" reversible="true"/>
+      <reaction name="Exchange of Sebacoyl Carnitine" reversible="true"/>
+      <reaction name="Exchange " reversible="true"/>
+      <reaction name="Exchange of Phytanic Acid " reversible="true"/>
+      <reaction name="Exchange of IleAsp" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

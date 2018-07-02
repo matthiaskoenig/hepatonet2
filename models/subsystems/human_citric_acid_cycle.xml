@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="citric_acid_cycle">
+    <listOfReactions>
+      <reaction id="R_ICDHxm" name="Isocitrate Dehydrogenase (NAD+)" reversible="true"/>
+      <reaction id="R_ACONTm" name="Aconitate Hydratase" reversible="true"/>
+      <reaction id="R_AKGDm" name="2-Oxoglutarate Dehydrogenase" reversible="true"/>
+      <reaction id="R_r0081" name="L-Alanine:2-Oxoglutarate Aminotransferase" reversible="true"/>
+      <reaction id="R_ACITL" name="ATP-Citrate Lyase" reversible="true"/>
+      <reaction id="R_CITL" name="Citrate Lyase" reversible="true"/>
+      <reaction id="R_ICDHyp" name="Isocitrate Dehydrogenase (NADP+)" reversible="true"/>
+      <reaction id="R_MDH" name="Malate Dehydrogenase" reversible="true"/>
+      <reaction id="R_ACONT" name="Aconitase" reversible="true"/>
+      <reaction id="R_ICDHy" name="Isocitrate Dehydrogenase (NADP)" reversible="true"/>
+      <reaction id="R_r0509" name="Succinate:Ubiquinone Oxidoreductase" reversible="true"/>
+      <reaction id="R_MDHx" name="Malate Dehydrogenase, Peroxisomal" reversible="true"/>
+      <reaction id="R_FUMm" name="Fumarase, Mitochondrial" reversible="true"/>
+      <reaction id="R_SUCOASm" name="Succinate- Coenzyme A Ligase (ADP-Forming)" reversible="true"/>
+      <reaction id="R_ICDHyrm" name="Isocitrate Dehydrogenase (NADP+)" reversible="true"/>
+      <reaction id="R_FUM" name="Fumarase" reversible="true"/>
+      <reaction id="R_SUCD1m" name="Succinate Dehydrogenase" reversible="true"/>
+      <reaction id="R_MDHm" name="Malate Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_CSm" name="Citrate Synthase" reversible="true"/>
+      <reaction id="R_SUCOAS1m" name="Succinate- Coenzyme A Ligase (GDP-Forming)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

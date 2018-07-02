@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="n_glycan_synthesis">
+    <listOfReactions>
+      <reaction id="R_UDPDOLPT_L" name="UDPglucose:Dolichyl-Phosphate Beta-D-Glucosyltransferase (Liver)" reversible="true"/>
+      <reaction id="R_DOLICHOL_Lter" name="Dolichol Diffusion, Human (Liver)" reversible="true"/>
+      <reaction id="R_DOLPGT3_Ler" name="Dolichyl-Phosphate-Glucose-Glycolipid Alpha-Glucosyltransferase (Liver)" reversible="true"/>
+      <reaction id="R_DOLMANP_Uter" name="Dolichol-Phosphate Mannose Flippase (Uterus)" reversible="true"/>
+      <reaction id="R_DOLPMT3_Uer" name="Dolichyl-Phosphate-Mannose-Glycolipid Alpha-Mannosyltransferase (Uterus)" reversible="true"/>
+      <reaction id="R_DOLPMT4_Uer" name="Dolichyl-Phosphate-Mannose-Glycolipid Alpha-Mannosyltransferase (Uterus)" reversible="true"/>
+      <reaction id="R_DOLPMT4_Ler" name="Dolichyl-Phosphate-Mannose-Glycolipid Alpha-Mannosyltransferase (Liver)" reversible="true"/>
+      <reaction id="R_DEDOLP2_L" name="Dehydrodolichol Phosphate Phosphatase (Liver)" reversible="true"/>
+      <reaction id="R_GGT_L" name="Geranylgeranyltransferase (Liver)" reversible="true"/>
+      <reaction id="R_DOLPGT3_Uer" name="Dolichyl-Phosphate-Glucose-Glycolipid Alpha-Glucosyltransferase (Uterus)" reversible="true"/>
+      <reaction id="R_FT" name="Farnesyltranstransferase (Trans, Trans, Cis-Geranylgeranyl Diphosphate-Generating)" reversible="true"/>
+      <reaction id="R_DOLK_U" name="Dolichol Kinase, Human (Uterus)" reversible="true"/>
+      <reaction id="R_DOLK_L" name="Dolichol Kinase, Human (Liver)" reversible="true"/>
+      <reaction id="R_DOLGLCP_Lter" name="Dolichyl Beta-D-Glucosyl Phosphate Flippase (Liver)" reversible="true"/>
+      <reaction id="R_DEDOLR_L" name="Dehydrodolichol Reductase (Liver)" reversible="true"/>
+      <reaction id="R_DOLGPP_Ler" name="Dolichyl-Beta-D-Glucosyl-Phosphate Dolichylphosphohydrolase (Liver)" reversible="true"/>
+      <reaction id="R_DOLICHOL_Uter" name="Dolichol Diffusion, Human (Uterus)" reversible="true"/>
+      <reaction id="R_DEDOLP1_L" name="Dehydrodolichol Diphosphate Phosphatase (Liver)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

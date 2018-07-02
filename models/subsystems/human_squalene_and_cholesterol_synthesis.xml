@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="squalene_and_cholesterol_synthesis">
+    <listOfReactions>
+      <reaction id="R_DSREDUCr" name="Desmosterol Reductase" reversible="true"/>
+      <reaction id="R_MEVK1c" name="Mevalonate Kinase (ATP) Cytosol" reversible="true"/>
+      <reaction id="R_DPMVDc" name="Diphosphomevalonate Decarboxylase, Cytosol" reversible="true"/>
+      <reaction id="R_IPDDI" name="Isopentenyl-Diphosphate D-Isomerase" reversible="true"/>
+      <reaction id="R_PMEVKc" name="Phosphomevalonate Kinase, Cytosol" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

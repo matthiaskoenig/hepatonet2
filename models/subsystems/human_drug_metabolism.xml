@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="drug_metabolism">
+    <listOfReactions>
+      <reaction id="R_1531TALThr" name="demethylation of 31-O-desmethyl tacrolimus to 15, 31-O-Didesmethyl-tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_SMVACIDtev" name="efflux of simvastatin dihydroxy acid form into hepatic vein" reversible="true"/>
+      <reaction id="R_TACRitr" name="TACRitr" reversible="true"/>
+      <reaction id="R_LSTNM7hr" name="glucuronidation of losartan to losartan-M7/Losartan-N2-glucuronide in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1CCSitr" name="AM1CCSitr" reversible="true"/>
+      <reaction id="R_NFDOHtep" name="exit of hydroxy metabolite of nifedipine into portal vein" reversible="true"/>
+      <reaction id="R_CRGLZABCt" name="excretion of carboxy-gliclazide into bile" reversible="true"/>
+      <reaction id="R_31DMThr" name="demethylation of tacrolimus to 31-O-desmethyl tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_4HATVACIDhc" name="conversion of 4-hydroxy-atorvastatin-lactone to its acid form in hepatocytes" reversible="true"/>
+      <reaction id="R_NFDLACtep" name="exit of lactone form of nifedipine into portal vein" reversible="true"/>
+      <reaction id="R_ACMPGLUTtep" name="efflux of acetaminophen-glutathione-conjugate from enterocytes into portal blood" reversible="true"/>
+      <reaction id="R_NFDACOXDhc" name="oxidation of acid metabolite of nifedipine in hepatocytes" reversible="true"/>
+      <reaction id="R_TMDM1itr" name="TMDM1itr" reversible="true"/>
+      <reaction id="R_CRVS1M24hc" name="hydroxylation of cerivastatin-M1 to M24 in hepatocytes" reversible="true"/>
+      <reaction id="R_NFDACitr" name="NFDACitr" reversible="true"/>
+      <reaction id="R_6MELVSTthep" name="uptake of 6-exomethylene-lovastatin by hepatocytes" reversible="true"/>
+      <reaction id="R_CRVS23M24hc" name="demethylation of cerivastatin-M23 to M24 in hepatocytes" reversible="true"/>
+      <reaction id="R_CSASULPhc" name="conjugation of cyclosporine with sulphate for excretion in hepatocytes" reversible="true"/>
+      <reaction id="R_56EPPVSitr" name="56EPPVSitr" reversible="true"/>
+      <reaction id="R_TMACMPitr" name="TMACMPitr" reversible="true"/>
+      <reaction id="R_4HMDGLUCtev" name="efflux of 4-OH-midazolam-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_ATVLACtdhc" name="passive diffusion of atorvastatin lactone into hepatocytes" reversible="true"/>
+      <reaction id="R_MHGLZitr" name="MHGLZitr" reversible="true"/>
+      <reaction id="R_7BHGLZGLCitr" name="7BHGLZGLCitr" reversible="true"/>
+      <reaction id="R_1531TACRtev" name="exit of 15, 31-O-Didesmethyl-tacrolimus into hepatic vein" reversible="true"/>
+      <reaction id="R_TMDM5itr" name="TMDM5itr" reversible="true"/>
+      <reaction id="R_LSTNM4tev" name="efflux of Losartan-M4 (glucuronide derivative) into hepatic vein" reversible="true"/>
+      <reaction id="R_AM1CGLCitr" name="AM1CGLCitr" reversible="true"/>
+      <reaction id="R_CARIBUPGLU_Sitr" name="CARIBUPGLU_Sitr" reversible="true"/>
+      <reaction id="R_7AHGLZhr" name="oxidation of gliclazide to 7-alpha-OH-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_MDZtd" name="uptake of midazolam by enterocytes" reversible="true"/>
+      <reaction id="R_5OHFVSteb" name="efflux of 5-hydroxy-fluvastatin into bile for excretion into faeces" reversible="true"/>
+      <reaction id="R_IBUPGLUCtpvb" name="release of iboprofen acyl glucuronides into the portal blood" reversible="true"/>
+      <reaction id="R_ATVACIDhc" name="conversion of lactone to acid form of atorvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_1531TACRhr" name="demethylation of 15-O-desmethyl tacrolimus to 15, 31-O-Didesmethyl-tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_TMDOATtev" name="efflux of Torasemide into hepatic vein" reversible="true"/>
+      <reaction id="R_TRIPVStev" name="exit of triol metabolite of pravastatin into hepatic vein" reversible="true"/>
+      <reaction id="R_LSTNM7itr" name="LSTNM7itr" reversible="true"/>
+      <reaction id="R_2HATVACIDteb" name="efflux of 2-hydroxy-atorvastatin-acid into bile" reversible="true"/>
+      <reaction id="R_AM1C4N9CSteb" name="efflux of AM1c4N9-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_LSTNM2itr" name="LSTNM2itr" reversible="true"/>
+      <reaction id="R_AM1CGLChr" name="glucuronidation of AM1c in hepatocytes" reversible="true"/>
+      <reaction id="R_GLC3MEACPitr" name="GLC3MEACPitr" reversible="true"/>
+      <reaction id="R_SMVGLUChep" name="glucuronidation of the open acid form of simvastatin" reversible="true"/>
+      <reaction id="R_ISOLVSTtbc" name="release of 3-hydroxy-iso-delta-4,5-hydroxy acid form of lovastatin into bile" reversible="true"/>
+      <reaction id="R_6AHGLZitr" name="6AHGLZitr" reversible="true"/>
+      <reaction id="R_PVStep" name="pravastatin exit into portal blood" reversible="true"/>
+      <reaction id="R_TMDOATthc" name="uptake of torasemide into hepatocytes via OAT1" reversible="true"/>
+      <reaction id="R_3HIBUP_Rthv" name="release of R-3-hydroxy-ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_AM1ACSteb" name="efflux of AM1A-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_14MDZtev" name="efflux of 1,4-Dihydroxy-midazolam into hepatic vein" reversible="true"/>
+      <reaction id="R_CYSAMPtev" name="efflux of cysteine-conjugate-acetaminophen into hepatic vein" reversible="true"/>
+      <reaction id="R_7AHGLZABCt" name="excretion of 7-alpha-OH-gliclazide into bile" reversible="true"/>
+      <reaction id="R_7HPVShc" name="oxidation of 3-alpha-iso-pravastatin to 7-hydroxy-3-alpha-iso-pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_DESFVSitr" name="DESFVSitr" reversible="true"/>
+      <reaction id="R_14HMDZhr" name="oxidation of 1-OH-midazolam to 1,4-Dihydroxy-midazolam in hepatocytes" reversible="true"/>
+      <reaction id="R_LSTNitr" name="LSTNitr" reversible="true"/>
+      <reaction id="R_6HLVSTAChep" name="conversion of lactone form of 6-beta-hydroxy-lovastatin to acid form" reversible="true"/>
+      <reaction id="R_CARBIBUP_SGLUthv" name="release of S-carboxy ibuprofen glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_PROFVSCOAhc" name="beta oxidation (4 cycles) &amp; CYP oxidation of fluvastatin-CoA to des-isoproylpropionic-acid-fluvastatin-CoA in hepatocytes" reversible="true"/>
+      <reaction id="R_LSTNM7thc" name="uptake of Losartan-N2-glucuronide / Losartan-M7 into hepatocytes" reversible="true"/>
+      <reaction id="R_PVSOATPtu" name="uptake of pravastatin by enterocytes" reversible="true"/>
+      <reaction id="R_6OHFVSGLUitr" name="6OHFVSGLUitr" reversible="true"/>
+      <reaction id="R_NFDNPYtep" name="exit of nitropyridine metabolite of nifedipine into portal vein" reversible="true"/>
+      <reaction id="R_PTVSTM13te" name="PTVSTM13te" reversible="true"/>
+      <reaction id="R_AM4NCSitr" name="AM4NCSitr" reversible="true"/>
+      <reaction id="R_OXYP2CONJ" name="conjugation of oxypurinol to oxypurinol-7-riboside" reversible="true"/>
+      <reaction id="R_STACMPtev" name="efflux of sulphate-thiomethyl-acetaminophen conjugate into hepatic vein" reversible="true"/>
+      <reaction id="R_GTACMPitr" name="GTACMPitr" reversible="true"/>
+      <reaction id="R_ATVACIDOATPtu" name="uptake of atorvastatin by enterocytes" reversible="true"/>
+      <reaction id="R_CRVSM24teb" name="efflux of cerivastatin-M24 into bile" reversible="true"/>
+      <reaction id="R_PAPitr" name="PAPitr" reversible="true"/>
+      <reaction id="R_AM1C9CSitr" name="AM1C9CSitr" reversible="true"/>
+      <reaction id="R_DEOXFVSitx" name="DEOXFVSitx" reversible="true"/>
+      <reaction id="R_IBUP_SACOT2" name="hydrolysis of ibuprofen-CoA in hepatocytes" reversible="true"/>
+      <reaction id="R_NAPQIhr" name="NAPQIhr" reversible="true"/>
+      <reaction id="R_ALLOPtepvb" name="uptake of allopurinol by the hepatocytes" reversible="true"/>
+      <reaction id="R_STACMPhc" name="sulphation of thiomethyl-acetaminophen conjugate in hepatocytes" reversible="true"/>
+      <reaction id="R_LST4EXPhr" name="oxidation of losartan to active metabolite EXP3174 (M6) in hepatocytes" reversible="true"/>
+      <reaction id="R_TRIPVSteb" name="efflux of triol metabolite of pravastatin into bile" reversible="true"/>
+      <reaction id="R_FVSTETtev" name="exit of des-isopropyl-dihydro-fluvastatin-tetranor into hepatic vein for excretion in urine" reversible="true"/>
+      <reaction id="R_ACMPGLUTthc" name="uptake of acetaminophen-glutathione-conjugate by the hepatocytes" reversible="true"/>
+      <reaction id="R_TRIPVSitr" name="TRIPVSitr" reversible="true"/>
+      <reaction id="R_2HIBUP_Sthv" name="release of S-2-hydroxy-ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_CRVSM22hc" name="spontaneous conversion of glucuronide to cerivastatin-M22 in hepatocytes" reversible="true"/>
+      <reaction id="R_13DMTtu" name="efflux of 13-O-desmethyl tacrolimus into intestinal lumen by ABC transporter" reversible="true"/>
+      <reaction id="R_56DHPVSitr" name="56DHPVSitr" reversible="true"/>
+      <reaction id="R_TAURIBUP_Sthv" name="release of taurine conjugate of S-ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_PTVSTM13hr" name="oxidation of pitavastatin to pitavastatin-M13 in hepatocytes" reversible="true"/>
+      <reaction id="R_RSVATPtu" name="efflux of rosuvastatin by BCRP from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_1513DTACRhr" name="demthylation of 13-O-desmethyl tacrolimus to 13,15-O-didesmethyl tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_LVSTOXD6METhep" name="oxidation of lovastatin to 6-exomethylene-lovastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_ATVLACThc" name="uptake of atorvastatin-lactone into hepatocytes" reversible="true"/>
+      <reaction id="R_SMVGLUCLAChep" name="spontaneous conversion of glucuronide to lactone form of simvastatin" reversible="true"/>
+      <reaction id="R_DESFVShc" name="oxidation of fluvastatin to N-desisopropyl-fluvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_LVSTACIDtu" name="efflux of lovastatin acid by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_LVSTOXD6Hhep" name="oxidation of lovastatin to 6-beta-hydroxy-lovastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_6BHGLZGLCABCt" name="excretion of 6-beta-OH-gliclazide-glucuronide into bile" reversible="true"/>
+      <reaction id="R_3HPVSTETCOAhcm" name="beta oxidation of 3-S-hydroxy-pravastatin-CoA to tatranor-CoA derivative in hepatocytes, mitochondria" reversible="true"/>
+      <reaction id="R_15DMTtu" name="efflux of 15-O-desmethyl tacrolimus into intestinal lumen by ABC transporter" reversible="true"/>
+      <reaction id="R_2HATVACIDOXDhc" name="oxidation of atorvastatin acid to 2-hydroxy-atorvastatin-acid in hepatocytes" reversible="true"/>
+      <reaction id="R_CRVSitr" name="CRVSitr" reversible="true"/>
+      <reaction id="R_TACRDtsc" name="uptake of tacrolimus by enterocytes" reversible="true"/>
+      <reaction id="R_1513TACRtep" name="exit of 13,15-O-didesmethyl tacrolimus into portal blood" reversible="true"/>
+      <reaction id="R_MDZGLCitr" name="MDZGLCitr" reversible="true"/>
+      <reaction id="R_NDERSVitr" name="NDERSVitr" reversible="true"/>
+      <reaction id="R_GLZABCteb" name="excretion of gliclazide into bile" reversible="true"/>
+      <reaction id="R_AM1C9CShr" name="oxidation of AM1c to AM1c9 in hepatocytes (alternative mechanism)" reversible="true"/>
+      <reaction id="R_OXYPR7tehv" name="release of oxypurinol-7-riboside into hepatic vein" reversible="true"/>
+      <reaction id="R_PTVSTATPtu" name="efflux of pitavastatin by BCRP from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_6MELVSTitr" name="6MELVSTitr" reversible="true"/>
+      <reaction id="R_6HLVSTthep" name="uptake of 6-beta-hydroxy-lovastatin by hepatocytes" reversible="true"/>
+      <reaction id="R_ATVACIDitr" name="ATVACIDitr" reversible="true"/>
+      <reaction id="R_35DSMVhep" name="formation of 3,5-dihydrodoil simvastatin" reversible="true"/>
+      <reaction id="R_1513DTALThr" name="demthylation of 15-O-desmethyl tacrolimus to 13,15-O-didesmethyl tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_IBUP_Rtdhep" name="uptake of ibuprofen-R into hepatocytes" reversible="true"/>
+      <reaction id="R_SULPACMPtev" name="efflux of acetaminophen-sulphate into hepatic vein" reversible="true"/>
+      <reaction id="R_OXYPtepv" name="release of oxypurinol into portal blood" reversible="true"/>
+      <reaction id="R_CRVSM31itr" name="CRVSM31itr" reversible="true"/>
+      <reaction id="R_2HATVLACGLUCitr" name="2HATVLACGLUCitr" reversible="true"/>
+      <reaction id="R_15DMThr" name="demethylation of tacrolimus to 15-O-desmethyl tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_4BHGLZABCt" name="excretion of 4-beta-OH-gliclazide into bile" reversible="true"/>
+      <reaction id="R_6OHFVShc" name="oxidation of fluvastatin to 6-hydroxy-fluvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_1HIBUP_Sthv" name="release of 1-hydroxy-ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_6MSMVhep" name="oxidation of simvastatin to 6-exomethylene lactone form" reversible="true"/>
+      <reaction id="R_DHGLZABCt" name="excretion of dehydro-gliclazide into bile" reversible="true"/>
+      <reaction id="R_CRVSM22itr" name="CRVSM22itr" reversible="true"/>
+      <reaction id="R_NFDOHitr" name="NFDOHitr" reversible="true"/>
+      <reaction id="R_EPOXTACitr" name="EPOXTACitr" reversible="true"/>
+      <reaction id="R_2HATVLACtep" name="efflux of 2-hydroxy-atorvastatin-lactone into portal blood" reversible="true"/>
+      <reaction id="R_6CSMVACIDteb" name="efflux of 6-beta-carboxy-simvastatin-acid form into bile" reversible="true"/>
+      <reaction id="R_ACMPGLUTTRsc" name="ACMPGLUTTRsc" reversible="true"/>
+      <reaction id="R_LSTN1GLUCtev" name="efflux of Losartan-N1-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_TSACMGLUChr" name="glucuronidation of thiomethyl-sulphoxide-conjugate of acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_31DMTtep" name="exit of 31-O-desmethyl tacrolimus into portal blood" reversible="true"/>
+      <reaction id="R_14HMDZALThr" name="oxidation of 4-OH-midazolam to 1,4-Dihydroxy-midazolam in hepatocytes" reversible="true"/>
+      <reaction id="R_6EPSteb" name="efflux of 6-epipravastatin into bile" reversible="true"/>
+      <reaction id="R_15DMTtep" name="exit of 15-O-desmethyl tacrolimus into portal blood" reversible="true"/>
+      <reaction id="R_AM1CSAitr" name="AM1CSAitr" reversible="true"/>
+      <reaction id="R_IBUP_RASCL1hep" name="thioesterification of ibuprofen_R in hepatocytes" reversible="true"/>
+      <reaction id="R_NFDLAChc" name="lactonization of hydroxy metabolite of nifedipine in hepatocytes" reversible="true"/>
+      <reaction id="R_ISOLVSTAChep" name="acid catalyzed rearrangement of 6-beta-hydroxy-lovastatin-acid form" reversible="true"/>
+      <reaction id="R_3HPVSTETCOAitx" name="3HPVSTETCOAitx" reversible="true"/>
+      <reaction id="R_MHGLZhr" name="oxidation of gliclazide to methyl-hydroxy-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_RSVSPONhc" name="conversion of lactone to open acid form of rosuvastatin" reversible="true"/>
+      <reaction id="R_6AHGLZtev" name="excretion of 6-alpha-OH-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_LSTNM4hr" name="glucuronidation of losartan-M6 to losartan-M4 in hepatocytes" reversible="true"/>
+      <reaction id="R_PTVSTtep" name="efflux of pitavastatin from enterocytes into portal blood" reversible="true"/>
+      <reaction id="R_TMDM3hr" name="hydroxylation of torasemide to torasemide-M3 in hepatocytes" reversible="true"/>
+      <reaction id="R_MDZGLCtev" name="efflux of midazolam-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_12HTACRtep" name="exit of 12-hydroxy tacrolimus into portal blood" reversible="true"/>
+      <reaction id="R_ATVLACitr" name="ATVLACitr" reversible="true"/>
+      <reaction id="R_TMDM3itr" name="TMDM3itr" reversible="true"/>
+      <reaction id="R_AM19CSALThr" name="alternative pathway for formation of AM19 from AM1 in hepatocytes" reversible="true"/>
+      <reaction id="R_TMDM5OATt" name="efflux of Torasemide-M5 into hepatic vein" reversible="true"/>
+      <reaction id="R_DHGLZtev" name="excretion of dehydro-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_ACMPShc" name="sulphation of acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_2HATVLACteb" name="efflux of 2-hydroxy-atorvastatin-lactone into bile" reversible="true"/>
+      <reaction id="R_7BHGLZitr" name="7BHGLZitr" reversible="true"/>
+      <reaction id="R_Am19CStev" name="efflux of AM19-cyclosporine into hepatic vein" reversible="true"/>
+      <reaction id="R_GLZtd" name="uptake of gliclazide into enterocytes" reversible="true"/>
+      <reaction id="R_4HATVACIDtep" name="efflux of 4-hydroxy-atorvastatin-acid into portal blood" reversible="true"/>
+      <reaction id="R_EPOXTACtev" name="exit of 31-O-Desmethyl,19-Hydroxy,37, 39-Epoxy-tacrolimus into hepatic vein" reversible="true"/>
+      <reaction id="R_ATVLACtu" name="efflux of atorvastatin lactone by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_TMDtd" name="uptake of torasemide into enterocytes via diffusion" reversible="true"/>
+      <reaction id="R_1331TAALThr" name="demethylation of 13-O-desmethyl-tacrolimus to 13,31-O-Didesmethyl-tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_PVSHtu" name="uptake of pravastatin by enterocytes via proton coupled mechanism" reversible="true"/>
+      <reaction id="R_3HIBUPGLUC_Sthv" name="release of 3-hydroxy S-ibuprofen-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_TMDM1OATt" name="efflux of Torasemide-M1 into hepatic vein" reversible="true"/>
+      <reaction id="R_PTVSTM3itr" name="PTVSTM3itr" reversible="true"/>
+      <reaction id="R_AM4N9CSitr" name="AM4N9CSitr" reversible="true"/>
+      <reaction id="R_CARIBUP_Rthv" name="release of R-carboxy ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_AM19CSitr" name="AM19CSitr" reversible="true"/>
+      <reaction id="R_3OHACMPtev" name="efflux of 3-OH-acetaminophen into hepatic vein" reversible="true"/>
+      <reaction id="R_PAPSitr" name="PAPSitr" reversible="true"/>
+      <reaction id="R_NFDDMEThr" name="demethylation of nitropyridine metabolite of nifedipine in hepatocytes" reversible="true"/>
+      <reaction id="R_12HTACRitr" name="12HTACRitr" reversible="true"/>
+      <reaction id="R_3HPVSCOAhc" name="3HPVSCOAhc" reversible="true"/>
+      <reaction id="R_2HATVACIDtep" name="efflux of 2-hydroxy-atorvastatin-acid into portal blood" reversible="true"/>
+      <reaction id="R_6HLVSTACIDitr" name="6HLVSTACIDitr" reversible="true"/>
+      <reaction id="R_1513TACRtu" name="efflux of 13,15-O-didesmethyl tacrolimus into intestinal lumen by ABC transporter" reversible="true"/>
+      <reaction id="R_S3MEACMPhc" name="sulphation of 3-methoxy-acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_NDERSVhc" name="demethylation of rosuvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_AM4N9CShr" name="oxidation of AM4N to AM4N9 in hepatocytes" reversible="true"/>
+      <reaction id="R_LSTNM5hr" name="oxidation of losartan to Losartan-M5 in hepatocytes" reversible="true"/>
+      <reaction id="R_PROFVSCOAitx" name="PROFVSCOAitx" reversible="true"/>
+      <reaction id="R_CRVSM1SPhc" name="de-lactonization of cerivastatin-M22 to cerivastatin-M1 in hepatocytes" reversible="true"/>
+      <reaction id="R_LSTNM1tev" name="efflux of Losartan-M1 into hepatic vein" reversible="true"/>
+      <reaction id="R_7HPVStev" name="exit of 7-hydroxy-3-alpha-iso-pravastatin into hepatic vein" reversible="true"/>
+      <reaction id="R_2HIBUP_Rthv" name="release of R-2-hydroxy-ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_AM1ALCSitr" name="AM1ALCSitr" reversible="true"/>
+      <reaction id="R_6OHFVSitr" name="6OHFVSitr" reversible="true"/>
+      <reaction id="R_DSPVShc" name="oxidation of pravastatin to desacyl pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_FVSteb" name="efflux of fluvastatin into bile for excretion into faeces" reversible="true"/>
+      <reaction id="R_ACMPGLUTdt" name="uptake of acetaminophen-glutathione-conjugate into the enterocytes" reversible="true"/>
+      <reaction id="R_1513TACRitr" name="1513TACRitr" reversible="true"/>
+      <reaction id="R_56DHPVShc" name="oxidation of triol metabolite to 3-keto-5,6,-dihydroxy-pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_6CSMVitr" name="6CSMVitr" reversible="true"/>
+      <reaction id="R_GTACMPhr" name="glucuronidation of thiomethyl-acetaminophen conjugate in hepatocytes" reversible="true"/>
+      <reaction id="R_ALLOPOXDhep" name="oxidation of allopurinol to oxypurinol in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1ACCSitr" name="AM1ACCSitr" reversible="true"/>
+      <reaction id="R_MDZtu" name="efflux of midazolam by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_LSTNM2tev" name="efflux of Losartan-M2 into hepatic vein" reversible="true"/>
+      <reaction id="R_1531TACRitr" name="1531TACRitr" reversible="true"/>
+      <reaction id="R_3OHACMPhr" name="oxidation of acetaminophen to 3-OH-acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_LST4EXPTDhc" name="uptake of Losartan-E3174 into hepatocytes via diffusion" reversible="true"/>
+      <reaction id="R_6BHGLZGLCitr" name="6BHGLZGLCitr" reversible="true"/>
+      <reaction id="R_IBUP_RCYP3hep" name="oxidation of R-ibuprofen to 3-hydroxy-ibuprofen in heaptocytes" reversible="true"/>
+      <reaction id="R_MHGLZABCt" name="excretion of Methyl-hydroxy-gliclazide into bile" reversible="true"/>
+      <reaction id="R_4BHGLZitr" name="4BHGLZitr" reversible="true"/>
+      <reaction id="R_LVACLAChep" name="reconversion of open acid form to lactone form of lovastatin" reversible="true"/>
+      <reaction id="R_4OHMDZitr" name="4OHMDZitr" reversible="true"/>
+      <reaction id="R_CYSACMPAChc" name="acetylation of cysteine-conjugate-acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_RSVLACitr" name="RSVLACitr" reversible="true"/>
+      <reaction id="R_LVSTACOXD6MEhep" name="hydroxylation of lovastatin-hydroxyacid form to 6-beta-hydroxy-lovastatin-acid form" reversible="true"/>
+      <reaction id="R_1331TACRhr" name="demethylation of 31-O-desmethyl-tacrolimus to 13,31-O-Didesmethyl-tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_TACRtu" name="efflux of tacrolimus into intestinal lumen by P-gp" reversible="true"/>
+      <reaction id="R_PVSGLUCtev" name="exit of pravastatin glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_SMVtu" name="efflux of simvastatin by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_AM1ACSitr" name="AM1ACSitr" reversible="true"/>
+      <reaction id="R_6HSMVhep" name="oxidation of simvastatin to 6-beta-hydroxy simvastatin" reversible="true"/>
+      <reaction id="R_PTVSTM3eb" name="efflux of pitavastatin-M3 into bile" reversible="true"/>
+      <reaction id="R_CRVSM24tev" name="exit of cerivastatin-M24 into hepatic vein" reversible="true"/>
+      <reaction id="R_AM1C9CSteb" name="efflux of AM1c9-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_TLACFVStev" name="exit of trans-lactone-fluvastatin into hepatic vein for excretion in urine" reversible="true"/>
+      <reaction id="R_AM4N9CShc" name="demethylation of AM9 to AM4N9 in hepatocytes" reversible="true"/>
+      <reaction id="R_6HMSMVACIDhep" name="conversion of 6-beta-hydroxy-methyl simvastatin lactone to acid form" reversible="true"/>
+      <reaction id="R_TSACMGLUCitr" name="TSACMGLUCitr" reversible="true"/>
+      <reaction id="R_56DHPVSteb" name="efflux of 3-keto-5,6,-dihydroxy-pravastatin into bile" reversible="true"/>
+      <reaction id="R_7BHGLZGLChr" name="glucuronidation of 7-beta-OH-gliclazide-glucuronide in hepatocytes" reversible="true"/>
+      <reaction id="R_IBUP_RCYPCARhep" name="oxidation of R-3-hydroxy ibuprofen to R-carboxy ibuprofen" reversible="true"/>
+      <reaction id="R_6AHGLZhr" name="oxidation of gliclazide to 6-alpha-OH-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_2HATVLACGLUCteb" name="efflux of 2-hydroxy-atorvastatin-lactone-glucuronide into bile" reversible="true"/>
+      <reaction id="R_AM1C9CStev" name="efflux of AM1c9-cyclosporine into hepatic vein" reversible="true"/>
+      <reaction id="R_ACMPGLUtep" name="efflux of acetaminophen-glucuronide-conjugate from enterocytes into portal blood" reversible="true"/>
+      <reaction id="R_35DSMVteb" name="efflux of 3,5-dihydrodiol-simvastatin-lactone form into bile" reversible="true"/>
+      <reaction id="R_3HIBUP_Sitr" name="3HIBUP_Sitr" reversible="true"/>
+      <reaction id="R_4HATVACIDthc" name="uptake of 4-hydroxy-atorvastatin-acid into hepatocytes" reversible="true"/>
+      <reaction id="R_AM4NCShr" name="demethylation of cyclosporine to AM4N in hepatocytes" reversible="true"/>
+      <reaction id="R_NFDtd" name="uptake of nifedipine into enterocytes" reversible="true"/>
+      <reaction id="R_3HIBUP_Sthv" name="release of S-3-hydroxy-ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_3HSMVACIDteb" name="efflux of 3-hydroxy-simvastatin-acid form into bile" reversible="true"/>
+      <reaction id="R_FVSitx" name="FVSitx" reversible="true"/>
+      <reaction id="R_CRVSM23tev" name="exit of cerivastatin-M23 into hepatic vein" reversible="true"/>
+      <reaction id="R_PVSGLUChc" name="glucuronidation of pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_LVSTACOXD6Hhep" name="hydroxylation of lovastatin-hydroxyacid form to 6-beta-hydroxy-lovastatin-acid form" reversible="true"/>
+      <reaction id="R_CRVSM24itr" name="CRVSM24itr" reversible="true"/>
+      <reaction id="R_6EPVSthc" name="uptake of 6-epi-pravastatin by hepatocytes" reversible="true"/>
+      <reaction id="R_ATVACIDtu" name="efflux of atorvastatin acid by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_GLYitr" name="GLYitr" reversible="true"/>
+      <reaction id="R_1HIBUPGLUitr" name="1HIBUPGLUitr" reversible="true"/>
+      <reaction id="R_CRVSM23teb" name="efflux of cerivastatin-M23 into bile" reversible="true"/>
+      <reaction id="R_DEOXFVShc" name="formation of deoxy-fluvastatin-dinor" reversible="true"/>
+      <reaction id="R_AM1A4NCSteb" name="efflux of AM1A4N-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_6CSMVhep" name="oxidation of 6-exomethylene simvastatin to 6-beta-hydroxy carboxy simvastatin lactone form" reversible="true"/>
+      <reaction id="R_AM1ALCShr" name="formation of AM1AL-cyclosporine in hepatocytes" reversible="true"/>
+      <reaction id="R_DEOXFVStev" name="exit of deoxy-fluvastatin-dinor into hepatic vein for excretion in urine" reversible="true"/>
+      <reaction id="R_SMVHYDROhep" name="conversion of simvastatin pro-drug to active form" reversible="true"/>
+      <reaction id="R_TMDM1hr" name="tolyl methylhydroxylation of torasemide in hepatocytes" reversible="true"/>
+      <reaction id="R_TMDitr" name="TMDitr" reversible="true"/>
+      <reaction id="R_3HPVSTETteb" name="efflux of 3-S-hydroxy-pravastatin-tetranor into bile" reversible="true"/>
+      <reaction id="R_AM4NCStep" name="efflux of AM4N (cyclosporine) into portal blood" reversible="true"/>
+      <reaction id="R_13DMThr" name="demthylation of tacrolimus to 13-O-desmethyl tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_FVStu" name="uptake of fluvastatin by enterocytes" reversible="true"/>
+      <reaction id="R_IBUP_RCYP2hep" name="oxidation of R-ibuprofen to 2-hydroxy-ibuprofen in heaptocytes" reversible="true"/>
+      <reaction id="R_RSVLACteb" name="efflux of rosuvastatin-5S-lactone into bile" reversible="true"/>
+      <reaction id="R_ATVACYLGLUChc" name="glucuronidation of atorvastatin to atorvastatin acyl glucuronide (G2) in hepatocytes" reversible="true"/>
+      <reaction id="R_56EPPVStev" name="exit of 5,6-epoxy-3-alpha-iso-pravastatin into hepatic vein" reversible="true"/>
+      <reaction id="R_RSVitr" name="RSVitr" reversible="true"/>
+      <reaction id="R_GLZitr" name="GLZitr" reversible="true"/>
+      <reaction id="R_LSTNtu" name="efflux of losartan by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_CSAitr" name="CSAitr" reversible="true"/>
+      <reaction id="R_RSVGLUChc" name="glucuronidation of rosuvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1ALCSteb" name="efflux of AM1AL-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_6MELACAChep" name="conversion of lactone form of 6-exomethylene-lovastatin to acid form" reversible="true"/>
+      <reaction id="R_3ISPVStep" name="3-alpha-iso-pravastatin exit into portal blood" reversible="true"/>
+      <reaction id="R_CARIBUP_SGLUhep" name="glucuronidation of S-carboxy ibuprofen" reversible="true"/>
+      <reaction id="R_RSVtu" name="uptake of rosuvastatin by enterocytes" reversible="true"/>
+      <reaction id="R_AM4N9CStev" name="efflux of AM4N9-cyclosporine into hepatic vein" reversible="true"/>
+      <reaction id="R_3HIBUP_SGLUhep" name="glucuronidation of S-3-hydroxy ibuprofen" reversible="true"/>
+      <reaction id="R_FVSCOAhc" name="FVSCOAhc" reversible="true"/>
+      <reaction id="R_1OHMDZitr" name="1OHMDZitr" reversible="true"/>
+      <reaction id="R_ALLOP2tu" name="uptake of allopurinol by the enterocytes" reversible="true"/>
+      <reaction id="R_SMVACIDATPteb" name="efflux of simvastatin dihydroxy acid form into bile" reversible="true"/>
+      <reaction id="R_PROFVShc" name="thioesterase/ hydrolase for release of des-isoproylpropionic-acid-fluvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_13DMTtep" name="exit of 13-O-desmethyl tacrolimus into portal blood" reversible="true"/>
+      <reaction id="R_RSVhc" name="beta-glucuronidase of rosuvastatin-glucuronide in hepatocytes" reversible="true"/>
+      <reaction id="R_4HATVACIDOXDhc" name="oxidation of atorvastatin acid to 4-hydroxy-atorvastatin-acid in hepatocytes" reversible="true"/>
+      <reaction id="R_ATVACIDMCTtu" name="uptake of atorvastatin by enterocytes by MCT1" reversible="true"/>
+      <reaction id="R_3HIBUPGLUC_Sitr" name="3HIBUPGLUC_Sitr" reversible="true"/>
+      <reaction id="R_ATVACIDtdu" name="passive diffusion of atorvastatin into enterocytes" reversible="true"/>
+      <reaction id="R_6HMSMVitr" name="6HMSMVitr" reversible="true"/>
+      <reaction id="R_LVSTtu" name="uptake of lovastatin by enterocytes" reversible="true"/>
+      <reaction id="R_IBUP_Stdhep" name="uptake of ibuprofen-S into hepatocytes" reversible="true"/>
+      <reaction id="R_2HIBUPGLUC_Sitr" name="2HIBUPGLUC_Sitr" reversible="true"/>
+      <reaction id="R_FVSTETGLUtev" name="exit of des-isopropyl-dihydro-fluvastatin-tetranor-glucuronide into hepatic vein for excretion in urine" reversible="true"/>
+      <reaction id="R_ACMPdt" name="uptake of acetaminophen by enterocytes" reversible="true"/>
+      <reaction id="R_1HMDGLUChr" name="glucuronidation of 1-OH-midazolam in enterocytes" reversible="true"/>
+      <reaction id="R_LST4EXPitr" name="LST4EXPitr" reversible="true"/>
+      <reaction id="R_6BHGLZhr" name="oxidation of gliclazide to 6-beta-OH-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_3ISPVSitr" name="3ISPVSitr" reversible="true"/>
+      <reaction id="R_LSTNM2hr" name="oxidation of losartan to Losartan-M2 in hepatocytes" reversible="true"/>
+      <reaction id="R_4HATVLACthc" name="uptake of 4-hydroxy-atorvastatin-lactone into hepatocytes" reversible="true"/>
+      <reaction id="R_FVSTETitr" name="FVSTETitr" reversible="true"/>
+      <reaction id="R_56EPPVShc" name="oxidation of 3-alpha-iso-pravastatin to 5,6-epoxy-3-alpha-iso-pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_TRIPVShc" name="formation of triol metabolite of pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_35DHPVSthc" name="uptake of 3-alpha-5-beta-dihydroxy pravastatin by hepatocytes" reversible="true"/>
+      <reaction id="R_3HPVSTETCOAhcx" name="beta oxidation of 3-S-hydroxy-pravastatin-CoA to tetranor-CoA in hepatocytes, peroxisomes" reversible="true"/>
+      <reaction id="R_CRVSM1hr" name="beta-glucuronidase of cerivastatin-M1-glucuronide to M1 form" reversible="true"/>
+      <reaction id="R_DSPVSitr" name="DSPVSitr" reversible="true"/>
+      <reaction id="R_LSTNM5itr" name="LSTNM5itr" reversible="true"/>
+      <reaction id="R_1HMDGLUCitr" name="1HMDGLUCitr" reversible="true"/>
+      <reaction id="R_4HMDZGLUChr" name="glucuronidation of 4-OH-midazolam in enterocytes" reversible="true"/>
+      <reaction id="R_3MEACMPitr" name="3MEACMPitr" reversible="true"/>
+      <reaction id="R_5OHFVSitr" name="5OHFVSitr" reversible="true"/>
+      <reaction id="R_ATVETHGLUChc" name="glucuronidation of atorvastatin to atorvastatin ether glucuronide (G1) in hepatocytes" reversible="true"/>
+      <reaction id="R_CRVSATPtu" name="efflux of cerivastatin by P-gp or BCRP from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_CSASULPteb" name="efflux of cyclosporine-sulphate into bile" reversible="true"/>
+      <reaction id="R_SMVthep" name="uptake of simvastatin by hepatocytes" reversible="true"/>
+      <reaction id="R_6BHGLZitr" name="6BHGLZitr" reversible="true"/>
+      <reaction id="R_IBUPGLUCtchep" name="uptake of ibuprofen acyl glucuronide into hepatocytes" reversible="true"/>
+      <reaction id="R_7AHGLZtev" name="excretion of 7-alpha-OH-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_THSACMPhr" name="formation of thiomethyl-sulphoxide-conjugate of acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_6AHGLZABCt" name="excretion of 6-alpha-OH-gliclazide into bile" reversible="true"/>
+      <reaction id="R_ALLOP1tu" name="uptake of allopurinol by the enterocytes" reversible="true"/>
+      <reaction id="R_IBUP_SCYP3hep" name="oxidation of S-ibuprofen to 3-hydroxy-ibuprofen in heaptocytes" reversible="true"/>
+      <reaction id="R_LSTN1GLUChr" name="formation of losartan-N1-glucuronide in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1ALCStep" name="efflux of AM1AL (cyclosporine) into portal blood" reversible="true"/>
+      <reaction id="R_4BHGLZhr" name="oxidation of gliclazide to 4-beta-OH-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_4HATVLACteb" name="efflux of 4-hydroxy-atorvastatin-lactone into bile" reversible="true"/>
+      <reaction id="R_6HMSMVhep" name="oxidation of 6-exomethylene simvastatin to 6-beta-hydroxy methyl simvastatin" reversible="true"/>
+      <reaction id="R_FVSTETGLUitr" name="FVSTETGLUitr" reversible="true"/>
+      <reaction id="R_IBUP_SCYPCARhep" name="oxidation of S-3-hydroxy ibuprofen to S-carboxy ibuprofen" reversible="true"/>
+      <reaction id="R_13DMTitr" name="13DMTitr" reversible="true"/>
+      <reaction id="R_2HATVACIDthc" name="uptake of 2-hydroxy-atorvastatin-acid into hepatocytes" reversible="true"/>
+      <reaction id="R_AM19CShr" name="oxidation of AM9 to AM19 (cyclosporine) in hepatocytes" reversible="true"/>
+      <reaction id="R_ACMPGLUChr" name="glucuronidation of acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_CRVSM1hc" name="demethylation of cerivastatin to M1 in hepatocytes" reversible="true"/>
+      <reaction id="R_6HLVSTitr" name="6HLVSTitr" reversible="true"/>
+      <reaction id="R_4OHMDZhr" name="oxidation of midazolam to 4-OH-midazolam in hepatocytes" reversible="true"/>
+      <reaction id="R_AM9CSAtep" name="efflux of AM9 (cyclosporine) into portal blood" reversible="true"/>
+      <reaction id="R_AM1C4N9CShc" name="demethylation of AM1c9 to AM1c4N9 in hepatocytes (alternative mechanism)" reversible="true"/>
+      <reaction id="R_TLACFVSitr" name="TLACFVSitr" reversible="true"/>
+      <reaction id="R_PROFVStev" name="exit of des-isoproylpropionic-acid-fluvastatin into hepatic vein" reversible="true"/>
+      <reaction id="R_THSACMPitr" name="THSACMPitr" reversible="true"/>
+      <reaction id="R_4HMDGLUCitr" name="4HMDGLUCitr" reversible="true"/>
+      <reaction id="R_3HSMVhep" name="acid catalyzed rearrangement of 6-beta-hydroxy-simvastatin to 3-hydroxy simvastatin" reversible="true"/>
+      <reaction id="R_7HPVSteb" name="efflux of 7-hydroxy-3-alpha-iso-pravastatin into bile" reversible="true"/>
+      <reaction id="R_NFDOXDhc" name="oxidation of nifepine to nitropyridine metabolite in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1CCSteb" name="efflux of AM1c-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_ACMPthc" name="uptake of acetaminophen by the hepatocytes" reversible="true"/>
+      <reaction id="R_AM1ACCStev" name="efflux of AM1Ac-cyclosporine into hepatic vein" reversible="true"/>
+      <reaction id="R_6BHGLZtev" name="excretion of 6-beta-OH-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_3HLVSTAChep" name="conversion of 3-hydroxy-lovastatin lactone to acid form" reversible="true"/>
+      <reaction id="R_SMVLAChep" name="conversion of open acid form to lactone form of simvastatin" reversible="true"/>
+      <reaction id="R_PTVSTitr" name="PTVSTitr" reversible="true"/>
+      <reaction id="R_31DMTitr" name="31DMTitr" reversible="true"/>
+      <reaction id="R_7BHGLZABCt" name="excretion of 7-beta-OH-gliclazide into bile" reversible="true"/>
+      <reaction id="R_LSTNM1hr" name="oxidation of losartan to Losartan-M1 in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1CGLCteb" name="efflux of AM1c-glucuronide into bile" reversible="true"/>
+      <reaction id="R_ACMPitr" name="ACMPitr" reversible="true"/>
+      <reaction id="R_6HSMVitr" name="6HSMVitr" reversible="true"/>
+      <reaction id="R_LSTNM4itr" name="LSTNM4itr" reversible="true"/>
+      <reaction id="R_1HIBUPGLUC_Sthv" name="release of 1-hydroxy S-ibuprofen-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_TSACGLUCtev" name="efflux of thiomethyl-sulphoxide-acetaminophen-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_PTVSTLACtev" name="exit of pravastatin-lactone into hepatic vein" reversible="true"/>
+      <reaction id="R_FVStep" name="efflux of fluvastatin from enterocytes into portal blood" reversible="true"/>
+      <reaction id="R_ACMPGLUTitr" name="ACMPGLUTitr" reversible="true"/>
+      <reaction id="R_7BHGLZGLCtev" name="excretion of 7-beta-OH-gliclazide-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_31DMTtu" name="efflux of 31-O-desmethyl tacrolimus into intestinal lumen by ABC transporter" reversible="true"/>
+      <reaction id="R_PVSitr" name="PVSitr" reversible="true"/>
+      <reaction id="R_GTACMPtev" name="efflux of glucuronide-thiomethyl-acetaminophen conjugate into hepatic vein" reversible="true"/>
+      <reaction id="R_2HATVLACthc" name="uptake of 2-hydroxy-atorvastatin-lactone into hepatocytes" reversible="true"/>
+      <reaction id="R_AM1A4NCShc" name="demethylation of AM1A to AM1A4N in hepatocytes" reversible="true"/>
+      <reaction id="R_3HPVSthc" name="uptake of 3-hydroxy pravastatin by hepatocytes" reversible="true"/>
+      <reaction id="R_ATVLACh2r" name="spontaneous conversion of glucuronide (G2) to lactone form of atorvastatin" reversible="true"/>
+      <reaction id="R_6CSMVACIDhep" name="conversion of 6-beta-carboxy simvastatin lactone to acid form" reversible="true"/>
+      <reaction id="R_3ISPVSthc" name="uptake of 3-alpha-iso-pravastatin by hepatocytes" reversible="true"/>
+      <reaction id="R_AM1CCStev" name="efflux of AM1c-cyclosporine into hepatic vein" reversible="true"/>
+      <reaction id="R_2HATVLACGLUChr" name="glucuronidation of 2-hydroxy-atorvastatin-lactone in hepatocytes" reversible="true"/>
+      <reaction id="R_LSTNtd" name="uptake of losartan via diffusion into enterocytes" reversible="true"/>
+      <reaction id="R_CRGLZitr" name="CRGLZitr" reversible="true"/>
+      <reaction id="R_LVSTACIDitr" name="LVSTACIDitr" reversible="true"/>
+      <reaction id="R_CRVSM31hc" name="spontaneous conversion of glucuronide to cerivastatin-M31 in hepatocytes" reversible="true"/>
+      <reaction id="R_3HPVSCOAitx" name="3HPVSCOAitx" reversible="true"/>
+      <reaction id="R_LVSTitr" name="LVSTitr" reversible="true"/>
+      <reaction id="R_4HATVLACitr" name="4HATVLACitr" reversible="true"/>
+      <reaction id="R_EPOXTACteb" name="efflux of 31-O-Desmethyl,19-Hydroxy,37, 39-Epoxy-tacrolimus into bile" reversible="true"/>
+      <reaction id="R_4HATVLACtep" name="efflux of 4-hydroxy-atorvastatin-lactone into portal blood" reversible="true"/>
+      <reaction id="R_3HPVStep" name="3-hydroxy pravastatin exit into portal blood" reversible="true"/>
+      <reaction id="R_CRVSM1teb" name="efflux of cerivastatin-M1 into bile" reversible="true"/>
+      <reaction id="R_6OHFVSteb" name="efflux of 6-hydroxy-fluvastatin into bile for excretion into faeces" reversible="true"/>
+      <reaction id="R_FVSGLUChc" name="glucuronidation of fluvastatin" reversible="true"/>
+      <reaction id="R_2HATVACIDitr" name="2HATVACIDitr" reversible="true"/>
+      <reaction id="R_DSPVSteb" name="efflux of desacyl dehydro-pravastatin into bile" reversible="true"/>
+      <reaction id="R_EPOXTAChr" name="formation of epoxy derivative of tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_AM19CSteb" name="efflux of AM19-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_6MELVACtbc" name="release of 6-exomethylene-lovastatin-acid form into bile" reversible="true"/>
+      <reaction id="R_ATVLAChr" name="spontaneous conversion of atorvastain lactone ether glucuronide (G3) to atorvastatin-lactone in hepatocytes" reversible="true"/>
+      <reaction id="R_3HSMVACIDhep" name="conversion of 3-hydroxy simvastatin lactone to acid form" reversible="true"/>
+      <reaction id="R_35DHPVStep" name="3-alpha-5-beta-dihydroxy pravastatin exit into portal blood" reversible="true"/>
+      <reaction id="R_AM9CSAhr" name="oxidation of cyclosporine to AM9 in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1ACStep" name="efflux of AM1A (cyclosporine) into portal blood" reversible="true"/>
+      <reaction id="R_PVSGLUCteb" name="efflux of pravastatin glucuronide into bile" reversible="true"/>
+      <reaction id="R_SMVACIDhep" name="beta-glucuronidation of simvastatin-acyl-glucuronide to simvastatin dihydroxy acid form" reversible="true"/>
+      <reaction id="R_3ISPVSteb" name="efflux of 3-alpha-iso-pravastatin into bile" reversible="true"/>
+      <reaction id="R_4OHMDZtev" name="efflux of 4-OH-midazolam into hepatic vein" reversible="true"/>
+      <reaction id="R_2HIBUPGLUC_Sthv" name="release of 2-hydroxy S-ibuprofen-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_3HPVShc" name="oxidation of pravastatin to 3-hydroxy pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_3HSMVitr" name="3HSMVitr" reversible="true"/>
+      <reaction id="R_7BHGLZhr" name="oxidation of gliclazide to 7-beta-OH-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_6HMSMVACIDteb" name="efflux of 6-beta-hydroxy-methyl-simvastatin-acid into bile" reversible="true"/>
+      <reaction id="R_7AHGLZitr" name="7AHGLZitr" reversible="true"/>
+      <reaction id="R_CRVSM23hc" name="hydroxylation of cerivastatin to M23 in hepatocytes" reversible="true"/>
+      <reaction id="R_ACMPGLUitr" name="ACMPGLUitr" reversible="true"/>
+      <reaction id="R_MDZGLChr" name="MDZGLChr" reversible="true"/>
+      <reaction id="R_THRFVShc" name="threo isomer formation of fluvastatin" reversible="true"/>
+      <reaction id="R_LVSTACIDhep" name="conversion of pro-durg lovastatin to active hydroxyacid form in hepatocytes" reversible="true"/>
+      <reaction id="R_PTVSTLACitr" name="PTVSTLACitr" reversible="true"/>
+      <reaction id="R_AM4NC9CSteb" name="efflux of AM4N9-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_TLACFVShc" name="spontaneous conversion of glucuronide to trans-lactone-fluvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_3HIBUP_Ritr" name="3HIBUP_Ritr" reversible="true"/>
+      <reaction id="R_CSAtu" name="efflux of cyclosporine by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_4BHGLZtev" name="excretion of 4-beta-OH-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_CARIBUP_Sitr" name="CARIBUP_Sitr" reversible="true"/>
+      <reaction id="R_7BHGLZtev" name="excretion of 7-beta-OH-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_AM1ACShr" name="formation of AM1A-cyclosporine in hepatocytes" reversible="true"/>
+      <reaction id="R_12HTACRtu" name="efflux of 12-hydroxy tacrolimus into intestinal lumen by ABC transporter" reversible="true"/>
+      <reaction id="R_3HPVSteb" name="efflux of 3-S-hydroxy-pravastatin into bile" reversible="true"/>
+      <reaction id="R_IBUP_Rtdu" name="passive diffusion of ibuprofen_R" reversible="true"/>
+      <reaction id="R_CVM23GLUChc" name="glucuronidation of cerivastatin-M23" reversible="true"/>
+      <reaction id="R_56EPPVSteb" name="efflux of 5,6-epoxy-3-alpha-iso-pravastatin into bile" reversible="true"/>
+      <reaction id="R_AM9CSAteb" name="efflux of AM9-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_6BHGLZGLCtev" name="excretion of 6-beta-OH-gliclazide-glucuronide into hepatic vein" reversible="true"/>
+      <reaction id="R_GLC3MEACPhr" name="glucuronidation of 3-methoxy-acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_2HIBUP_SGLUhep" name="glucuronidation of S-2-hydroxy ibuprofen" reversible="true"/>
+      <reaction id="R_ATVACIDhr" name="spontaneous conversion of atorvastatin ether glucuronide (G1) to atorvastatin-acid" reversible="true"/>
+      <reaction id="R_H2O2itr" name="H2O2itr" reversible="true"/>
+      <reaction id="R_CSASULPtev" name="efflux of cyclosporine-sulphate into hepatic vein" reversible="true"/>
+      <reaction id="R_PVSATPtu" name="pravastatin efflux into lumen for excretion into feces" reversible="true"/>
+      <reaction id="R_2HATVLACOXDhc" name="oxidation of atorvastatin lactone to 2-hydroxy-atorvastatin-lactone in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1CCShr" name="oxidation of cyclosporine to AM1c in hepatocytes" reversible="true"/>
+      <reaction id="R_CRVSthc" name="cerivastatin uptake by hepatocytes" reversible="true"/>
+      <reaction id="R_LSTN1GLUCitr" name="LSTN1GLUCitr" reversible="true"/>
+      <reaction id="R_4HATVACIDteb" name="efflux of 4-hydroxy-atorvastatin-acid into bile" reversible="true"/>
+      <reaction id="R_3HPVSTEThc" name="3HPVSTEThc" reversible="true"/>
+      <reaction id="R_TMDM3OATt" name="efflux of Torasemide-M3 into hepatic vein" reversible="true"/>
+      <reaction id="R_FVSitr" name="FVSitr" reversible="true"/>
+      <reaction id="R_RSVtev" name="exit of rosuvastatin into hepatic vein" reversible="true"/>
+      <reaction id="R_S3MEACMPtev" name="efflux of sulphate-conjugate-3-methoxy-acetaminophen into hepatic vein" reversible="true"/>
+      <reaction id="R_MERACMPthc" name="uptake of acetaminophen-mercapturate-conjugate by the hepatocytes" reversible="true"/>
+      <reaction id="R_7HPVSitr" name="7HPVSitr" reversible="true"/>
+      <reaction id="R_4HATVLAChc" name="conversion of 4-hydroxy-atorvastatin-lactone to its acid form in hepatocytes" reversible="true"/>
+      <reaction id="R_14HMDZitr" name="14HMDZitr" reversible="true"/>
+      <reaction id="R_3HPVSTETtev" name="exit of 3-S-hydroxy-pravastatin-tetranor into hepatic vein" reversible="true"/>
+      <reaction id="R_LVSTPGPtu" name="efflux of lovastatin lactone by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_56DHPVStev" name="exit of 3-keto-5,6,-dihydroxy-pravastatin into hepatic vein" reversible="true"/>
+      <reaction id="R_3HPVSitr" name="3HPVSitr" reversible="true"/>
+      <reaction id="R_CARIBUP_Sthv" name="release of S-carboxy ibuprofen into hepatic vein" reversible="true"/>
+      <reaction id="R_CRGLZtev" name="excretion of carboxy-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_TMDOATPtsc" name="uptake of torasemide into enterocytes via antiport" reversible="true"/>
+      <reaction id="R_NFDNPYitr" name="NFDNPYitr" reversible="true"/>
+      <reaction id="R_LVSTOXD3Hhep" name="oxidation of lovastatin to 3-hydroxy-lovastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_Am1CSAteb" name="efflux of AM1-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_MHGLZtev" name="excretion of Methyl-hydroxy-gliclazide into hepatic vein" reversible="true"/>
+      <reaction id="R_SMVitr" name="SMVitr" reversible="true"/>
+      <reaction id="R_4HATVLACOXDhc" name="oxidation of atorvastatin lactone to 4-hydroxy-atorvastatin-lactone in hepatocytes" reversible="true"/>
+      <reaction id="R_TSACMSULhc" name="sulphation of thiomethyl-sulphoxide-conjugate of acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_PTVSTtu" name="uptake of pitavastatin by enterocytes" reversible="true"/>
+      <reaction id="R_OXYPR1tehv" name="release of oxypurinol-1-riboside into hepatic vein" reversible="true"/>
+      <reaction id="R_1HIBUP_Sitr" name="1HIBUP_Sitr" reversible="true"/>
+      <reaction id="R_2HATVACIDGLUCteb" name="efflux of 2-hydroxy-atorvastatin-acyl-glucuronide into bile" reversible="true"/>
+      <reaction id="R_UDPRIBc" name="UDPRIBc" reversible="true"/>
+      <reaction id="R_CRGLZhr" name="oxidation of methyl-hydroxy-gliclazide to carboxy-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_3HPVSCOAitm" name="3HPVSCOAitm" reversible="true"/>
+      <reaction id="R_35DHPVSitr" name="35DHPVSitr" reversible="true"/>
+      <reaction id="R_ACMPGLUthc" name="uptake of acetaminophen-glucuronide-conjugate by the hepatocytes" reversible="true"/>
+      <reaction id="R_LSTNRATt" name="uptake of losartan via antiport into enterocytes" reversible="true"/>
+      <reaction id="R_6HSMVACIDhep" name="conversion of 6-beta-hydroxy simvastatin lactone to acid form" reversible="true"/>
+      <reaction id="R_CVM1GLUChc" name="glucuronidation of cerivastatin-M1" reversible="true"/>
+      <reaction id="R_LSTNM5tev" name="efflux of Losartan-M5 into hepatic vein" reversible="true"/>
+      <reaction id="R_THRFVStev" name="exit of threo-isomer of fluvastain into hepatic vein for excretion in urine" reversible="true"/>
+      <reaction id="R_1HIBUP_SGLUhep" name="glucuronidation of 1-hydroxy ibuprofen" reversible="true"/>
+      <reaction id="R_AM1CSAtep" name="efflux of AM1 (cyclosporine) into portal blood" reversible="true"/>
+      <reaction id="R_6HSMVACIDteb" name="efflux of 6-beta-hydroxy simvastatin acid into bile" reversible="true"/>
+      <reaction id="R_ATVLACGLCURhc" name="glucuronidation of atorvastatin lactone to atorvastain lactone ether glucuronide (G3) in hepatocytes" reversible="true"/>
+      <reaction id="R_3OHACMPitr" name="3OHACMPitr" reversible="true"/>
+      <reaction id="R_5OHFVSGLUtev" name="exit of 5-hydroxy-fluvastatin-glucuronide into hepatic vein for excretion in urine" reversible="true"/>
+      <reaction id="R_1HMDZGLUChc" name="uptake of 1-OH-midazolam-glucuronide into hepatocytes" reversible="true"/>
+      <reaction id="R_FVSTETGLUhc" name="glucuronidation of des-isopropyl-dihydro-fluvastatin-tetranor" reversible="true"/>
+      <reaction id="R_OXYPthc" name="uptake of oxypurinol by hepatocytes" reversible="true"/>
+      <reaction id="R_AM1CSAhr" name="oxidation of cyclosporine to AM1 in hepatocytes" reversible="true"/>
+      <reaction id="R_IBUP_SCONJhep" name="taurine conjugation of S-ibuprofen" reversible="true"/>
+      <reaction id="R_PTVSTGLUChc" name="glucuronidation of pitavastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_CRVSATPthc" name="cerivastatin uptake by hepatocytes by active transport" reversible="true"/>
+      <reaction id="R_15DMTitr" name="15DMTitr" reversible="true"/>
+      <reaction id="R_3ISPVShc" name="isomerization of pravastatin to 3-alpha-iso-pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_MERACMPtep" name="efflux of acetaminophen-mercapturate-conjugate from enterocytes into portal blood" reversible="true"/>
+      <reaction id="R_RSVLAChv" name="spontaneous conversion to rosuvastatin-5S-lactone in hepatocytes" reversible="true"/>
+      <reaction id="R_IBUP_Ritr" name="IBUP_Ritr" reversible="true"/>
+      <reaction id="R_ATVLAChc" name="lactonization of atorvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_5OHFVSGLUitr" name="5OHFVSGLUitr" reversible="true"/>
+      <reaction id="R_3MEACMPhc" name="formation of 3-methoxy-acetaminophen in hepatocytes" reversible="true"/>
+      <reaction id="R_AM1ACCShr" name="oxidation of AM1c to AM1Ac in hepatocytes (alternative mechanism)" reversible="true"/>
+      <reaction id="R_2HATVACIDGLUCitr" name="2HATVACIDGLUCitr" reversible="true"/>
+      <reaction id="R_AM9CSAitr" name="AM9CSAitr" reversible="true"/>
+      <reaction id="R_AM4NCSteb" name="efflux of AM4N-cyclosporine into bile" reversible="true"/>
+      <reaction id="R_3HLVSTACtbc" name="release of 3-hydroxy-lovastatin acid form into bile" reversible="true"/>
+      <reaction id="R_SMVACIDitr" name="SMVACIDitr" reversible="true"/>
+      <reaction id="R_IBUP_SCYP2hep" name="oxidation of S-ibuprofen to 2-hydroxy-ibuprofen in heaptocytes" reversible="true"/>
+      <reaction id="R_6OHFVSGLUtev" name="exit of 6-hydroxy-fluvastatin-glucuronide into hepatic vein for excretion in urine" reversible="true"/>
+      <reaction id="R_LST4EXPthc" name="uptake of Losartan-E3174 into hepatocytes" reversible="true"/>
+      <reaction id="R_FVShc" name="hydrolysis of lactone to fluvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_DHGLZhc" name="dehydrogenation of gliclazide to dehydro-gliclazide in hepatocytes" reversible="true"/>
+      <reaction id="R_DSPVStev" name="exit of desacyl dehydro-pravastatin into hepatic vein" reversible="true"/>
+      <reaction id="R_6BHGLZGLChr" name="glucuronidation of 6-beta-OH-gliclazide-glucuronide in hepatocytes" reversible="true"/>
+      <reaction id="R_NDERSVteb" name="efflux of N-desmethyl-rosuvastatin into bile" reversible="true"/>
+      <reaction id="R_IBUP_Rshep" name="chiral conversion of R to S form of iburpofen in hepatocytes" reversible="true"/>
+      <reaction id="R_3HLVSTitr" name="3HLVSTitr" reversible="true"/>
+      <reaction id="R_1OHMDZtep" name="efflux of 1-OH-midazolam into portal blood" reversible="true"/>
+      <reaction id="R_IBUP_Stdu" name="passive diffusion of ibuprofen_S" reversible="true"/>
+      <reaction id="R_3HPVSTETCOAitm" name="3HPVSTETCOAitm" reversible="true"/>
+      <reaction id="R_1331TACRtev" name="exit of 13,31-O-Didesmethyl-tacrolimus into hepatic vein" reversible="true"/>
+      <reaction id="R_MDZitr" name="MDZitr" reversible="true"/>
+      <reaction id="R_CSAtd" name="uptake of cyclosporine by the enterocytes" reversible="true"/>
+      <reaction id="R_PTVSTM13itr" name="PTVSTM13itr" reversible="true"/>
+      <reaction id="R_2HATVLAChc" name="conversion of 2-hydroxy-atorvastatin-acid to its lactone form in hepatocytes" reversible="true"/>
+      <reaction id="R_12HTACRhr" name="oxidation of tacrolimus in hepatocytes" reversible="true"/>
+      <reaction id="R_2HATVACIDGLUChr" name="glucuronidation of 2-hydroxy-atorvastatin-acid in hepatocytes" reversible="true"/>
+      <reaction id="R_OXYP1CONJ" name="conjugation of oxypurinol to oxypurinol-1-riboside" reversible="true"/>
+      <reaction id="R_6EPVShc" name="isomerization of pravastatin to 6-epi-pravastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_35DHPVShc" name="conversion of pravastatin to 3-alpha-5-beta-dihydroxy pravastatin in entercoytes" reversible="true"/>
+      <reaction id="R_35DSMVitr" name="35DSMVitr" reversible="true"/>
+      <reaction id="R_2HATVACIDhc" name="conversion of 2-hydroxy-atorvastatin-lactone to its acid form in hepatocytes" reversible="true"/>
+      <reaction id="R_TSACMSULtev" name="efflux of thiomethyl-sulphoxide-acetaminophen-sulphate into hepatic vein" reversible="true"/>
+      <reaction id="R_PTVSThc" name="hydrolysis of latone to free acid form of pitavastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_GLC3MEACPtev" name="efflux of glucuronide-conjugate of 3-methoxy-acetaminophen into hepatic vein" reversible="true"/>
+      <reaction id="R_CRVSM23hr" name="beta-glucuronidase of cerivastatin-M23-glucuronide to M23 form" reversible="true"/>
+      <reaction id="R_CYSACMPitr" name="CYSACMPitr" reversible="true"/>
+      <reaction id="R_PTVSTM3hc" name="oxidation of pitavastatin to pitavastatin-M3 in hepatocytes" reversible="true"/>
+      <reaction id="R_LSTNM7TDhc" name="uptake of Losartan-N2-glucuronide / Losartan-M7 into hepatocytes via diffusion" reversible="true"/>
+      <reaction id="R_5OHFVShc" name="oxidation of fluvastatin to 5-hydroxy-fluvastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_PTVSTLAChc" name="spontaneous conversion of glucuronide to lactone form of pitavastatin in hepatocytes" reversible="true"/>
+      <reaction id="R_FVSCOAitx" name="FVSCOAitx" reversible="true"/>
+      <reaction id="R_IBUP_Stbc" name="biliary excretion of ibuprofen from hepatocytes" reversible="true"/>
+      <reaction id="R_TMDM5hr" name="oxidation of torasemide-M1 to M5 in hepatocytes" reversible="true"/>
+      <reaction id="R_1331TACRteb" name="efflux of 13,31-O-Didesmethyl-tacrolimus into bile" reversible="true"/>
+      <reaction id="R_IBUPGT_HEP" name="glucuronidation of ibuprofen in hepatocytes" reversible="true"/>
+      <reaction id="R_ACMPtu" name="efflux of acetaminophen by P-gp from the enterocytes into lumen" reversible="true"/>
+      <reaction id="R_6MELVACIDitr" name="6MELVACIDitr" reversible="true"/>
+      <reaction id="R_SMVtv" name="uptake of simvastatin by enterocytes" reversible="true"/>
+      <reaction id="R_NFDACtep" name="exit of acid metabolite of nifedipine into portal vein" reversible="true"/>
+      <reaction id="R_CRVStu" name="cerivastatin uptake by enterocytes" reversible="true"/>
+      <reaction id="R_DELACCRVSM23hc" name="de-lactonization of cerivastatin-M31 to cerivastatin-M23 in hepatocytes" reversible="true"/>
+      <reaction id="R_IBUP_SCYP1hep" name="oxidation of S-ibuprofen to 1-hydroxy ibuprofen" reversible="true"/>
+      <reaction id="R_4HATVACIDitr" name="4HATVACIDitr" reversible="true"/>
+      <reaction id="R_1OHMDZhr" name="oxidation of midazolam to 1-OH-midazolam in hepatocytes" reversible="true"/>
+      <reaction id="R_6OHFVSGLUhc" name="glucuronidation of 6-hydroxy-fluvastatin" reversible="true"/>
+      <reaction id="R_PVSGLUCitr" name="PVSGLUCitr" reversible="true"/>
+      <reaction id="R_1531TACRteb" name="efflux of 15, 31-O-Didesmethyl-tacrolimus into bile" reversible="true"/>
+      <reaction id="R_IBUPGLUCitr" name="IBUPGLUCitr" reversible="true"/>
+      <reaction id="R_DESFVSteb" name="efflux of N-desisopropyl-fluvastatin into bile for excretion into faeces" reversible="true"/>
+      <reaction id="R_LSTNM1itr" name="LSTNM1itr" reversible="true"/>
+      <reaction id="R_13HTACRitr" name="13HTACRitr" reversible="true"/>
+      <reaction id="R_7BHGLZGLCABCt" name="excretion of 7-beta-OH-gliclazide-glucuronide into bile" reversible="true"/>
+      <reaction id="R_CRVS1tev" name="exit of cerivastatin-M1 into hepatic vein" reversible="true"/>
+      <reaction id="R_2HIBUP_Ritr" name="2HIBUP_Ritr" reversible="true"/>
+      <reaction id="R_TMACMPhr" name="TMACMPhr" reversible="true"/>
+      <reaction id="R_6EPVStep" name="6-epi-pravastatin exit into portal blood" reversible="true"/>
+      <reaction id="R_6BHGLZABCt" name="excretion of 6-beta-OH-gliclazide into bile" reversible="true"/>
+      <reaction id="R_5OHFVSGLUhc" name="glucuronidation of 5-hydroxy-fluvastatin" reversible="true"/>
+      <reaction id="R_IBUP_Sitr" name="IBUP_Sitr" reversible="true"/>
+      <reaction id="R_2HIBUP_Sitr" name="2HIBUP_Sitr" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

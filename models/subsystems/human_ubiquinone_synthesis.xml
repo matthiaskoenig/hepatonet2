@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="ubiquinone_synthesis">
+    <listOfReactions>
+      <reaction id="R_4HBZCOAFm" name="4-Hydroxybenzoyl Coenzyme A Formation" reversible="true"/>
+      <reaction id="R_COQ7m" name="Ubiquinone Biosynthesis Coq7" reversible="true"/>
+      <reaction id="R_COQ6m" name="Ubiquinone Biosynthesis Monooxgenase Coq6" reversible="true"/>
+      <reaction id="R_3DPHBH1" name="Hydroxylation of 3-Decaprenyl-4-Hydroxybenzoate (NADH)" reversible="true"/>
+      <reaction id="R_HMR_6909" name="HMR_6909" reversible="true"/>
+      <reaction id="R_HMR_6907" name="HMR_6907" reversible="true"/>
+      <reaction id="R_DHDPBMTm" name="Dihydroxydecaprenylbenzoate Methyltransferase" reversible="true"/>
+      <reaction id="R_DPHMBDCm" name="3-Decaprenyl-4-Hydroxy-5-Methoxybenzoate Decarboxylation" reversible="true"/>
+      <reaction id="R_HBZOPT10m" name="Hydroxybenzoate Decaprenyltransferase" reversible="true"/>
+      <reaction id="R_COQ5m" name="Ubiquinone Biosynthesis Methyltransferase Coq5" reversible="true"/>
+      <reaction id="R_COQ3m" name="Methyltransferase Coq3" reversible="true"/>
+      <reaction id="R_T4HCINNMFM" name="4-Hydroxycinnamate Formation" reversible="true"/>
+      <reaction id="R_4HBZFm" name="4-Hydroxybenzoate Formation" reversible="true"/>
+      <reaction id="R_34HPLFM" name="3- (4-Hydroxyphenyl-)Lactate Formation" reversible="true"/>
+      <reaction id="R_HMR_6910" name="3-Demethylubiquinol 3-O-Methyltransferase" reversible="true"/>
+      <reaction id="R_COUCOAFm" name="P-Coumaroyl Coenzyme A Formation" reversible="true"/>
+      <reaction id="R_3DPHBH2" name="Hydroxylation of 3-Decaprenyl-4-Hydroxybenzoate (NADPH)" reversible="true"/>
+      <reaction id="R_HMR_6908" name="2-Methoxy-6-Polyprenyl-1, 4-Benzoquinol Methylase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

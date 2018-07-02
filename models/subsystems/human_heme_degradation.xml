@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="heme_degradation">
+    <listOfReactions>
+      <reaction id="R_BILIRED" name="NAD (P)H Biliverdin Reductase" reversible="true"/>
+      <reaction id="R_BIDGLCURr" name="Bilirubin Di-Glucuronide Production" reversible="true"/>
+      <reaction id="R_HOXG" name="Heme Oxygenase 1" reversible="true"/>
+      <reaction id="R_UGT1A10c" name="UDP-Glucuronosyltransferase 1-10 Precursor, Cytosol" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

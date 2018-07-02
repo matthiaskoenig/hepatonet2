@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="chondroitin_sulfate_degradation">
+    <listOfReactions>
+      <reaction id="R_S2TASE5ly" name="Glucuronate-2-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA4ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_LINKDEG2ly" name="Degradation of Proteoglycan Linkage Region, Lysosomal" reversible="true"/>
+      <reaction id="R_IDOAASE4ly" name="Alpha-L-Iduronidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S2TASE3ly" name="Iduronate-2-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_S4TASE1ly" name="N-Acetylgalactosamine-4-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX1ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S4TASE2ly" name="N-Acetylgalactosamine-4-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA6ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE7ly" name="N-Acetylgalactosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GLCAASE7ly" name="Beta-Glucuronidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GLCAASE4ly" name="Beta-Glucuronidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX7ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA7ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE6ly" name="N-Acetylgalactosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_CSDPASEly" name="Chondroitin Sulfate D Proteoglycan Protease, Lysosomal (Endosome)" reversible="true"/>
+      <reaction id="R_CSCPASEly" name="Chondroitin Sulfate C Proteoglycan Protease, Lysosomal (Endosome)" reversible="true"/>
+      <reaction id="R_NACHEX6ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S4TASE3ly" name="N-Acetylgalactosamine-4-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA1ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE8ly" name="N-Acetylgalactosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE4ly" name="N-Acetylgalactosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX5ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX4ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA2ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX2ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA8ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_S2TASE4ly" name="Glucuronate-2-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX3ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA3ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_LINKDEG4ly" name="Degradation of Proteoglycan Linkage Region, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA5ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE9ly" name="N-Acetylgalactosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX9ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_CSBPASEly" name="Chondroitin Sulfate B Proteoglycan Protease, Lysosomal (Endosome)" reversible="true"/>
+      <reaction id="R_S6TASE5ly" name="N-Acetylgalactosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_S4TASE5ly" name="N-Acetylgalactosamine-4-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_LINKDEG3ly" name="Degradation of Proteoglycan Linkage Region, Lysosomal" reversible="true"/>
+      <reaction id="R_CSAPASEly" name="Chondroitin Sulfate A Proteoglycan Protease, Lysosomal (Endosome)" reversible="true"/>
+      <reaction id="R_NACHEX8ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S4TASE4ly" name="N-Acetylgalactosamine-4-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GLCAASE6ly" name="Beta-Glucuronidase, Lysosomal" reversible="true"/>
+      <reaction id="R_CSEPASEly" name="Chondroitin Sulfate E Proteoglycan Protease, Lysosomal (Endosome)" reversible="true"/>
+      <reaction id="R_GLCAASE5ly" name="Beta-Glucuronidase, Lysosomal" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

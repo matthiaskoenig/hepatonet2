@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="pyrimidine_catabolism">
+    <listOfReactions>
+      <reaction id="R_BUP2" name="Beta-Ureidopropionase (D-3-Amino-Isobutanoate Forming)" reversible="true"/>
+      <reaction id="R_NTD3" name=" 5&apos;-Nucleotidase (dCMP)" reversible="true"/>
+      <reaction id="R_NTD1" name="5&apos;-Nucleotidase (dUMP)" reversible="true"/>
+      <reaction id="R_TMDPP" name="Thymidine Phosphorylase" reversible="true"/>
+      <reaction id="R_2DR1PP" name="2-Deoxy-D-Ribose 1-Phosphate Phosphorylase" reversible="true"/>
+      <reaction id="R_r0497" name="DTTP Nucleotidohydrolase" reversible="true"/>
+      <reaction id="R_r0149" name="CTP Diphosphohydrolase" reversible="true"/>
+      <reaction id="R_DCMPDA" name="DCMP Deaminase" reversible="true"/>
+      <reaction id="R_r0483" name="(R)-3-Amino-2-Methylpropanoate:2-Oxoglutarate Aminotransferase" reversible="true"/>
+      <reaction id="R_NTD2" name="5&apos;-Nucleotidase (UMP)" reversible="true"/>
+      <reaction id="R_DHPM1" name="Dihydropyrimidinase (5, 6-Dihydrouracil)" reversible="true"/>
+      <reaction id="R_r0377" name="ATP:Deoxycitidine 5-Phosphotransferase" reversible="true"/>
+      <reaction id="R_NTD4" name="5&apos;-Nucleotidase (CMP)" reversible="true"/>
+      <reaction id="R_r0331" name="5, 6-Dihydrothymine:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_DURAD2" name="Dihydrothymin Dehydrogenase (NADP)" reversible="true"/>
+      <reaction id="R_NTD5" name="5&apos;-Nucleotidase (dTMP)" reversible="true"/>
+      <reaction id="R_NTD5l" name="5&apos;-Nucleotidase (dTMP), Lysosomal" reversible="true"/>
+      <reaction id="R_UPPN" name="B-Ureidopropionase" reversible="true"/>
+      <reaction id="R_CSND" name="Cytosine Deaminase" reversible="true"/>
+      <reaction id="R_r0410" name="2-Deoxyguanosine 5-Triphosphate Pyrophosphohydrolase" reversible="true"/>
+      <reaction id="R_DHPM2" name="Dihydropyrimidinase (Dihydrothymine)" reversible="true"/>
+      <reaction id="R_r0494" name="DTDP Diphosphohydrolase" reversible="true"/>
+      <reaction id="R_CYTD" name="Cytidine Deaminase" reversible="true"/>
+      <reaction id="R_DURAD" name="Dihydrouracil Dehydrogenase (NADP)" reversible="true"/>
+      <reaction id="R_NTD2l" name="5&apos;-Nucleotidase (UMP), Lysosomal" reversible="true"/>
+      <reaction id="R_D3AIBTm" name="D-3-Amino-Isobutanoate:Pyruvate Aminotransferase, Mitochondrial" reversible="true"/>
+      <reaction id="R_DCYTD" name="Deoxycytidine Deaminase" reversible="true"/>
+      <reaction id="R_r0139" name="CDP Diphosphohydrolase" reversible="true"/>
+      <reaction id="R_r0330" name="5, 6-Dihydrothymine:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_r0236" name="5, 6-Dihydrouracil:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_PYNP2r" name="Pyrimidine-Nucleoside Phosphorylase (Uracil)" reversible="true"/>
+      <reaction id="R_NTD4l" name="5&apos;-Nucleotidase (CMP), Lysosomal" reversible="true"/>
+      <reaction id="R_DUTPDP" name="DUTP Diphosphatase" reversible="true"/>
+      <reaction id="R_r0166" name="Uridine Triphosphate Pyrophosphohydrolase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

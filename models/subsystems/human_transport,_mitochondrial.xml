@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model>
+    <listOfReactions>
+      <reaction id="R_HMR_2676" name="HMR_2676" reversible="true"/>
+      <reaction id="R_r2472" name="Major Facilitator (Mfs) Tcdb:2.A.1.4.7" reversible="true"/>
+      <reaction id="R_DNDPt24m" name="Transport of dTDP via dADP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt39m" name="Transport of dUTP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_q10h2tc" name="Transport of Ubiquinol into Cytosol" reversible="true"/>
+      <reaction id="R_C02712tm" name="Transport of N-Acetylmethionine, Intracellular" reversible="true"/>
+      <reaction id="R_DNDPt11m" name="Transport of dADP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_FUMSO4tm" name="Fumarate:Sulfate Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_BUTt2m" name="Butyrate Mitochondrial Transport via Proton Symport, Reversible" reversible="true"/>
+      <reaction id="R_11DOCRTSLtm" name="11-Deoxycortisol Intracellular Transport" reversible="true"/>
+      <reaction id="R_CO2tm" name="CO2 Transport (Diffusion), Mitochondrial" reversible="true"/>
+      <reaction id="R_r1467" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_HMR_2644" name="HMR_2644" reversible="true"/>
+      <reaction id="R_r2434" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.8.3" reversible="true"/>
+      <reaction id="R_HMR_2679" name="HMR_2679" reversible="true"/>
+      <reaction id="R_r0838" name="Free Diffusion" reversible="true"/>
+      <reaction id="R_HMR_2712" name="HMR_2712" reversible="true"/>
+      <reaction id="R_r1005" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_DHFtm" name="Dihydrofolate Reversible Mitochondrial Transport" reversible="true"/>
+      <reaction id="R_HMR_2686" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_CYTDtm" name="Cytidine Faciliated Transport in Mitochondria" reversible="true"/>
+      <reaction id="R_r0835" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_DCMPtm" name="DCMPtm" reversible="true"/>
+      <reaction id="R_ACACt2m" name="Acetoacetate Mitochondrial Transport via H+ Symport" reversible="true"/>
+      <reaction id="R_24_25DHVITD3tm" name="24, 25-Dihydroxyvitamin D3 Transport from Mitochondria" reversible="true"/>
+      <reaction id="R_DNDPt31m" name="Transport of dCDP via ATP Antiport" reversible="true"/>
+      <reaction id="R_TETPENT3COAtm" name="Fatty Acid Intracellular Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2416" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_r2398" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_ACGLUtm" name="Transport of N-Acetyl-L-Glutamate, Mitochondrial" reversible="true"/>
+      <reaction id="R_PYRt2m" name="Pyruvate Mitochondrial Transport via Proton Symport" reversible="true"/>
+      <reaction id="R_HMR_2692" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r2400" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_TETPENT6COAtm" name="Fatty Acid Intracellular Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt45m" name="Transport of dTTP via ADP Antiport" reversible="true"/>
+      <reaction id="R_r0927" name="Free Diffusion" reversible="true"/>
+      <reaction id="R_C4tmc" name="Transport of Bytyrylcarnitine into Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_DNDPt59m" name="Transport of dGTP via dADP Antiport" reversible="true"/>
+      <reaction id="R_SARCStm" name="Transport of Sarcosine, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0917" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_HMR_2634" name="HMR_2634" reversible="true"/>
+      <reaction id="R_FE2tm" name="Transport of Iron (Fe2+), Mitochondrial" reversible="true"/>
+      <reaction id="R_r2384" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_DNDPt19m" name="Transport of dUDP via ATP Antiport" reversible="true"/>
+      <reaction id="R_HMR_2127" name="HMR_2127" reversible="true"/>
+      <reaction id="R_PROSTGE2t2m" name="Transport of Prostaglandin E2, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0178" name="HMR_0178" reversible="true"/>
+      <reaction id="R_GLU5SAtmc" name="Glutamate Semi-Aldehyde Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2388" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_DECDPtm" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_C05953tm" name="Transport of Prostaglandin A2, Intracellular" reversible="true"/>
+      <reaction id="R_HMR_7758" name="HMR_7758" reversible="true"/>
+      <reaction id="R_THFtm" name="5, 6, 7, 8-Tetrahydrofolate Transport, Diffusion, Mitochondrial" reversible="true"/>
+      <reaction id="R_O2Stm" name="Transport of peroxide Anion via Diffusion, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0885" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.7" reversible="true"/>
+      <reaction id="R_DNDPt54m" name="Transport of dCTP via dADP Antiport" reversible="true"/>
+      <reaction id="R_r2539" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_CE2176tm" name="Transport of 3-Methoxy-Tyrosine into Mitochondrial" reversible="true"/>
+      <reaction id="R_q10tm" name="Transport of Ubiquinone into Mitochondria" reversible="true"/>
+      <reaction id="R_4ABUTtm" name="4-Aminobutanoate Mitochondrial Transport via Diffusion" reversible="true"/>
+      <reaction id="R_HMR_2682" name="HMR_2682" reversible="true"/>
+      <reaction id="R_DNDPt37m" name="Transport of dUTP via dTDP Antiport" reversible="true"/>
+      <reaction id="R_HMR_2753" name="HMR_2753" reversible="true"/>
+      <reaction id="R_HMR_2689" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2706" name="HMR_2706" reversible="true"/>
+      <reaction id="R_DNDPt6m" name="Transport of dATP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_r2395" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_ATPtm" name="ADP/ATP Transporter, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2650" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_XOL7AH2tm" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_2612" name="HMR_2612" reversible="true"/>
+      <reaction id="R_HMR_1284" name="HMR_1284" reversible="true"/>
+      <reaction id="R_HMR_2715" name="HMR_2715" reversible="true"/>
+      <reaction id="R_FUMTSULtm" name="Fumarate:Thiosulfate Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_8562" name="HMR_8562" reversible="true"/>
+      <reaction id="R_DNDPt56m" name="Transport of dCTP via ATP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt60m" name="Transport of dGTP via dUDP Antiport" reversible="true"/>
+      <reaction id="R_r1436" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_1A25HVITD2tm" name="1A25HVITD2tm" reversible="true"/>
+      <reaction id="R_H2Otm" name="H2O Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2393" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_HMR_2731" name="HMR_2731" reversible="true"/>
+      <reaction id="R_ACETONEt2m" name="Acetone Mitochondrial Transport via Proton Symport" reversible="true"/>
+      <reaction id="R_ACt2m" name="Acetate Mitochondrial Transport via Proton Symport" reversible="true"/>
+      <reaction id="R_HMR_2773" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2709" name="HMR_2709" reversible="true"/>
+      <reaction id="R_HMR_4957" name="HMR_4957" reversible="true"/>
+      <reaction id="R_BALAtmr" name="Beta-Alanine Reversible Mitochondrial Transport (Diffusion)" reversible="true"/>
+      <reaction id="R_r1454" name="Tcdb:2.A.1.13.5 Tcdb:2.A.1.13.1" reversible="true"/>
+      <reaction id="R_5THFtm" name="5-Glutamyl-Thf Transport, M Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt5m" name="Transport of dATP via dTDP Antiport" reversible="true"/>
+      <reaction id="R_AMETtd" name="Diffusion of S-Adenosyl-L-Methionine" reversible="true"/>
+      <reaction id="R_THMPPtm" name="Thiamine Diphosphate Transport in via Anion Antiport, Mitochondria" reversible="true"/>
+      <reaction id="R_THMMPtm" name="Thiamine Monophosphate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2738" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2764" name="HMR_2764" reversible="true"/>
+      <reaction id="R_r1146" name="Biosynthesis of Steroids Enzyme Catalyzed" reversible="true"/>
+      <reaction id="R_r2394" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_r0829" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_HMR_1243" name="HMR_1243" reversible="true"/>
+      <reaction id="R_DNDPt53m" name="Transport of dCTP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_3SALAASPm" name="Cysteinesulfinate-Aspartate Mitochondrial Shuttle" reversible="true"/>
+      <reaction id="R_XOL27OHtm" name="27 Hydroxy Cholesterol Transport" reversible="true"/>
+      <reaction id="R_CRNtim" name="L-Carnitine Transport Out of Mitochondria via Diffusion" reversible="true"/>
+      <reaction id="R_GLUTCONtm" name="Transport of Glutaconate, Mitochondrial" reversible="true"/>
+      <reaction id="R_LEUt5m" name="Transport of L-Leucine, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0821" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_HMR_1745" name="HMR_1745" reversible="true"/>
+      <reaction id="R_ACLEUtm" name="Transport of Acetyl Leucine, Intracellular" reversible="true"/>
+      <reaction id="R_DNDPt50m" name="Transport of dTTP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_4MOPt2im" name="4-Methyl-2-Oxopentanoate Mitochondrial Transport via Proton Symport" reversible="true"/>
+      <reaction id="R_DNDPt46m" name="Transport of dTTP via dUDP Antiport" reversible="true"/>
+      <reaction id="R_HMR_1630" name="7Alpha-Hydroxycholest-4-En-3-One 12Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_DNDPt4m" name="Transport of dATP via dUDP Antiport" reversible="true"/>
+      <reaction id="R_HMR_2662" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r2411" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_OCCOAtm" name="Octanoyl Coenzyme A Transport, Diffusion" reversible="true"/>
+      <reaction id="R_3MGLUTACtm" name="Transport of 3-Methyl-Glutaconate, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2748" name="HMR_2748" reversible="true"/>
+      <reaction id="R_HMR_2649" name="HMR_2649" reversible="true"/>
+      <reaction id="R_r2374" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_ARGtm" name="Arginine Mitochondrial Transport via Ornithine Carrier" reversible="true"/>
+      <reaction id="R_HMR_2757" name="HMR_2757" reversible="true"/>
+      <reaction id="R_THEXDDtm" name="Transport of 7Z, 10Z-Hexadecadienoic Acid into Cytosol" reversible="true"/>
+      <reaction id="R_HMR_2661" name="HMR_2661" reversible="true"/>
+      <reaction id="R_10FTHF5GLUtm" name="5-Glutamyl-10Fthf Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt10m" name="Transport of dADP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_34HPLtm" name="Transport of 3-(4-Hydroxyphenyl)Lactate, Mitochondrial" reversible="true"/>
+      <reaction id="R_LYStm" name="Transport of Lysine  via Ornithine Carrier, Mitochondrial" reversible="true"/>
+      <reaction id="R_HEXDTRtm" name="Transport of 7, 10, 13-Hexadecatrienoic Acid into Cytosol" reversible="true"/>
+      <reaction id="R_LPAMtm" name="Transport of Lipoamide, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt21m" name="Transport of dTDP via ADP Antiport" reversible="true"/>
+      <reaction id="R_PPIOGLYtm" name="Transport of Propionyl-Glycine, Mitochondrial" reversible="true"/>
+      <reaction id="R_MLTHFtm" name="Transport of 5,10-Methylenetetrahydrofolate, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_1753" name="HMR_1753" reversible="true"/>
+      <reaction id="R_r2380" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_ACALDtm" name="Acetaldehyde Mitochondrial Diffusion" reversible="true"/>
+      <reaction id="R_HMR_9019" name="HMR_9019" reversible="true"/>
+      <reaction id="R_3AIB_Dtm" name="Transport of 3Aib_D into Mitochondria" reversible="true"/>
+      <reaction id="R_r2413" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_GD3tm" name="Transport of Gd3, Mitochondrial" reversible="true"/>
+      <reaction id="R_CE4968tm" name="Isovalerylglycine Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_10FTHFtm" name="10-Formyltetrahydrofolate Mitochondrial Transport via Diffusion" reversible="true"/>
+      <reaction id="R_r0921" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_HMR_0172" name="HMR_0172" reversible="true"/>
+      <reaction id="R_DNDPt12m" name="Transport of dADP via ADP Antiport" reversible="true"/>
+      <reaction id="R_HMR_2652" name="HMR_2652" reversible="true"/>
+      <reaction id="R_HMR_4756" name="HMR_4756" reversible="true"/>
+      <reaction id="R_HMR_2697" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_AGRMtm" name="Transport of Agmatinium into Cytosol" reversible="true"/>
+      <reaction id="R_T4HCINNMtm" name="Transport of Trans-4-Coumarate, Mitochondrial" reversible="true"/>
+      <reaction id="R_PCFLOPm" name="Phosphatidylcholine Flippase" reversible="true"/>
+      <reaction id="R_GLYBtm" name="Glycine Betaine Transport via Diffusion (Mitochondria to Cytosol)" reversible="true"/>
+      <reaction id="R_r2381" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_GLYC3Ptm" name="Glycerol-3-Phosphate Shuttle" reversible="true"/>
+      <reaction id="R_HMR_0157" name="HMR_0157" reversible="true"/>
+      <reaction id="R_r2390" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_HMR_2603" name="HMR_2603" reversible="true"/>
+      <reaction id="R_4OHBUTtmc" name="Transport of 4-Hydroxy-Butyrate, Mitochondrial" reversible="true"/>
+      <reaction id="R_PHEMEtm" name="Transport of Heme" reversible="true"/>
+      <reaction id="R_Htmi" name="Htmi" reversible="true"/>
+      <reaction id="R_DGSNtm" name="Deoyguanosine Transport in Mitochondria" reversible="true"/>
+      <reaction id="R_r2437" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.8.3" reversible="true"/>
+      <reaction id="R_PRGNLONEtm" name="Transport of Pregnenolone, Mitochondrial " reversible="true"/>
+      <reaction id="R_r2378" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_HMR_2635" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2622" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_NACCYStm" name="Transport of N-Acetyl-L-Cysteine into Cytosol" reversible="true"/>
+      <reaction id="R_BGLYtm" name="Intracellular Transport for Benzoyl-Glycine" reversible="true"/>
+      <reaction id="R_6DHFtm" name="6-Glutamyl-Dhf Transport, M Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2667" name="HMR_2667" reversible="true"/>
+      <reaction id="R_AHCYStd" name="Diffusion of S-Adenosyl-L-Homocysteine" reversible="true"/>
+      <reaction id="R_HMR_2668" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_DTTPtm" name="Transport of dTTP into Mitochondria" reversible="true"/>
+      <reaction id="R_HMR_5420" name="HMR_5420" reversible="true"/>
+      <reaction id="R_PE_HStm" name="Phosphatidylethanolamine Scramblase" reversible="true"/>
+      <reaction id="R_3HIVActm" name="Transport of 3-Hydroxy-Isovalerate, Mitochondrial" reversible="true"/>
+      <reaction id="R_3MOBt2im" name="3-Methyl-2-Oxobutanoate Mitochondrial Transport via Proton Symport" reversible="true"/>
+      <reaction id="R_DNDPt20m" name="Transport of dTDP via ATP Antiport" reversible="true"/>
+      <reaction id="R_HMR_2653" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r0911" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_XOL27OHtmc" name="Transport of 26-Hydroxycholesterol, Intracellular" reversible="true"/>
+      <reaction id="R_AKGMALtm" name="Alpha-Ketoglutarate/Malate Transporter" reversible="true"/>
+      <reaction id="R_ASPGLUm" name="Aspartate-Glutamate Mitochondrial Shuttle" reversible="true"/>
+      <reaction id="R_HMR_1764" name="HMR_1764" reversible="true"/>
+      <reaction id="R_HMR_2776" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r1078" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_DNDPt57m" name="Transport of dGTP via ATP Antiport" reversible="true"/>
+      <reaction id="R_3MOPt2im" name="3-Methyl-2-Oxopentanoate Mitochondrial Transport via Proton Symport" reversible="true"/>
+      <reaction id="R_r2373" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_PEFLIPm" name="Phosphatidylethanolamine Flippase" reversible="true"/>
+      <reaction id="R_r2404" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_HMR_2609" name="HMR_2609" reversible="true"/>
+      <reaction id="R_ALDSTRNtm" name="Aldosterone Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_3864" name="HMR_3864" reversible="true"/>
+      <reaction id="R_r1117" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_HMR_6408" name="HMR_6408" reversible="true"/>
+      <reaction id="R_r2433" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.8.3" reversible="true"/>
+      <reaction id="R_r0836" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_AACTtm" name="Aminoacetone Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_8776" name="HMR_8776" reversible="true"/>
+      <reaction id="R_r2401" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_3AIBtmi" name="3-Amino-Isobutyrate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0587" name="HMR_0587" reversible="true"/>
+      <reaction id="R_r2420" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.7" reversible="true"/>
+      <reaction id="R_r1437" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_PHEACGLYtm" name="Transport of Phenylacetylglycine, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt2m" name="Transport of dATP via ATP Antiport" reversible="true"/>
+      <reaction id="R_HMR_2772" name="HMR_2772" reversible="true"/>
+      <reaction id="R_r2410" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_r2409" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_PPAtm" name="Propionate Transport, Diffusion" reversible="true"/>
+      <reaction id="R_10FTHF7GLUtm" name="7-Glutamyl-10Fthf Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt43m" name="Transport of dUTP via ATP Antiport" reversible="true"/>
+      <reaction id="R_r1155" name="Tcdb:2.A.1.13.5 Tcdb:2.A.1.13.1" reversible="true"/>
+      <reaction id="R_HMR_2713" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_ISOBUTtm" name="Transport of Isobutyrylglycine into Cytosol" reversible="true"/>
+      <reaction id="R_HMR_2740" name="HMR_2740" reversible="true"/>
+      <reaction id="R_r1434" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_BTNt2m" name="Biotin Reversible Transport via Proton Symport, Mitochondria" reversible="true"/>
+      <reaction id="R_FORTHFC" name="Formiminotetrahydrofolate Cyclodeaminase (Ec 4.3.1.4)" reversible="true"/>
+      <reaction id="R_HMR_2760" name="HMR_2760" reversible="true"/>
+      <reaction id="R_r2408" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_DNDPt42m" name="Transport of dUTP via ADP Antiport" reversible="true"/>
+      <reaction id="R_HMR_8475" name="HMR_8475" reversible="true"/>
+      <reaction id="R_4HBZtm" name="Transport of 4-Hydroxybenzoate, Mitochondrial" reversible="true"/>
+      <reaction id="R_r1008" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_HMR_2735" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_DHAPtc" name="Transport of Dihydroxyacetone Phosphate into Cytosol" reversible="true"/>
+      <reaction id="R_DNDPt7m" name="Transport of dATP via dADP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt40m" name="Transport of dUTP via dADP Antiport" reversible="true"/>
+      <reaction id="R_r2399" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_CHLtm" name="Choline Transport via Diffusion (Cytosol to Mitochondria)" reversible="true"/>
+      <reaction id="R_HMR_2722" name="HMR_2722" reversible="true"/>
+      <reaction id="R_r2402" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_HXAt1" name="Transport of Hexanoate (N-C6:0), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_5101" name="HMR_5101" reversible="true"/>
+      <reaction id="R_HMR_2744" name="HMR_2744" reversible="true"/>
+      <reaction id="R_DNDPt17m" name="Transport of dUDP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_FORt2m" name="Transport of Formate, Mitochondrial" reversible="true"/>
+      <reaction id="R_BHBtm" name="(R)-3-Hydroxybutanoate Mitochondrial Transport via H+ Symport" reversible="true"/>
+      <reaction id="R_DNDPt48m" name="Transport of dTTP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_r2425" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.16.1" reversible="true"/>
+      <reaction id="R_r2385" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_O2tm" name="Transport of Oxygen, (Diffusion)" reversible="true"/>
+      <reaction id="R_r0973" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_DNDPt3m" name="Transport of dATP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_6THFtm" name="6-Glutamyl-Thf Transport, M Mitochondrial" reversible="true"/>
+      <reaction id="R_10FTHF6GLUtm" name="6-Glutamyl-10Fthf Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt14m" name="Transport of dUDP via dTDP Antiport" reversible="true"/>
+      <reaction id="R_r0834" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_3HPPtm" name="Transport of 3-Hydroxypropionate, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2691" name="HMR_2691" reversible="true"/>
+      <reaction id="R_HMR_2673" name="HMR_2673" reversible="true"/>
+      <reaction id="R_HMR_8505" name="HMR_8505" reversible="true"/>
+      <reaction id="R_r2396" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_24_25DHVITD2tm" name="24, 25-Dihydroxyvitamin D2 Transport from Mitochondria" reversible="true"/>
+      <reaction id="R_HMR_4266" name="HMR_4266" reversible="true"/>
+      <reaction id="R_r2392" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_r1468" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_L_LACtm" name="Transport of L-Lactate, Mitochondrial" reversible="true"/>
+      <reaction id="R_CYANtm" name="Transport of Cyanide via Diffusion, Mitochondrial" reversible="true"/>
+      <reaction id="R_CITtbm" name="Citrate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_VALt5m" name="Valine Reversible Mitochondrial Transport" reversible="true"/>
+      <reaction id="R_r0975" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_GLYtm" name="Transport of Glycine, Passive, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt13m" name="Transport of dADP via ATP Antiport" reversible="true"/>
+      <reaction id="R_CHSTEROLt1" name="Cholesterol Intracellular Transport" reversible="true"/>
+      <reaction id="R_CBL2tm" name="Cob(II)Alamine Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_PACALDtm" name="Intracellular Transport of Pacald" reversible="true"/>
+      <reaction id="R_DNDPt25m" name="Transport of dTDP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_HMR_2769" name="HMR_2769" reversible="true"/>
+      <reaction id="R_THMt2m" name="Thiamine Transport in via Proton Symport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2659" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_DNDPt49m" name="Transport of dTTP via dADP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt41m" name="Transport of dUTP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt63m" name="Transport of dGTP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_CHSTEROLt3" name="Cholesterol Intracellular Transport" reversible="true"/>
+      <reaction id="R_r0950" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_r2435" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.8.3" reversible="true"/>
+      <reaction id="R_DNDPt61m" name="Transport of dGTP via dTDP Antiport" reversible="true"/>
+      <reaction id="R_CITRtm" name="Citrulline Mitochondrial Transport via Proton Antiport" reversible="true"/>
+      <reaction id="R_DNDPt16m" name="Transport of dUDP via dADP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt58m" name="Transport of dGTP via ADP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt15m" name="Transport of dUDP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_CDPDAGtm" name="Intracellular Transport" reversible="true"/>
+      <reaction id="R_AMETt2m" name="S-Adenosyl-L-Methionine Reversible Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2707" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_BZtm" name="Intracellular Transport of Benzoate" reversible="true"/>
+      <reaction id="R_HMR_9174" name="HMR_9174" reversible="true"/>
+      <reaction id="R_HMR_0166" name="HMR_0166" reversible="true"/>
+      <reaction id="R_DNDPt62m" name="Transport of dGTP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_SACCRP_Lte" name="Transport of L-Saccharopinate, Intracellular" reversible="true"/>
+      <reaction id="R_r1001" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_PPItm" name="Diphopshate Transporter, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2371" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_MALTSULtm" name="Malate:Thiosulfate Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_7DHFtm" name="7-Glutamyl-Dhf Transport, M Mitochondrial" reversible="true"/>
+      <reaction id="R_PSFLIPm" name="Phosphatidylserine Flippase" reversible="true"/>
+      <reaction id="R_r1291" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_HMR_2737" name="HMR_2737" reversible="true"/>
+      <reaction id="R_TIGGLYtm" name="Transport of Tiglylglycine, Mitochondrial" reversible="true"/>
+      <reaction id="R_ACRNtm" name="O-Acetylcarnintine Transport into Mitochondria via Diffusion" reversible="true"/>
+      <reaction id="R_2MOPtm" name="Transport of 2-Methyl-3-Oxopropanoate, Mitochondrial" reversible="true"/>
+      <reaction id="R_PHPYRtm" name="Transport of Phenylpyruvate via Proton Symport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_4964" name="HMR_4964" reversible="true"/>
+      <reaction id="R_r0907" name="Active Transport" reversible="true"/>
+      <reaction id="R_MMALtm" name="Transport of Methylmalonate, Mitochondrial" reversible="true"/>
+      <reaction id="R_GLYCtm" name="Transport of Glycerol " reversible="true"/>
+      <reaction id="R_r1455" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r0913" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_ORNt4m" name="Ornithine Mitochondrial Transport Exchange with Citruline" reversible="true"/>
+      <reaction id="R_HMR_2610" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_7THFtm" name="7-Glutamyl-Thf Transport, M Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_9676" name="HMR_9676" reversible="true"/>
+      <reaction id="R_r2419" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.7" reversible="true"/>
+      <reaction id="R_ADNtm" name="Adenosine Faciliated Transport in Mitochondria" reversible="true"/>
+      <reaction id="R_DATPtm" name="Transport of dATP into Mitochondria" reversible="true"/>
+      <reaction id="R_CHSTEROLt2" name="Cholesterol Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_2770" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_8510" name="HMR_8510" reversible="true"/>
+      <reaction id="R_HMR_2613" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_DNDPt52m" name="Transport of dCTP via dUDP Antiport" reversible="true"/>
+      <reaction id="R_r2436" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.8.3" reversible="true"/>
+      <reaction id="R_DNDPt18m" name="Transport of dUDP via ADP Antiport" reversible="true"/>
+      <reaction id="R_HMGCOAtm" name="Hydroxymethylglutaryl Coenzyme A Reversible Mitochondrial Transport" reversible="true"/>
+      <reaction id="R_r2376" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_HMR_2621" name="HMR_2621" reversible="true"/>
+      <reaction id="R_r2386" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_HMR_2695" name="HMR_2695" reversible="true"/>
+      <reaction id="R_ACILEtm" name="Transport of Acetyl Isoleucine, Intracellular" reversible="true"/>
+      <reaction id="R_GLXtm" name="Glyoxylate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt30m" name="Transport of dCDP via ADP Antiport" reversible="true"/>
+      <reaction id="R_MALtm" name="Malate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2734" name="HMR_2734" reversible="true"/>
+      <reaction id="R_CRTSTRNtm" name="Corticosterone Intracellular Transport" reversible="true"/>
+      <reaction id="R_r2391" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_TCYNTtm" name="Thiocyanate Transport via Diffusion, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt47m" name="Transport of dTTP via dTDP Antiport" reversible="true"/>
+      <reaction id="R_2M3OVACtm" name="Transport of 2-Methyl-3-Oxo-Valerate, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0182" name="HMR_0182" reversible="true"/>
+      <reaction id="R_HMR_1752" name="HMR_1752" reversible="true"/>
+      <reaction id="R_DNDPt28m" name="Transport of dCDP via dGDP Antiport" reversible="true"/>
+      <reaction id="R_CITtam" name="Citrate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_ILEt5m" name="Transport of Isoleucine, Mitochondrial " reversible="true"/>
+      <reaction id="R_DNDPt1m" name="Transport of dATP via ADP Antiport" reversible="true"/>
+      <reaction id="R_XOLTRIOLtm" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_2677" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2624" name="HMR_2624" reversible="true"/>
+      <reaction id="R_MALSO4tm" name="Malate:Sulfate Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2655" name="HMR_2655" reversible="true"/>
+      <reaction id="R_HMR_2704" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_H2O2tm" name="Hydrogen Peroxide Mitochondrial Transport" reversible="true"/>
+      <reaction id="R_DNDPt38m" name="Transport of dUTP via dUDP Antiport" reversible="true"/>
+      <reaction id="R_r2375" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_r2407" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_r2389" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_NACASPtm" name="N-Acetyl-L-Aspartate Transport (Mitochondria to Cytosol)" reversible="true"/>
+      <reaction id="R_r1020" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_2M3HBUtm" name="Transport of 2-Methyl-3-Hydroxy-Butyrate, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2387" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_PGP_hs_tm" name="Transport of Phosphatidyl Glycerol Phosphate, Mitochondrial" reversible="true"/>
+      <reaction id="R_HPDECEtm" name="Transport of Trans-Delta-2-Heptadecanoic Acid, Mitochondrial" reversible="true"/>
+      <reaction id="R_25HVITD2tin_m" name="25-Hydroxyvitamin D2 Transport in Mitochondria" reversible="true"/>
+      <reaction id="R_HMR_2671" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_11DOCRTSTRNtm" name="11-Deoxycorticosterone Intracellular Transport" reversible="true"/>
+      <reaction id="R_TETTET6COAtm" name="Fatty Acid Intracellular Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_ACGLYtc" name="Intra-Cellular Transport of Acetyl-Glycine " reversible="true"/>
+      <reaction id="R_PA_HStm" name="Transport of Phosphatidate, Mitochondrial" reversible="true"/>
+      <reaction id="R_DMGtm" name="Transport of Dimethylglycine via Diffusion, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0830" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_HMR_1744" name="HMR_1744" reversible="true"/>
+      <reaction id="R_r2379" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_SUCSALtm" name="Transport of Succinic Semialdehyde, Mitochondrial" reversible="true"/>
+      <reaction id="R_r1440" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r2438" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.8.3" reversible="true"/>
+      <reaction id="R_FUMtm" name="Fumarate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_r1456" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r2397" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_r2372" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_HMR_2670" name="HMR_2670" reversible="true"/>
+      <reaction id="R_r1435" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_HMR_2727" name="HMR_2727" reversible="true"/>
+      <reaction id="R_3OHGLUTACtm" name="Transport of 3-Hydroxy-Glutarate, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2412" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_HMR_2683" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r0915" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_r2377" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_r2406" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_DNDPt55m" name="Transport of dCTP via ADP Antiport" reversible="true"/>
+      <reaction id="R_r0801" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.21.1" reversible="true"/>
+      <reaction id="R_r2535m" name="Transport of L-Homoserine, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2741" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r2520" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.1" reversible="true"/>
+      <reaction id="R_ORNt3m" name="Ornithine Mitochondrial Transport via Proton Antiport" reversible="true"/>
+      <reaction id="R_COAtm" name="Transport of Coenzyme A" reversible="true"/>
+      <reaction id="R_FUMSO3tm" name="Fumarate:Sulfite Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_DNDPt44m" name="Transport of dTTP via ATP Antiport" reversible="true"/>
+      <reaction id="R_THYMDtm" name="Thymd Transport" reversible="true"/>
+      <reaction id="R_5EIPENCtm" name="Transport of 5, 8, 11, 14, 17-Eicosapentenoic Acid, Mitochondrial" reversible="true"/>
+      <reaction id="R_r1427" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_HMR_0962" name="HMR_0962" reversible="true"/>
+      <reaction id="R_r2514m" name="Transport of Hexadecenoate (N-C16:1) via Carnitine Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0926" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_r2403" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_ASNtm" name="L-Asparagine Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2703" name="HMR_2703" reversible="true"/>
+      <reaction id="R_HMR_2688" name="HMR_2688" reversible="true"/>
+      <reaction id="R_ACTYRtc" name="Transport of N-Acetyl-Tyrosine into Cytosol" reversible="true"/>
+      <reaction id="R_r0822" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_MALOAtm" name="Transport of Malate via Oxal Acetate Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2700" name="HMR_2700" reversible="true"/>
+      <reaction id="R_DCTPtm" name="Transport of dCTP into Mitochondria" reversible="true"/>
+      <reaction id="R_NADtm" name="Transport of NAD into Mitochondria" reversible="true"/>
+      <reaction id="R_r0962" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_CE4970tm" name="2-Methylbutyrylglycine Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2405" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.19.1" reversible="true"/>
+      <reaction id="R_HMR_8418" name="HMR_8418" reversible="true"/>
+      <reaction id="R_HMR_1666" name="Cholate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2685" name="HMR_2685" reversible="true"/>
+      <reaction id="R_4MPTNLtm" name="4-Methylpentanal Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2710" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_SUCCt2m" name="Succinate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_CRTSLtm" name="Cortisol Intracellular Transport" reversible="true"/>
+      <reaction id="R_ACHOMtm" name="Transport of Acetyl Homoserine, Intracellular" reversible="true"/>
+      <reaction id="R_L_LACtcm" name="Transport of L-Lactate via Diffusion, Mitochondrial" reversible="true"/>
+      <reaction id="R_NACVANALAtm" name="Transport of Acetyl-Vanilalanine" reversible="true"/>
+      <reaction id="R_HMR_2718" name="HMR_2718" reversible="true"/>
+      <reaction id="R_D_LACtm" name="D-Lactate Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2775" name="HMR_2775" reversible="true"/>
+      <reaction id="R_GLYCLTtm" name="Transport of Glycolate, Mitochondrial" reversible="true"/>
+      <reaction id="R_CE2026tm" name="3-Methyl-Crotonyl-Glycine Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_r2382" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_MALSO3tm" name="Malate:Sulfite Antiport, Mitochondrial" reversible="true"/>
+      <reaction id="R_GLNtm" name="L-Glutamine Transport via Electroneutral Transporter" reversible="true"/>
+      <reaction id="R_DNDPt23m" name="Transport of dTDP via dGTP Antiport" reversible="true"/>
+      <reaction id="R_DNDPt51m" name="Transport of dCTP via dCDP Antiport" reversible="true"/>
+      <reaction id="R_3HMPtm" name="Transport of 3-Hydroxy-Isobutyrate, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3520" name="HMR_3520" reversible="true"/>
+      <reaction id="R_PGLYCtm" name="Transport of Phosphatidylglycerol, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_DNDPt32m" name="Transport of dGDP via ATP Antiport" reversible="true"/>
+      <reaction id="R_HMR_0185" name="HMR_0185" reversible="true"/>
+      <reaction id="R_DGTPtm" name="Transport of dGTP into Mitochondria" reversible="true"/>
+      <reaction id="R_FALDtm" name="Formaldehyde Transport via Diffusion, Mitochondrial" reversible="true"/>
+      <reaction id="R_PROtm" name="Transport of L-Proline, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0819" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.2.2" reversible="true"/>
+      <reaction id="R_GLUt2m" name="L-Glutamate Reversible Transport via Proton Symport, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_7757" name="HMR_7757" reversible="true"/>
+      <reaction id="R_HMR_1620" name="Cholate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_25HVITD3tin_m" name="25-Hydroxyvitamin D3 Transport in Mitochondria" reversible="true"/>
+      <reaction id="R_ACTHRtc" name="Intra-Cellular Transport of Acetyl-Threonine " reversible="true"/>
+      <reaction id="R_HMR_2604" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2701" name="Carnitine O-Acetyltransferase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

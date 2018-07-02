@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="pyrimidine_synthesis">
+    <listOfReactions>
+      <reaction id="R_CBPS" name="Carbamoyl-Phosphate Synthase (Glutamine-Hydrolysing)" reversible="true"/>
+      <reaction id="R_ORPT" name="Orotate Phosphoribosyltransferase" reversible="true"/>
+      <reaction id="R_DTMPKm" name="DTMP Kinase in Mitochondria" reversible="true"/>
+      <reaction id="R_DHORTS" name="Dihydroorotase" reversible="true"/>
+      <reaction id="R_DHORD9" name="Dihydoorotic Acid Dehydrogenase (Quinone 10)" reversible="true"/>
+      <reaction id="R_RE1530C" name="Thymidine Kinase" reversible="true"/>
+      <reaction id="R_ASPCTr" name="Aspartate Carbamoyltransferase (Reversible)" reversible="true"/>
+      <reaction id="R_RE0453N" name="Nucleoside-Diphosphate Kinase" reversible="true"/>
+      <reaction id="R_URIK1" name="Uridine Kinase (ATP:Uridine)" reversible="true"/>
+      <reaction id="R_HMR_4182" name="HMR_4182" reversible="true"/>
+      <reaction id="R_RE0453C" name="Nucleoside-Diphosphate Kinase" reversible="true"/>
+      <reaction id="R_RE2954C" name="Pyruvate Kinase" reversible="true"/>
+      <reaction id="R_OMPDC" name="Orotidine-5&apos;-Phosphate Decarboxylase" reversible="true"/>
+      <reaction id="R_HMR_4343" name="Uracil Phosphoribosyltransferase" reversible="true"/>
+      <reaction id="R_RE0456N" name="Ribonucleoside-Diphosphate Reductase" reversible="true"/>
+      <reaction id="R_URIK3" name="Urik3" reversible="true"/>
+      <reaction id="R_CTPS2" name="CTP Synthase (Glutamine)" reversible="true"/>
+      <reaction id="R_RE0452M" name="DTMP Kinase" reversible="true"/>
+      <reaction id="R_RE1530M" name="Thymidine Kinase" reversible="true"/>
+      <reaction id="R_RE0453M" name="Nucleoside-Diphosphate Kinase" reversible="true"/>
+      <reaction id="R_HMR_4672" name="DCTP Deaminase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

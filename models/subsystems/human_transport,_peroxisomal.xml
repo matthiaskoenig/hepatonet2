@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model>
+    <listOfReactions>
+      <reaction id="R_NRVNCCOAtxc" name="Transport of Nervonylcoa into Peroxisomes" reversible="true"/>
+      <reaction id="R_DCSPTN1COAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_NADtx" name="Transport of NAD into Peroxisome" reversible="true"/>
+      <reaction id="R_SUCCtp" name="Succinate Transporter, Peroxisome" reversible="true"/>
+      <reaction id="R_r0990" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_r0997" name="Cot Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_HMR_1623" name="HMR_1623" reversible="true"/>
+      <reaction id="R_3OHSUBACtxc" name="Transport of 3-Hydoxy-Suberic Acid, Peroxisomal" reversible="true"/>
+      <reaction id="R_5A2OPNTNtx" name="Transport of 5-Amino-2-Oxopentanoic Acid, Peroxisome" reversible="true"/>
+      <reaction id="R_PItx" name="Phosphate Transporter, Peroxisome" reversible="true"/>
+      <reaction id="R_r1012" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_LGNCCOAtcx" name="Transport of Lignocericyl Coenzyme A from Cytosol to Peroxisome." reversible="true"/>
+      <reaction id="R_C6COAt" name="Esterification of Of Hexanoylcoa for Transport into Cytosol" reversible="true"/>
+      <reaction id="R_HMR_9179" name="HMR_9179" reversible="true"/>
+      <reaction id="R_C03990tx" name="Transport of Lithocholate, Intracellular" reversible="true"/>
+      <reaction id="R_C226COAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_CRNCAR3tp" name="Carnitine-Propcarnitine Carrier, Peroxisomal" reversible="true"/>
+      <reaction id="R_XANtx" name="Xanthine Diffusion in Peroxisome" reversible="true"/>
+      <reaction id="R_LGNCCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_1283" name="HMR_1283" reversible="true"/>
+      <reaction id="R_TETTET6COAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_r2502" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.3" reversible="true"/>
+      <reaction id="R_HXCOAtx" name="Transport of Hexanoate, Peroxisome" reversible="true"/>
+      <reaction id="R_HMR_3018" name="HMR_3018" reversible="true"/>
+      <reaction id="R_HMR_1759" name="HMR_1759" reversible="true"/>
+      <reaction id="R_DHCHOLESTANATEtm" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_OXAtp" name="Oxalate Transport Out of Peroxisome" reversible="true"/>
+      <reaction id="R_r1007" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_NRVNCCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_GLYtp" name="Transport of Glycine, Passive, Peroxisomal" reversible="true"/>
+      <reaction id="R_ETOHtx" name="Transport of Ethanol, Reversible, Peroxisomal " reversible="true"/>
+      <reaction id="R_SERtp" name="L-Serine Transport, Peroxisomal" reversible="true"/>
+      <reaction id="R_r1292" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_TETPENT3COAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_STCOATxc" name="Transport of Stearoyl Coenzyme A from Cytosol to Peroxisomes" reversible="true"/>
+      <reaction id="R_H2Otp" name="H2O Transport, Peroxisomal" reversible="true"/>
+      <reaction id="R_r0954" name="Mct 1 Transport Reaction" reversible="true"/>
+      <reaction id="R_C4tcx" name="Transport of Bytyrylcarnitine from Peroxisomes" reversible="true"/>
+      <reaction id="R_r1147" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.7.2" reversible="true"/>
+      <reaction id="R_O2Stx" name="Transport of peroxide Anion via Diffusion, Peroxisomal" reversible="true"/>
+      <reaction id="R_C6CRNtcx" name="Transport of Hexanoylcarnitine into Cytosol" reversible="true"/>
+      <reaction id="R_SCP21x" name="Sterol Carrier Protein 2" reversible="true"/>
+      <reaction id="R_NADPHtxu" name="Transport of NADPH, Peroxisome" reversible="true"/>
+      <reaction id="R_AMPtp" name="AMP Transporter, Peroxisome" reversible="true"/>
+      <reaction id="R_HMR_9680" name="HMR_9680" reversible="true"/>
+      <reaction id="R_TCHOLAtx" name="Bile Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_HXAt2" name="Transport of Hexanoate (N-C6:0), Peroxisome" reversible="true"/>
+      <reaction id="R_r2503" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.3" reversible="true"/>
+      <reaction id="R_r1428" name="Free Diffusion" reversible="true"/>
+      <reaction id="R_DGCHOLtx" name="Bile Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_HDD2COAtx" name="Transport of Trans-Hexadec-2-Enoyl Coenzyme A " reversible="true"/>
+      <reaction id="R_HEXCCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMGCOAtx" name="Hydroxymethylglutaryl Coenzyme A Reversible Peroxisomal Transport" reversible="true"/>
+      <reaction id="R_ADRNCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_DOCOSCOAtxc" name="Transport of Behenoylcoa into Peroxisomes" reversible="true"/>
+      <reaction id="R_r2499" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.3" reversible="true"/>
+      <reaction id="R_HMR_1629" name="7Alpha-Hydroxycholest-4-En-3-One 12Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_CLPNDCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_ATPtx" name="ATP Transporter, Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_1701" name="HMR_1701" reversible="true"/>
+      <reaction id="R_HMR_3021" name="HMR_3021" reversible="true"/>
+      <reaction id="R_O2tp" name="Transport of Oxygen, Peroxisomal" reversible="true"/>
+      <reaction id="R_C9BRxtc" name="Transport of Dimethylnonanoylcarnitine from Peroxisomes to Cytosol" reversible="true"/>
+      <reaction id="R_STCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_r2497" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.3" reversible="true"/>
+      <reaction id="R_3HADPACtxc" name="Transport of 3-Hydroxy-Adipate, Peroxisomal" reversible="true"/>
+      <reaction id="R_GLYCLTtp" name="Transport of Glycolate  into Peroxisome" reversible="true"/>
+      <reaction id="R_IPDPtx" name="Isopentenyl Diphosphate Transport, Peroxisomal" reversible="true"/>
+      <reaction id="R_TMNDNCCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_3106" name="HMR_3106" reversible="true"/>
+      <reaction id="R_STRDNCCOAtxc" name="Transport of Stearidonylcoa into Peroxisomes." reversible="true"/>
+      <reaction id="R_ORN_Dtx" name="Transport of Ornithine, Peroxisomal" reversible="true"/>
+      <reaction id="R_C2tcx" name="Transport of Acetylcarnitine from Peroxisomes to Cytosol" reversible="true"/>
+      <reaction id="R_TETPENT6COAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_DOCO13ECOAtxc" name="Transport of 13-Docosenoylcoa into Peroxisomes" reversible="true"/>
+      <reaction id="R_PRISTtx" name="Transport of Pristanic Acid, Peroxisomal" reversible="true"/>
+      <reaction id="R_FADtx" name="Transport of FAD, Peroxisomal" reversible="true"/>
+      <reaction id="R_TDCHOLAtx" name="Bile Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_9679" name="HMR_9679" reversible="true"/>
+      <reaction id="R_HMR_3023" name="HMR_3023" reversible="true"/>
+      <reaction id="R_LPIPECOLtx" name="Transport of L-Pipecolic Acid by Sodium Symport, Intracellular" reversible="true"/>
+      <reaction id="R_r2518" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.1" reversible="true"/>
+      <reaction id="R_PRISTCOAtx" name="Transport of Pristanoyl Coenzyme A, Peroxisomal" reversible="true"/>
+      <reaction id="R_PPItx" name="Diphosphate Transporter, Peroxisome" reversible="true"/>
+      <reaction id="R_r2517" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.1" reversible="true"/>
+      <reaction id="R_SARCStp" name="Transport of Sarcosine, Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_1242" name="HMR_1242" reversible="true"/>
+      <reaction id="R_r1148" name="Active Transport" reversible="true"/>
+      <reaction id="R_Htx" name="H Transporter, Peroxisome" reversible="true"/>
+      <reaction id="R_GLXtp" name="Glyoxylate Transport, Peroxisomal" reversible="true"/>
+      <reaction id="R_PRISTCOAtcx" name="Transport of Pristanoylcoa from Cytosol to Peroxisomes." reversible="true"/>
+      <reaction id="R_5G2OXPTtx" name="Transport of 5-Guanidino-2-Oxopentanoic Acid, Peroxisomal" reversible="true"/>
+      <reaction id="R_r0999" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_TETHEX3COAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_NH4tp" name="Transport of Ammonium ion, Peroxisomal " reversible="true"/>
+      <reaction id="R_SCP21cx" name="Transport of Phytanoylcoa from Cytosol to Peroxisomes." reversible="true"/>
+      <reaction id="R_FORMCOAtx" name="Formyl Coenzyme A Transport" reversible="true"/>
+      <reaction id="R_HMR_9678" name="HMR_9678" reversible="true"/>
+      <reaction id="R_CRNtx" name="Carnitine Transport Peroxisome to Mitochondria" reversible="true"/>
+      <reaction id="R_PRISTANALtx" name="Transport of Pristanal, Peroxisomal" reversible="true"/>
+      <reaction id="R_THCHOLSTOICtm" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_GCHOLAtx" name="Bile Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_NAtx" name="Sodium Transport via Diffusion (Perioxisome)" reversible="true"/>
+      <reaction id="R_CRNCARtp" name="Carnitine-Acetylcarnitine Carrier, Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_1758" name="HMR_1758" reversible="true"/>
+      <reaction id="R_URATEtx" name="Urate Export from Peroxisome" reversible="true"/>
+      <reaction id="R_C02592tx" name="Transprot of Taurolithocholate, Peroxisomal" reversible="true"/>
+      <reaction id="R_r2516" name="Major Facilitator (Mfs) Tcdb:2.A.1.13.1" reversible="true"/>
+      <reaction id="R_ARACHDCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_C16txc" name="Transport of Palmitoylcoa into Peroxisomes" reversible="true"/>
+      <reaction id="R_HMR_1665" name="Cholate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_OCCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_SCP22x" name="Sterol Carrier Protein 2" reversible="true"/>
+      <reaction id="R_HMR_3867" name="HMR_3867" reversible="true"/>
+      <reaction id="R_COAtp" name="Transport of Coenzyme A, Peroxisome" reversible="true"/>
+      <reaction id="R_ODECOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_CRNrtx" name="Reversible Transport of L-Carnitine in Peroxisome" reversible="true"/>
+      <reaction id="R_ACACtx" name="Acetoacetate Intracellular Transport Unknown Mechanism" reversible="true"/>
+      <reaction id="R_H2O2tp" name="Hydrogen Peroxide Peroxisomal Transport via Diffusion" reversible="true"/>
+      <reaction id="R_FADH2tx" name="Transport of FADH2, Peroxisomal" reversible="true"/>
+      <reaction id="R_DCSPTN1COAtxc" name="Transport of Docosapentenoylcoa into Peroxisomes." reversible="true"/>
+      <reaction id="R_HMR_6986" name="HMR_6986" reversible="true"/>
+      <reaction id="R_ADPtx" name="ADP Transporter, Peroxisomal" reversible="true"/>
+      <reaction id="R_PMTCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_r2501" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.3" reversible="true"/>
+      <reaction id="R_ACALDtx" name="Acetaldehyde Peroxisomal Diffusion" reversible="true"/>
+      <reaction id="R_r1006" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_r1429" name="Free Diffusion" reversible="true"/>
+      <reaction id="R_HXANtx" name="Hypoxanthine Diffusion in Peroxisome" reversible="true"/>
+      <reaction id="R_r1014" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_FRDPtc" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_C4x" name="Esterification of Butyrylcoa to Butyrylcarnitine for Transport" reversible="true"/>
+      <reaction id="R_CO2tp" name="CO2 Peroxisomal Transport" reversible="true"/>
+      <reaction id="R_ARG_Dtx" name="Transport of D-Arginine, Peroxisome" reversible="true"/>
+      <reaction id="R_r2498" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.203.3" reversible="true"/>
+      <reaction id="R_HMR_3478" name="HMR_3478" reversible="true"/>
+      <reaction id="R_NADHtpu" name="NADH Transporter, Peroxisome" reversible="true"/>
+      <reaction id="R_HMR_4790" name="HMR_4790" reversible="true"/>
+      <reaction id="R_NADPtxu" name="Transport of NADP, Peroxisome" reversible="true"/>
+      <reaction id="R_ARACHCOAtx" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_r0934" name="Neurotransmitter:Sodium Symporter (Nss) Tcdb:2.A.22.3.3" reversible="true"/>
+      <reaction id="R_FRDPtr" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_HPYRtp" name="Hydroxypyruate Transport, Peroxisomal" reversible="true"/>
+      <reaction id="R_r1003" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_LYStip" name="Transport of L-Lysine, Peroxisomal (Irreversible)" reversible="true"/>
+      <reaction id="R_MAL_Ltx" name="Transport Reaction for Malate" reversible="true"/>
+      <reaction id="R_HMR_1135" name="HMR_1135" reversible="true"/>
+      <reaction id="R_THP2Ctp" name="2, 3, 4, 5-Tetrahydropyridine-2-Carboxylate Transport, Peroxisomal" reversible="true"/>
+      <reaction id="R_ASPDxt" name="D-Aspartate Transport, Peroxisomal" reversible="true"/>
+      <reaction id="R_LACLt" name="Lactate Transport" reversible="true"/>
+      <reaction id="R_AKGtp" name="Akg Transporter, Peroxisome" reversible="true"/>
+      <reaction id="R_r1019" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_HMR_1104" name="HMR_1104" reversible="true"/>
+      <reaction id="R_3OHSEBACtxc" name="Transportof 3-Hydroxy-Sebacic Acid, Peroxisomal" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="eicosanoid_metabolism">
+    <listOfReactions>
+      <reaction id="R_LTC4CP" name="Leukotriene C4 Carboxypeptidase" reversible="true"/>
+      <reaction id="R_LTA4H" name="Leukotriene A-4 Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_1390" name="Prostaglandin-Endoperoxide Synthase" reversible="true"/>
+      <reaction id="R_RE3567C" name="Prostaglandin-A1 Delta-Isomerase" reversible="true"/>
+      <reaction id="R_RE3485C" name="Arachidonate 5-Lipoxygenase" reversible="true"/>
+      <reaction id="R_RE3488C" name="Prostaglandin-Endoperoxide Synthase" reversible="true"/>
+      <reaction id="R_RE3432C" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_HMR_1317" name="HMR_1317" reversible="true"/>
+      <reaction id="R_15KPROSTGF2c" name="Formation of 15-Keto-Prostaglandin F2A" reversible="true"/>
+      <reaction id="R_RE3434C" name="Leukotriene-B4 20-Monooxygenase" reversible="true"/>
+      <reaction id="R_RE3566C" name="RE3566C" reversible="true"/>
+      <reaction id="R_RE3597X" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_RE3012R" name="Aldehyde Dehydrogenase (NAD+)" reversible="true"/>
+      <reaction id="R_P4504F81r" name="Cytochrome P450 4F8" reversible="true"/>
+      <reaction id="R_RE3430C" name="RE3430C" reversible="true"/>
+      <reaction id="R_TXB2c" name="Formation of Thromboxane B2" reversible="true"/>
+      <reaction id="R_HMR_1321" name="HMR_1321" reversible="true"/>
+      <reaction id="R_RE3432X" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_RE3435C" name="Leukotriene-B4 20-Monooxygenase" reversible="true"/>
+      <reaction id="R_LTC4Sr" name="Leukotriene C4 Synthase" reversible="true"/>
+      <reaction id="R_RE3490C" name="RE3490C" reversible="true"/>
+      <reaction id="R_RE3422C" name="RE3422C" reversible="true"/>
+      <reaction id="R_RE2069C" name="RE2069C" reversible="true"/>
+      <reaction id="R_RE3423C" name="RE3423C" reversible="true"/>
+      <reaction id="R_RE3307C" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_RE2078M" name="RE2078M" reversible="true"/>
+      <reaction id="R_RE3011M" name="Alcohol Dehydrogenase" reversible="true"/>
+      <reaction id="R_P4504F121r" name="Cytochrome P450 4F12/4F2" reversible="true"/>
+      <reaction id="R_RE3012M" name="Aldehyde Dehydrogenase (NAD+)" reversible="true"/>
+      <reaction id="R_RE2080C" name="RE2080C" reversible="true"/>
+      <reaction id="R_RE3430M" name="RE3430M" reversible="true"/>
+      <reaction id="R_RE3014R" name="Leukotriene-B4 20-Monooxygenase" reversible="true"/>
+      <reaction id="R_RE3436C" name="Leukotriene-B4 20-Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1325" name="HMR_1325" reversible="true"/>
+      <reaction id="R_RE3568C" name="RE3568C" reversible="true"/>
+      <reaction id="R_P4504B1r" name="Cytochrome P450 4B1" reversible="true"/>
+      <reaction id="R_RE3570C" name="RE3570C" reversible="true"/>
+      <reaction id="R_RE3597M" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_RE3587C" name="Prostaglandin-E Synthase" reversible="true"/>
+      <reaction id="R_HMR_1318" name="HMR_1318" reversible="true"/>
+      <reaction id="R_RE3556C" name="RE3556C" reversible="true"/>
+      <reaction id="R_RE3016R" name="RE3016R" reversible="true"/>
+      <reaction id="R_RE3491C" name="Leukotriene-A4 Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_1307" name="Prostaglandin-Endoperoxide Synthase" reversible="true"/>
+      <reaction id="R_RE3477C1" name="NAD Dependent 11-Hydroxythromboxane B2 Dehydrogenase " reversible="true"/>
+      <reaction id="R_RE3597C" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_RE3524R" name="RE3524R" reversible="true"/>
+      <reaction id="R_GGT6" name="Gamma-Glutamyltransferase" reversible="true"/>
+      <reaction id="R_RE3421R" name="RE3421R" reversible="true"/>
+      <reaction id="R_PGDI" name="Prostaglandin-H2 D-Isomerase [Precursor]" reversible="true"/>
+      <reaction id="R_PGSr" name="Prostaglandin G/H Synthase" reversible="true"/>
+      <reaction id="R_ALOX5" name="Arachidonate 5-Lipoxygenase" reversible="true"/>
+      <reaction id="R_RE3015R" name="Leukotriene-B4 20-Monooxygenase" reversible="true"/>
+      <reaction id="R_ALOX52" name="Arachidonate 5-Lipoxygenase" reversible="true"/>
+      <reaction id="R_RE3493C" name="RE3493C" reversible="true"/>
+      <reaction id="R_RE3496C" name="Prostaglandin-E Synthase" reversible="true"/>
+      <reaction id="R_HMR_1305" name="Prostaglandin-Endoperoxide Synthase" reversible="true"/>
+      <reaction id="R_RE3010X" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_LTD4DP" name="Leukotriene D4 Dipeptidase" reversible="true"/>
+      <reaction id="R_P450LTB4r" name="Cytochrome P450 Leukotriene B4" reversible="true"/>
+      <reaction id="R_HMR_1332" name="HMR_1332" reversible="true"/>
+      <reaction id="R_PGS" name="Prostaglandin G/H Synthase" reversible="true"/>
+      <reaction id="R_RE3017R" name="RE3017R" reversible="true"/>
+      <reaction id="R_RE3488R" name="Prostaglandin-Endoperoxide Synthase" reversible="true"/>
+      <reaction id="R_RE1978C" name="RE1978C" reversible="true"/>
+      <reaction id="R_HMR_1388" name="Arachidonate 15-Lipoxygenase" reversible="true"/>
+      <reaction id="R_HMR_1373" name="HMR_1373" reversible="true"/>
+      <reaction id="R_P4504F122r" name="Cytochrome P450 4F12/4F2" reversible="true"/>
+      <reaction id="R_PGDIr" name="Prostaglandin-H2 D-Isomerase [Precursor]" reversible="true"/>
+      <reaction id="R_RE3432M" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_RE3011R" name="Alcohol Dehydrogenase" reversible="true"/>
+      <reaction id="R_CBR2" name="Carbonyl Reductase [NADPH] 1" reversible="true"/>
+      <reaction id="R_RE1077C" name="Thromboxane-A Synthase" reversible="true"/>
+      <reaction id="R_RE3437C" name="RE3437C" reversible="true"/>
+      <reaction id="R_HMR_1329" name=" (5Z, 13E)- (15S)-9Alpha, 11Alpha, 15-Trihydroxyprosta-5, 13-Dienoate:NADP+ 11-Oxidoreductase" reversible="true"/>
+      <reaction id="R_PGESr" name="Prostaglandin E Synthase" reversible="true"/>
+      <reaction id="R_RE3430X" name="RE3430X" reversible="true"/>
+      <reaction id="R_RE3486C" name="RE3486C" reversible="true"/>
+      <reaction id="R_ALOX12" name="Arachidonate 12-Lipoxygenase" reversible="true"/>
+      <reaction id="R_RE3012C" name="Aldehyde Dehydrogenase (NAD+)" reversible="true"/>
+      <reaction id="R_RE2079R" name="RE2079R" reversible="true"/>
+      <reaction id="R_RE3565C" name="Prostaglandin-A1 Delta-Isomerase" reversible="true"/>
+      <reaction id="R_PGISr" name="Prostaglandin I2 Synthase" reversible="true"/>
+      <reaction id="R_HMR_1315" name="HMR_1315" reversible="true"/>
+      <reaction id="R_ALOX15" name="Arachidonate 15-Lipoxygenase" reversible="true"/>
+      <reaction id="R_TXASr" name="Thromboxane-A Synthase" reversible="true"/>
+      <reaction id="R_RE3431C" name="RE3431C" reversible="true"/>
+      <reaction id="R_RE3010M" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_RE2958C" name="RE2958C" reversible="true"/>
+      <reaction id="R_HMR_1312" name="Prostaglandin-E Synthase" reversible="true"/>
+      <reaction id="R_RE3010C" name="Carbonyl Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_GGT5r" name="Gamma-Glutamyltransferase 5" reversible="true"/>
+      <reaction id="R_RE2799C" name="Prostaglandin-F Synthase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

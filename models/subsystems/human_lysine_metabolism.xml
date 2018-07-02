@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="lysine_metabolism">
+    <listOfReactions>
+      <reaction id="R_BBHOX" name="4-Trimethylammoniobutanoate, 2-Oxoglutarate:Oxygen Oxidoreductase (3-Hydroxylating)" reversible="true"/>
+      <reaction id="R_r0594" name="L-2-Aminoadipate-6-Semialdehyde:NAD+ 6-Oxidoreductase Lysine Degradation" reversible="true"/>
+      <reaction id="R_2AMADPTm" name="L-2-Aminoadipate Shuttle (Cytosol/Mitochondria)" reversible="true"/>
+      <reaction id="R_LPCOXp" name="L-Pipecolate Oxidase, Peroxisomal" reversible="true"/>
+      <reaction id="R_GHMT3" name="Glycine Hydroxymethyltransferase" reversible="true"/>
+      <reaction id="R_PPD2CSPp" name="Ppd2Cspp" reversible="true"/>
+      <reaction id="R_2OXOADOXm" name="2-Oxoadipate:Lipoamde 2-Oxidoreductase (Decarboxylating And Acceptor-Succinylating), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_6975" name="HMR_6975" reversible="true"/>
+      <reaction id="R_AATAi" name="2-Aminoadipate Transaminase, Irreversible" reversible="true"/>
+      <reaction id="R_HMCRNc" name="Formation of Homocitrulline" reversible="true"/>
+      <reaction id="R_3HGLUTCOAm" name="Acyl Coenzyme A Dehydrogenase for Glutaryl Coenzyme A, Forming 3-Hydroxy-Glutaryl Coenzyme A" reversible="true"/>
+      <reaction id="R_3OHGLUTACm" name="Formation of 3-Hydroxy-Glutarate" reversible="true"/>
+      <reaction id="R_SACCD4m" name="Saccharopine Dehydrogenase (NAD, L-Glutamate Forming), Mitochondrial" reversible="true"/>
+      <reaction id="R_LYSACm" name="Acetylation of Lysine" reversible="true"/>
+      <reaction id="R_HMR_6976" name="S-Adenosyl-L-Methionine:Cytochrome-C-L-Lysine N6-Methyltransferase" reversible="true"/>
+      <reaction id="R_AASAD3m" name="L-Aminoadipate-Semialdehyde Dehydrogenase (NADH), Mitochondrial" reversible="true"/>
+      <reaction id="R_r0525" name="N6- (L-1, 3-Dicarboxypropyl)-L-Lysine:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_GLUTACOAm" name="Formation of Glutaconyl Coenzyme A" reversible="true"/>
+      <reaction id="R_HMR_6977" name="S-Adenosyl-L-Methionine:Cytochrome-C-L-Lysine N6-Methyltransferase" reversible="true"/>
+      <reaction id="R_TMLYSOX" name="Trimethyllysine Dioxygenase" reversible="true"/>
+      <reaction id="R_RE1254C" name="Dopamine Beta-Monooxygenase" reversible="true"/>
+      <reaction id="R_r0450" name="L-2-Aminoadipate:2-Oxoglutarate Aminotransferase Lysine Biosynthesis Lysine Degradation" reversible="true"/>
+      <reaction id="R_ADPOHc" name="Hydroxylation of 2-Oxoadipate" reversible="true"/>
+      <reaction id="R_HMR_6978" name="Signal Peptidase I" reversible="true"/>
+      <reaction id="R_1PPDCRp" name="Delta1-Piperideine-2-Carboxylate Reductase, Perixosomal" reversible="true"/>
+      <reaction id="R_TD2GLTRCOAm" name="Acyl Coenzyme A Dehydrogenase for Glutaryl Coenzyme A, Forming Trans-Delta-2-Glutaryl Coenzyme A" reversible="true"/>
+      <reaction id="R_TMABADH" name="4-Trimethylaminobutyraldehyde Dehydrogenase" reversible="true"/>
+      <reaction id="R_LYSOXp" name="Transport of L-Lysine Oxidase, Peroxisomal" reversible="true"/>
+      <reaction id="R_ACLYSHYc" name="Hydrolysis of Acetyl-Lysine" reversible="true"/>
+      <reaction id="R_GLUTCONm" name="Formation of Glutaconic Acid" reversible="true"/>
+      <reaction id="R_SACCD3m" name="Saccharopine Dehydrogenase (NADP, L-Lysine Forming), Mitochondrial" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

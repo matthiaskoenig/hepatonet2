@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="nucleotide_interconversion">
+    <listOfReactions>
+      <reaction id="R_NDP10ex" name="Nucleoside-Diphosphatase (IDP), Extracellular" reversible="true"/>
+      <reaction id="R_NDP3ex" name="Nucleoside-Diphosphatase (GDP), Extracellular" reversible="true"/>
+      <reaction id="R_CYTK8" name="Cytidylate Kinase (CMP, dATP)" reversible="true"/>
+      <reaction id="R_NDPK10n" name="Nucleoside-Diphosphate Kinase (ATP:DIDP), Nuclear" reversible="true"/>
+      <reaction id="R_DGK1" name="Deoxyguanylate Kinase (dGMP:ATP)" reversible="true"/>
+      <reaction id="R_r0456" name="ATP:Deoxyguanosine 5-Phosphotransferase" reversible="true"/>
+      <reaction id="R_r0394" name="Xanthine:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_UMPK4" name="UMP Kinase (GTP)" reversible="true"/>
+      <reaction id="R_CYTK13" name="Cytidylate Kinase (dCMP, dATP)" reversible="true"/>
+      <reaction id="R_CYTK12" name="Cytidylate Kinase (dCMP, dCTP)" reversible="true"/>
+      <reaction id="R_CTPS1" name="CTP Synthase (NH3)" reversible="true"/>
+      <reaction id="R_NTD12" name="5&apos;-Nucleotidase (DIMP)" reversible="true"/>
+      <reaction id="R_r1156" name="DUTP:Uridine 5-Phosphotransferase" reversible="true"/>
+      <reaction id="R_PDE4n" name="3&apos;, 5&apos;-Cyclic-Nucleotide Phosphodiesterase, Nucleus" reversible="true"/>
+      <reaction id="R_RNDR1" name="Ribonucleoside-Diphosphate Reductase (ADP)" reversible="true"/>
+      <reaction id="R_NDPK8" name="Nucleoside-Diphosphate Kinase (ATP:dADP)" reversible="true"/>
+      <reaction id="R_NTD8" name="5&apos;-Nucleotidase (dGMP)" reversible="true"/>
+      <reaction id="R_NDPK9" name="Nucleoside-Diphosphate Kinase (ATP:IDP)" reversible="true"/>
+      <reaction id="R_UMPK7" name="UMP Kinase (dGTP)" reversible="true"/>
+      <reaction id="R_BPNT2" name="3&apos;, 5&apos;-Bisphosphate Nucleotidase (Paps)" reversible="true"/>
+      <reaction id="R_ADNK1m" name="Adenosine Kinase, Mitochondrial" reversible="true"/>
+      <reaction id="R_TMDK1m" name="Thymidine Kinase (ATP:Thymidine)" reversible="true"/>
+      <reaction id="R_PDE4g" name="3&apos;, 5&apos;-Cyclic-Nucleotide Phosphodiesterase, Golgi" reversible="true"/>
+      <reaction id="R_PDE1g" name="3&apos;, 5&apos;-Cyclic-Nucleotide Phosphodiesterase, Golgi" reversible="true"/>
+      <reaction id="R_NTD9" name="5&apos;-Nucleotidase (GMP)" reversible="true"/>
+      <reaction id="R_GUACYC" name="Guanylate Cyclase" reversible="true"/>
+      <reaction id="R_CYTK12n" name="Cytidylate Kinase (dCMP, dCTP), Nuclear" reversible="true"/>
+      <reaction id="R_UMPK4n" name="UMP Kinase (GTP), Nuclear" reversible="true"/>
+      <reaction id="R_DADAe" name="Deoxyadenosine Deaminase, Extracellular" reversible="true"/>
+      <reaction id="R_r0395" name="Hypoxanthine:Oxygen Oxidoreductase" reversible="true"/>
+      <reaction id="R_UMPK3n" name="UMP Kinase (UTP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK10" name="Cytidylate Kinase (CMP, dGTP)" reversible="true"/>
+      <reaction id="R_NDPK4" name="Nucleoside-Diphosphate Kinase (ATP:dTDP)" reversible="true"/>
+      <reaction id="R_CYTK13n" name="Cytidylate Kinase (dCMP, dATP), Nuclear" reversible="true"/>
+      <reaction id="R_NDPK1m" name="Nucleoside-Diphosphate Kinase (ATP:GDP), Mitochondrial" reversible="true"/>
+      <reaction id="R_DCK2n" name="Deoxycytidine Kinase, Nuclear (UTP)" reversible="true"/>
+      <reaction id="R_TRDR" name="Thioredoxin Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_NDPK1" name="Nucleoside-Diphosphate Kinase (ATP:GDP)" reversible="true"/>
+      <reaction id="R_CYTK5n" name="Cytidylate Kinase (CMP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK11" name="Cytidylate Kinase (dCMP, dGTP)" reversible="true"/>
+      <reaction id="R_CYTK10n" name="Cytidylate Kinase (CMP, dGTP), Nuclear" reversible="true"/>
+      <reaction id="R_DADNK" name="Deoxyadenosine Kinase" reversible="true"/>
+      <reaction id="R_PUNP7" name="Purine-Nucleoside Phosphorylase (Xanthosine)" reversible="true"/>
+      <reaction id="R_NTD10" name="5&apos;-Nucleotidase (XMP)" reversible="true"/>
+      <reaction id="R_CYTDK1" name="ATPcytidine 5-Phosphotransferase" reversible="true"/>
+      <reaction id="R_URIDK2m" name="Uridylate Kinase (dUMP), Mitochondrial" reversible="true"/>
+      <reaction id="R_RNDR2" name="Ribonucleoside-Diphosphate Reductase (GDP)" reversible="true"/>
+      <reaction id="R_CYTDK2m" name="Cytidine Kinase (ATP), Mitochondrial" reversible="true"/>
+      <reaction id="R_DCYTDn" name="Deoxycytidine Deaminase, Nuclear" reversible="true"/>
+      <reaction id="R_CYTK14n" name="Cytidylate Kinase (dCMP, CTP), Nuclear" reversible="true"/>
+      <reaction id="R_NDP8ex" name="Nucleoside-Diphosphatase (UTP), Extracellular" reversible="true"/>
+      <reaction id="R_CYTK6n" name="Cytidylate Kinase (CMP, CTP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK3n" name="Cytidylate Kinase (dCMP, CTP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK9n" name="Cytidylate Kinase (CMP, dCTP), Nuclear" reversible="true"/>
+      <reaction id="R_ADSK" name="Adenylyl-Sulfate Kinase" reversible="true"/>
+      <reaction id="R_DURIK1m" name="Deoxyuridine Kinase (ATP:Deoxyuridine), Mitochondrial" reversible="true"/>
+      <reaction id="R_NTD7" name="5&apos;-Nucleotidase (AMP)" reversible="true"/>
+      <reaction id="R_CYTK1m" name="Cytidylate Kinase (CMP), Mitochondrial" reversible="true"/>
+      <reaction id="R_UMPK7n" name="UMP Kinase (dGTP), Nuclear" reversible="true"/>
+      <reaction id="R_UMPK2" name="UMP Kinase (CTP)" reversible="true"/>
+      <reaction id="R_NDP7g" name="Nucleoside-Diphosphatase (UDP), Golgi Apparatus" reversible="true"/>
+      <reaction id="R_PDE1" name="3&apos;, 5&apos;-Cyclic-Nucleotide Phosphodiesterase" reversible="true"/>
+      <reaction id="R_TMDS" name="Thymidylate Synthase" reversible="true"/>
+      <reaction id="R_NDPK4n" name="Nucleoside-Diphosphate Kinase (ATP:dTDP), Nuclear" reversible="true"/>
+      <reaction id="R_ADSS" name="Adenylosuccinate Synthase" reversible="true"/>
+      <reaction id="R_UMPK" name="UMP Kinase" reversible="true"/>
+      <reaction id="R_NDPK4m" name="Nucleoside-Diphosphate Kinase (ATP:dTDP), Mitochondrial" reversible="true"/>
+      <reaction id="R_UMPK5" name="UMP Kinase (dATP)" reversible="true"/>
+      <reaction id="R_UMPK6" name="UMP Kinase (dCTP)" reversible="true"/>
+      <reaction id="R_ATPH2e" name="ATP Diphosphohydrolase" reversible="true"/>
+      <reaction id="R_GMPS2" name="GMP Synthase" reversible="true"/>
+      <reaction id="R_SADT" name="Sulfate Adenylyltransferase" reversible="true"/>
+      <reaction id="R_PDE4" name="3&apos;, 5&apos;-Cyclic-Nucleotide Phosphodiesterase" reversible="true"/>
+      <reaction id="R_NTD1m" name="5&apos;-Nucleotidase (dUMP), Mitochondrial" reversible="true"/>
+      <reaction id="R_ADK3" name="Adentylate Kinase (GTP)" reversible="true"/>
+      <reaction id="R_UMPK6n" name="UMP Kinase (dCTP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK1n" name="Cytidylate Kinase (CMP), Nuclear" reversible="true"/>
+      <reaction id="R_DTMPK" name="DTMP Kinase" reversible="true"/>
+      <reaction id="R_NTPP9" name="Nucleoside Triphosphate Pyrophosphorylase (ITP)" reversible="true"/>
+      <reaction id="R_UMPK3" name="UMP Kinase (UTP)" reversible="true"/>
+      <reaction id="R_URIDK3" name="ATP:dUMP Phosphotransferase" reversible="true"/>
+      <reaction id="R_ADK1" name="Adenylate Kinase" reversible="true"/>
+      <reaction id="R_CYTK9" name="Cytidylate Kinase (CMP, dCTP)" reversible="true"/>
+      <reaction id="R_UMPK2n" name="UMP Kinase (CTP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK2n" name="Cytidylate Kinase (dCMP), Nuclear" reversible="true"/>
+      <reaction id="R_DUTPDPm" name="DUTP Diphosphatase" reversible="true"/>
+      <reaction id="R_ADNCYC" name="Adenylate Cyclase" reversible="true"/>
+      <reaction id="R_NDP6" name="Nucleoside-Diphosphatase (dCDP)" reversible="true"/>
+      <reaction id="R_NTD6" name="5&apos;-Nucleotidase (dAMP)" reversible="true"/>
+      <reaction id="R_ADSL1" name="Adenylosuccinate Lyase" reversible="true"/>
+      <reaction id="R_CYTK3" name="Cytidylate Kinase (CMP) (GTP)" reversible="true"/>
+      <reaction id="R_NDPK6n" name="Nucleoside-Diphosphate Kinase (ATP:dUDP), Nuclear" reversible="true"/>
+      <reaction id="R_r1384" name="Guanosine Aminohydrolase" reversible="true"/>
+      <reaction id="R_NTD5m" name="5&apos;-Nucleotidase (dTMP), Mitochondrial" reversible="true"/>
+      <reaction id="R_CYTK7n" name="Cytidylate Kinase (CMP, UTP), Nuclear" reversible="true"/>
+      <reaction id="R_NDPK9n" name="Nucleoside-Diphosphate Kinase (ATP:IDP), Nuclear" reversible="true"/>
+      <reaction id="R_ADKd" name="Adenylate Kinase (D Form)" reversible="true"/>
+      <reaction id="R_r0470" name="2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_UMPKn" name="UMP Kinase, Nuclear" reversible="true"/>
+      <reaction id="R_NDPK7" name="Nucleoside-Diphosphate Kinase (ATP:dCDP)" reversible="true"/>
+      <reaction id="R_RNDR3" name="Ribonucleoside-Diphosphate Reductase (CDP)" reversible="true"/>
+      <reaction id="R_NDPK3m" name="Nucleoside-Diphosphate Kinase (ATP:CDP), Mitochondrial" reversible="true"/>
+      <reaction id="R_CYTK2" name="Cytidylate Kinase (dCMP)" reversible="true"/>
+      <reaction id="R_NDPK7n" name="Nucleoside-Diphosphate Kinase (ATP:dCDP), Nuclear" reversible="true"/>
+      <reaction id="R_NDPK5n" name="Nucleoside-Diphosphate Kinase (ATP:dGDP), Nuclear" reversible="true"/>
+      <reaction id="R_AMPDA" name="Adenosine Monophosphate Deaminase" reversible="true"/>
+      <reaction id="R_NDPK5" name="Nucleoside-Diphosphate Kinase (ATP:dGDP)" reversible="true"/>
+      <reaction id="R_NDP7ex" name="Nucleoside-Diphosphatase (UDP), Extracellular" reversible="true"/>
+      <reaction id="R_CYTK7" name="Cytidylate Kinase (CMP, UTP)" reversible="true"/>
+      <reaction id="R_NDPK2" name="Nucleoside-Diphosphate Kinase (ATP:UDP)" reversible="true"/>
+      <reaction id="R_IMPD" name="IMP Dehydrogenase" reversible="true"/>
+      <reaction id="R_DURIK1" name="Deoxyuridine Kinase (ATP:Deoxyuridine)" reversible="true"/>
+      <reaction id="R_NDP7er" name="Nucleoside-Diphosphatase (UDP), Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_GK1" name="Guanylate Kinase (GMP:ATP)" reversible="true"/>
+      <reaction id="R_BPNT" name="3&apos;, 5&apos;-Bisphosphate Nucleotidase" reversible="true"/>
+      <reaction id="R_TMDK1" name="Thymidine Kinase (ATP:Thymidine)" reversible="true"/>
+      <reaction id="R_CYTK5" name="Cytidylate Kinase (dCMP)" reversible="true"/>
+      <reaction id="R_NDPK1n" name="Nucleoside-Diphosphate Kinase (ATP:GDP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK4n" name="Cytidylate Kinase (dCMP, GTP), Nuclear" reversible="true"/>
+      <reaction id="R_ATPH1e" name="ATP Diphosphohydrolase" reversible="true"/>
+      <reaction id="R_DGNSKm" name="Deoxyguanosine Kinase" reversible="true"/>
+      <reaction id="R_UMPK5n" name="UMP Kinase (dATP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK11n" name="Cytidylate Kinase (dCMP, dGTP), Nuclear" reversible="true"/>
+      <reaction id="R_NDPK6m" name="Nucleoside-Diphosphate Kinase (ATP:dUDP), Mitochondrial" reversible="true"/>
+      <reaction id="R_NTD9e" name="5&apos;-Nucleotidase (GMP), Extracellular" reversible="true"/>
+      <reaction id="R_DADA" name="Deoxyadenosine Deaminase" reversible="true"/>
+      <reaction id="R_CYTDn" name="Cytidine Deaminase, Nuclear" reversible="true"/>
+      <reaction id="R_CYTK1" name="Cytidylate Kinase (CMP)" reversible="true"/>
+      <reaction id="R_RNDR4" name="Ribonucleoside-Diphosphate Reductase (UDP)" reversible="true"/>
+      <reaction id="R_r0475" name="2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_NTP3e" name="Nucleoside-Triphosphatase (GTP)" reversible="true"/>
+      <reaction id="R_NDPK3" name="Nucleoside-Diphosphate Kinase (ATP:CDP)" reversible="true"/>
+      <reaction id="R_NDPK8m" name="Nucleoside-Diphosphate Kinase (ATP:dADP), Mitochondrial" reversible="true"/>
+      <reaction id="R_CYTK6" name="Cytidylate Kinase (CMP, CTP)" reversible="true"/>
+      <reaction id="R_r0474" name="2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_ADPMAN" name="ADPmannose Diphosphatase" reversible="true"/>
+      <reaction id="R_NDPK8n" name="Nucleoside-Diphosphate Kinase (ATP:dADP), Nuclear" reversible="true"/>
+      <reaction id="R_DCK1n" name="Deoxycytidine Kinase, Nuclear (ATP)" reversible="true"/>
+      <reaction id="R_ADPRDP" name="ADPribose Diphosphatase" reversible="true"/>
+      <reaction id="R_NDPK7m" name="Nucleoside-Diphosphate Kinase (ATP:dCDP), Mitochondrial" reversible="true"/>
+      <reaction id="R_NTD2e" name="5&apos;-Nucleotidase (UMP), Extracellular" reversible="true"/>
+      <reaction id="R_r0345" name="ATP:AMP Phosphotransferase Ec:2.7.4.11" reversible="true"/>
+      <reaction id="R_r0531" name="DUTP:Cytidine 5-Phosphotransferase" reversible="true"/>
+      <reaction id="R_DGK2m" name="Deoxyguanylate Kinase (dGMP:dATP), Mitochondrial" reversible="true"/>
+      <reaction id="R_NDP8" name="Nucleoside-Diphosphatase (dUDP)" reversible="true"/>
+      <reaction id="R_ADK1m" name="Adenylate Kinase, Mitochondrial" reversible="true"/>
+      <reaction id="R_NTPP10" name="Nucleoside Triphosphate Pyrophosphorylase (dITP)" reversible="true"/>
+      <reaction id="R_ADK3m" name="Adentylate Kinase (GTP)" reversible="true"/>
+      <reaction id="R_DUTPDPn" name="DUTP Diphosphatase, Nuclear" reversible="true"/>
+      <reaction id="R_r0472" name="2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_NTD4e" name="5&apos;-Nucleotidase (CMP), Extracellular" reversible="true"/>
+      <reaction id="R_CYTK8n" name="Cytidylate Kinase (CMP, dATP), Nuclear" reversible="true"/>
+      <reaction id="R_CYTK4" name="Cytidylate Kinase (dCMP) (GTP)" reversible="true"/>
+      <reaction id="R_DURIPP" name="Deoxyuridine Phosphorylase" reversible="true"/>
+      <reaction id="R_NDPK2n" name="Nucleoside-Diphosphate Kinase (ATP:UDP), Nuclear" reversible="true"/>
+      <reaction id="R_NDPK3n" name="Nucleoside-Diphosphate Kinase (ATP:CDP), Nuclear" reversible="true"/>
+      <reaction id="R_NDPK5m" name="Nucleoside-Diphosphate Kinase (ATP:dGDP), Mitochondrial" reversible="true"/>
+      <reaction id="R_PUNP1" name="Purine-Nucleoside Phosphorylase (Adenosine)" reversible="true"/>
+      <reaction id="R_DCK1m" name="Deoxycytidine Kinase, Mitochondrial (ATP)" reversible="true"/>
+      <reaction id="R_CYTK14" name="Cytidylate Kinase (dCMP, UTP)" reversible="true"/>
+      <reaction id="R_NTD7e" name="5&apos;-Nucleotidase (AMP), Extracellular" reversible="true"/>
+      <reaction id="R_NDPK10" name="Nucleoside-Diphosphate Kinase (ATP:DIDP)" reversible="true"/>
+      <reaction id="R_NDPK6" name="Nucleoside-Diphosphate Kinase (ATP:dUDP)" reversible="true"/>
+      <reaction id="R_ADNK1" name="Adenosine Kinase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

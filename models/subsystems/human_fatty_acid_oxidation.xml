@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="fatty_acid_oxidation">
+    <listOfReactions>
+      <reaction id="R_RE2912M" name="Long-Chain-Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_EICOSTETCRNt" name="Transport of 8Z,11Z,14Z,17Z-Eicosatetraenoylcarnitine, Mitochondrial" reversible="true"/>
+      <reaction id="R_ADPACDAc" name="Activation of Adipic Acid for Formation of Adipoyl Carnitine" reversible="true"/>
+      <reaction id="R_LNLCCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HXCOAx" name="Acylcoa Hydrolase, Peroxisome" reversible="true"/>
+      <reaction id="R_FAOXC150m" name="Beta Oxidation of Long Chain Fatty Acid (Odd Chain)" reversible="true"/>
+      <reaction id="R_FAOXC12DCTc" name="Transport of Dodecanedioyl Carnitine into Cytosol" reversible="true"/>
+      <reaction id="R_HMR_3341" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_C14OHc" name="Production of 3-Hydroxytetradecanoylcarnitine" reversible="true"/>
+      <reaction id="R_RE3119C" name="RE3119C" reversible="true"/>
+      <reaction id="R_SUCCOAPET" name="Thioesterification of Succinyl Coenzyme A for Release into Cytosol" reversible="true"/>
+      <reaction id="R_HMR_3182" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3156X" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE1522X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE3002X" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_HMR_3203" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_C204CPT2" name="Arachidonic Acid Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_HMR_3409" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3198" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_C142OHc" name="Production of 3-Hydroxytetradeca Dienoyl Carnitine" reversible="true"/>
+      <reaction id="R_RE3166C" name="RE3166C" reversible="true"/>
+      <reaction id="R_r0724" name="Decanoyl Coenzyme A:Acetyl Coenzyme A C-Acyltransferase " reversible="true"/>
+      <reaction id="R_C141OHc" name="Production of 3-Hydroxytetradecenoyl Carnitine" reversible="true"/>
+      <reaction id="R_C4DCCACT" name="Transport of Succinyl Carnitine into Cytosol" reversible="true"/>
+      <reaction id="R_FAOXC122C101m" name="Fatty Acid Beta Oxidation (C12:2-&gt;C10:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE3086X" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HMR_0386" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_DMNONCRNCPT2" name="Dmnoncrncpt2" reversible="true"/>
+      <reaction id="R_HMR_0268" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3173C" name="RE3173C" reversible="true"/>
+      <reaction id="R_ACCOACm" name="Acetyl Coenzyme A Carboxylase, Beta Isoform" reversible="true"/>
+      <reaction id="R_FAOXC200180m" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_0210" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC102C101x" name="Fatty Acid Beta Oxidation (C10:2-&gt;C10:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC225C226x" name="Fatty Acid Beta Oxidation (C22:5-&gt;C22:6), Peroxisomal" reversible="true"/>
+      <reaction id="R_OCTDEC2ACBP" name="Transport of 3-Hydroxyoctadecadienoyl Coenzyme A from Mitochondria into Cytosol" reversible="true"/>
+      <reaction id="R_FAOXC16080x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_C180CPT1" name="Production of Stearoylcarnitine" reversible="true"/>
+      <reaction id="R_RE3626M" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_r1401" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_HMR_3220" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3423" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FCOAH" name="Formyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC2242046m" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_RE3161C" name="RE3161C" reversible="true"/>
+      <reaction id="R_FAOXC11C9m" name="Fatty Acid Beta Oxidation (C11-&gt;C9), Mitochondrial" reversible="true"/>
+      <reaction id="R_C10DCc" name="Production of Sebacoylcarnitine" reversible="true"/>
+      <reaction id="R_FAOXC163Gm" name="Isomerization (C16:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE3074X" name="Long-Chain-Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAOXC123C102m" name="Fatty Acid Beta Oxidation (C12:3-&gt;C10:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_SUBERICACT" name="Activation of Suberic Acid for Formation of Suberyl Carnitine" reversible="true"/>
+      <reaction id="R_FAOXC2251836x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_3429" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3219" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_DMHPTCRNCPT2" name="2, 6 Dimethylheptanoly Coenzyme A Carnitine Transferase" reversible="true"/>
+      <reaction id="R_FAOXC163x" name="Isomerization (C16:3), Peroxisomal" reversible="true"/>
+      <reaction id="R_FACOAL184" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0256" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3475" name="Choloyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_r0641" name=" (5-Glutamyl)-Peptide:Amino-Acid 5-Glutamyltransferase Arachidonic Acid Metabolism" reversible="true"/>
+      <reaction id="R_r1257" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_FACOAL244_1" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAOXC15BRC13BRx" name="Fatty Acid Beta Oxidation (C15Br-&gt;C13Br), Peroxisomal" reversible="true"/>
+      <reaction id="R_DCSPTN1CPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HDECEACBP" name="Transport of 3-Hydroxyhexadecenoylcoa from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_HMR_3236" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3128" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_r1443" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC182C182OHm" name="Fatty Acid Beta Oxidation (C18:2-&gt;C18:2Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC164C163x" name="Fatty Acid Beta Oxidation (C16:4-&gt;C16:3), Peroxisomal" reversible="true"/>
+      <reaction id="R_TTDCEAc" name="Hydrolysis of Fatty Acyl Coenzyme A (14:1)" reversible="true"/>
+      <reaction id="R_FACOAL241" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_TETTET6CRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_PHYHx" name="Phytanoyl Coenzyme A Dioxygenase, Peroxisomal" reversible="true"/>
+      <reaction id="R_r0791" name="Trans-Hex-2-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_0201" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FACOAL170" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_C4DCe" name="Transport of Succinyl Carnitine into the Extra Cellular Space" reversible="true"/>
+      <reaction id="R_FAOXC1811602m" name="Beta Oxidation Fatty Acid" reversible="true"/>
+      <reaction id="R_HOCTDEC2CRNe" name="Transport of 3-Hydroxyoctadecadienoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_3118" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2994X" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_C81CPT1" name="Production of Ocetenoylcarnitine" reversible="true"/>
+      <reaction id="R_r0726" name="(S)-Hydroxydecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_RE3157X" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HMR_3192" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3057" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HMR_0230" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3194M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FACOAL160i" name="C160 Fatty Acid Activation" reversible="true"/>
+      <reaction id="R_HMR_3176" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC142C122x" name="Fatty Acid Beta Oxidation (C14:2-&gt;C12:2), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_0280" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3072" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_OMHDEACIDTD" name="Transport of W-Hydroxydecanoic Acid by Diffusion" reversible="true"/>
+      <reaction id="R_FACOAL2042" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3055" name="HMR_3055" reversible="true"/>
+      <reaction id="R_HMR_0246" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_C226CPT1" name="Carnitine C22:6 Transferase" reversible="true"/>
+      <reaction id="R_CSNATer" name="Carnitine O-Acetyltransferase, Endolasmic Reticulum" reversible="true"/>
+      <reaction id="R_RE1525X" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_IVCRNe" name="Transport of Isovaleryl Carnitine into the Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_3230" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HOCDACBP" name="Transport of (S)-3-Hydroxyoctadecanoyl Coenzyme A from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_RE3160R" name="Long-Chain-Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3344" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_CLPNDCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_RE3193M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_2681" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HPDECECOAm" name="Dehydrogenation of Heptadecanoyl Coa" reversible="true"/>
+      <reaction id="R_HMR_0242" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3174" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HOCTDACBP" name="Transport of 3-Hydroxyoctadecenoylcoa from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_HMR_3197" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE3168C" name="RE3168C" reversible="true"/>
+      <reaction id="R_FACOAL1812" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2711" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXTC182TC162m" name="Fatty Acid Beta Oxidation Trans (C18:2-&gt;C16:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_ELAIDCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_SUBERCROT" name="Production of Suberyl Carnitine" reversible="true"/>
+      <reaction id="R_FAOXC241C221x" name="Fatty Acid Beta Oxidation (C24:1-&gt;C22:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_r1445" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_RE3191M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_LNLCCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_STRDNCCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_STRDNCCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC8DCC6DCx" name="Fatty Acid Beta Oxidation (C8Dc-&gt;C6Dc), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC7C5m" name="Fatty Acid Beta Oxidation (C7-&gt;C5), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3177" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_r1260" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_FAOXC18280m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_FAOXC164GC163m" name="Fatty Acid Beta Oxidation (C16:4-&gt;C16:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_r1474" name="Long-Chain-Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_TETPENT3CPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_RE3113C" name="RE3113C" reversible="true"/>
+      <reaction id="R_C8DCc" name="Production of Suberylcarnitine" reversible="true"/>
+      <reaction id="R_FACOAL205" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_C8CRNe" name="Transport of Octanoyl Carnitine into the Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_3065" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC162C142m" name="Fatty Acid Beta Oxidation (C16:2-&gt;C14:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE1534M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC181C161m" name="Fatty Acid Beta Oxidation (C18:1-&gt;C16:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3069" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HEXDTRm" name="Hydrolysis of 7, 10, 13-Hexadecatrienoylcoa to 7, 10, 13-Hexadecatrienoic Acid" reversible="true"/>
+      <reaction id="R_r0638" name="Trans-Dodec-2-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_RE3004M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_DOCOSACTDe" name="Uptake of Docosanoic Acid by Cells by Diffusion" reversible="true"/>
+      <reaction id="R_C60CPT1" name="Production of Hexanoylcarnitine" reversible="true"/>
+      <reaction id="R_EICOSTETCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_C51CPT1" name="Production of Tiglylcarnitine" reversible="true"/>
+      <reaction id="R_FAOXC102C81x" name="Fatty Acid Beta Oxidation (C10:2-&gt;C8:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC141C141OHm" name="Fatty Acid Beta Oxidation (C14:1-&gt;C14:1Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE3159X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_MCDp" name="Malonyl Coenzyme A Decarboxylase Peroxisomal" reversible="true"/>
+      <reaction id="R_CSNATr" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_DCATDr" name="Transport of Decanoate (N-C10:0) into the E.R. by Diffusion" reversible="true"/>
+      <reaction id="R_FAOXTC101TC102m" name="Fatty Acid Beta Oxidation Trans (C10:1-&gt;C10:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_EIC21114TRc" name="Hydrolysis of Trans, Cis, Cis-2, 11, 14-Eicosatrienoyl Coenzyme A to Trans, Cis, Cis-2, 11, 14-Eicosatrienoic Acid" reversible="true"/>
+      <reaction id="R_HMR_2608" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC142C142OHm" name="Fatty Acid Beta Oxidation (C14:2-&gt;C14:2Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0390" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC180x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_C8DCe" name="Transport of Suberyl Carnitine into the Extra Cellular Space" reversible="true"/>
+      <reaction id="R_C10DCe" name="Transport of Sebacoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_r0733" name="(S)-Hydroxyhexanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_HMR_0310" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC2452253x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_r1451" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC81C61x" name="Fatty Acid Beta Oxidation (C8:1-&gt;C6:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3099" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_STRDNCCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_FAOXC184C163x" name="Fatty Acid Beta Oxidation (C18:4-&gt;C16:3), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC182C162m" name="Fatty Acid Beta Oxidation (C18:2-&gt;C16:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0374" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_C182OHc" name="Production of 3-Hydroxyoctadecadienoylcarnitine" reversible="true"/>
+      <reaction id="R_HMR_2768" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3335" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE1520M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE3163C" name="RE3163C" reversible="true"/>
+      <reaction id="R_HMR_3342" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC2252053x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_FAOXC122m" name="Isomerization (C12:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3095" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3397" name="HMR_3397" reversible="true"/>
+      <reaction id="R_LNLNCACRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_RE3154C" name="RE3154C" reversible="true"/>
+      <reaction id="R_C226CPT2" name="C226 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_RE3006M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE3112C" name="RE3112C" reversible="true"/>
+      <reaction id="R_C6DCe" name="Transport of Adipoyl Carnitine into the Extra Cellular Fluid" reversible="true"/>
+      <reaction id="R_HMR_3411" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3222" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3172" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC226C205m" name="Fatty Acid Beta Oxidation (C22:6-&gt;C20:5), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC15NADx" name="Fatty Acid Alpha Oxidation (2-Hydroxyphytanoyl Coenzyme A) (NAD), Peroxisomal" reversible="true"/>
+      <reaction id="R_LCAT1e" name="Lecithin-Cholesterol Acyltransferase" reversible="true"/>
+      <reaction id="R_C4CRNe" name="Transport of Butyryl Carnitine into the Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_3179" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_9719" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3338" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_r0437" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_SEBACACT" name="Activation of Sebacic Acidd" reversible="true"/>
+      <reaction id="R_TETDECE1CRNe" name="Transport of Tetradecenoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_RE1520X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HDCAc" name="Hydrolysis of Hexadecenoyl Coenzyme A (N-C16:1CoA) to Hexadecanoate" reversible="true"/>
+      <reaction id="R_FAOXC200180x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_CSNAT2x" name="Carnitine Dimethyl Nonanoyl Transferase, Revsible, Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC161C141x" name="Fatty Acid Beta Xoidation (C16:1-&gt;C14:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_r0714" name="(S)-3-Hydroxyhexadecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_HMR_0193" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3421" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC225C204m" name="Fatty Acid Beta Oxidation (C22:5-&gt;C20:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3063" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_CLPNDCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_HMR_3102" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC12C12OHm" name="Fatty Acid Beta Oxidation (C12-&gt;Ohc12), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC161C141m" name="Fatty Acid Beta Oxidation (C16:1-&gt;C14:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3337" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC22OHC22r" name="Fatty Acid Omega Oxidation (C22-&gt;W-Ohc22), Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_2675" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction name="Exchange of Decanoate (N-C10:0)" reversible="true"/>
+      <reaction id="R_HMR_2693" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC241181x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_CSNAT3x" name="Carnitine O-Aceyltransferase, Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC163C142x" name="Fatty Acid Beta Oxidation (C16:3-&gt;C14:2), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3193" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_C4CRNCPT2" name="Transport of Butyryl Carnitine in the Mitochondrial Matrix for Final Hydrolysis" reversible="true"/>
+      <reaction id="R_CSNAT2m" name="Carnitine O-Aceyltransferase, Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC80" name="Beta Oxidation of Med/Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_r0287" name="Acetyl Coenzyme A:Acetyl Coenzyme A C-Acetyltransferase " reversible="true"/>
+      <reaction id="R_r1450" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_TETPENT3CPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_RE3195M" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction name="Sink for Tetradecenoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_FAOXC123m" name="Isomerization (C12:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_r1477" name="Long-Chain-Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3352" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_C140CPT1" name="Production of Myristoylcarnitine" reversible="true"/>
+      <reaction id="R_FAOXC14C14OHm" name="Fatty Acid Beta Oxidation (C14-&gt;C14Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_C161CPT12" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2611" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HTDCRNe" name="Transport of 3-Hydroxy-Tetradecanoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_C4OHc" name="Production of 3-Hydroxybytyryl Carnitinec" reversible="true"/>
+      <reaction id="R_RE3628M" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_RE2624M" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_RE3175C" name="RE3175C" reversible="true"/>
+      <reaction id="R_FAOXC4C4DCc" name="Succ-&gt;C4Dcc" reversible="true"/>
+      <reaction id="R_SEBCOACROT" name="Production of Sebacoyl Carnitine" reversible="true"/>
+      <reaction id="R_HMR_0238" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_0362" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3103C" name="RE3103C" reversible="true"/>
+      <reaction id="R_DOCO13EFATP" name="Absorption Or Uptake of 13-Docosenoic Acid into Cells" reversible="true"/>
+      <reaction id="R_RTOTAL3CRNCPT2" name="R Group Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_SUCCACT" name="Activation of Succinate" reversible="true"/>
+      <reaction id="R_C3DCe" name="Transport of Malonyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_2669" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r1259" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_FAOXC101C8m" name="Fatty Acid Beta Oxidation (C10:1-&gt;C8), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE1518X" name="RE1518X" reversible="true"/>
+      <reaction id="R_FAOXC2252053m" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_RE3121C" name="RE3121C" reversible="true"/>
+      <reaction id="R_LNELDCCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_SEBCOAPET" name="Thioesterification of Sebacoylcoa for Release into Cytosol" reversible="true"/>
+      <reaction id="R_7OHOCTAc" name="Formation of 7-Hydroxy-Octanoate" reversible="true"/>
+      <reaction id="R_r0661" name="(S)-3-Hydroxydodecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_C142ACBP" name="Transport of 3-Hydroxytetradeca Dienoyl Coenzyme A from Mitochondria into Cytosol" reversible="true"/>
+      <reaction id="R_HMR_3135" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC184C164x" name="Fatty Acid Beta Oxidation (C18:4-&gt;C16:4), Peroxisomal" reversible="true"/>
+      <reaction id="R_DCSPTN1CRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_RE1573M" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_r1448" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_SUBERCACT" name="Transport of Suberyl Carnitine into Cytosol" reversible="true"/>
+      <reaction id="R_C30CPT1" name="Production of Propionylcarnitine" reversible="true"/>
+      <reaction id="R_HMR_3232" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC164C165m" name="Fatty Acid Beta Oxidation (C16:4-&gt;C16:5), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3218" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_2708" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_ACACT8p" name="Acetyl Coenzyme A Acyltransferase (Hexadecanoyl Coenzyme A), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC164x" name="Isomerization (C16:4), Peroxisomal" reversible="true"/>
+      <reaction id="R_r1254" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_DOCOSDIACTD" name="Excretion of Docosanedioic Acid" reversible="true"/>
+      <reaction id="R_HEXDCRNe" name="Transport of 3-Hydroxyhexadecanoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_RE1532X" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC14C12x" name="Fatty Acid Beta Oxidation (C14-&gt;C12), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC5C3x" name="Fatty Acid Beta Oxidation (C5-&gt;C3), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3115" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC16C14x" name="Fatty Acid Beta Oxidation (C16-&gt;C14), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE1523M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3237" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_DECDICRNe" name="Transport of Decadienoyl Carnitine into the Extra Cellular Space" reversible="true"/>
+      <reaction id="R_FAOXC161C161OHm" name="Production of 3-Hydroxyhexadecenoylcoa" reversible="true"/>
+      <reaction id="R_ACACT5p" name="Acetyl Coenzyme A C-Acyltransferase (Decanoyl Coenzyme A), Peroxisomal" reversible="true"/>
+      <reaction id="R_C18OHc" name="Production of 3-Hydroxyoctadecanoylcarnitine" reversible="true"/>
+      <reaction id="R_RE3178M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3240" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC61C4x" name="Fatty Acid Beta Oxidation (C6:1-&gt;C4:0), Peroxisomal" reversible="true"/>
+      <reaction id="R_ETHMALACc" name="Formation of Ethylmalonic Acid" reversible="true"/>
+      <reaction id="R_C12DCACOT" name="Thioesterification of Dodecanedioyl Coenzyme A for Release into Cytosol" reversible="true"/>
+      <reaction id="R_FAOXC226205x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_2690" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0276" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3427" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE1517X" name="RE1517X" reversible="true"/>
+      <reaction id="R_HMR_0350" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_r0311" name="Palmitate:Coa Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_C160CRNt" name="C160 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_HMR_3243" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_PTE2x" name="Peroxisomal Acyl Coenzyme A Thioesterase" reversible="true"/>
+      <reaction id="R_r0727" name="(S)-Hydroxydecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_HMR_3247" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_ADPCOACROT" name="Production of Adipoyl Carnitine" reversible="true"/>
+      <reaction id="R_RE3152C" name="RE3152C" reversible="true"/>
+      <reaction id="R_DLNLCGCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r0308" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FACOAL224" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3224" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HEXDICOAACBP" name="Transport of Hexadecanedioyl Coa" reversible="true"/>
+      <reaction id="R_DLNLCGCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_3OHSUBCOAx" name="Formation of 3-Hydoxy-Suberyl Coa" reversible="true"/>
+      <reaction id="R_FAOXC16DCr" name="Fatty Acid Activation (C16Dc), Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_FACOAL260" name="Fatty-Acid- Coenzyme A Ligase (N-C26:0)" reversible="true"/>
+      <reaction id="R_DCATDc" name="Transport of Decanoate (N-C10:0) by Diffusion" reversible="true"/>
+      <reaction id="R_HDDACBP" name="Transport of (S)-3-Hydroxydodecanoyl Coenzyme A from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_HMR_3097" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0272" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3170" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3153C" name="RE3153C" reversible="true"/>
+      <reaction id="R_FAOXC16C16OHm" name="Fatty Acid Beta Oxidation (C16-&gt;C16Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0402" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3624M" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_OCD11COACPT1" name="Transport of 11-Octadecenoyl Carnitine into the Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_PEROXx" name="Peroxisomal Lumped Long Chain Fatty Acid Oxidation" reversible="true"/>
+      <reaction id="R_RE3000M" name="RE3000M" reversible="true"/>
+      <reaction id="R_HMR_3156" name="2-Methyl-Branched-Chain-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_TETTET6CPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_HMR_3407" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC6C4x" name="Fatty Acid Beta Oxidation (C6-&gt;C4), Peroxisomal" reversible="true"/>
+      <reaction id="R_r0723" name="(S)-3-Hydroxydodecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_HMR_3186" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC183C163Gm" name="Fatty Acid Beta Oxidation (C18:3-&gt;C16:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_C16OHc" name="Production of 3-Hydroxyhexadecanoylcarnitinec" reversible="true"/>
+      <reaction id="R_HTDCACBP" name="Transport of (S)-3-Hydroxytetradecanoyl Coenzyme A from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_C180CRNt" name="C180 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_FAOXOHC16C16DCc" name="Fatty Acid Omega Oxidation (W-Ohc16-&gt;C16Dc)" reversible="true"/>
+      <reaction id="R_FAOXC16OHC16r" name="Fatty Acid Omega Oxidation (C16-&gt;W-Ohc16), Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_ELAIDCRNt" name="Transport of (9E)-Octadecenoylcarnitine, Mitochondrial" reversible="true"/>
+      <reaction id="R_HPDCACRNCPT1" name="Carnitine Fatty-Acyl Transferase" reversible="true"/>
+      <reaction id="R_C16DCc" name="Production of Hexadecanedioylcarnitine" reversible="true"/>
+      <reaction id="R_r0433" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3246" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE1534X" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0298" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXTC122TC101m" name="Fatty Acid Beta Oxidation Trans (C12:2-&gt;C10:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_FACOAL245_2" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_DDCRNe" name="Transport of 3-Hydroxydodecanoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_RE1573X" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_HPDCACRNCPT2" name="Carnitine Fatty-Acyl Transferase" reversible="true"/>
+      <reaction id="R_SUBEACtx" name="Transport of Suberic Acid into Cytosol (Diffusion)" reversible="true"/>
+      <reaction id="R_BCRNe" name="Transport of 3-Hydroxy Butyryl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_PTE3x" name="Peroxisomal Acyl Coenzyme A Thioesterase" reversible="true"/>
+      <reaction id="R_RE0512X" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FACOAL161" name="Fatty-Acid- Coenzyme A Ligase (Hexadecenoate)" reversible="true"/>
+      <reaction id="R_FACOAL2252" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3066" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HMR_3296" name="2, 4-Dienoyl Coenzyme A Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_C161CPT1" name="Production of Palmitoleoylcarnitine" reversible="true"/>
+      <reaction id="R_PTDCACRNt" name="Pentadecanoate Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_r0637" name="Octanoyl Coenzyme A:L-Carnitine O-Octanoyltransferase" reversible="true"/>
+      <reaction id="R_RE1516X" name="RE1516X" reversible="true"/>
+      <reaction id="R_FACOAL2251" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAOXC225m" name="Isomerization (C22:5), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE2991X" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_r1472" name="Long-Chain-Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FACOAL191" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3196" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_DCIm" name="Dodecenoyl-Coenzyme A Delta Isomerase" reversible="true"/>
+      <reaction id="R_C142OHe" name="Excretion of 3-Hydroxy Trans5,8Tetradecadienoyl Carnitine" reversible="true"/>
+      <reaction id="R_r0432" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r0652" name="Trans-Tetradec-2-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_r1447" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_FACOAL200" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAOXC226" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_3191" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE1533X" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC204" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_3422" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_DMNONCRNt" name="4, 8 Dimethylnonanoyl Carnitine Transport, Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC163C164x" name="Fatty Acid Beta Oxidation (C16:3-&gt;C16:4), Peroxisomal" reversible="true"/>
+      <reaction name="Sink for 2, 6-Dodecadienoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_FAOXC102C103x" name="Fatty Acid Beta Oxidation (C10:2-&gt;C10:3), Peroxisomal" reversible="true"/>
+      <reaction id="R_C120CPT1" name="Production of Dodecanoylcarnitine" reversible="true"/>
+      <reaction id="R_MCDm" name="Malonyl Coenzyme A Decarboxylase, Mitochondrial" reversible="true"/>
+      <reaction id="R_C101CRNe" name="Transport of Decenoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HIVCACBP" name="Transport of 3-Hydroxyisovalerylcoa from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_r0441" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC204C205x" name="Fatty Acid Beta Oxidation (C20:4-&gt;C20:5), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE1517M" name="RE1517M" reversible="true"/>
+      <reaction name="Exchange of Cis, Cis-11, 14-Eicosadienoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_FAOXC16C14m" name="Fatty Acid Beta Oxidation (C16-&gt;C14), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC61m" name="Isomerization (C6:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE1522M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_ACCOAC" name="Acetyl Coenzyme A Carboxylase" reversible="true"/>
+      <reaction id="R_FAOXC142C122m" name="Fatty Acid Beta Oxidation (C14:2-&gt;C12:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0290" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC204184m" name="Beta Oxidation Fatty Acid" reversible="true"/>
+      <reaction id="R_C12OHc" name="Production of 3-Ohdodecanoylcarnitinec" reversible="true"/>
+      <reaction id="R_C160CPT2" name="C160 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_FAOXC161802m" name="Beta Oxidation Fatty Acid" reversible="true"/>
+      <reaction id="R_ADRNCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC121C101m" name="Fatty Acid Beta Oxidation (C12:1-&gt;C10:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC123C102x" name="Fatty Acid Beta Oxidation (C12:3-&gt;C10:2), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC18C18OHm" name="Fatty Acid Beta Oxidation (C18-&gt;C18Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_PTE4x" name="Peroxisomal Acyl Coenzyme A Thioesterase" reversible="true"/>
+      <reaction id="R_FAOXC5OHc" name=" (3-Hydroxyisovalerylcoa-&gt;3-Hydroxyisovalerylcarnitine)" reversible="true"/>
+      <reaction id="R_FAOXC123x" name="Isomerization (C12:3), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3073" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3185" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2998M" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_RTOTAL3CRNCPT1" name="Carnitine Fatty-Acyl Transferase" reversible="true"/>
+      <reaction id="R_FACOAL226" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3195" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_LNLNCGCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_ACACT9p" name="Acetyl Coenzyme A Acyltransferase (Tetracosanoyl Coenzyme A), Peroxisomal" reversible="true"/>
+      <reaction id="R_TTDCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_SEBACIDtx" name="Transport of Sebacic Acid into Cytosol (Diffusion)" reversible="true"/>
+      <reaction id="R_HMR_3349" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE3186M" name="RE3186M" reversible="true"/>
+      <reaction id="R_r1487" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_C161CPT2" name="Transport of Hexadecenoyl Coenzyme A into Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_HMR_3413" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3351" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE1521M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC102x" name="Isomerization (C10:2), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3235" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_C101CPT1" name="Production of Decenoylcarnitine" reversible="true"/>
+      <reaction id="R_PCRNtc" name="Transport into the Cytosol from Peroxisome (Carnitine)" reversible="true"/>
+      <reaction id="R_FAOXC103C102m" name="Fatty Acid Beta Oxidation (C10:3-&gt;C10:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC16DCC14DCx" name="Fatty Acid Beta Oxidation (C16Dc-&gt;C14Dc), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3107" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_r1262" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_3HADICOAx" name="Formation of 3-Hydroxy-Adipoyl Coa" reversible="true"/>
+      <reaction id="R_r0639" name="Lauroyl Coenzyme A:Acetyl Coenzyme A C-Acyltransferase " reversible="true"/>
+      <reaction id="R_RE2992M" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_C6CRNe" name="Transport of Hexanoyl Carnitine into the Extra Cellular Fluid" reversible="true"/>
+      <reaction id="R_ACOAO7p" name="Acyl Coenzyme A Oxidase (Hexadecanoyl Coenzyme A), Peroxisomal" reversible="true"/>
+      <reaction id="R_C6DCc" name="Production of Adipoylcarnitine" reversible="true"/>
+      <reaction id="R_HMR_2739" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_RE1521X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HXCOAm" name="Acyl-Coenzyme A Hydrolase, Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC141C121m" name="Fatty Acid Beta Oxidation (C14:1-&gt;C12:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_C14825c" name="Formation of 9 (10)-Epome" reversible="true"/>
+      <reaction id="R_FAOXC22C22DCHYr" name="Fatty Acid Omega Oxidation by Hydroxylases (C22-&gt;C22Dc), Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_C10DCCACT" name="Transport of Sebacoyl Carnitine into Cytosol" reversible="true"/>
+      <reaction id="R_3OHSEBACx" name="Formation of 3-Hydroxy-Sebacic Acid" reversible="true"/>
+      <reaction id="R_HMR_2774" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC2452256x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_ARACHCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_ADRNCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_r1444" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_r0728" name="(S)-Hydroxydecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_r0720" name="(S)-3-Hydroxytetradecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_FAOXC10C8m" name="Fatty Acid Beta Oxidation (C10-&gt;C8), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3199" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FDH" name="Formate Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3350" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXTC162TC142m" name="Fatty Acid Beta Oxidation Trans (C16:2-&gt;C14:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0302" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC164m" name="Isomerization (C16:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3408" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_C81CRNe" name="Transport of Octenoyl Carnitine into the Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_3406" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC183806m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_r0660" name="(S)-3-Hydroxydodecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_HMR_3100" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3114R" name="Long-Chain-Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE1531X" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HEDCECRNe" name="Transport of 3-Hydroxyhexadecenoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_MCD" name="Malonyl Coenzyme A Decarboxylase Cytoplasmic" reversible="true"/>
+      <reaction id="R_HMR_3328" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_C162OHc" name="Production of 3-Hydroxy Hexadecadienoyl Carnitine" reversible="true"/>
+      <reaction id="R_3OHSEBCOAx" name="Formation of 3-Hydroxy-Sebacoyl Coa" reversible="true"/>
+      <reaction id="R_FACOAL181i" name="C181 Fatty Acid Activation" reversible="true"/>
+      <reaction id="R_FACOAL150" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_C161CRNt" name="C161 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_FAOXC22C20x" name="Fatty Acid Beta Oxidation (C22-&gt;C20), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_0214" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC205C184x" name="Fatty Acid Beta Oxidation (C20:5-&gt;C18:4), Peroxisomal" reversible="true"/>
+      <reaction id="R_FACOAL1831" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAOXC185m" name="Isomerization (C18:5), Mitochondrial" reversible="true"/>
+      <reaction id="R_ETF" name="Electron Transfer Flavoprotein" reversible="true"/>
+      <reaction id="R_HMR_3244" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FACOAL1821" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2702" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_5OHHEXAc" name="Formation of 5-Hydroxy-Hexanoate" reversible="true"/>
+      <reaction id="R_C160CPT1" name="Production of Palmitoylcarnitine" reversible="true"/>
+      <reaction id="R_HMR_3188" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3169C" name="RE3169C" reversible="true"/>
+      <reaction id="R_HMR_3094" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HXCOAc" name="Acylcoa Hydrolase, Cytosolic" reversible="true"/>
+      <reaction id="R_FAOXC122x" name="Isomerization (C12:2), Peroxisomal" reversible="true"/>
+      <reaction id="R_C161CPT22" name="C161 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_DECCRNe" name="Transport of 3-Hydroxydecanoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_3241" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_LNLNCGCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_HMR_0342" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3146R" name="Long-Chain-Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_C121CPT1" name="Production of Dodecenoylcarnitine" reversible="true"/>
+      <reaction id="R_C102CPT1" name="Production of Decadienoylcarnitine" reversible="true"/>
+      <reaction id="R_FAOXC18480x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_TETPENT3CRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_2MB2COAc" name="Transport of 2-Methylcrotonoyl Coenzyme A into Cytosol" reversible="true"/>
+      <reaction id="R_FAOXC226C227m" name="Fatty Acid Beta Oxidation (C22:6-&gt;C22:7), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE2624X" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_CLPNDCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FACOAL246_1" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3431" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_ALDD21" name="Aldehyde Dehydrogenase (Pristanal, NAD)" reversible="true"/>
+      <reaction id="R_RE1526M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3079X" name="RE3079X" reversible="true"/>
+      <reaction id="R_OCTDECCACT" name="Transport of Octadecenoyl Coenzyme A into Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_HMR_3101" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_LNLNCACPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC101C102m" name="Fatty Acid Beta Oxidation (C10:1-&gt;C10:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3181" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3189" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_C181CRNt" name="C181 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_FACOAL204" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE2985M" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_CSNATp" name="Carnitine O-Acetyltransferase, Reverse Direction, Peroxisomal" reversible="true"/>
+      <reaction id="R_TETPENT6CPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_ACACT7p" name="Acetyl Coenzyme A Acyltransferase (Tetradecanoyl Coenzyme A), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC8C6m" name="Fatty Acid Beta Oxidation (C8-&gt;C6), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3059" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3062" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC15ATPx" name="Fatty Acid Activation (C15), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3332" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC5C5OHm" name="Fatty Acid Beta Oxidation (C5-&gt;C5Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE3001M" name="2,4-Dienoyl Coenzyme A Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_TMNDNCCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_HMR_3202" name="2-Methyl-Branched-Chain-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_3231" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE3192M" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3334" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_ETHMALCOAc" name="Formation of Ethylmalonyl Coa" reversible="true"/>
+      <reaction id="R_C50CPT1" name="Production of Isovalerylcarnitine" reversible="true"/>
+      <reaction id="R_HMR_3056" name="HMR_3056" reversible="true"/>
+      <reaction id="R_LNLNCGCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_METHSUCCOAc" name="Formation of Methyl-Succinyl Coa" reversible="true"/>
+      <reaction id="R_HDECAACBP" name="Transport of 3-Hydroxyhexadecanoylcoa from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_r0434" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_PCRNtm" name="Transport into the Mitochondria from Cytosol (Carnitine)" reversible="true"/>
+      <reaction id="R_r0634" name="Octanoyl Coenzyme A:Acetyl Coenzyme A C-Acyltransferase " reversible="true"/>
+      <reaction id="R_RE1525M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3113" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3425" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3233" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_DOCOSACT" name="Activation of Docosanoic Acid for Transport" reversible="true"/>
+      <reaction id="R_FAOXC165C164m" name="Fatty Acid Beta Oxidation (C16:5-&gt;C16:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_C100CPT1" name="Production of Decanoylcarnitine" reversible="true"/>
+      <reaction id="R_HMR_2684" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_LNELDCCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_FAOXC101x" name="Isomerization (C10:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3348" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE1531M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_C161OHc" name="Production of 3-Hydroxyhexadecenoylcarnitine" reversible="true"/>
+      <reaction id="R_FAOXC182806m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_RE1532M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE1523X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE2992X" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_RE3247X" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HMR_3054" name="HMR_3054" reversible="true"/>
+      <reaction id="R_FAOXC183C163m" name="Fatty Acid Beta Oxidation (C18:3-&gt;C16:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2657" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_C162ACBP" name="Transport of 3-Hydroxy Trans7, 10-Hexadecadienoylcoa from Mitochondria into Cytosol" reversible="true"/>
+      <reaction id="R_FAOXC2031836m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_FAOXC165C164x" name="Fatty Acid Beta Oxidation (C16:5-&gt;C16:4), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3175" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE3082X" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC13BRC11BRx" name="Fatty Acid Beta Oxidation (C13Br-&gt;C11Br), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC101C8x" name="Fatty Acid Beta Oxidation (C10:1-&gt;C8:0), Peroxisomal" reversible="true"/>
+      <reaction id="R_3OHSUBACx" name="Formation of 3-Hydoxy-Suberic Acid" reversible="true"/>
+      <reaction id="R_TETTET6CPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC1811601m" name="Beta Oxidation Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_3245" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC140" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_3242" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_ARACHCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_HMR_0358" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_OCTDECE1CRNe" name="Transport of 3-Hydroxy-Octadecenoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_0370" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3398" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_0398" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_0346" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_r0431" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r0729" name="(S)-Hydroxydecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_RE3171C" name="RE3171C" reversible="true"/>
+      <reaction id="R_OCD11CRNCACT" name="Transport of 11-Octadecenoyl Carnitine into the Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_FAOXC61C4m" name="Fatty Acid Beta Oxidation (C6:1-&gt;C4:0), Mitochondrial" reversible="true"/>
+      <reaction id="R_r0309" name="Trans-Hexadec-2-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_3326" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HMR_3200" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_2699" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC141C121x" name="Fatty Acid Beta Xoidation (C14:1-&gt;C12:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE1518M" name="RE1518M" reversible="true"/>
+      <reaction id="R_METHSUCC" name="Formation of Methyl-Succinate" reversible="true"/>
+      <reaction id="R_FAOXC164C165x" name="Fatty Acid Beta Oxidation (C16:4-&gt;C16:5), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3116" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE3165C" name="RE3165C" reversible="true"/>
+      <reaction id="R_FAOXC11" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_r0717" name="(S)-3-Hydroxyhexadecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_RE3162C" name="RE3162C" reversible="true"/>
+      <reaction id="R_HMR_2733" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC10DCC8DCx" name="Fatty Acid Beta Oxidation (C10Dc-&gt;C8Dc)" reversible="true"/>
+      <reaction id="R_FAOXC16BRx" name="Fatty Acid Activation (C16Br), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE3164C" name="RE3164C" reversible="true"/>
+      <reaction id="R_r0718" name="(S)-3-Hydroxytetradecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_HMR_3098" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC12C10m" name="Fatty Acid Beta Oxidation (C12-&gt;C10), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3074" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_RTOTAL3CRNt" name="R Group Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_C180CPT2" name="Carnitine O-Stearoyl Transferase" reversible="true"/>
+      <reaction id="R_C141CPT1" name="Production of Tetradecenoylcarnitine" reversible="true"/>
+      <reaction id="R_RE2986X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HEXDICOAACBPx" name="Transport of Hexadecanedioyl Coa" reversible="true"/>
+      <reaction id="R_HEXCOAACBP" name="Transport of Hexanoyl Coenzyme A (N-C6:0CoA) from Mitochondria into Cytosol" reversible="true"/>
+      <reaction id="R_r0735" name="Trans-Dec-2-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_C141OHe" name="Excretion of 3-Hydroxy Tetradecenoyl-7-Carnitine" reversible="true"/>
+      <reaction id="R_HMR_0354" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_TMNDNCCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_RE2988X" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3330" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_r0444" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r0440" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2620" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0438" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_r0438" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC12DCc" name="Formation of Dodecanedioyl Carnitine" reversible="true"/>
+      <reaction id="R_r1253" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_FAOXC1811603m" name="Beta Oxidation Fatty Acid" reversible="true"/>
+      <reaction id="R_FAOXC101C102x" name="Fatty Acid Beta Oxidation (C10:1-&gt;C10:2), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3331" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_0418" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3122C" name="RE3122C" reversible="true"/>
+      <reaction id="R_HMR_3109" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC15C13m" name="Fatty Acid Beta Oxidation (C15-&gt;C13), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3329" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXOHC22C22DCc" name="Fatty Acid Omega Oxidation (W-Ohc22-&gt;C22Dc)" reversible="true"/>
+      <reaction id="R_HMR_3229" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC121C10x" name="Fatty Acid Beta Xoidation (C12:1-&gt;C10), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC184C164m" name="Fatty Acid Beta Oxidation (C18:4-&gt;C16:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC3DC" name="Malonylcoa-&gt;Malonylcarnitine" reversible="true"/>
+      <reaction id="R_r0732" name="Hexanoyl Coenzyme A:Acetyl Coenzyme A C-Acyltransferase " reversible="true"/>
+      <reaction id="R_C12DCACT" name="Activation of Dodecanedioic Acid" reversible="true"/>
+      <reaction id="R_FAOXC164C143m" name="Fatty Acid Beta Oxidation (C16:4-&gt;C14:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3204" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3416" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_0234" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_2660" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction name="Sink for Tetradecadienoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_HMR_2648" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r0633" name="Trans-Oct-2-Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_RE3174C" name="RE3174C" reversible="true"/>
+      <reaction id="R_C12DCTD" name="Transport of Dodecanedioic Acid by Diffusion" reversible="true"/>
+      <reaction id="R_HMR_3071" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_TDCRNe" name="Transport of Myristoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_FAOXC201C181x" name="Fatty Acid Beta Xoidation (C20:1-&gt;C18:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3505" name="4, 8, 12-Trimethyltridecanoyl Coenzyme A:Propanoyl Coenzyme A C2-4, 8, 12-Trimethyltridecanoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC143C123x" name="Fatty Acid Beta Oxidation (C14:3-&gt;C12:3), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE1516M" name="RE1516M" reversible="true"/>
+      <reaction id="R_FAOXC180" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_LNELDCCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_RE3247M" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_RE3179M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3104C" name="RE3104C" reversible="true"/>
+      <reaction id="R_TTDCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_IVCOAACBP" name="Transport of Isovaleryl Coenzyme A from Mitochondria into Cytosol" reversible="true"/>
+      <reaction id="R_C204CRNt" name="Arachidonic Acid Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_RE3073X" name="Long-Chain-Aldehyde Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3172C" name="RE3172C" reversible="true"/>
+      <reaction id="R_FACOAL1822" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3106C" name="RE3106C" reversible="true"/>
+      <reaction id="R_ELAIDCPT1" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_TETPENT6CPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_FAOXC2242046x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_RE3158X" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_r0443" name="Palmitoyl Coenzyme A:L-Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0366" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3201" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC8C6x" name="Fatty Acid Beta Oxidation (C8-&gt;C6), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_0189" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC163C164Gm" name="Fatty Acid Beta Oxidation (C16:3-&gt;C16:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC2442246x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_3187" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_0197" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3424" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC4C2m" name="Fatty Acid Beta Oxidation (C4-&gt;C2), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3225" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2989X" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0306" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_2602" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r0721" name="(S)-3-Hydroxytetradecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_GLUTCOAACBP" name="Transport of Glutaryl Coenzyme A from Mitochondria into Cytosol" reversible="true"/>
+      <reaction id="R_FACOAL40im" name="Fatty-Acid- Coenzyme A Ligase (Butanoate), Mitochondrial" reversible="true"/>
+      <reaction id="R_ADRNCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_HMR_2687" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_r1481" name="Long-Chain-Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3178" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE2996X" name="2,4-Dienoyl Coenzyme A Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_FACOAL240" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAOXC170m" name="Beta Oxidation of Long Chain Fatty Acid (Odd Chain)" reversible="true"/>
+      <reaction id="R_C142CPT1" name="Production of Tetradecadienoylcarnitine" reversible="true"/>
+      <reaction id="R_FAOXC246226x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_0422" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3234" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC102C103m" name="Fatty Acid Beta Oxidation (C10:2-&gt;C10:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3340" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_0394" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3081X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_CSNATm" name="Carnitine O-Aceyltransferase, Mitochondrial" reversible="true"/>
+      <reaction id="R_ETFQO" name="Electron Transfer Flavoprotein-Ubiquinone Oxidoreductase" reversible="true"/>
+      <reaction id="R_CE4843HYDc" name="Acylcoa Hydrolase, Cis, Cis-11, 14-Eicosadienoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_FAOXC260240x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_FAOXMC10OHMC10r" name="Fatty Acid Omega Oxidation (Mc10-&gt;W-Ohmc10), Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_r1449" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_HMR_3353" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE3110C" name="RE3110C" reversible="true"/>
+      <reaction id="R_HMR_3432" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC225C204x" name="Fatty Acid Beta Oxidation (C22:5-&gt;C20:4), Peroxisomal" reversible="true"/>
+      <reaction id="R_OCTDECCPT2" name="Transport of Octadecenoyl Coenzyme A into Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_C16DCe" name="Transport of Hexadecanedioic Acid Mono-L-Carnitine Ester into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_DMHPTCRNt" name="Transport of 2, 6 Dimethylheptanoyl Carnitine, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3336" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FACOAL1832" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2771" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0260" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_2736" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HPCLx" name="2-Hydroxyphytanoyl Coenzyme A Lyase" reversible="true"/>
+      <reaction id="R_HMR_3183" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3345" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3173" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3180" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3321" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC205C185m" name="Fatty Acid Beta Oxidation (C20:5-&gt;C18:5), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXTC142TC122m" name="Fatty Acid Beta Oxidation Trans (C14:2-&gt;C12:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_TETDEC2CRNe" name="Transport of Tetradecadienoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_LNLCCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_HMR_3184" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC11BRC9BRx" name="Fatty Acid Beta Oxidation (C11Br-&gt;C9Br), Peroxisomal" reversible="true"/>
+      <reaction id="R_ADPCOAPTE" name="Thioesterification of Adipoyl Coenzyme A for Release into Cytosol" reversible="true"/>
+      <reaction id="R_DLNLCGCRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_RE3170C" name="RE3170C" reversible="true"/>
+      <reaction id="R_HMR_3111" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3522" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FACOAL1813" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3120C" name="RE3120C" reversible="true"/>
+      <reaction id="R_FAOXTC102C101m" name="Fatty Acid Beta Oxidation Trans (C10:2-&gt;C10:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC121x" name="Isomerization (C12:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3108" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC5C5DCc" name="Production of Glutaryl Carnitine" reversible="true"/>
+      <reaction id="R_PTDCACRNCPT1" name="Carnitine Fatty-Acyl Transferase" reversible="true"/>
+      <reaction id="R_OMHDOCOSACTD" name="Transport of W-Hydroxydocosanoic Acid by Diffusion" reversible="true"/>
+      <reaction id="R_r0715" name="(S)-3-Hydroxyhexadecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_HMR_0206" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_THEXDDm" name="Hydrolysis of Trans7, 10-Hexadecadienoylcoa to 7Z, 10Z-Hexadecadienoic Acid" reversible="true"/>
+      <reaction id="R_HMR_3347" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_ACACT6p" name="Acetyl Coenzyme A C-Acetyltransferase (Dodecanoyl), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE3003M" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_RE1527M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC240200x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_0434" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3333" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC183803m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_LPS3e" name="Lipase, Extracellular" reversible="true"/>
+      <reaction id="R_HMR_3221" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3194" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_C204CPT1" name="Carnitine C20:4 Transferase" reversible="true"/>
+      <reaction id="R_RE2759X" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_HMR_3112" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC226C225x" name="Fatty Acid Beta Oxidation (C22:6-&gt;C22:5), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC2251836m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_RE3189M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_LNLNCACPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_HMR_0328" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE2990X" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FACOAL140i" name="Fatty-Acid- Coenzyme A Ligase (Tetradecanoate)" reversible="true"/>
+      <reaction id="R_FAOXC181C181OHm" name="Fatty Acid Beta Oxidation (C18:1-&gt;C18:1Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_FACOAL180i" name="C180 Fatty Acid Activation" reversible="true"/>
+      <reaction id="R_FAOXC6C4m" name="Fatty Acid Beta Oxidation (C6-&gt;C4), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE1526X" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC6DCC4DCx" name="Fatty Acid Beta Oxidation (C6Dc-&gt;C4Dc), Peroxisomal" reversible="true"/>
+      <reaction id="R_HPDCACRNt" name="Heptadecanoate Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_C6DCCACT" name="Transport of Adipoyl Carnitine into Cytosol" reversible="true"/>
+      <reaction id="R_r0730" name="(S)-Hydroxyoctanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_r1251" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_C162OHe" name="Excretion of 3-Hydroxy Trans7,10-Hexadecadienoyl Carnitine" reversible="true"/>
+      <reaction id="R_RE3176C" name="RE3176C" reversible="true"/>
+      <reaction id="R_OCTDECCPT1" name="Transport of Octadecenoyl Coenzyme A into Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_RE3132R" name="Long-Chain-Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction name="Sink for Decenoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_HOCTDECCRNe" name="Transport of 3-Hydroxyoctadecanoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_3HADPACx" name="Formation of 3-Hydroxy-Adipate" reversible="true"/>
+      <reaction id="R_FAOXC14C12m" name="Fatty Acid Beta Oxidation (C14-&gt;C12), Mitochondrial" reversible="true"/>
+      <reaction id="R_C181CPT2" name="Transport of Octadecenoyl Coenzyme A into Mitochondrial Matrix" reversible="true"/>
+      <reaction name="Sink for Octenoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_FACOAL206" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FACOAL203" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE2997X" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC225x" name="Isomerization (C22:5), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE2985X" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC160" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_r0731" name="(S)-Hydroxyoctanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_r1252" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_DDECE1CRNe" name="Transport of Dodecenoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_HMR_3114" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2999M" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_HMR_0382" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3339" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC184x" name="Isomerization (C18:4), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE3177M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_r1255" name="Long-Chain-Fatty-Acid---Coa Ligase" reversible="true"/>
+      <reaction id="R_HMR_3053" name="HMR_3053" reversible="true"/>
+      <reaction id="R_CAPROICc" name="Formation of Hexanoic Acid" reversible="true"/>
+      <reaction id="R_HMR_3076" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_C80CPT1" name="Production of Octanoylcarnitine" reversible="true"/>
+      <reaction id="R_FAOXOHMC10DC10c" name="Fatty Acid Omega Oxidation (W-Ohmc10-&gt;Dc10)" reversible="true"/>
+      <reaction id="R_RE1527X" name="RE1527X" reversible="true"/>
+      <reaction id="R_HMR_3433" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_C10CRNe" name="Transport of Decanoyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_OCD11CRNCPT2" name="Transport of 11-Octadecenoyl Carnitine into the Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_ACACT4p" name="Acetyl Coenzyme A C-Acetyltransferase (Octanoyl Coenzyme A), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC162C162OHm" name="Fatty Acid Beta Oxidation (C16:2-&gt;C16:2Oh), Mitochondrial" reversible="true"/>
+      <reaction id="R_C10OHc" name="Production of 3-Ohdecanoylcarnitinec" reversible="true"/>
+      <reaction id="R_C12DCe" name="Excretion of Dodecanedioyl Carnitine" reversible="true"/>
+      <reaction id="R_PTDCACRNCPT2" name="Pentadecanoate Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_HMR_3117" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC18480m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_TETDECA511ACc" name="Hydrolysis of Tetradecadienoyl Coenzyme A to Cis-5, 8-Tetradecadienoic Acid " reversible="true"/>
+      <reaction id="R_FAOXC103C102x" name="Fatty Acid Beta Oxidation (C10:3-&gt;C10:2), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3205" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3346" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_HPDECEm" name="Hydrolysis of Heptadecenoyl Coa" reversible="true"/>
+      <reaction id="R_C141ACBP" name="Transport of 3-Hydroxytetradecenoyl Coenzyme A from Mitochondria into Cytosol" reversible="true"/>
+      <reaction id="R_HMR_3171" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC16180m" name="Beta Oxidation Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_3149" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3067" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_2705" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC226m" name="Isomerization (C22:6), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC164C143x" name="Fatty Acid Beta Oxidation (C16:4-&gt;C14:3), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3121" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3167C" name="RE3167C" reversible="true"/>
+      <reaction id="R_r0734" name="(S)-Hydroxyhexanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_TMNDNCCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_FAOXC12DCx" name="Production of Dodecanedioyl Carnitine" reversible="true"/>
+      <reaction id="R_FAOXC14DCC12DCx" name="Fatty Acid Beta Oxidation (C14Dc-&gt;C12Dc), Peroxisomal" reversible="true"/>
+      <reaction id="R_RE3185M" name="RE3185M" reversible="true"/>
+      <reaction id="R_r0722" name="(S)-3-Hydroxydodecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_HMR_3096" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_DMNONCOACRNCPT1" name="Dmnoncoacrncpt1" reversible="true"/>
+      <reaction id="R_EICOSTETCPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_FAOXC226205m" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_FAOXC102C101m" name="Reduction (C10:2-&gt;C10:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2633" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0406" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC13C11m" name="Fatty Acid Beta Oxidation (C13-&gt;C11), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0324" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC181C161x" name="Fatty Acid Beta Xoidation (C18:1-&gt;C16:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3068" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_3223" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HIVCRNe" name="Transport of 3-Hydroxy-Isovaleryl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_r0653" name="Myristoyl Coenzyme A:Acetylcoa C-Myristoyltransferase " reversible="true"/>
+      <reaction id="R_r0310" name="Palmitoyl Coenzyme A:Oxygen 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_HMR_3142" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC12DCC10DCx" name="Fatty Acid Beta Oxidation (C12Dc-&gt;C10Dc), Peroxisomal" reversible="true"/>
+      <reaction id="R_FOAXC122C101x" name="Fatty Acid Beta Oxidation (C12:2-&gt;C10:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC9C7m" name="Fatty Acid Beta Oxidation (C9-&gt;C7), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3322" name="2, 4-Dienoyl Coenzyme A Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_3HBCOARc" name="Transport of (R)-3-Hydroxybutanoyl Coenzyme A into Cytosol" reversible="true"/>
+      <reaction id="R_DCSPTN1CPT2" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_r1400" name="Active Transport" reversible="true"/>
+      <reaction id="R_HMR_3058" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_0426" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_DDECCRNe" name="Transport of Lauroyl Carnitine into Extra Cellular Space" reversible="true"/>
+      <reaction id="R_FAOXC184m" name="Isomerization of (C18:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_OMHPALTD" name="Transport of W-Hydroxypalmitic Acid by Diffusion" reversible="true"/>
+      <reaction id="R_HMR_0410" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_C40CPT1" name="Production of Butyrylcarnitine" reversible="true"/>
+      <reaction id="R_HEXDIACtr" name="Transport of Hexadecanedioc Acid by Diffusion" reversible="true"/>
+      <reaction id="R_FAOXC24C22x" name="Fatty Acid Beta Oxidation (C24-&gt;C22), Peroxisomal" reversible="true"/>
+      <reaction id="R_OCT11EFATP" name="Uptake of Vaccenic Acid" reversible="true"/>
+      <reaction id="R_RE2993X" name="2,4-Dienoyl Coenzyme A Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_HMR_3396" name="HMR_3396" reversible="true"/>
+      <reaction id="R_C181OHc" name="Production of 3-Hydroxyoctadecenoylcarnitinec" reversible="true"/>
+      <reaction id="R_FACOAL80i" name="Fatty-Acid- Coenzyme A Ligase (Octanoate)" reversible="true"/>
+      <reaction id="R_r0636" name="Octanoyl Coenzyme A:L-Carnitine O-Octanoyltransferase" reversible="true"/>
+      <reaction id="R_SBCOAACOTx" name="Thioesterification of Suberyl Coenzyme A for Release into Cytosol" reversible="true"/>
+      <reaction id="R_TIGCRNe" name="Transport of Tiglyl Carnitine into the Extra Cellular Fluid" reversible="true"/>
+      <reaction id="R_HMR_3428" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_RE3190M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_ARACHCPT1" name="Carnitine Transferase" reversible="true"/>
+      <reaction id="R_FAOXC61x" name="Isomerization (C6:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC221C201x" name="Fatty Acid Beta Oxidation (C22:1-&gt;C20:1), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC102C81m" name="Fatty Acid Beta Oxidation (C10:2-&gt;C8:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC225C226m" name="Fatty Acid Beta Oxidation (C22:5-&gt;C22:6), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3064" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3005M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC16080m" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_FAOXC81C61m" name="Fatty Acid Beta Oxidation (C8:1-&gt;C6:1), Mitochondrial" reversible="true"/>
+      <reaction id="R_C161CRN2t" name="C161 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_FAOXC143C123m" name="Fatty Acid Beta Oxidation (C14:3-&gt;C12:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_0414" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE1533M" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3190" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAOXC163C143m" name="Fatty Acid Beta Oxidation (C16:3-&gt;C14:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_DOCOSADIACTD" name="Transport of Docosanedioic Acid by Diffusion" reversible="true"/>
+      <reaction id="R_HMR_3075" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3110" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3070" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_FAOXC226C225m" name="Fatty Acid Beta Oxidation (C22:6-&gt;C22:5), Mitochondrial" reversible="true"/>
+      <reaction id="R_SUCCCROT" name="Production of Succinyl Carnitine" reversible="true"/>
+      <reaction id="R_FAOXC17C15m" name="Fatty Acid Beta Oxidation (C17-&gt;C15), Mitochondrial" reversible="true"/>
+      <reaction id="R_C226CRNt" name="C226 Transport into the Mitochondria" reversible="true"/>
+      <reaction id="R_RE3151C" name="RE3151C" reversible="true"/>
+      <reaction id="R_HMR_3414" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC227C226m" name="Fatty Acid Beta Oxidation (C22:7-&gt;C22:6), Mitochondrial" reversible="true"/>
+      <reaction id="R_ADPACtx" name="Transport into Cytosol (Diffusion)" reversible="true"/>
+      <reaction id="R_HMR_2666" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_FAOXC183806x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction id="R_HMR_0430" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC10C10OHm" name="Fatty Acid Beta Oxidation (C10-&gt;Ohc10), Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_2651" name="Carnitine O-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_C181CPT1" name="Transport of Octadecenoyl Coenzyme A into Mitochondrial Matrix" reversible="true"/>
+      <reaction id="R_HMR_3343" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_0378" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_FAOXC185C164m" name="Fatty Acid Beta Oxidation (C18:5-&gt;C16:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXTC122m" name="Isomerization Trans (C12:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC163GC142m" name="Fatty Acid Beta Oxidation (C16:3-&gt;C14:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_FAOXC15NADPx" name="Fatty Acid Alpha Oxidation (2-Hydroxyphytanoyl Coenzyme A) (NADP), Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_3327" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_3491" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_LPS2e" name="Lipase, Extracellular" reversible="true"/>
+      <reaction id="R_FAOXC102m" name="Isomerization (C10:2), Mitochondrial" reversible="true"/>
+      <reaction id="R_C5DCe" name="Transport of Glutaryl Carnitine into the Extra Cellular Fluid" reversible="true"/>
+      <reaction name="Sink for Trans-Dodec-2-Enoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_DOCOSACTDr" name="Transport of Docosanoic Acid by Diffusion" reversible="true"/>
+      <reaction id="R_HMR_3426" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_FAOXC184C163m" name="Fatty Acid Beta Oxidation (C18:4-&gt;C16:3), Mitochondrial" reversible="true"/>
+      <reaction id="R_RE0512M" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_5EIPENCm" name="Hydrolysis of 5, 8, 11, 14, 17-Eicosapentenoylcoa to 5, 8, 11, 14, 17-Eicosapentenoic Acid" reversible="true"/>
+      <reaction id="R_FAOXC2051843x" name="Beta Oxidation of Long Chain Fatty Acid" reversible="true"/>
+      <reaction name="Sink for Octadecenoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_TETPENT6CRNt" name="Transport into the Mitochondria (Carnitine)" reversible="true"/>
+      <reaction id="R_HDCACBP" name="Transport of (S)-3-Hydroxydecanoyl Coenzyme A from Mitochondria into the Cytosol" reversible="true"/>
+      <reaction id="R_FAOXC12C10x" name="Fatty Acid Beta Oxidation (C12-&gt;C10), Peroxisomal" reversible="true"/>
+      <reaction id="R_FAOXC204C184m" name="Fatty Acid Beta Oxidation (C20:4-&gt;C18:4), Mitochondrial" reversible="true"/>
+      <reaction id="R_FACOAL245_1" name="Fatty-Acid- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_r0719" name="(S)-3-Hydroxytetradecanoyl Coenzyme A:NAD+ Oxidoreductase " reversible="true"/>
+      <reaction id="R_FAOXC2051843m" name="Beta Oxidation of Fatty Acid" reversible="true"/>
+      <reaction id="R_RE2987X" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE1519X" name="RE1519X" reversible="true"/>
+      <reaction id="R_FAOXC10C8x" name="Fatty Acid Beta Oxidation (C10-&gt;C8), Peroxisomal" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

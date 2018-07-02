@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="blood_group_synthesis">
+    <listOfReactions>
+      <reaction id="R_FUT16g" name="Galactoside 2-Alpha-L-Fucosyltransferase 1" reversible="true"/>
+      <reaction id="R_HMR_8287" name="HMR_8287" reversible="true"/>
+      <reaction id="R_B3GNT12g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 1" reversible="true"/>
+      <reaction id="R_FUT97g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_FUT93g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_FUT94g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT312g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_B3GALTg" name="Beta Galactosyltransferase" reversible="true"/>
+      <reaction id="R_FUT33g" name="Fucosyltransferase 3 (Galactoside 3 (4)-L-Fucosyltransferase, Lewis Blood Group Included) 1" reversible="true"/>
+      <reaction id="R_ABO7g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT315g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_ABO9g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_FUT15g" name="Galactoside 2-Alpha-L-Fucosyltransferase 1" reversible="true"/>
+      <reaction id="R_B3GNT310g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_ABO8g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_ST8SIA56g" name="Alpha-2, 8-Sialyltransferase 8E" reversible="true"/>
+      <reaction id="R_FUT92g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_ABO3g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_FUT32g" name="Fucosyltransferase 3 (Galactoside 3 (4)-L-Fucosyltransferase, Lewis Blood Group Included) 1" reversible="true"/>
+      <reaction id="R_FUT12g" name="Galactoside 2-Alpha-L-Fucosyltransferase 1" reversible="true"/>
+      <reaction id="R_B3GNT313g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_FUT96g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_FUT91g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_ABO5g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_ABO1g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT11g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 1" reversible="true"/>
+      <reaction id="R_FUT911g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_ABO2g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_GCNTg" name="N-Acetyllactosaminide Beta-1, 6-N-Acetylglucosaminyl-Transferase" reversible="true"/>
+      <reaction id="R_ABO6g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_FUT95g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_FUT17g" name="Galactoside 2-Alpha-L-Fucosyltransferase 1" reversible="true"/>
+      <reaction id="R_FUT910g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT51g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 5" reversible="true"/>
+      <reaction id="R_ST3GAL61g" name="Type 2 Lactosamine Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT311g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_ST3GAL62g" name="Type 2 Lactosamine Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_FUT99g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_ST3GAL31g" name="St3 Beta-Galactoside Alpha-2, 3-Sialyltransferase 3" reversible="true"/>
+      <reaction id="R_FUT98g" name="Alpha- (1, 3)-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_HMR_8271" name="3-Galactosyl-N-Acetylglucosaminide 4-Alpha-L-Fucosyltransferase" reversible="true"/>
+      <reaction id="R_FUT34g" name="Fucosyltransferase 3 (Galactoside 3 (4)-L-Fucosyltransferase, Lewis Blood Group Included) 1" reversible="true"/>
+      <reaction id="R_ABO4g" name="Abo Blood Group (Transferase A, Alpha 1-3-N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_FUT35g" name="Fucosyltransferase 3 (Galactoside 3 (4)-L-Fucosyltransferase, Lewis Blood Group Included) 1" reversible="true"/>
+      <reaction id="R_B3GNT314g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_FUT18g" name="Galactoside 2-Alpha-L-Fucosyltransferase 1" reversible="true"/>
+      <reaction id="R_FUT14g" name="Galactoside 2-Alpha-L-Fucosyltransferase 1" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

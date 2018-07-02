@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="dietary_fiber_binding">
+    <listOfReactions>
+      <reaction id="R_BGLUGCHe" name="Binding of Betaglucans with Glycocholate" reversible="true"/>
+      <reaction id="R_BGLUTCHLe" name="Binding of Betaglucans with Taurocholate" reversible="true"/>
+      <reaction id="R_PSYTDECHe" name="Binding of Psyllium with Taurodeoxycholate" reversible="true"/>
+      <reaction id="R_PECGCHLe" name="Binding of Pectins with Glycocholate" reversible="true"/>
+      <reaction id="R_PECTCHLe" name="Binding of Pectins with Taurocholate" reversible="true"/>
+      <reaction id="R_BGLUTDECHOe" name="Binding of Betaglucans with Taurodeoxycholate" reversible="true"/>
+      <reaction id="R_PSYGCHe" name="Binding of Psyllium with Glycocholate" reversible="true"/>
+      <reaction id="R_GUMGCHLe" name="Binding of Guar Gums with Glycocholate" reversible="true"/>
+      <reaction id="R_GUMDCHAe" name="Binding of Guar Gums with Deoxyxholic Acid" reversible="true"/>
+      <reaction id="R_PECDCHe" name="Binding of Pectins with Deoxycholic Acid" reversible="true"/>
+      <reaction id="R_PSYTCHe" name="Binding of Psyllium with Taurocholate " reversible="true"/>
+      <reaction id="R_GUMTCHOLe" name="Binding of Guar Gums with Taurocholate" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

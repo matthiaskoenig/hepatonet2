@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model>
+    <listOfReactions>
+      <reaction id="R_SPHMYLNtl" name="Sphingomyelin Intracellular Transport" reversible="true"/>
+      <reaction id="R_CRVNCtl" name="Intracellular Transport of Cervonic Acid, C22:6 N-3" reversible="true"/>
+      <reaction id="R_GD1Btl" name="Transport of Gd1B " reversible="true"/>
+      <reaction id="R_XYLtly" name="Xylose Efflux from Lysosome" reversible="true"/>
+      <reaction id="R_XOLEST226tl" name="Intracellular Transport of Cholesteryl Docosahexanoate, Cholesterol-Ester (22:6, Delta 4, 7, 10, 13, 16, 19)" reversible="true"/>
+      <reaction id="R_HAtly" name="Hyaluronan Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_CSPG_Atly" name="Chondroitin Sulfate A Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_r0984" name="Solute Carrier Family 27 (Fatty Acid Transporter), Member 5 Tcdb:4.C.1.1.5 Tcdb:4.C.1.1.8" reversible="true"/>
+      <reaction id="R_GLCURtly" name="Transport of Glucuronate  into Lysososme" reversible="true"/>
+      <reaction id="R_H2O2tly" name="Hydrogen Peroxide Lysosomal Transport via Diffusion" reversible="true"/>
+      <reaction id="R_THFtl" name="5, 6, 7, 8-Tetrahydrofolate Transport, Diffusion, Lysosomal" reversible="true"/>
+      <reaction id="R_S2L2FN2M2MASNtly" name="Transport of Pa6, Lysosomal" reversible="true"/>
+      <reaction id="R_HMR_0831" name="HMR_0831" reversible="true"/>
+      <reaction id="R_KSII_CORE4tly" name="Keratan Sulfate Ii (Core 4) Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_HMR_5249" name="HMR_5249" reversible="true"/>
+      <reaction id="R_HMR_7724" name="HMR_7724" reversible="true"/>
+      <reaction id="R_IDOURtly" name="Transport of Iduronate, Lysososmal" reversible="true"/>
+      <reaction id="R_GALGLUSIDEtl" name="Transport of Galactosyl Glucosyl Ceramide " reversible="true"/>
+      <reaction id="R_CYTDtl" name="Cytidine Faciliated Transport from Lysosome" reversible="true"/>
+      <reaction id="R_r1368" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_ACGAMtly" name="N-Acetyl-Glucosamine Lysosomal Efflux" reversible="true"/>
+      <reaction id="R_DPCOAtl" name="Transport of Dephospho Coenzyme A   via Diffusion, Lysosomal" reversible="true"/>
+      <reaction id="R_r0987" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_r1150" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_r1365" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_10FTHFtl" name="10-Formyltetrahydrofolate Lysosomal Transport via Diffusion" reversible="true"/>
+      <reaction id="R_THYMDtl" name="Thymidine Faciliated Transport from Lysosome" reversible="true"/>
+      <reaction id="R_SPHINGStl" name="Sphingosine Intracellular Transport" reversible="true"/>
+      <reaction id="R_GBSIDEtl" name="Globoside Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_7715" name="HMR_7715" reversible="true"/>
+      <reaction id="R_DIGALSIDEtl" name="Digalside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_7199" name="HMR_7199" reversible="true"/>
+      <reaction id="R_HMR_7198" name="HMR_7198" reversible="true"/>
+      <reaction id="R_SO4tl" name="Sulfate Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_Uritl" name="Uridine Faciliated Transport from Lysosome" reversible="true"/>
+      <reaction id="R_r1364" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_r1304" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_DHFtl" name="Dihydrofolate Reversible Lysosomal Transport" reversible="true"/>
+      <reaction id="R_TMNDNCtl" name="Intracellular Transport of Timnodonic Acid" reversible="true"/>
+      <reaction id="R_KSItly" name="Keratan Sulfate I Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_CSPG_Etly" name="Chondroitin Sulfate E Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_HMR_8590" name="HMR_8590" reversible="true"/>
+      <reaction id="R_6DHFtl" name="6-Glutamyl-Dhf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_10FTHF6GLUtl" name="6-Glutamyl-10Fthf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_N2M2NMASNtly" name="N2M2Nmasn Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_XOLEST183tl" name="Intracellular Transport of 1-Gamma-Linolenoyl-Cholesterol, Cholesterol-Ester (18:3, Delta 6, 9, 12)" reversible="true"/>
+      <reaction id="R_r1299" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_7DHFtl" name="7-Glutamyl-Dhf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_UDPACGALtl" name="UDPacgal Intracellular Transport" reversible="true"/>
+      <reaction id="R_XOLEST182tl" name="Intracellular Transport of 1-Linoleoyl-Cholesterol, Cholesterol-Ester (18:2, Delta 9, 12)" reversible="true"/>
+      <reaction id="R_HMR_2087" name="HMR_2087" reversible="true"/>
+      <reaction id="R_CHOLPtl" name="Choline Phosphate Intracellular Transport" reversible="true"/>
+      <reaction id="R_ADNtl" name="Adenosine Faciliated Transport from Lysosome" reversible="true"/>
+      <reaction id="R_FALDtly" name="Formaldehyde Transport via Diffusion, Lysosomal" reversible="true"/>
+      <reaction id="R_r1298" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_CSPG_Ctly" name="Chondroitin Sulfate C Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_ATPasel" name="V-Type ATPase, H+ Transporting, Lysosomal" reversible="true"/>
+      <reaction id="R_5THFtl" name="5-Glutamyl-Thf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_ACGALtly" name="N-Acetyl-Galactosamine Lysosomal Efflux" reversible="true"/>
+      <reaction id="R_XOLEST205tl" name="Intracellular Transport of 1-Timnodnoyl-Cholesterol, Cholesterol-Ester (20:5, Delta 5, 8, 11, 14, 17)" reversible="true"/>
+      <reaction id="R_HMR_8588" name="HMR_8588" reversible="true"/>
+      <reaction id="R_ABUTt2rL" name="4-Aminobutyrate Reversible Transport in via Proton Symport, Lysosomal" reversible="true"/>
+      <reaction id="R_HMR_2090" name="HMR_2090" reversible="true"/>
+      <reaction id="R_THCRMtl" name="Trihexosyl Ceramide Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_7THFtl" name="7-Glutamyl-Thf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_r0932" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_COAtl" name="Transport of Coenzyme A (Diffusion), Lysosomal" reversible="true"/>
+      <reaction id="R_r1302" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_MEOHtly" name="Methanol Transporter, Lysosomal" reversible="true"/>
+      <reaction id="R_GD3tlc" name="Transport of Gd3, Lysosomal" reversible="true"/>
+      <reaction id="R_ACGAGBSIDEtl" name="Acgagbside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_0913" name="HMR_0913" reversible="true"/>
+      <reaction id="R_5DHFtl" name="5-Glutamyl-Dhf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_HMR_0769" name="HMR_0769" reversible="true"/>
+      <reaction id="R_GLUt7l" name="Glutamate Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_KSII_CORE2tly" name="Keratan Sulfate Ii (Core 2) Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_r1301" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_10FTHF7GLUtl" name="7-Glutamyl-10Fthf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_NO2te" name="Nitrite Dioxide Transport, Assumed Diffusion" reversible="true"/>
+      <reaction id="R_GLCtly" name="Glucose Efflux from Lysosome" reversible="true"/>
+      <reaction id="R_S2L2N2M2MASNtly" name="Transport of De-Fuc Form of Pa6, Lysosomal" reversible="true"/>
+      <reaction id="R_GALSIDEtl" name="Galactocerebroside Intracellular Transport" reversible="true"/>
+      <reaction id="R_r0937" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r1367" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_CSPG_Dtly" name="Chondroitin Sulfate D Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_10FTHF5GLUtl" name="5-Glutamyl-10Fthf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_ACNAMlt" name="N-Acetylneuraminate Transport into Lysososme" reversible="true"/>
+      <reaction id="R_GALtly" name="Galactose Efflux from Lysosome" reversible="true"/>
+      <reaction id="R_HMR_7720" name="HMR_7720" reversible="true"/>
+      <reaction id="R_HMR_7711" name="HMR_7711" reversible="true"/>
+      <reaction id="R_r1052" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_6THFtl" name="6-Glutamyl-Thf Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_Rtotaltl" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_H2Otly" name="H2O Transport, Lysosomal" reversible="true"/>
+      <reaction id="R_FUCtly" name="L-Fucose Efflux from Lysosome" reversible="true"/>
+      <reaction id="R_SGALSIDEtl" name="Transport of Sulfatide Galactocerebroside" reversible="true"/>
+      <reaction id="R_UDPtl" name="UDP Intracellular Transport" reversible="true"/>
+      <reaction id="R_ACGBGBSIDEtl" name="Acgbgbside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_7727" name="HMR_7727" reversible="true"/>
+      <reaction id="R_GSNtl" name="Guanosine Faciliated Transport from Lysosome" reversible="true"/>
+      <reaction id="R_CSPG_Btly" name="Chondroitin Sulfate B Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_r0986" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_HSPGtly" name="Heparan Sulfate Transport, Extracellular to Lysosome" reversible="true"/>
+      <reaction id="R_MANtly" name="Mannose Efflux from Lysosome" reversible="true"/>
+      <reaction id="R_HMR_3597" name="HMR_3597" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

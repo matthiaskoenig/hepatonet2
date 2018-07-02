@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="vitamin_e_metabolism">
+    <listOfReactions>
+      <reaction id="R_RE2705C" name="RE2705C" reversible="true"/>
+      <reaction id="R_HMR_6500" name="HMR_6500" reversible="true"/>
+      <reaction id="R_RE2948C" name="RE2948C" reversible="true"/>
+      <reaction id="R_RE2327C" name="RE2327C" reversible="true"/>
+      <reaction id="R_HMR_6456" name="HMR_6456" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

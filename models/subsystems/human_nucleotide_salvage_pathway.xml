@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="nucleotide_salvage_pathway">
+    <listOfReactions>
+      <reaction id="R_GUAPRT" name="Guanine Phosphoribosyltransferase" reversible="true"/>
+      <reaction id="R_HXPRT" name="Hypoxanthine Phosphoribosyltransferase (Hypoxanthine)" reversible="true"/>
+      <reaction id="R_ADPT" name="Adenine Phosphoribosyltransferase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

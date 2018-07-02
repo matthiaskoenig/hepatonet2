@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="purine_synthesis">
+    <listOfReactions>
+      <reaction id="R_AICART" name="Phosphoribosylaminoimidazolecarboxamide Formyltransferase" reversible="true"/>
+      <reaction id="R_HMR_4664" name="Xanthine Phosphoribosyltransferase" reversible="true"/>
+      <reaction id="R_PRAGSr" name="Phosphoribosylglycinamide Synthase" reversible="true"/>
+      <reaction id="R_GLUPRT" name="Glutamine Phosphoribosyldiphosphate Amidotransferase" reversible="true"/>
+      <reaction id="R_INSK" name="Insosine Kinase" reversible="true"/>
+      <reaction id="R_ADNK4" name="Adenosine Kinase" reversible="true"/>
+      <reaction id="R_GARFT" name="Phosphoribosylglycinamide Formyltransferase" reversible="true"/>
+      <reaction id="R_PRFGS" name="Phosphoribosylformylglycinamidine Synthase" reversible="true"/>
+      <reaction id="R_ADSL2" name="Adenylosuccinate Lyase" reversible="true"/>
+      <reaction id="R_r0666" name="2- (Formamido)-N1- (5-Phosphoribosyl)Acetamidine Cyclo-Ligase (ADP-Forming)" reversible="true"/>
+      <reaction id="R_ADNK3" name="Adenosine Kinase" reversible="true"/>
+      <reaction id="R_HMR_5301" name="Uridine Kinase" reversible="true"/>
+      <reaction id="R_AIRCr" name="Phosphoribosylaminoimidazole Carboxylase" reversible="true"/>
+      <reaction id="R_IMPC" name="IMP Cyclohydrolase" reversible="true"/>
+      <reaction id="R_PRASCS" name="Phosphoribosylaminoimidazolesuccinocarboxamide Synthase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="triacylglycerol_synthesis">
+    <listOfReactions>
+      <reaction id="R_LPS" name="Lipase" reversible="true"/>
+      <reaction id="R_MOGAT" name="Monoacylglycerol Acyltransferase" reversible="true"/>
+      <reaction id="R_PPAP" name="Phosphatidic Acid Phosphatase" reversible="true"/>
+      <reaction id="R_GPAM_hs" name="Glycerol-3-Phosphate Acyltransferase" reversible="true"/>
+      <reaction id="R_LPS4e" name="Phospholipase" reversible="true"/>
+      <reaction id="R_LPS3" name="Lipase" reversible="true"/>
+      <reaction id="R_AGPAT1" name="1-Acylglycerol-3-Phosphate O-Acyltransferase 1" reversible="true"/>
+      <reaction id="R_DGAT" name="Diacylglycerol Acyltransferase" reversible="true"/>
+      <reaction id="R_LPS2" name="Lipase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

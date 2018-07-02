@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="tetrahydrobiopterin_metabolism">
+    <listOfReactions>
+      <reaction id="R_r0402" name="Tetrahydrobiopterin:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_r0403" name="L-Tryptophan, Tetrahydrobiopterin:Oxygen Oxidoreductase (5-Hydroxylating)" reversible="true"/>
+      <reaction id="R_RE2660N" name="4A-Hydroxytetrahydrobiopterin Dehydratase" reversible="true"/>
+      <reaction id="R_RE0830C" name="4A-Hydroxytetrahydrobiopterin Dehydratase" reversible="true"/>
+      <reaction id="R_r0399" name="L-Phenylalanine, Tetrahydrobiopterin:Oxygen Oxidoreductase (4-Hydroxylating) Phenylalanine, Tyrosine And Tryptophan Biosynthesis" reversible="true"/>
+      <reaction id="R_PTHPS" name="6-Pyruvoyltetrahydropterin Synthase" reversible="true"/>
+      <reaction id="R_RE1709N" name="4A-Hydroxytetrahydrobiopterin Dehydratase" reversible="true"/>
+      <reaction id="R_RE1709C" name="4A-Hydroxytetrahydrobiopterin Dehydratase" reversible="true"/>
+      <reaction id="R_DHPR" name="6, 7-Dihydropteridine Reductase" reversible="true"/>
+      <reaction id="R_RE0830N" name="4A-Hydroxytetrahydrobiopterin Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_4816" name="2-Amino-4-Hydroxy-6- (Erythro-1, 2, 3-Trihydroxypropyl) Dihydropteridine Triphosphate Phosphohydrolase (Alkaline Optimum)" reversible="true"/>
+      <reaction id="R_SPR" name="Sepiapterin Reductase" reversible="true"/>
+      <reaction id="R_GTPCI" name="GTP Cyclohydrolase I" reversible="true"/>
+      <reaction id="R_RE2660C" name="RE2660C" reversible="true"/>
+      <reaction id="R_DHPR2" name="6, 7-Dihydropteridine Reduction" reversible="true"/>
+      <reaction id="R_r0398" name="NADPH:6, 7-Dihydropteridine Oxidoreductase Ec:1.5.1.34" reversible="true"/>
+      <reaction id="R_THBPT4ACAMDASE" name="Tetrahydrobiopterin-4A-Carbinolamine Dehydratase" reversible="true"/>
+      <reaction id="R_r0673" name="6-Lactoyl-5, 6, 7, 8-Tetrahydropterin:NADP+ 2-Oxidoreductase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

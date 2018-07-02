@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="coa_synthesis">
+    <listOfReactions>
+      <reaction id="R_r0596" name="3-Hydroxyisobutyryl Coenzyme A Hydrolase " reversible="true"/>
+      <reaction id="R_r0671" name="(R)-4-Phosphopantothenate:L-Cysteine Ligase Ec:6.3.2.5" reversible="true"/>
+      <reaction id="R_DPCOAK" name="Dephospho Coenzyme A Kinase" reversible="true"/>
+      <reaction id="R_PTPAT" name="Phosphopantetheine Adenylyltransferase (Ec 2.7.7.3)" reversible="true"/>
+      <reaction id="R_PAN4PPe" name="Phosphatase, Extracellular" reversible="true"/>
+      <reaction id="R_DPCOAPPe" name="Pyrophasphatase (Dephospho Coenzyme A, Extracellular)" reversible="true"/>
+      <reaction id="R_r0590" name="ATP:Pantetheine-4-Phosphate Adenylyltransferase" reversible="true"/>
+      <reaction id="R_PNTK" name="Pantothenate Kinase" reversible="true"/>
+      <reaction id="R_PPCDC" name="Phosphopantothenoylcysteine Decarboxylase" reversible="true"/>
+      <reaction id="R_r0579" name="ATP:Pantothenate 4-Phosphotransferase" reversible="true"/>
+      <reaction id="R_r0591" name="Dephospho Coenzyme A Nucleotidohydrolase" reversible="true"/>
+      <reaction id="R_r0033" name="ATP:Dephospho Coenzyme A 3-Phosphotransferase" reversible="true"/>
+      <reaction id="R_r0578" name="ATP:Pantothenate 4-Phosphotransferase" reversible="true"/>
+      <reaction id="R_PPNCL3" name="Phosphopantothenate-Cysteine Ligase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

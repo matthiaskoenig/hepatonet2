@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="steroid_metabolism">
+    <listOfReactions>
+      <reaction id="R_HSD3A1r" name="3 Alpha-Hydroxysteroid Dehydrogenase (Type 3)" reversible="true"/>
+      <reaction id="R_HMR_1941" name="3Beta-Hydroxy-Delta5-Steroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_AND19ONEc" name="Hydroxylation of Androst-4-Ene-3, 17-Dione" reversible="true"/>
+      <reaction id="R_P45017A4r" name="Cytochrome P450 17A1" reversible="true"/>
+      <reaction id="R_P45019A2r" name="Aromatase" reversible="true"/>
+      <reaction id="R_HSD3B2r" name="3 Beta-Hydroxysteroid Dehydrogenase Type 1" reversible="true"/>
+      <reaction id="R_HSD3B13" name="3 Beta-Hydroxysteroid Dehydrogenase/Delta 5-&gt;4-Isomerase Type I" reversible="true"/>
+      <reaction id="R_SR5ARr" name="3-Oxo-5-Alpha-Steroid 4-Dehydrogenase" reversible="true"/>
+      <reaction id="R_ESTR2r" name="ESTR2r" reversible="true"/>
+      <reaction id="R_HMR_1948" name="17Alpha-Hydroxypregnenolone, Hydrogen-Donor:Oxygen Oxidoreductase (21-Hydroxylating)" reversible="true"/>
+      <reaction id="R_CHSTEROLSULT" name="Steroid Sulfotransferase" reversible="true"/>
+      <reaction id="R_HSD17B7r" name="Testicular 17-Beta-Hydroxysteroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_1928" name="22Beta-Hydroxycholesterol:Oxygen Oxidoreductase (Side-Chain-Cleaving)" reversible="true"/>
+      <reaction id="R_HMR_2007" name="Steroid 21-Monooxygenase" reversible="true"/>
+      <reaction id="R_P45017A3r" name="Cytochrome P450 17A1" reversible="true"/>
+      <reaction id="R_RE1135R" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_HMR_1979" name="3Beta-Hydroxy-Delta5-Steroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_1991" name="Steroid, Hydrogen-Donor:Oxygen Oxidoreductase (17-Alpha-Hydroxylating)" reversible="true"/>
+      <reaction id="R_UGT1A7r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_RE1099C" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_AKR1C1" name="Aldo-Keto Reductase Family 1, Member C1 (Chlordecone Reductase" reversible="true"/>
+      <reaction id="R_HSD11B1r" name="11-Beta-Hydroxysteroid Dehydrogenase Type 1" reversible="true"/>
+      <reaction id="R_HSD3B13r" name="3 Beta-Hydroxysteroid Dehydrogenase/Delta 5-&gt;4-Isomerase Type I" reversible="true"/>
+      <reaction id="R_5ADTSTSTERONESULT" name="5Alpha-Dihydrotestosterone Sulfotransferase" reversible="true"/>
+      <reaction id="R_HSD3B11r" name="3 Beta-Hydroxysteroid Dehydrogenase/Delta 5-&gt;4-Isomerase Type I" reversible="true"/>
+      <reaction id="R_P45017A1r" name="Cytochrome P450 17A1" reversible="true"/>
+      <reaction id="R_P45021A1r" name="Steroid 21-Hydroxylase" reversible="true"/>
+      <reaction id="R_HSD17B2r" name="17-Beta-Hydroxysteroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_1927" name="HMR_1927" reversible="true"/>
+      <reaction id="R_PRGNLONESULT" name="Steroid Sulfotransferase" reversible="true"/>
+      <reaction id="R_DHEASULT" name="Dehydroepiandrosterone Sulfotransferase" reversible="true"/>
+      <reaction id="R_21HPRGNLONE" name="Formation of 21-Hydroxypregnenolone" reversible="true"/>
+      <reaction id="R_P45011B12m" name="Steroid 11-Beta-Hydroxylase" reversible="true"/>
+      <reaction id="R_HSD17B3r" name="Testicular 17-Beta-Hydroxysteroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_UGT1A2r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_HMR_2010" name="Corticosterone 18-Monooxygenase" reversible="true"/>
+      <reaction id="R_P4503A7r" name="Cytochrome P450 P450 3A7" reversible="true"/>
+      <reaction id="R_SR5AR2r" name="3-Oxo-5-Alpha-Steroid 4-Dehydrogenase" reversible="true"/>
+      <reaction id="R_UGT1A8r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_RE1100C" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_P45011A1m" name="Cytochrome P450 11A1, Mitochondrial [Precursor]" reversible="true"/>
+      <reaction id="R_HMR_1940" name="Pregnenolone, Hydrogen-Donor:Oxygen Oxidoreductase (21-Hydroxylating)" reversible="true"/>
+      <reaction id="R_ESTRr" name="ESTRr" reversible="true"/>
+      <reaction id="R_HSD3A2r" name="3 Alpha-Hydroxysteroid Dehydrogenase (Type 3)" reversible="true"/>
+      <reaction id="R_UGT1A9r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_HSD3B11" name="3 Beta-Hydroxysteroid Dehydrogenase/Delta 5-&gt;4-Isomerase Type I" reversible="true"/>
+      <reaction id="R_P45019A1r" name="Aromatase" reversible="true"/>
+      <reaction id="R_HMR_2002" name="Transferred to 1.3.1.30 And 1.3.1.22" reversible="true"/>
+      <reaction id="R_HSD3B12r" name="3 Beta-Hydroxysteroid Dehydrogenase/Delta 5-&gt;4-Isomerase Type I" reversible="true"/>
+      <reaction id="R_UGT1A6r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_STS2r" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_ESTSULT" name="Estrogen Sulfotransferase" reversible="true"/>
+      <reaction id="R_RE1096C" name="RE1096C" reversible="true"/>
+      <reaction id="R_HMR_1651" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_UGT1A3r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_STS1r" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_RE1134C" name="RE1134C" reversible="true"/>
+      <reaction id="R_RE2766C" name="17Beta-Estradiol 17-Dehydrogenase" reversible="true"/>
+      <reaction id="R_P4503A43r" name="Cytochrome P450 P450 3A43" reversible="true"/>
+      <reaction id="R_P45021A2r" name="Steroid 21-Hydroxylase" reversible="true"/>
+      <reaction id="R_HMR_1989" name="Steroid, Reduced-Adrenal-Ferredoxin:Oxygen Oxidoreductase (11-Hydroxylating)" reversible="true"/>
+      <reaction id="R_HSD17B8r" name="17-Beta-Hydroxysteroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_P45011B11m" name="Steroid 11-Beta-Hydroxylase" reversible="true"/>
+      <reaction id="R_P45011B21m" name="Steroid 11-Beta-Hydroxylase" reversible="true"/>
+      <reaction id="R_STS2" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_HSD11B2r" name="11-Beta-Hydroxysteroid Dehydrogenase Type 2" reversible="true"/>
+      <reaction id="R_HSD17B9r" name="17-Beta-Hydroxysteroid Dehydrogenase (Type 7)" reversible="true"/>
+      <reaction id="R_UGT1A4r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_P45017A2r" name="Cytochrome P450 17A1" reversible="true"/>
+      <reaction id="R_HMR_1929" name="20Alpha, 22Beta-Dihydroxycholesterol, Ferredoxin:Oxygen Oxidoreductase (Side-Chain-Cleaving)" reversible="true"/>
+      <reaction id="R_RE1100R" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_HMR_1993" name="Progesterone, Reduced Ferredoxin:Oxygen Oxidoreductase (11-Hydroxylating)" reversible="true"/>
+      <reaction id="R_P4501B1r" name="Cytochrome P450 1B1" reversible="true"/>
+      <reaction id="R_HMR_1990" name="21-Deoxycortisol, Hydrogen-Donor:Oxygen Oxidoreductase (21-Hydroxylating)" reversible="true"/>
+      <reaction id="R_HMR_1992" name="11Beta-Hydroxyprogesterone, Hydrogen-Donor:Oxygen Oxidoreductase (21-Hydroxylating)" reversible="true"/>
+      <reaction id="R_HSD17B1" name="Testicular 17-Beta-Hydroxysteroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_2011" name="Corticosterone 18-Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1996" name="11Beta-Hydroxysteroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_1981" name="Steroid 17Alpha-Monooxygenase" reversible="true"/>
+      <reaction id="R_TSTSTERONESULT" name="Testosterone Sulfotransferase" reversible="true"/>
+      <reaction id="R_HMR_1988" name="Steroid 21-Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1980" name="Steroid Delta-Isomerase" reversible="true"/>
+      <reaction id="R_RE1135C" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_UGT1A1r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_STS1" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_HMR_1644" name="3Alpha, 7Alpha, 12Alpha-Trihydroxy-5Beta-Cholest-24-Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_2041" name="17Beta-Estradiol 17-Dehydrogenase" reversible="true"/>
+      <reaction id="R_HSD3B3r" name="3 Beta-Hydroxysteroid Dehydrogenase Type 1" reversible="true"/>
+      <reaction id="R_UGT1A10r" name="UDP-Glucuronosyltransferase 1-10 Precursor, Microsomal" reversible="true"/>
+      <reaction id="R_HMR_1949" name="3Beta-Hydroxy-Delta5-Steroid Dehydrogenase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

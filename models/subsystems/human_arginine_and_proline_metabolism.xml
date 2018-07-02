@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="arginine_and_proline_metabolism">
+    <listOfReactions>
+      <reaction id="R_P5CR" name="Pyrroline-5-Carboxylate Reductase" reversible="true"/>
+      <reaction id="R_P5CRxm" name="Pyrroline-5-Carboxylate Reductase, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0617" name="Trans-4-Hydroxy-L-Proline:NADP+ 5-Oxidoreductase" reversible="true"/>
+      <reaction id="R_NOS2" name="Nitric Oxide Synthase (No Forming)" reversible="true"/>
+      <reaction id="R_4HGLSDm" name="L-4-Hydroxyglutamate Semialdehyde Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_P5CRm" name="Pyrroline-5-Carboxylate Reductase, Mitochondrial" reversible="true"/>
+      <reaction id="R_MTRI" name="5-Methylthioribose-1-Phosphate Isomerase" reversible="true"/>
+      <reaction id="R_HMR_4776" name="L-Proline, 2-Oxoglutarate:Oxygen Oxidoreductase (4-Hydroxylating)" reversible="true"/>
+      <reaction id="R_G5SADrm" name="L-Glutamate 5-Semialdehyde Dehydratase, Reversible, Mitochondrial" reversible="true"/>
+      <reaction id="R_PHCDm" name="L-1-Pyrroline-3-Hydroxy-5-Carboxylate Dehydrogenase" reversible="true"/>
+      <reaction id="R_EHGLATm" name="L-Erythro-4-Hydroxyglutamate:2-Oxoglutarate Aminotransferase, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_4783" name="HMR_4783" reversible="true"/>
+      <reaction id="R_PHCHGSm" name="L-1-Pyrroline-3-Hydroxy-5-Carboxylate Spontaneous Conversion to L-4-Hydroxyglutamate Semialdehyde, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3832" name="Arginine Deiminase" reversible="true"/>
+      <reaction id="R_AGMTm" name="Agmatinase, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0616" name="Trans-4-Hydroxy-L-Proline:NAD+ 5-Oxidoreductase" reversible="true"/>
+      <reaction id="R_DKMPPD" name=" 2, 3-Diketo-5-Methylthio-1-Phosphopentane Degradation Reaction" reversible="true"/>
+      <reaction id="R_PTRCAT1" name="Putrescine Acetyltransferase" reversible="true"/>
+      <reaction id="R_r0615" name="Trans-4-Hydroxy-L-Proline:NAD+ 5-Oxidoreductase" reversible="true"/>
+      <reaction id="R_NABTNO" name="N4-Acetylaminobutanal:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_r0618" name="Trans-4-Hydroxy-L-Proline:NADP+ 5-Oxidoreductase" reversible="true"/>
+      <reaction id="R_PROD2" name="Proline Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_4422" name="L-Ornithine Carboxy-Lyase (Putrescine-Forming)" reversible="true"/>
+      <reaction id="R_APRTO2" name="N-Acetylputrescine: Oxygen Oxireductase (Deaminating)" reversible="true"/>
+      <reaction id="R_EHGLAT2m" name="L-Erythro-4-Hydroxyglutamate:2-Oxoglutarate Aminotransferase 2, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_4777" name="L-Proline, 2-Oxoglutarate:Oxygen Oxidoreductase (4-Hydroxylating)" reversible="true"/>
+      <reaction id="R_MTAP" name="5&apos;-Methylthioadenosine Phosphorylase" reversible="true"/>
+      <reaction id="R_PTRCOX1" name="Putrescine:Oxygen Oxidoreductase (Deaminating)" reversible="true"/>
+      <reaction id="R_HMR_4782" name="HMR_4782" reversible="true"/>
+      <reaction id="R_NOS1" name="Nitric Oxide Synthase (Intermediate Forming)" reversible="true"/>
+      <reaction id="R_MDRPD" name=" 5-Methylthio-5-Deoxy-D-Ribulose 1-Phosphate Dehydratase" reversible="true"/>
+      <reaction id="R_DARGOp" name="D-Arginine Oxidase, Perixosomal" reversible="true"/>
+      <reaction id="R_DORNOp" name="D-Ornithine Oxidase, Perixosomal" reversible="true"/>
+      <reaction id="R_r0145" name="L-Arginine, NADPH:Oxygen Oxidoreductase (Nitric-Oxide-Forming)" reversible="true"/>
+      <reaction id="R_r0024" name="N- (Omega)-Hydroxyarginine, NADPH:Oxygen Oxidoreductase (Nitric-Oxide-Forming)" reversible="true"/>
+      <reaction id="R_ARGDCm" name="Arginine Decarboxylase, Mitochondrial" reversible="true"/>
+      <reaction id="R_ADMDC" name="Adenosylmethionine Decarboxylase" reversible="true"/>
+      <reaction id="R_PROD2m" name="Proline Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_DDPGAm" name="2-Dehydro-3-Deoxy-Phosphogluconate Aldolase, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0686" name="L-1-Pyrroline-3-Hydroxy-5-Carboxylate:NADP+ Oxidoreductase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

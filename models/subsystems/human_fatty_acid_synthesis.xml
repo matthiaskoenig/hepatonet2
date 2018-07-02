@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="fatty_acid_synthesis">
+    <listOfReactions>
+      <reaction id="R_DESAT18_6" name="Fatty Acyl Coenzyme A Desaturase (N-C18:1CoA -&gt; N-C18:2CoA)" reversible="true"/>
+      <reaction id="R_HMR_2980" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2342" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_2218" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_0156" name="Carboxylic Acid:Coa Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_HMR_2948" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0289" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2374" name="HMR_2374" reversible="true"/>
+      <reaction id="R_HMR_2541" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_RE0569E" name="RE0569E" reversible="true"/>
+      <reaction id="R_HMR_2975" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2530" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_DESAT24_1" name="Fatty Acyl Coenzyme A Desaturase (N-C24:5CoA -&gt; N-C24:6CoA)" reversible="true"/>
+      <reaction id="R_HMR_2986" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2983" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0576C" name="RE0576C" reversible="true"/>
+      <reaction id="R_HMR_2543" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2363" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_DESAT18_4" name="Stearoyl Coenzyme A Desaturase (N-C18:0CoA -&gt; N-C18:1CoA)" reversible="true"/>
+      <reaction id="R_HMR_0293" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2972" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3232C" name="RE3232C" reversible="true"/>
+      <reaction id="R_DESAT20_1" name="Fatty Acyl Coenzyme A Desaturase (N-C20:3CoA -&gt; N-C20:4CoA)" reversible="true"/>
+      <reaction id="R_HMR_2261" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2270" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2286" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_2954" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2289" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_RE3228C" name="RE3228C" reversible="true"/>
+      <reaction id="R_HMR_2359" name="HMR_2359" reversible="true"/>
+      <reaction id="R_HMR_2967" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0569C" name="RE0569C" reversible="true"/>
+      <reaction id="R_HMR_2281" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_2210" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2961" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2263" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_DESAT20_2" name="Fatty Acyl Coenzyme A Desaturase (N-C20:4CoA -&gt; N-C20:5CoA)" reversible="true"/>
+      <reaction id="R_HMR_2403" name="HMR_2403" reversible="true"/>
+      <reaction id="R_RE3224C" name="RE3224C" reversible="true"/>
+      <reaction id="R_RE0565C" name="RE0565C" reversible="true"/>
+      <reaction id="R_HMR_2946" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2266" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_3453" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_HMR_0233" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0566C" name="RE0566C" reversible="true"/>
+      <reaction id="R_RE3245C" name="RE3245C" reversible="true"/>
+      <reaction id="R_RE3238C" name="RE3238C" reversible="true"/>
+      <reaction id="R_HMR_0279" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2944" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2380" name="HMR_2380" reversible="true"/>
+      <reaction id="R_HMR_2966" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0393" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3454" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_2560" name="HMR_2560" reversible="true"/>
+      <reaction id="R_HMR_0241" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2264" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2343" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_DESAT18_5" name="Stearoyl Coenzyme A Desaturase (N-C18:0CoA -&gt; N-C18:1CoA)" reversible="true"/>
+      <reaction id="R_RE3244C" name="RE3244C" reversible="true"/>
+      <reaction id="R_RE3243C" name="RE3243C" reversible="true"/>
+      <reaction id="R_HMR_2219" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_FAS80COA_L" name="Fatty Acyl Coenzyme A Synthase (N-C8:0CoA), Lumped Reaction" reversible="true"/>
+      <reaction id="R_FAS100COA" name="Fatty Acyl Coenzyme A Synthase (N-C10:0CoA)" reversible="true"/>
+      <reaction id="R_HMR_0437" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3457" name="2, 4-Dienoyl Coenzyme A Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_HMR_2484" name="HMR_2484" reversible="true"/>
+      <reaction id="R_HMR_0255" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2344" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_RE0567C" name="RE0567C" reversible="true"/>
+      <reaction id="R_RE0579C" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_2977" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2942" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2347" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_2355" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2267" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_2332" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_0433" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2296" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_2533" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2969" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2976" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2542" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2994" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2362" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_3447" name="Dodecenoyl Coenzyme A Isomerase" reversible="true"/>
+      <reaction id="R_HMR_2955" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2571" name="HMR_2571" reversible="true"/>
+      <reaction id="R_HMR_2989" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2971" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2293" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_2284" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_RE3231C" name="RE3231C" reversible="true"/>
+      <reaction id="R_HMR_2979" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0171" name="Butyrate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2393" name="HMR_2393" reversible="true"/>
+      <reaction id="R_DESAT22_2p" name="Fatty Acyl Coenzyme A Desaturase (N-C22:5CoA -&gt; N-C22:6CoA)" reversible="true"/>
+      <reaction id="R_RE3226C" name="RE3226C" reversible="true"/>
+      <reaction id="R_HMR_2990" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2988" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2581" name="Prostaglandin-Endoperoxide Synthase" reversible="true"/>
+      <reaction id="R_HMR_2349" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_0345" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_DESAT18_8" name="Fatty Acyl Coenzyme A Desaturase (N-C18:1CoA -&gt; N-C18:2CoA)" reversible="true"/>
+      <reaction id="R_HMR_2295" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_0301" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAEL204" name="Fatty-Acyl Coenzyme A Elongation (N-C20:4CoA)" reversible="true"/>
+      <reaction id="R_HMR_2376" name="HMR_2376" reversible="true"/>
+      <reaction id="R_HMR_2970" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2282" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_2535" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2974" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0204" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2963" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2962" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0344C" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_2190" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_3450" name="3-Hydroxyacyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_0271" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2211" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_DESAT18_7" name="Fatty Acyl Coenzyme A Desaturase (N-C18:1CoA -&gt; N-C18:2CoA)" reversible="true"/>
+      <reaction id="R_HMR_2973" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2288" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_0305" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2336" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2540" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_0385" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3242C" name="RE3242C" reversible="true"/>
+      <reaction id="R_HMR_0309" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2998" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2433" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_FAEL184" name="Fatty-Acyl Coenzyme A Elongation (N-C20:4CoA)" reversible="true"/>
+      <reaction id="R_HMR_2265" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2951" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2368" name="Linoleoyl Coenzyme A, Ferrocytochrome B5:Oxygen Oxidoreductase (6, 7 Cis-Dehydrogenating)" reversible="true"/>
+      <reaction id="R_HMR_2338" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2269" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2434" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_0267" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3234C" name="RE3234C" reversible="true"/>
+      <reaction id="R_HMR_2361" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_2957" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2435" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_0245" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0168" name="Butyrate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2436" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_RE3237C" name="RE3237C" reversible="true"/>
+      <reaction id="R_HMR_0177" name="Butyrate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3449" name="Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_DESAT18_3" name="Stearoyl Coenzyme A Desaturase (N-C18:0CoA -&gt; N-C18:1CoA)" reversible="true"/>
+      <reaction id="R_HMR_0389" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3239C" name="RE3239C" reversible="true"/>
+      <reaction id="R_FAEL183" name="Fatty-Acyl Coenzyme A Elongation (N-C18:3CoA)" reversible="true"/>
+      <reaction id="R_RE0574C" name="RE0574C" reversible="true"/>
+      <reaction id="R_HMR_0297" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2964" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0165" name="Butyrate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2985" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3236C" name="RE3236C" reversible="true"/>
+      <reaction id="R_DESAT18_9" name="Fatty Acyl Coenzyme A Desaturase (N-C18:2CoA -&gt; N-C18:3CoA)" reversible="true"/>
+      <reaction id="R_HMR_0327" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2260" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_FAS180COA" name="Fatty-Acyl Coenzyme A Synthase (N-C18:0CoA)" reversible="true"/>
+      <reaction id="R_HMR_2395" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_DESAT18_10" name="Fatty Acyl Coenzyme A Desaturase (N-C18:2CoA -&gt; N-C18:3CoA)" reversible="true"/>
+      <reaction id="R_HMR_3003" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3235C" name="RE3235C" reversible="true"/>
+      <reaction id="R_HMR_2287" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_FAS140COA" name="Fatty-Acyl Coenzyme A Synthase (N-C14:0CoA)" reversible="true"/>
+      <reaction id="R_HMR_2356" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2956" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_FAS120COA" name="Fatty-Acyl Coenzyme A Synthase (N-C12:0CoA)" reversible="true"/>
+      <reaction id="R_HMR_0209" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0583C" name="RE0583C" reversible="true"/>
+      <reaction id="R_HMR_2354" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2391" name="HMR_2391" reversible="true"/>
+      <reaction id="R_RE3225C" name="RE3225C" reversible="true"/>
+      <reaction id="R_HMR_2294" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_2217" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_0381" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3455" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3001" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0578C" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_2268" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_FAS160COA" name="Fatty-Acyl Coenzyme A Synthase (N-C16:0CoA)" reversible="true"/>
+      <reaction id="R_HMR_2292" name="Stearoyl Coenzyme A 9-Desaturase" reversible="true"/>
+      <reaction id="R_HMR_3448" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_FAEL205" name="Fatty-Acyl Coenzyme A Elongation (N-C20:5CoA)" reversible="true"/>
+      <reaction id="R_HMR_2968" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0581C" name="RE0581C" reversible="true"/>
+      <reaction id="R_HMR_3002" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE0570C" name="RE0570C" reversible="true"/>
+      <reaction id="R_HMR_2215" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_3446" name="2, 4-Dienoyl Coenzyme A Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_HMR_0184" name="Butyrate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3451" name="Acetyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3452" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_2365" name="HMR_2365" reversible="true"/>
+      <reaction id="R_HMR_2495" name="HMR_2495" reversible="true"/>
+      <reaction id="R_HMR_2364" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_RE3241C" name="RE3241C" reversible="true"/>
+      <reaction id="R_HMR_2334" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2982" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2947" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2348" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2965" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2537" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_2350" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_DESAT16_2" name="Palmitoyl Coenzyme A Desaturase (N-C16:0CoA -&gt; N-C16:1CoA)" reversible="true"/>
+      <reaction id="R_HMR_0319" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0323" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2978" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_0259" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3229C" name="RE3229C" reversible="true"/>
+      <reaction id="R_HMR_0192" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3227C" name="RE3227C" reversible="true"/>
+      <reaction id="R_FAS180" name="Fas180" reversible="true"/>
+      <reaction id="R_HMR_2259" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_2345" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_RE0575C" name="RE0575C" reversible="true"/>
+      <reaction id="R_HMR_0188" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_3456" name="Medium-Chain Acyl Coenzyme A Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_2999" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2558" name="HMR_2558" reversible="true"/>
+      <reaction id="R_RE0568C" name="RE0568C" reversible="true"/>
+      <reaction id="R_RE0571C" name="RE0571C" reversible="true"/>
+      <reaction id="R_DESAT14_9" name="Desaturation of Myristic Acid to 9-Tetradecenoic Acid" reversible="true"/>
+      <reaction id="R_HMR_2945" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2353" name="Very-Long-Chain 3-Oxoacyl Coenzyme A Synthase" reversible="true"/>
+      <reaction id="R_HMR_0180" name="Butyrate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE3230C" name="RE3230C" reversible="true"/>
+      <reaction id="R_RE0577C" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_2472" name="HMR_2472" reversible="true"/>
+      <reaction id="R_HMR_2943" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_KAS8" name="B-Ketoacyl Synthetase (Palmitate, N-C16:0)" reversible="true"/>
+      <reaction id="R_HMR_0200" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_2193" name="Very-Long-Chain (3R)-3-Hydroxyacyl Coenzyme A Dehydratase" reversible="true"/>
+      <reaction id="R_HMR_2262" name="Very-Long-Chain Enoyl Coenzyme A Reductase" reversible="true"/>
+      <reaction id="R_HMR_0429" name="Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_DESAT22_1p" name="Fatty Acyl Coenzyme A Desaturase (N-C22:4CoA -&gt; N-C22:5CoA)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

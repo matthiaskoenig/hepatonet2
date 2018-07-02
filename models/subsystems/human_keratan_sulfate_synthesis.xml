@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="keratan_sulfate_synthesis">
+    <listOfReactions>
+      <reaction id="R_AG13T16g" name="N-Acetyllactosaminide Beta-1, 3-N-Acetylglucosaminyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_G14T18g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+      <reaction id="R_G14T19g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+      <reaction id="R_G14T20g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+      <reaction id="R_AG13T2g" name="N-Acetyllactosaminide Beta-1, 3-N-Acetylglucosaminyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_G14T2g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+      <reaction id="R_G14T21g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+      <reaction id="R_S6T17g" name="Galactose/N-Acetylglucosamine 6-O-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S23T4g" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_S6T16g" name="Galactose/N-Acetylglucosamine 6-O-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_AG13T18g" name="N-Acetyllactosaminide Beta-1, 3-N-Acetylglucosaminyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_AG13T1g" name="N-Acetyllactosaminide Beta-1, 3-N-Acetylglucosaminyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S23T2g" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase (Core 2)" reversible="true"/>
+      <reaction id="R_S6T1g" name="Galactose/N-Acetylglucosamine 6-O-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S6T2g" name="Galactose/N-Acetylglucosamine 6-O-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_AG13T3g" name="N-Acetyllactosaminide Beta-1, 3-N-Acetylglucosaminyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S6T3g" name="Galactose/N-Acetylglucosamine 6-O-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S6T18g" name="Galactose/N-Acetylglucosamine 6-O-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_AG13T17g" name="N-Acetyllactosaminide Beta-1, 3-N-Acetylglucosaminyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_G14T5g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+      <reaction id="R_G14T3g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+      <reaction id="R_G14T4g" name="Beta-N-Acetylglucosaminylglycopeptide Beta-1, 4-Galactosyltransferase, Golgi" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

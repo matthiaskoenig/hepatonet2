@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="aminosugar_metabolism">
+    <listOfReactions>
+      <reaction id="R_CHTNASEe" name="Chitinase, Extracellular" reversible="true"/>
+      <reaction id="R_ACNAMPH" name="N-Acetylneuraminate 9-Phosphate Phosphohydrolase" reversible="true"/>
+      <reaction id="R_G6PDA" name="Glucosamine-6-Phosphate Deaminase" reversible="true"/>
+      <reaction id="R_CMPSAS" name="CMP Sialic Acid Synthase" reversible="true"/>
+      <reaction id="R_ACNAM9PL2" name="N-Acetylneuraminate 9-Phosphate Pyruvate-Lyase (Pyruvate-Phosphorylating)" reversible="true"/>
+      <reaction id="R_UAG2EMAi" name="UDP-N-Acetyl-D-Glucosamine 2-Epimerase (Hydrolysis)" reversible="true"/>
+      <reaction id="R_r0364" name="Hexokinase" reversible="true"/>
+      <reaction id="R_r1375" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_UAGDP" name="UDP-N-Acetylglucosamine Diphosphorylase" reversible="true"/>
+      <reaction id="R_AMANK" name="N-Acetyl-D-Mannosamine Kinase" reversible="true"/>
+      <reaction id="R_r0363" name="Hexokinase" reversible="true"/>
+      <reaction id="R_HEX10" name="Hexokinase (D-Glucosamine:ATP)" reversible="true"/>
+      <reaction id="R_CMPSASn" name="CMP Sialic Acid Synthase, Nuclear" reversible="true"/>
+      <reaction id="R_r0113" name="UDP-N-Acetyl-D-Glucosamine 2-Epimerase" reversible="true"/>
+      <reaction id="R_AGDC" name="N-Acetylglucosamine-6-Phosphate Deacetylase" reversible="true"/>
+      <reaction id="R_ACGAM2E" name="N-Acetylglucosamine 2-Epimerase" reversible="true"/>
+      <reaction id="R_GF6PTA" name="Glutamine-Fructose-6-Phosphate Transaminase" reversible="true"/>
+      <reaction id="R_CHTNASE" name="Chitinase" reversible="true"/>
+      <reaction id="R_UAG4E" name="UDP-N-Acetylglucosamine 4-Epimerase" reversible="true"/>
+      <reaction id="R_ACGAM6PSi" name="N-Acetylglucosamine-6-Phosphate Synthase" reversible="true"/>
+      <reaction id="R_r0013" name="Beta-N-Acetylhexosaminidase" reversible="true"/>
+      <reaction id="R_ACGALK" name="N-Acetylgalactosamine Kinase" reversible="true"/>
+      <reaction id="R_KDNH" name="2-Keto-3Deoxy-D-Glycero-D-Galactononic Acid Phosphohydrolase" reversible="true"/>
+      <reaction id="R_ACNAM9PL" name="N-Acetylneuraminate 9-Phosphate Pyruvate-Lyase (Pyruvate-Phosphorylating)" reversible="true"/>
+      <reaction id="R_r1374" name="Chitinase" reversible="true"/>
+      <reaction id="R_HMR_4124" name="UDP-D-Glucuronate Carboxy-Lyase (UDP-D-Xylose-Forming)" reversible="true"/>
+      <reaction id="R_UAGALDP" name="UDP-N-Acetylgalactosamine Diphosphorylase" reversible="true"/>
+      <reaction id="R_ACNMLr" name="N-Acetylneuraminate Lyase (Reversible)" reversible="true"/>
+      <reaction id="R_ACGAMK" name="N-Acetylglucosamine Kinase" reversible="true"/>
+      <reaction id="R_ACGAMPM" name="Phosphoacetylglucosamine Mutase" reversible="true"/>
+      <reaction id="R_ACGALK2" name="N-Acetylgalactosamine Kinase (ITP)" reversible="true"/>
+      <reaction id="R_r0782" name="GDP-L-Fucose:NADP+ 4-Oxidoreductase (3, 5-Epimerizing)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

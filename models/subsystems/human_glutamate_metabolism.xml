@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="glutamate_metabolism">
+    <listOfReactions>
+      <reaction id="R_4OHBUTm" name="Formation of 4-Hydroxy-Butyrate" reversible="true"/>
+      <reaction id="R_GTHOm" name="Glutathione Oxidoreductase" reversible="true"/>
+      <reaction id="R_HMR_9802" name="Glutaminase" reversible="true"/>
+      <reaction id="R_GLUDC" name="Glutamate Decarboxylase" reversible="true"/>
+      <reaction id="R_r0179" name="Succinate-Semialdehyde:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_GLUDym" name="Glutamate Dehydrogenase (NADP), Mitochondrial" reversible="true"/>
+      <reaction id="R_ALATA_L" name="L-Alanine Transaminase" reversible="true"/>
+      <reaction id="R_P5CDm" name="1-Pyrroline-5-Carboxylate Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_GTHO" name="Glutathione Oxidoreductase" reversible="true"/>
+      <reaction id="R_GLNS" name="Glutamine Synthetase" reversible="true"/>
+      <reaction id="R_r0178" name="Succinate-Semialdehyde:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_ABTArm" name="4-Aminobutyrate Transaminase, Reversible, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3831" name="Aspartate Ammonia-Lyase" reversible="true"/>
+      <reaction id="R_GLUDxm" name="Glutamate Dehydrogenase (NAD), Mitochondrial" reversible="true"/>
+      <reaction id="R_GLUNm" name="Glutaminase, Mitochondrial" reversible="true"/>
+      <reaction id="R_CBPSam" name="Carbamoyl-Phosphate Synthase (Ammonia), Mitochondrial" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

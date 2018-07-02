@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="n_glycan_degradation">
+    <listOfReactions>
+      <reaction id="R_AHEXASE2ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_FUCASEly" name="Alpha-Fucosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_AHEXASEly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_SIAASEly" name="Sialidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE1ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_B_MANNASEly" name="Beta-Mannosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GASNASEly" name="Glycosylasparaginase, Lysosomal" reversible="true"/>
+      <reaction id="R_ENGASE2ly" name="Endo-Beta-N-Acetylglucosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_ENGASEly" name="Endo-Beta-N-Acetylglucosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_A_MANASEly" name="Alpha-Mannosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GASNASE2ly" name="Glycosylasparaginase, Lysosomal" reversible="true"/>
+      <reaction id="R_FUCASEe" name="Alpha-Fucosidase, Extracellular" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

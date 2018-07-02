@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="keratan_sulfate_degradation">
+    <listOfReactions>
+      <reaction id="R_ENGASE3ly" name="Endo-Beta-N-Acetylglucosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_SIAASE2ly" name="Sialidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE20ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX10ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE5ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX19ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX14ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NAGA2ly" name="N-Acetylgalactosaminidase, Alpha-" reversible="true"/>
+      <reaction id="R_S6TASE23ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA12ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_FUCASE2ly" name="Alpha-Fucosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE12ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA17ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE12ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE14ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA13ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX20ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA22ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX16ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA16ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX25ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX13ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE21ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE19ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE11ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA15ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX22ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NAGLCAly" name="N-Acetylglucosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_FUCASE2e" name="Alpha-Fucosidase, Extracellular" reversible="true"/>
+      <reaction id="R_GALASE17ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE4ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE8ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX21ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA11ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_HMR_7469" name="Alpha-N-Acetylgalactosaminidase" reversible="true"/>
+      <reaction id="R_GALASE18ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX24ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA9ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA18ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX12ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE6ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE13ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE20ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE9ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE16ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE17ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_SIAASE3ly" name="Sialidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA20ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_GASNASE3ly" name="Glycosylasparaginase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA14ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_SIAASE4ly" name="Sialidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE11ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX18ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE10ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE25ly" name="Galactose-6-Sulfate Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE13ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA10ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX26ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE19ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE3ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE22ly" name="Galactose-6-Sulfate Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE15ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX17ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX15ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE14ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE18ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE16ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA19ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEXA21ly" name="Beta-N-Acetylhexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE10ly" name="Galactose-6-Sulfate Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_GALASE7ly" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE15ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE24ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX23ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+      <reaction id="R_S6TASE26ly" name="N-Acetylglucosamine-6-Sulfatase, Lysosomal" reversible="true"/>
+      <reaction id="R_NACHEX11ly" name="Beta-N-Acetylhexosaminidase, Lysosomal" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="miscellaneous">
+    <listOfReactions>
+      <reaction id="R_r1165" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_r0779" name="3-Hydroxy-2-Methylpropanoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE3381E" name="Beta-Glucuronidase" reversible="true"/>
+      <reaction id="R_RE2404C" name="Glucuronosyltransferase" reversible="true"/>
+      <reaction id="R_r1177" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_r0317" name="Citrate Hydro-Lyase " reversible="true"/>
+      <reaction id="R_r0016" name="Fe (II):Oxygen Oxidoreductase" reversible="true"/>
+      <reaction name="Exchange of (12S)-12-hydroxyheptadeca-5,8,10-trienoic acid (12S-HHT)" reversible="true"/>
+      <reaction id="R_DPPS" name="Decaprenyl Synthase" reversible="true"/>
+      <reaction id="R_r0642" name="(S)-Methylmalonate Semialdehyde:NAD+ Oxidoreductase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_RE2304E" name="Tryptase" reversible="true"/>
+      <reaction id="R_r0408" name="ATP:Sedoheptulose 7-Phosphate 1-Phosphotransferase" reversible="true"/>
+      <reaction id="R_PCSF" name="P-Cresol Sulfate Formation from P-Cresol" reversible="true"/>
+      <reaction id="R_r1418" name="Carbonic Acid Hydro-Lyase " reversible="true"/>
+      <reaction id="R_RE2273E" name="Carboxypeptidase A" reversible="true"/>
+      <reaction id="R_RE1860E" name="2&apos;,3&apos;-Cyclic-Nucleotide 3&apos;-Phosphodiesterase" reversible="true"/>
+      <reaction id="R_r0757" name="3-Methoxy-4-Hydroxyphenylglycolaldehyde:NADP+ Oxidoreductase Tyrosine Metabolism" reversible="true"/>
+      <reaction name="Exchange of Gt1B" reversible="true"/>
+      <reaction id="R_r0517" name="Succinyl Coenzyme A:Glycine C-Succinyl-Transferase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_RE2127C" name="Catechol O-Methyltransferase" reversible="true"/>
+      <reaction id="R_r0023" name="NADH:Ferricytochrome-B5 Oxidoreductase" reversible="true"/>
+      <reaction id="R_r0510" name="Steroyl Coenzyme A, Hydrogen-Donor:Oxygen Oxidoreductase Polyunsaturated Fatty Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_r0386" name="4-Methyl-2-Oxopentanoate:[Dihydrolipoyllysine-Residue (2-Methylpropanoyl)Transferase] Lipoyllysine 2-Oxidoreductase (Decarboxylating, Acceptor-2-Methylpropanoylating)" reversible="true"/>
+      <reaction id="R_r1181" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_r0511" name="Steroyl Coenzyme A, Hydrogen-Donor:Oxygen Oxidoreductase Polyunsaturated Fatty Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_r0380" name="Lactose 6-Phosphate Galactohydrolase" reversible="true"/>
+      <reaction id="R_r0339" name="ATP:(R)-Glycerate 3-Phosphotransferase Ec:2.7.1.31" reversible="true"/>
+      <reaction id="R_r0383" name="Pyruvate:[Dihydrolipoyllysine-Residue Acetyltransferase]-Lipoyllysine 2-Oxidoreductase (Decarboxylating, Acceptor-Acetylating)" reversible="true"/>
+      <reaction id="R_r0752" name="3, 4-Dihydroxymandelaldehyde:NAD+ Oxidoreductase Tyrosine Metabolism" reversible="true"/>
+      <reaction id="R_HMR_5409" name="HMR_5409" reversible="true"/>
+      <reaction id="R_r0407" name="Sedoheptulose 1, 7-Bisphosphate D-Glyceraldehyde-3-Phosphate-Lyase Carbon Fixation" reversible="true"/>
+      <reaction name="Exchange of 5-S-Glutathionyl-L-Dopa" reversible="true"/>
+      <reaction id="R_RE3381C" name="Beta-Glucuronidase" reversible="true"/>
+      <reaction id="R_RE2541C" name="Beta-Glucuronidase" reversible="true"/>
+      <reaction id="R_r1169" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2445E" name="Peptidyl-Dipeptidase A" reversible="true"/>
+      <reaction name="Exchange of N-Acetyl-Beta-D-Galactosaminyl-(1-&gt;4)-[Alpha-N-Acetylneuraminosyl-(2-&gt;3)]-Beta-D-Galactosyl-Beta-D-Glucosyl-(1&lt;-&gt;1)-Ceramide Anion" reversible="true"/>
+      <reaction id="R_r0546" name="Phenylacetaldehyde:NAD+ Oxidoreductase Phenylalanine Metabolism Styrene Degradation" reversible="true"/>
+      <reaction id="R_r1134" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_r1135" name="Hydroxysteroid (17-Beta) Dehydrogenase 7" reversible="true"/>
+      <reaction id="R_TRDR3" name="Thioredoxin (Ubiquinone 10) Reductase (NADH)" reversible="true"/>
+      <reaction id="R_PRDXl" name="Peroxidase (Multiple Substrates)" reversible="true"/>
+      <reaction id="R_r1170" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_r0774" name="Uroporphyrinogen I Carboxy-Lyase" reversible="true"/>
+      <reaction id="R_ALCD1" name="Alcohol Dehydrogenase (Methanol)" reversible="true"/>
+      <reaction id="R_r1109" name="Citrate Oxaloacetate-Lyase ( (Pro-3S)-Ch2Coo- -&gt;Acetate)" reversible="true"/>
+      <reaction id="R_r0392" name="D-Glyceraldehyde:NAD+ Oxidoreductase Ec:1.2.1.3" reversible="true"/>
+      <reaction id="R_PPAer" name="Inorganic Diphosphatase, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_r0393" name="D-Glyceraldehyde:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_RE2155C" name="Steroid 21-Monooxygenase" reversible="true"/>
+      <reaction id="R_RE2541E" name="Beta-Glucuronidase" reversible="true"/>
+      <reaction id="R_HMR_9561" name="HMR_9561" reversible="true"/>
+      <reaction id="R_HMR_9801" name="GTP:5-Hydroxy-L-Lysine O-Phosphotransferase" reversible="true"/>
+      <reaction id="R_r0627" name="Galactosylglycerol Galactohydrolase" reversible="true"/>
+      <reaction name="Exchange of 1-Phosphatidyl-1D-Myo-Inositol" reversible="true"/>
+      <reaction id="R_r1175" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_r1172" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_r0246" name="Glycerol:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_r0795" name="Spontaneous Reaction" reversible="true"/>
+      <reaction id="R_r1171" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_r0755" name="3-Methoxy-4-Hydroxyphenylacetaldehyde:NADP+ Oxidoreductase Tyrosine Metabolism" reversible="true"/>
+      <reaction id="R_r0220" name="Propinol Adenylate:Coa Ligase (AMP-Forming) Ec:6.2.1.17 Ec:6.2.1.1" reversible="true"/>
+      <reaction id="R_r0753" name="3, 4-Dihydroxymandelaldehyde:NADP+ Oxidoreductase Tyrosine Metabolism" reversible="true"/>
+      <reaction id="R_r0604" name="(S)-2-Methylbutanoyl Coenzyme A:Enzyme N6- (Dihydrolipoyl)Lysine S- (2-Methylbutanoyl)Transferase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_r1391" name="Amylo-1, 6-Glucosidase, 4-Alpha-Glucanotransferase" reversible="true"/>
+      <reaction id="R_r0649" name=" (5-Glutamyl)-Peptide:Amino-Acid 5-Glutamyltransferase Cyanoamino Acid Metabolism" reversible="true"/>
+      <reaction id="R_r0390" name="Isomaltose 6-Alpha-D-Glucanohydrolase" reversible="true"/>
+      <reaction id="R_PPA2" name="Inorganic Triphosphatase" reversible="true"/>
+      <reaction id="R_r0451" name="2-Oxoadipate:Lipoamde 2-Oxidoreductase (Decarboxylating And Acceptor-Succinylating) Lysine Degradation" reversible="true"/>
+      <reaction id="R_RE2405C" name="Glucuronosyltransferase" reversible="true"/>
+      <reaction id="R_r0656" name="3-Methylbutanoyl Coenzyme A:Enzyme N6- (Dihydrolipoyl)Lysine S- (3-Methylbutanoyl)Transferase Valine, Leucine And Isoleucine Degradation" reversible="true"/>
+      <reaction id="R_r0756" name="3-Methoxy-4-Hydroxyphenylglycolaldehyde:NAD+ Oxidoreductase Tyrosine Metabolism" reversible="true"/>
+      <reaction id="R_r0716" name="(S)-3-Hydroxyhexadecanoyl Coenzyme A Hydro-Lyase " reversible="true"/>
+      <reaction id="R_r1174" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_HMR_8643" name="Carboxylesterase" reversible="true"/>
+      <reaction id="R_r0340" name="ATP:(R)-Glycerate 3-Phosphotransferase" reversible="true"/>
+      <reaction id="R_r0555" name="Acetyl Coenzyme A:Enzyme N6- (Dihydrolipoyl)Lysine S-Acetyltransferase " reversible="true"/>
+      <reaction name="Exchange of 5-S-Cysteinyldopa" reversible="true"/>
+      <reaction id="R_r0587" name="4-Nitrophenyl Phosphate Phosphohydrolase Gamma-Hexachlorocyclohexane Degradation" reversible="true"/>
+      <reaction id="R_r0242" name="Glycerone Phosphate Phosphohydrolase (Alkaline Optimum)" reversible="true"/>
+      <reaction id="R_r1392" name="Amylo-1, 6-Glucosidase, 4-Alpha-Glucanotransferase" reversible="true"/>
+      <reaction id="R_r0083" name="Oxalosuccinate:NADP+ Oxidoreductase (Decarboxylating)" reversible="true"/>
+      <reaction name="Exchange of Galactosyl Glucosyl Ceramide" reversible="true"/>
+      <reaction id="R_r0221" name="Propinol Adenylate:Coa Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_PRDX" name="Peroxidase (Multiple Substrates)" reversible="true"/>
+      <reaction id="R_r1183" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_RE1050E" name="Peroxidase" reversible="true"/>
+      <reaction id="R_FldAct" name="Fldact" reversible="true"/>
+      <reaction name="Exchange of Gd1B" reversible="true"/>
+      <reaction id="R_r1168" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_r0068" name="Acetyl Adenylate:Coa Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_r0422" name="Isocitrate:NADP+ Oxidoreductase (Decarboxylating) Ec:1.1.1.42" reversible="true"/>
+      <reaction name="Exchange of Gibberellin A1" reversible="true"/>
+      <reaction id="R_R_group_phosphotase_1" name="R Group Phosphotase 1" reversible="true"/>
+      <reaction id="R_r1411" name="D-Galactosyl-N-Acetyl-D-Galactosaminyl- (N-Acetylneuraminyl)-D- Galactosyl-D-Glucosylceramide Galactohydrolase" reversible="true"/>
+      <reaction id="R_r1166" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2514E" name="Peroxidase" reversible="true"/>
+      <reaction id="R_r0465" name="L-Histidine:4-Aminobutanoate Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_r0082" name="Oxalosuccinate:NADP+ Oxidoreductase (Decarboxylating) Ec:1.1.1.42" reversible="true"/>
+      <reaction id="R_r1378" name="S- (Hydroxymethyl)Glutathione Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE1691M" name="Thiosulfate Sulfurtransferase" reversible="true"/>
+      <reaction name="Exchange of 5-S-Cysteinylglycine Dopa" reversible="true"/>
+      <reaction id="R_r0318" name="Propanoate:Coa Ligase (AMP-Forming) Ec:6.2.1.1 Ec:6.2.1.17" reversible="true"/>
+      <reaction id="R_BANDMT" name="Band Membrane Protein-Methyltransferase" reversible="true"/>
+      <reaction id="R_r0196" name="Succinyl Coenzyme A:Glycine C-Succinyl-Transferase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_RE0938E" name="RE0938E" reversible="true"/>
+      <reaction id="R_S2L2N2M2Mtl" name="Transport of De-Fuc Form of Pa6, Lysosomal" reversible="true"/>
+      <reaction id="R_RE2154C" name="3Alpha-Hydroxysteroid 3-Dehydrogenase (Si-Specific)" reversible="true"/>
+      <reaction id="R_RE2269E" name="Chymase" reversible="true"/>
+      <reaction id="R_r0557" name="Glutaryl Coenzyme A:Dihydrolipoamide S-Succinyltransferase Lysine Degradation" reversible="true"/>
+      <reaction name="Exchange of Ganglioside Gm1" reversible="true"/>
+      <reaction id="R_r0319" name="Propanoate:Coa Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_r0424" name="Isocitrate:NADP+ Oxidoreductase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_RE2526C" name="NADPH:Quinone Reductase" reversible="true"/>
+      <reaction id="R_H2CO3Dm" name="Carboxylic Acid Dissociation" reversible="true"/>
+      <reaction id="R_r0425" name="Ec:1.1.1.42" reversible="true"/>
+      <reaction name="Exchange of Gm1B" reversible="true"/>
+      <reaction id="R_r0548" name="Aldehyde:NADP+ Oxidoreductase Phenylalanine Metabolism" reversible="true"/>
+      <reaction id="R_r1167" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE0383C" name="Alcohol Dehydrogenase (NADP+)" reversible="true"/>
+      <reaction id="R_r1164" name="Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_r1182" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_r0707" name="2-Amino-4-Hydroxy-6- (Erythro-1, 2, 3-Trihydroxypropyl) Dihydropteridine Triphosphate Phosphohydrolase (Alkaline Optimum)" reversible="true"/>
+      <reaction id="R_r0385" name="3-Methyl-2-Oxobutanoate:[Dihydrolipoyllysine-Residue (2-Methylpropanoyl)Transferase] Lipoyllysine 2-Oxidoreductase (Decarboxylating, Acceptor-2-Methylpropanoylating)" reversible="true"/>
+      <reaction id="R_r0610" name="CTP:D-Tagatose 6-Phosphate 1-Phosphotransferase" reversible="true"/>
+      <reaction id="R_R_group_phosphotase_2" name="R Group Phosphotase 2" reversible="true"/>
+      <reaction id="R_PPAn" name="Inorganic Diphosphatase, Nuclear" reversible="true"/>
+      <reaction id="R_r0611" name="ITP:D-Tagatose 6-Phosphate 1-Phosphotransferase" reversible="true"/>
+      <reaction id="R_r0754" name="3-Methoxy-4-Hydroxyphenylacetaldehyde:NAD+ Oxidoreductase Tyrosine Metabolism" reversible="true"/>
+      <reaction id="R_r0423" name="Isocitrate:NADP+ Oxidoreductase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_R_group_phosphotase_3" name="R Group Phosphotase 3" reversible="true"/>
+      <reaction name="Exchange of Nicotinamide Adenine Dinucleotide - Reduced" reversible="true"/>
+      <reaction id="R_r0409" name="UTP:Sedoheptulose 7-Phosphate 1-Phosphotransferase" reversible="true"/>
+      <reaction id="R_OAADC" name="Oxaloacetate Decarboxylase" reversible="true"/>
+      <reaction id="R_r1179" name="Sterol Esterase" reversible="true"/>
+      <reaction id="R_r0737" name="3-Ketolactose Galactohydrolase" reversible="true"/>
+      <reaction id="R_r0670" name="(S)-3-Methyl-2-Oxopentanoate:[Dihydrolipoyllysine-Residue (2-Methylpropanoyl)Transferase] Lipoyllysine 2-Oxidoreductase (Decarboxylating, Acceptor-2-Methylpropanoylating)" reversible="true"/>
+      <reaction id="R_RE2270E" name="Carboxypeptidase A" reversible="true"/>
+      <reaction id="R_TRDR2" name="Thioredoxin (Ubiquinone 10) Reductase (NADPH)" reversible="true"/>
+      <reaction id="R_r0466" name="Alpha-Aminobutyryl Histidine Hydrolase" reversible="true"/>
+      <reaction id="R_r1377" name="S- (Hydroxymethyl)Glutathione Synthase" reversible="true"/>
+      <reaction id="R_RE0937E" name="RE0937E" reversible="true"/>
+      <reaction id="R_RE0936E" name="RE0936E" reversible="true"/>
+      <reaction id="R_r0648" name=" (5-Glutamyl)-Peptide:Amino-Acid 5-Glutamyltransferase Cyanoamino Acid Metabolism" reversible="true"/>
+      <reaction id="R_HMR_9807" name="5-Phosphonooxy-L-Lysine Phospho-Lyase" reversible="true"/>
+      <reaction id="R_r1446" name="Acyl-CoA Oxidase" reversible="true"/>
+      <reaction id="R_H2CO3D" name="Carboxylic Acid Dissociation" reversible="true"/>
+      <reaction id="R_CATp" name="Catalase A, Peroxisomal" reversible="true"/>
+      <reaction id="R_r0558" name="Gentisate Aldehyde:NAD+ Oxidoreductase Tyrosine Metabolism" reversible="true"/>
+      <reaction id="R_r0097" name="Acetate:Coa Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_r0084" name="Oxalosuccinate:NADP+ Oxidoreductase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_r0426" name="Isocitrate Hydro-Lyase " reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

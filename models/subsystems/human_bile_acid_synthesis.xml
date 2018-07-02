@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="bile_acid_synthesis">
+    <listOfReactions>
+      <reaction id="R_TCDCASULT" name="Taurochenodeoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_HMR_1754" name="Cholate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE2637C" name="Bile Acid-CoA:Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2638C" name="Bile Acid-CoA:Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2626M" name="RE2626M" reversible="true"/>
+      <reaction id="R_LCA3GSr" name="UDP-Glucuronosyltransferase (UGT) ER (lithocholic acid)" reversible="true"/>
+      <reaction id="R_P45027A1m" name="Cytochrome P450 27" reversible="true"/>
+      <reaction id="R_HCA6GSr" name="UDP-Glucuronosyltransferase (UGT) ER (hyocholic acid)" reversible="true"/>
+      <reaction id="R_RE1845X" name="Bile Acid-CoA:Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_P45039A1r" name="Oxysterol 7-Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_SCP2x" name="Peroxisomal Thiolase 2" reversible="true"/>
+      <reaction id="R_DCA24GSr" name="UDP-Glucuronosyltransferase (UGT) ER (deoxycholic acid)" reversible="true"/>
+      <reaction id="R_RE1804M" name="RE1804M" reversible="true"/>
+      <reaction id="R_HMR_1767" name="7Alpha-Hydroxycholest-4-En-3-One 12Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_P45027A15m" name="5-Beta-Cytochrome P450, Family 27, Subfamily A, Polypeptide 1" reversible="true"/>
+      <reaction id="R_TCDCA6AH" name="Taurochenodeoxycholic acid 6alpha-hydroxylase" reversible="true"/>
+      <reaction id="R_r0629" name="Choloyl Coenzyme A:Glycine N-Choloyltransferase Bile Acid Biosynthesis " reversible="true"/>
+      <reaction id="R_DCA24GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (deoxycholic acid)" reversible="true"/>
+      <reaction id="R_HMR_1771" name="3Alpha-Hydroxysteroid 3-Dehydrogenase (Si-Specific)" reversible="true"/>
+      <reaction id="R_TCASULT" name="Taurocholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_RE1826C" name="RE1826C" reversible="true"/>
+      <reaction id="R_BAAT4x" name="Bile Acid Coenzyme A: Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2625C" name="RE2625C" reversible="true"/>
+      <reaction id="R_HMR_1768" name="Delta4-3-Oxosteroid 5Beta-Reductase" reversible="true"/>
+      <reaction id="R_BAAT1x" name="Bile Acid Coenzyme A: Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCA24GSr" name="UDP-Glucuronosyltransferase (UGT) ER (lithocholic acid)" reversible="true"/>
+      <reaction id="R_DCA3GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (deoxycholic acid)" reversible="true"/>
+      <reaction id="R_HMR_1681" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_P45027A16m" name="Cytochrome P450 27" reversible="true"/>
+      <reaction id="R_P45027A12m" name="5-Beta-Cholestane-3-Alpha, 7-Alpha, 12-Alpha-Triol 27-Hydroxylase" reversible="true"/>
+      <reaction id="R_HMR_1637" name="Acyl Coenzyme A Oxidase" reversible="true"/>
+      <reaction id="R_RE1804C" name="RE1804C" reversible="true"/>
+      <reaction id="R_VLCS2p" name="Very-Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE1834X" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_1781" name="Cholesterol 25-Hydroxylase" reversible="true"/>
+      <reaction id="R_HDCA6GSr" name="UDP-Glucuronosyltransferase (UGT) ER (hyodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_HSD3B7P" name="Hydroxy-Delta-5-Steroid Dehydrogenase, 3 Beta- And Steroid Delta-Isomerase 7" reversible="true"/>
+      <reaction id="R_3DHDCAS" name="3-dehydro-deoxycholic acid formation" reversible="true"/>
+      <reaction id="R_RE2636R" name="RE2636R" reversible="true"/>
+      <reaction id="R_HMR_1746" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1739" name="7Alpha-Hydroxycholest-4-En-3-One 12Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_r0750" name="3Alpha, 7Alpha, 12Alpha-Trihydroxy-5Beta-Cholestane:NADP+ Oxidoreductase (B-Specific)" reversible="true"/>
+      <reaction id="R_7KLITCHOLc" name="Formation of 7-Ketolithocholate" reversible="true"/>
+      <reaction id="R_RE2814R" name="RE2814R" reversible="true"/>
+      <reaction id="R_HC02195te" name="Transport of Bile Acid, Tauroursodeoxycholate, Active Transport" reversible="true"/>
+      <reaction id="R_VLCS2r" name="Very-Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_UDCASULT" name="Ursodeoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_RE1807M" name="RE1807M" reversible="true"/>
+      <reaction id="R_GDCASULT" name="Glycodeoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_RE3251C" name="RE3251C" reversible="true"/>
+      <reaction id="R_P45027A13m" name="5-Beta-Cholestane-3-Alpha, 7-Alpha, 12-Alpha-Triol 27-Hydroxylase" reversible="true"/>
+      <reaction id="R_HC02198c" name="Taurolithocholic Acid 3-Sulfate" reversible="true"/>
+      <reaction id="R_HMR_1769" name="Delta4-3-Oxosteroid 5Beta-Reductase" reversible="true"/>
+      <reaction id="R_HMR_1706" name="3Alpha, 7Alpha, 12Alpha-Trihydroxy-5Beta-Cholest-24-Enoyl Coenzyme A Hydratase" reversible="true"/>
+      <reaction id="R_VLCSp" name="Very-Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_ACOX22x" name="Acyl-Coenzyme A Oxidase 2, Branched Chain" reversible="true"/>
+      <reaction id="R_HSD17B42x" name="Hydroxysteroid (17-Beta) Dehydrogenase 4" reversible="true"/>
+      <reaction id="R_r1025" name="Active Transport" reversible="true"/>
+      <reaction id="R_DCASULT" name="Deoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_HMR_1742" name="3Alpha-Hydroxysteroid 3-Dehydrogenase (Si-Specific)" reversible="true"/>
+      <reaction id="R_HDCA6GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (hyodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_VLCSr" name="Very-Long-Chain-Fatty-Acid Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE1810M" name="3Alpha-Hydroxysteroid 3-Dehydrogenase (Si-Specific)" reversible="true"/>
+      <reaction id="R_P4507B11r" name="Oxysterol 7Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_AKR1D2" name="Aldo-Keto Reductase Family 1, Member D1 (Delta 4-3-Ketosteroid-5-Beta-Reductase)" reversible="true"/>
+      <reaction id="R_RE2635R" name="Cholate- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_RE1836C" name="Propionyl Coenzyme A C2-Trimethyltridecanoyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1653" name="Propanoyl Coenzyme A C-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE1803C" name="RE1803C" reversible="true"/>
+      <reaction id="R_HDCA24GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (hyodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_GCDCASULT" name="Glycochenodeoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_HMR_1783" name="3Beta-Hydroxy-Delta5-Steroid Dehydrogenase" reversible="true"/>
+      <reaction id="R_r0797" name="Glycine N-Choloyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1847" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_RE2626C" name="RE2626C" reversible="true"/>
+      <reaction id="R_RE2814M" name="RE2814M" reversible="true"/>
+      <reaction id="R_GCASULT" name="Glycocholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_HMR_1834" name="Glycodeoxycholate Amidohydrolase" reversible="true"/>
+      <reaction id="R_CA24GSr" name="UDP-Glucuronosyltransferase (UGT) (cholic acid)" reversible="true"/>
+      <reaction id="R_HMR_1738" name="Cholest-5-Ene-3Beta, 7Alpha-Diol 3Beta-Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3251M" name="RE3251M" reversible="true"/>
+      <reaction id="R_HMR_1762" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_RE2636C" name="RE2636C" reversible="true"/>
+      <reaction id="R_HMR_1751" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1740" name="Delta4-3-Oxosteroid 5Beta-Reductase" reversible="true"/>
+      <reaction id="R_RE1796R" name="Steroid Delta-Isomerase" reversible="true"/>
+      <reaction id="R_HCA24GSr" name="UDP-Glucuronosyltransferase (UGT) (hyocholic acid)" reversible="true"/>
+      <reaction id="R_HMR_1766" name="Cholest-5-Ene-3Beta, 7Alpha-Diol 3Beta-Dehydrogenase" reversible="true"/>
+      <reaction id="R_LCA24GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (lithocholic acid)" reversible="true"/>
+      <reaction id="R_HMR_1747" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_CH25H" name="Cholesterol 25-Hydroxylase" reversible="true"/>
+      <reaction id="R_RE1835C" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_1741" name="Delta4-3-Oxosteroid 5Beta-Reductase" reversible="true"/>
+      <reaction id="R_r0741" name="5Beta-Cholestane-3Alpha, 7Alpha, 12Alpha-Triol, NADPH:Oxygen Oxidoreductase (26-Hydroxylating) Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_RE1796M" name="Steroid Delta-Isomerase" reversible="true"/>
+      <reaction id="R_P4507B12r" name="Oxysterol 7Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_RE1834C" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_r0743" name="Hydroxysteroid (17-Beta) Dehydrogenase 4 Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_HMR_1635" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_3DHLCAS" name="3-dehydro-lithocholic acid formation" reversible="true"/>
+      <reaction id="R_CA24GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (cholic acid)" reversible="true"/>
+      <reaction id="R_AKR1C41" name="Aldo-Keto Reductase Family 1, Member C4 (Chlordecone Reductase" reversible="true"/>
+      <reaction id="R_P4508B13r" name="Sterol 12-Alpha-Hydroxylase (NADH)" reversible="true"/>
+      <reaction id="R_HMR_1756" name="Cholate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HC02196c" name="Formation of Glycoursodeoxycholate" reversible="true"/>
+      <reaction id="R_r0573" name="Cholate:Coa Ligase (AMP-Forming) Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_r0698" name="Propanoyl Coenzyme A:Acetyl Coenzyme A C-Acyltransferase Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_LCASULT" name="Lithocholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_3DHCDCAS" name="3-dehydro-chenodehydroxycholic acid formation" reversible="true"/>
+      <reaction id="R_r0650" name="Chenodeoxycholate:Coa Ligase (AMP-Forming) Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_RE1834M" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE1846C" name="Bile Acid-CoA:Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_r0672" name="Cholest-5-Ene-3Beta, 7Alpha-Diol:NAD+ 3-Oxidoreductase Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_AKR1C42" name="Aldo-Keto Reductase Family 1, Member C4 (Chlordecone Reductase" reversible="true"/>
+      <reaction id="R_TUDCASULT" name="Tauroursodeoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_RE1836X" name="Propionyl Coenzyme A C2-Trimethyltridecanoyltransferase" reversible="true"/>
+      <reaction id="R_BAAT3x" name="Bile Acid Coenzyme A: Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_AMACR2p" name="Alpha-Methylacyl Coenzyme A Racemase (Reductase)" reversible="true"/>
+      <reaction id="R_GUDCASULT" name="Glycoursodeoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_HC02194c" name="Formation of Ursodeoxycholate" reversible="true"/>
+      <reaction id="R_HCA24GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (hyocholic acid)" reversible="true"/>
+      <reaction id="R_HMR_1750" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_SCPx" name="Peroxisomal Thiolase 2" reversible="true"/>
+      <reaction id="R_BAAT2x" name="Bile Acid Coenzyme A: Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_HCA6GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (hyocholic acid)" reversible="true"/>
+      <reaction id="R_P45046A1r" name="Cytochrome P450, Family 46, Subfamily A, Polypeptide 1" reversible="true"/>
+      <reaction id="R_HC02196te" name="Transport of Bile Acid, Glycoursodeoxycholate, Active Transport" reversible="true"/>
+      <reaction id="R_RE1845C" name="Bile Acid-CoA:Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE2649M" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE2635C" name="Cholate- Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_1735" name="Cholesterol 24-Hydroxylase" reversible="true"/>
+      <reaction id="R_RE2649C" name="Palmitoyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_RE2625M" name="RE2625M" reversible="true"/>
+      <reaction id="R_HMR_1760" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_LCA3GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (lithocholic acid)" reversible="true"/>
+      <reaction id="R_P4507A1r" name="Cytochrome P450, Family 7, Subfamily A, Polypeptide 1" reversible="true"/>
+      <reaction id="R_RE3346M" name="Aldehyde Dehydrogenase (NAD+)" reversible="true"/>
+      <reaction id="R_DCHOLESTANCOAc" name="Activation of Bile Acid, 3A, 7A-Dihydroxycoprostanic Acid" reversible="true"/>
+      <reaction id="R_TDCASULT" name="Taurodeoxycholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_CDCA3GSr" name="UDP-Glucuronosyltransferase (UGT) ER (chenodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_HDCA24GSr" name="UDP-Glucuronosyltransferase (UGT) (hyodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_RE3252C" name="RE3252C" reversible="true"/>
+      <reaction id="R_RE2637X" name="Bile Acid-CoA:Amino Acid N-Acyltransferase" reversible="true"/>
+      <reaction id="R_P45027A11m" name="5-Beta-Cholestane-3-Alpha, 7-Alpha, 12-Alpha-Triol 27-Hydroxylase" reversible="true"/>
+      <reaction id="R_HMR_1743" name="3Alpha-Hydroxysteroid 3-Dehydrogenase (Si-Specific)" reversible="true"/>
+      <reaction id="R_HC02197c" name="Formation of Sulfoglycolithocholate" reversible="true"/>
+      <reaction id="R_r0747" name="3Alpha, 7Alpha-Dihydroxy-5Beta-Cholestane:NADP+ Oxidoreductase (B-Specific)" reversible="true"/>
+      <reaction id="R_r0688" name="3Alpha, 7Alpha-Dihydroxy-5Beta-Cholestan-26-Al:NAD+ Oxidoreductase Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_CDCA24GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (chenodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_RE2112R" name="RE2112R" reversible="true"/>
+      <reaction id="R_r0301" name="Xanthosine-5-Phosphate:Ammonia Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_URSCHOLCOAc" name="Formation of Ursodeoxycholyl Coa" reversible="true"/>
+      <reaction id="R_CASULT" name="Cholic acid sulfotransferase" reversible="true"/>
+      <reaction id="R_DCA3GSr" name="UDP-Glucuronosyltransferase (UGT) ER (deoxycholic acid)" reversible="true"/>
+      <reaction id="R_CDCA24GSr" name="UDP-Glucuronosyltransferase (UGT) (chenodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_HMR_1785" name="Cholesterol 25-Hydroxylase" reversible="true"/>
+      <reaction id="R_HMR_1807" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1786" name="Cholesterol 25-Hydroxylase" reversible="true"/>
+      <reaction id="R_r0630" name="Choloyl Coenzyme A:Glycine N-Choloyltransferase Bile Acid Biosynthesis " reversible="true"/>
+      <reaction id="R_RE3346C" name="Aldehyde Dehydrogenase (NAD+)" reversible="true"/>
+      <reaction id="R_HMR_1748" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_HSD17B4x" name="Hydroxysteroid (17-Beta) Dehydrogenase 4" reversible="true"/>
+      <reaction id="R_HMR_1765" name="25/26-Hydroxycholesterol 7Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_r0739" name="Alcohol Dehydrogenase Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_HMR_1838" name="Lithocholic acid 1beta-hydroxylase" reversible="true"/>
+      <reaction id="R_HMR_1685" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_AMACRp" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_RE1807C" name="RE1807C" reversible="true"/>
+      <reaction id="R_ACOX2x" name="Acyl-Coenzyme A Oxidase 2, Branched Chain" reversible="true"/>
+      <reaction id="R_3DHCAS" name="3-dehydrocholic acid formation" reversible="true"/>
+      <reaction id="R_HC02195c" name="Formation of Tauroursodeoxycholate" reversible="true"/>
+      <reaction id="R_r0651" name="Chenodeoxycholate:Coa Ligase (AMP-Forming) Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_P4508B11r" name="Sterol 12-Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_r0744" name=" (24R, 25R)-3Alpha, 7Alpha, 12Alpha, 24-Tetrahydroxy-5Beta-Cholestanoyl- Coenzyme A Hydro-Lyase Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_HMR_1761" name="Alpha-Methylacyl Coenzyme A Racemase" reversible="true"/>
+      <reaction id="R_P45027A14m" name="5-Beta-Cytochrome P450, Family 27, Subfamily A, Polypeptide 1" reversible="true"/>
+      <reaction id="R_r0706" name="Acyl-Coenzyme A Dehydrogenase Family, Member 9 Bile Acid Biosynthesis" reversible="true"/>
+      <reaction id="R_HMR_1749" name="Cholestanetriol 26-Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1737" name="24-Hydroxycholesterol 7Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_CDCA6AH" name="Chenodeoxycholic acid 6alpha-hydroxylase" reversible="true"/>
+      <reaction id="R_RE2112C" name="RE2112C" reversible="true"/>
+      <reaction id="R_HMR_1627" name="Cholate Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_HMR_1770" name="3Alpha-Hydroxysteroid 3-Dehydrogenase (Si-Specific)" reversible="true"/>
+      <reaction id="R_CDCA3GSc" name="UDP-Glucuronosyltransferase (UGT) cytosolic (chenodeoxycholic acid)" reversible="true"/>
+      <reaction id="R_AKR1D" name="Aldo-Keto Reductase Family 1, Member D1 (Delta 4-3-Ketosteroid-5-Beta-Reductase)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

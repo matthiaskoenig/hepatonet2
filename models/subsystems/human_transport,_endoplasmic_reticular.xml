@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model>
+    <listOfReactions>
+      <reaction id="R_r2515" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_WHTSTSTERONEtr" name="Omega Hydroxy Testosterone Transport" reversible="true"/>
+      <reaction id="R_HMR_6629" name="HMR_6629" reversible="true"/>
+      <reaction id="R_HMR_9177" name="HMR_9177" reversible="true"/>
+      <reaction id="R_FRDPtcr" name="Transport of Farnesyl Diphosphate into the Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_r0845" name="DrugMetabolite Transporter (Dmt) Tcdb:2.A.7.12.7" reversible="true"/>
+      <reaction id="R_HMR_2865" name="HMR_2865" reversible="true"/>
+      <reaction id="R_r0002" name="Active Transport" reversible="true"/>
+      <reaction id="R_FADtru" name="Transport of FAD, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_CE7081tr" name="Transport of 15(R)-HEPE, Endoplasmatic Reticulum, Active Transport" reversible="true"/>
+      <reaction id="R_COKEtr" name="Transport of Cocaine, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_7257" name="HMR_7257" reversible="true"/>
+      <reaction id="R_11DOCRTSLtr" name="11-Deoxycortisol Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_2817" name="HMR_2817" reversible="true"/>
+      <reaction id="R_GULLACter" name="Gulonolactone Endoplasmic Reticular Transport" reversible="true"/>
+      <reaction id="R_EGMEtr" name="Transport of Succinic Semialdehyde, Mitochondrial" reversible="true"/>
+      <reaction id="R_SPHINGStr" name="Sphingosine Intracellular Transport" reversible="true"/>
+      <reaction id="R_UMPtr" name="UMP Transport, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_RETNtr" name="Retinoic Acid Transport in Er" reversible="true"/>
+      <reaction id="R_5ADTSTSTERONEtr" name="5 Alpha Dihydrotesterone Intracellular Transport" reversible="true"/>
+      <reaction id="R_HESTRATRIOLtr" name="Hydroxylated Estrogen Derivative Transport" reversible="true"/>
+      <reaction id="R_r1018" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r0960" name="Resistance-Nodulation-Cell Division (Rnd) Tcdb:2.A.65.1.1" reversible="true"/>
+      <reaction id="R_r1051" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_HMR_7947" name="HMR_7947" reversible="true"/>
+      <reaction id="R_r1303" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_XOL7AONEtr" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_r2506" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_ESTRIOLtr" name="Transport of Estriol, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_PHSPHINGStr" name="Phytosphingosine Transport, from Er to Cytosol (Flippase?)" reversible="true"/>
+      <reaction id="R_HMR_9630" name="HMR_9630" reversible="true"/>
+      <reaction id="R_GTHRDtr" name="Glutathione Transport via Diffusion" reversible="true"/>
+      <reaction id="R_RETNGLCt2r" name="Retinoyl Glucuronide Efflux (13-Cis) from Er" reversible="true"/>
+      <reaction id="R_HMR_9625" name="HMR_9625" reversible="true"/>
+      <reaction id="R_HMR_6385" name="HMR_6385" reversible="true"/>
+      <reaction id="R_EBASTINEtr" name="Transport of Ebastine" reversible="true"/>
+      <reaction id="R_EBASTINEOHtr" name="Transport of Hydroxylated Ebastine" reversible="true"/>
+      <reaction id="R_r2510" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_RETNtr2" name="Retinoic Acid Transport in Er (13-Cis)" reversible="true"/>
+      <reaction id="R_HMR_2884" name="HMR_2884" reversible="true"/>
+      <reaction id="R_HMR_2821" name="HMR_2821" reversible="true"/>
+      <reaction id="R_PPItr" name="Diphosphate Transporter, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_5ADTSTSTERONEGLCtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_r2519" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_PCHOL_HSter" name="Phosphatidylcholine Scramblase" reversible="true"/>
+      <reaction id="R_r0908" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_r0886" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_CHOLtr" name="Choline Intracellular Transport" reversible="true"/>
+      <reaction id="R_r0983" name="Solute Carrier Family 27 (Fatty Acid Transporter), Member 5 Tcdb:4.C.1.1.5 Tcdb:4.C.1.1.8" reversible="true"/>
+      <reaction id="R_HMR_2861" name="HMR_2861" reversible="true"/>
+      <reaction id="R_NADHtru" name="NADH Transporter, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_DHCRMter" name="Dihydroceramide Transport, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_LTHSTRLtr" name="Transport of 5Alpha-Cholest-7-En-3Beta-Ol, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_SQLtr" name="Transport of Squalene, Endoplasmatic Reticulum, within Chylomicron" reversible="true"/>
+      <reaction id="R_HPETFABP1tc" name="Transport of 5-HPETE into the Enterocytes" reversible="true"/>
+      <reaction id="R_LEUKTRA4tr" name="Transport of Leukotriene Intracellular" reversible="true"/>
+      <reaction id="R_CERT2rt" name="Ceramide Transport Protein" reversible="true"/>
+      <reaction id="R_HMR_0467" name="HMR_0467" reversible="true"/>
+      <reaction id="R_r1024" name="Active Transport" reversible="true"/>
+      <reaction id="R_NADPtru" name="Transport of NADP, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_TSTSTERONEGLCtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_FADH2tru" name="Transport of FADH2, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_G6Pter" name="Glucose 6-Phosphate Endoplasmic Reticular Transport via Diffusion" reversible="true"/>
+      <reaction id="R_UDPGLCter" name="UDP-Glc Endoplasmic Reticulum Transport via CMP Antiport" reversible="true"/>
+      <reaction id="R_PMTCOAFABP1tc" name="Transport of Palmitoyl Coenzyme A" reversible="true"/>
+      <reaction id="R_CHSTEROLtrc" name="Transport of Cholesterol into the Cytosol" reversible="true"/>
+      <reaction id="R_HMR_2888" name="HMR_2888" reversible="true"/>
+      <reaction id="R_HMR_1631" name="7Alpha-Hydroxycholest-4-En-3-One 12Alpha-Hydroxylase" reversible="true"/>
+      <reaction id="R_ESTRADIOLGLCtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_DHEAtr" name="Dehydroepiandrosterone Transport" reversible="true"/>
+      <reaction id="R_ATP2ter" name="AMP/ATP Transporter, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_r0909" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r2473" name="Major Facilitator (Mfs) Tcdb:2.A.1.4.5" reversible="true"/>
+      <reaction id="R_HMR_3953" name="HMR_3953" reversible="true"/>
+      <reaction id="R_r2509" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_SPHS1Ptr" name="Sphingosine-1-Phosphate Transport" reversible="true"/>
+      <reaction id="R_r2511" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_HMR_2569" name="HMR_2569" reversible="true"/>
+      <reaction id="R_HMR_2819" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_9629" name="HMR_9629" reversible="true"/>
+      <reaction id="R_ACALDtr" name="Acetaldehyde Reversible Transport, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_EANDRSTRNtr" name="Transport of 16Alpha-Hydroxydehydroepiandrosterone, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_CBPter" name="Carbamoyl Phosphate Transport, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_2827" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_TXA2tr" name="Thromboxane A2 Intracellular Transport" reversible="true"/>
+      <reaction id="R_BILDGLCURtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_PRGNLONEtr" name="Transport of Pregnenolone, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_XOL24OHtr" name="Transport of (24S)-24-Hydroxycholesterol, Endoplasmatic Reticulum, within Lipoproteins" reversible="true"/>
+      <reaction id="R_LEUKTRD4tr" name="Transport of Leukotriene D4, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_r0970" name="Active Transport" reversible="true"/>
+      <reaction id="R_FORtr" name="Transport of Formate, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_2859" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_7949" name="HMR_7949" reversible="true"/>
+      <reaction id="R_SPHGNtr" name="Sphinganine Intracellular Transport" reversible="true"/>
+      <reaction id="R_COAtr" name="Transport of Coenzyme A, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_XOLTRI27tc" name="27 Trihydroxy Cholesterol Transport" reversible="true"/>
+      <reaction id="R_PA_HSter" name="Phosphatidate Scramblase" reversible="true"/>
+      <reaction id="R_SPH1Ptr" name="Transport of (2S,3R)-2-Azaniumyl-3-Hydroxyoctadecyl Phosphate" reversible="true"/>
+      <reaction id="R_GLUtr" name="Intracellular Transport" reversible="true"/>
+      <reaction id="R_r1318" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r0936" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_UDPGLCAter" name="UDPglca Endoplasmic Reticulum Transport via UMP Antiport" reversible="true"/>
+      <reaction id="R_Rtotalter" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_CERT1rt" name="Ceramide Transport Protein" reversible="true"/>
+      <reaction id="R_HMR_2890" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_2866" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_BILGLCURtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_ESTRADIOLtr" name="Transport of Estradiol, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_r2507" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_HMR_2886" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r2514" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_HMR_2862" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_HMR_9627" name="HMR_9627" reversible="true"/>
+      <reaction id="R_r1013" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r2537" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_CRTSLtr" name="Cortisol Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_2851" name="HMR_2851" reversible="true"/>
+      <reaction id="R_AHANDROSTANtr" name="Transport of 3Alpha-Hydroxy-5Beta-Androstan-17-One, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_r0994" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_HMR_1392" name="Prostaglandin-Endoperoxide Synthase" reversible="true"/>
+      <reaction id="R_6HTSTSTERONEtr" name="Hydroxylated Testosterone Transport" reversible="true"/>
+      <reaction id="R_ESTRONEGLCtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_ANDRSTANDRtr" name="Transport of 5Alpha-Androstane-3, 17-Dione, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_9634" name="HMR_9634" reversible="true"/>
+      <reaction id="R_r1159" name="Vesicular Transport" reversible="true"/>
+      <reaction id="R_HMR_1331" name="HMR_1331" reversible="true"/>
+      <reaction id="R_r1002" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_r1011" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_r2508" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_GALSIDEter" name="Galactocerebroside Intracellular Transport" reversible="true"/>
+      <reaction id="R_DSMSTEROLtr" name="Transport of Desmosterol, Endoplasmatic Reticulum, within Lipoproteins" reversible="true"/>
+      <reaction id="R_TSTSTERONEtr" name="Testosterone Intracellular Transport" reversible="true"/>
+      <reaction id="R_CO2ter" name="CO2 Endoplasmic Reticular Transport via Diffusion" reversible="true"/>
+      <reaction id="R_HMR_9716" name="HMR_9716" reversible="true"/>
+      <reaction id="R_GLCter" name="Glucose Transport, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_r2513" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_r0841" name="Free Diffusion" reversible="true"/>
+      <reaction id="R_WHARACHDtr" name="Transport of W-Hydroxyl Arachidonic Acid, Intracellular" reversible="true"/>
+      <reaction id="R_BZtr" name="Benzene Transporter, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_XOLTRI24tc" name="24 Trihydroxy Cholesterol Transport" reversible="true"/>
+      <reaction id="R_Htr" name="H Transporter, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_HC02020tr" name="Transport of Cholesterol-Ester-Palm, Endoplasmatic Reticulum, within Lipoproteins" reversible="true"/>
+      <reaction id="R_HMR_7944" name="HMR_7944" reversible="true"/>
+      <reaction id="R_XOLTRI25tc" name="25 Trihydroxy Cholesterol Transport" reversible="true"/>
+      <reaction id="R_AHCYStr" name="S-Adenosyl-L-Homocysteine Intracellular Diffusion" reversible="true"/>
+      <reaction id="R_r0968" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_r0840" name="Free Diffusion" reversible="true"/>
+      <reaction id="R_r1000" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_HMR_1311" name="HMR_1311" reversible="true"/>
+      <reaction id="R_O2ter" name="Transport of Oxygen, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_GULNter" name="L-Gulonate Endoplasmic Reticular Export" reversible="true"/>
+      <reaction id="R_r2512" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_NADtru" name="Transport of NAD, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_r2538" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_RETNGLCtr" name="Retinoyl Glucuronide Efflux from Er" reversible="true"/>
+      <reaction id="R_NADPHtru" name="Transport of NADPH, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_PHCRMter" name="Phytoceramide Transport, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_GACPAILter" name="Glucosaminyl-Acylphosphatidylinositol Flippase, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_r2505" name="ATP-Binding Cassette (ABC) Tcdb:3.A.1.208.8" reversible="true"/>
+      <reaction id="R_ATP1ter" name="ADP/ATP Transporter, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_2857" name="HMR_2857" reversible="true"/>
+      <reaction id="R_PROSTGE2t2r" name="Transport of Prostaglandin E2, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_9628" name="HMR_9628" reversible="true"/>
+      <reaction id="R_XOL25OHtr" name="Transport of 25-Hydroxycholesterol, Endoplasmatic Reticulum, within Lipoproteins" reversible="true"/>
+      <reaction id="R_HMR_0020" name="HMR_0020" reversible="true"/>
+      <reaction id="R_GLCURter" name="Glucuronate Endoplasmic Reticular Transport" reversible="true"/>
+      <reaction id="R_HMR_2852" name="Carnitine O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_r0931" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_AHANDROSTANGLCtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_RETNGLCt2" name="Retinoyl Glucuronide Efflux (13-Cis)" reversible="true"/>
+      <reaction id="R_LANOSTtr" name="Transport of Lanosterol, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_PEHSFABPe" name="Transport of Lysophosphatidylethanolamine" reversible="true"/>
+      <reaction id="R_GLACter" name="D-Glucurono-6, 3-Lactone Transport, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_UDPGALt2r" name="UDPgalactose Transport, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_LEUKTRB4tr" name="Transport of Leukotriene B4, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_12HARACHDtr" name="Transport of 12 Hydroxy Arachidonic Acid, Endoplasmatic Reticulum, Active Transport" reversible="true"/>
+      <reaction id="R_HMR_1316" name="HMR_1316" reversible="true"/>
+      <reaction id="R_UDPXYLter" name="UDP-Xyl Endoplasmic Reticular Transport via CMP Antiport" reversible="true"/>
+      <reaction id="R_HDCAter" name="Palmitate Er Export" reversible="true"/>
+      <reaction id="R_r0989" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_18HARACHDtr" name="Transport of 18 Hydroxy Arachidonic Acid, Endoplasmatic Reticulum, Active Transport" reversible="true"/>
+      <reaction id="R_ESTRONEtr" name="Transport of Estrone, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_9631" name="HMR_9631" reversible="true"/>
+      <reaction id="R_PE_HSter" name="Phosphatidylethanolamine Scramblase" reversible="true"/>
+      <reaction id="R_AMETr" name="S-Adenosyl-L-Methionine Intracellular Diffusion" reversible="true"/>
+      <reaction id="R_r0842" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_HMR_0966" name="HMR_0966" reversible="true"/>
+      <reaction id="R_ANDRSTRNGLCtr" name="Glucuronidated Compound Transport, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_H2Oter" name="H2O Endoplasmic Reticulum Transport" reversible="true"/>
+      <reaction id="R_r0998" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_7DHCHSTEROLtr" name="Cholesterol Precursor Intracellular Transport" reversible="true"/>
+      <reaction id="R_NH4tr" name="Ammonia Er Transport, Diffusion" reversible="true"/>
+      <reaction id="R_ESTRIOLGLCtr" name="Glucuronidated Compound Transport" reversible="true"/>
+      <reaction id="R_ARACHDtr" name="Intracellular Transport" reversible="true"/>
+      <reaction id="R_CORTSNti" name="Intracellular Transport of Cortisone" reversible="true"/>
+      <reaction id="R_HMR_0771" name="HMR_0771" reversible="true"/>
+      <reaction id="R_PROSTGI2tr" name="Prostaglandin I2 Transport, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_OCDEAFABP1tc" name="Transport of Octadecenoyl Coeznyme A into the Enterocytes" reversible="true"/>
+      <reaction id="R_C03990tr" name="Transport of Lithocholate, Intracellular" reversible="true"/>
+      <reaction id="R_BILIRUBtr" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_r2521" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_DAG_HSter" name="Transport of Diacylglycerol, Endoplasmatic Reticulum" reversible="true"/>
+      <reaction id="R_HMR_9626" name="HMR_9626" reversible="true"/>
+      <reaction id="R_11DOCRTSTRNtr" name="11-Deoxycorticosterone Intracellular Transport" reversible="true"/>
+      <reaction id="R_r0995" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.8.3" reversible="true"/>
+      <reaction id="R_HMR_1306" name="HMR_1306" reversible="true"/>
+      <reaction id="R_XOLDIOLONEt" name="Lipid, Flip-Flop Intracellular Transport" reversible="true"/>
+      <reaction id="R_ANDRSTRNtr" name="Androsterone Intracellular Transport" reversible="true"/>
+      <reaction id="R_r0826" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_PIter" name="Phosphate Transport, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_ACCOAtr" name="Acetyl Coenzyme A Transport" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

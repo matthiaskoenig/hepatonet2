@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="sphingolipid_metabolism">
+    <listOfReactions>
+      <reaction id="R_NEU33e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_NAGAlby" name="N-Acetylgalactosaminidase, Beta-" reversible="true"/>
+      <reaction id="R_ST6GALNAC24" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+      <reaction id="R_GAO2g" name="Ganglioside O-Acetylation" reversible="true"/>
+      <reaction id="R_B3GNT33g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_SBPP1er" name="Sphingoid Base-Phosphate Phosphatase (Sphinganine 1-Phosphatase), Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_BGAL1e" name="Beta-Galactosidase, Plasma Membrane" reversible="true"/>
+      <reaction id="R_NEU23" name="Sialidase, Cytosol (Neu2)" reversible="true"/>
+      <reaction id="R_ST8SIA52g" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT36g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_A4GALTc" name="Lactosylceramide 4-Alpha-Galactosyltransferase" reversible="true"/>
+      <reaction id="R_SPHK22n" name="Sphingosine Kinase 2" reversible="true"/>
+      <reaction id="R_ST6GALNAC28" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+      <reaction id="R_DES21" name="Sphingolipid C-4 Hydroxylase (Des2)" reversible="true"/>
+      <reaction id="R_HMR_0758" name="Sphingosine N-Acyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT32g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_HMR_0763" name="Ceramide Cholinephosphotransferase" reversible="true"/>
+      <reaction id="R_NEU310e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_SERPT" name="Serine C-Palmitoyltransferase" reversible="true"/>
+      <reaction id="R_B3GALT42g" name="Beta-1, 3-Galactosyltransferase 4" reversible="true"/>
+      <reaction id="R_SPHK21n" name="Sphingosine Kinase 2" reversible="true"/>
+      <reaction id="R_r0789" name="S-Adenosyl-L-Methionine:Phosphodimethylethanolamine N-Methyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT35g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_NEU22" name="Sialidase, Cytosol (Neu2)" reversible="true"/>
+      <reaction id="R_GAO2" name="Ganglioside O-Acetylation" reversible="true"/>
+      <reaction id="R_GBA" name="Glucosylceramidase" reversible="true"/>
+      <reaction id="R_CERK" name="Ceramide Kinase" reversible="true"/>
+      <reaction id="R_B3GALT43g" name="Beta-1, 3-Galactosyltransferase 4" reversible="true"/>
+      <reaction id="R_ST6GALNAC25" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+      <reaction id="R_B3GALT44g" name="Beta-1, 3-Galactosyltransferase 4" reversible="true"/>
+      <reaction id="R_ST3GAL22g" name="CMP-N-Acetylneuraminate-Beta-Galactosamide-Alpha-2, 3-Sialyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_B3GNT34g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_B3GNT31g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_SMPD4" name="Sphingomyelinase" reversible="true"/>
+      <reaction id="R_B3GALT3g" name="Beta-1, 3-Galactosyltransferase 3" reversible="true"/>
+      <reaction id="R_HMR_0767" name="Phosphatidate Phosphatase" reversible="true"/>
+      <reaction id="R_SMS" name="Sphingomyelin Synthase (Homo Sapiens)" reversible="true"/>
+      <reaction id="R_NEU24" name="Sialidase, Cytosol (Neu2)" reversible="true"/>
+      <reaction id="R_SGPL12r" name="Sphingosine-1-Phosphate Lyase" reversible="true"/>
+      <reaction id="R_BGAL1l" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_ST8SIA11" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_SPHMDAc" name="Sphingomyelin Deacylase" reversible="true"/>
+      <reaction id="R_ACER23g" name="Alkaline Ceramidase 3 (Acer3) Or Alkaline Ceramidase 2 (Acer2)" reversible="true"/>
+      <reaction id="R_SPMD3n" name="Neutral Sphingomyelinase" reversible="true"/>
+      <reaction id="R_NEU37e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_HMR_0765" name="HMR_0765" reversible="true"/>
+      <reaction id="R_B3GNT39g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLAl" name="Galactosidase, Alpha" reversible="true"/>
+      <reaction id="R_GALC" name="Galactocerebrosidase" reversible="true"/>
+      <reaction id="R_NAGAly" name="N-Acetylgalactosaminidase, Alpha-" reversible="true"/>
+      <reaction id="R_HMR_0750" name="Sphingosine N-Acyltransferase" reversible="true"/>
+      <reaction id="R_BGAL2l" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_BGAL3l" name="Beta-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_ST8SIA51g" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_ACER11r" name="Alkaline Ceramidase 1 (Acer1) Or Alkaline Ceramidase 3 (Acer3)" reversible="true"/>
+      <reaction id="R_DHCRD2" name="Dihydroceramide Desaturase" reversible="true"/>
+      <reaction id="R_GALGT3" name="Beta-1, 4 N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_ST6GALNAC31" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 3" reversible="true"/>
+      <reaction id="R_SPHK21c" name="Sphingosine Kinase 2" reversible="true"/>
+      <reaction id="R_SBPP3er" name="Sphingoid Base-Phosphate Phosphatase (Sphinganine 1-Phosphatase), Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_3DSPHR" name="3-Dehydrosphinganine Reductase" reversible="true"/>
+      <reaction id="R_ST6GALNAC27" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+      <reaction id="R_r0786" name="Sphinganine-1-Phosphate Palmitaldehyde-Lyase Sphingolipid Metabolism" reversible="true"/>
+      <reaction id="R_NEU34e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_GBA2e" name="Beta-Glucosidase, Plasma Membrane (Gba2)" reversible="true"/>
+      <reaction id="R_HEXA2l" name="Hexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_ARSA" name="Arylsulfatase A" reversible="true"/>
+      <reaction id="R_DHCRD1" name="Dihydroceramide Desaturase" reversible="true"/>
+      <reaction id="R_HMR_0753" name="Ceramidase" reversible="true"/>
+      <reaction id="R_NEU11l" name="Sialidase, Lysosomal (Neu1)" reversible="true"/>
+      <reaction id="R_SMPD3g" name="Sphingomyelin Phosphodiesterase 3, Neutral Membrane (Neutral Sphingomyelinase Ii)" reversible="true"/>
+      <reaction id="R_B3GALT5g" name="Beta-1, 3-Galactosyltransferase 5" reversible="true"/>
+      <reaction id="R_ST6GALNAC62" name="Sialytransferase 7 ( (Alpha-N-Acetylneuraminyl 2, 3-Betagalactosyl-1, 3)-N-Acetyl Galactosaminide Alpha-2, 6-Sialytransferase) F" reversible="true"/>
+      <reaction id="R_HEXAHBl" name="Hexosaminidase A;Lysosomal Or Hexosaminidase B;Lysosomal" reversible="true"/>
+      <reaction id="R_ACER31r" name="Alkaline Ceramidase 3 (Acer3)" reversible="true"/>
+      <reaction id="R_NEU25" name="Sialidase, Cytosol (Neu2)" reversible="true"/>
+      <reaction id="R_ST3GAL23g" name="CMP-N-Acetylneuraminate-Beta-Galactosamide-Alpha-2, 3-Sialyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_SIAT4Bg" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GALGT2" name="Beta-1, 4 N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_B3GNT37g" name="UDP-GlcNac:Betagal Beta-1, 3-N-Acetylglucosaminyltransferase 3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLB1" name="Beta-Galactosidase" reversible="true"/>
+      <reaction id="R_DSAT" name="Dihydrosphingosine N-Acyltransferase" reversible="true"/>
+      <reaction id="R_GBAl" name="Glucosylceramidase" reversible="true"/>
+      <reaction id="R_GAO1" name="Ganglioside O-Acetylation" reversible="true"/>
+      <reaction id="R_SMPD3l" name="Sphingomyelin Phosphodiesterase 3, Neutral Membrane (Neutral Sphingomyelinase Ii)" reversible="true"/>
+      <reaction id="R_ST8SIA55g" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_NEU31e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_GAO1g" name="Ganglioside O-Acetylation" reversible="true"/>
+      <reaction id="R_ST6GALNAC22" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+      <reaction id="R_GAL3ST12" name="Galactosylceramide Sulfotransferase" reversible="true"/>
+      <reaction id="R_GALGT1" name="Beta-1, 4 N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0761" name="Ceramide Glucosyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0775" name="Phosphatidate Phosphatase" reversible="true"/>
+      <reaction id="R_HMR_0795" name="Sphingomyelin Phosphodiesterase" reversible="true"/>
+      <reaction id="R_SIAT9g" name="Lactosylceramide Alpha-2, 3-Sialyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GBGT1" name="Globoside Alpha-1, 3-N-Acetylgalactosaminyltransferase 1" reversible="true"/>
+      <reaction id="R_B3GALT41g" name="Beta-1, 3-Galactosyltransferase 4" reversible="true"/>
+      <reaction id="R_GLA2l" name="Alpha-Galactosidase, Lysosomal" reversible="true"/>
+      <reaction id="R_SMS1S2" name="Sphingomyelin Synthase 1 Or Sphingomyelin Synthase 2" reversible="true"/>
+      <reaction id="R_ST6GALNAC26" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+      <reaction id="R_r0787" name="3-Sn-Phosphatidate Phosphohydrolase Sphingolipid Metabolism" reversible="true"/>
+      <reaction id="R_SLCBK1" name="Sphingolipid Long Chain Base Kinase (Sphinganine)" reversible="true"/>
+      <reaction id="R_ST8SIA53g" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_ST6GALNAC23" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+      <reaction id="R_HEXA3e" name="Hexosaminidase A, Plasma Membrane" reversible="true"/>
+      <reaction id="R_CRMte" name="Ceramide Diffusion" reversible="true"/>
+      <reaction id="R_NEU32e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_ST3GAL21g" name="CMP-N-Acetylneuraminate-Beta-Galactosamide-Alpha-2, 3-Sialyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_SMSn" name="Sphingomyelin Synthase" reversible="true"/>
+      <reaction id="R_r1457" name="Hexadecanal:NADP+ Delta2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_ST8SIA12" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_NEU39e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_SPHK11" name="Sphingosine Kinase 1" reversible="true"/>
+      <reaction id="R_ACER22g" name="Alkaline Ceramidase 2 (Acer2) Or Alkaline Ceramidase 3 (Acer3)" reversible="true"/>
+      <reaction id="R_A4GALTg" name="Lactosylceramide 4-Alpha-Galactosyltransferase" reversible="true"/>
+      <reaction id="R_r0788" name="S-Adenosyl-L-Methionine:Methylethanolamine Phosphate N-Methyltransferase" reversible="true"/>
+      <reaction id="R_NEU21" name="Sialidase, Cytosol (Neu2)" reversible="true"/>
+      <reaction id="R_HMR_0783" name="Phosphatidate Phosphatase" reversible="true"/>
+      <reaction id="R_NEU38n" name="Sialidase, Nucleus (Neu3 Or Neu1)" reversible="true"/>
+      <reaction id="R_SMS21e" name="Sphingomyelin Synthase 2" reversible="true"/>
+      <reaction id="R_NEU35e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_NEU36e" name="Sialidase, Plasma Membrane (Neu3)" reversible="true"/>
+      <reaction id="R_ASAH1" name="N-Acylsphingosine Amidohydrolase" reversible="true"/>
+      <reaction id="R_RE2675C" name="RE2675C" reversible="true"/>
+      <reaction id="R_ST8SIA13e" name="Alpha-N-Acetylneuraminate Alpha-2, 8-Sialyltransferase" reversible="true"/>
+      <reaction id="R_GALGT4" name="Beta-1, 4 N-Acetylgalactosaminyltransferase" reversible="true"/>
+      <reaction id="R_HEXA1l" name="Hexosaminidase A, Lysosomal" reversible="true"/>
+      <reaction id="R_FUT11g" name="Galactoside 2-Alpha-L-Fucosyltransferase 1" reversible="true"/>
+      <reaction id="R_ST8SIA54g" name="Beta-Galactoside Alpha-2, 3-Sialyltransferase" reversible="true"/>
+      <reaction id="R_GAL3ST11" name="Galactosylceramide Sulfotransferase" reversible="true"/>
+      <reaction id="R_PHSGPL11c" name="Sphingosine-1-Phosphate Lyase 1 (Phytosphingosine-1-Phosphate, Cytosol)" reversible="true"/>
+      <reaction id="R_UGCG" name="Ceramide Glucosyltransferase" reversible="true"/>
+      <reaction id="R_ST6GALNAC21" name="Alpha-N-Acetylgalactosaminide Alpha-2, 6-Sialyltransferase 2" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

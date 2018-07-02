@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="limonene_and_pinene_degradation">
+    <listOfReactions>
+      <reaction id="R_P4502C92" name="Cytochrome P450 2C9" reversible="true"/>
+      <reaction id="R_P4502C94" name="Cytochrome P450 2C9" reversible="true"/>
+      <reaction id="R_P4502C93" name="Cytochrome P450 2C9" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="tyrosine_metabolism">
+    <listOfReactions>
+      <reaction id="R_NORANMT" name="Noradrenaline N-Methyltransferase" reversible="true"/>
+      <reaction id="R_RE2130C" name="RE2130C" reversible="true"/>
+      <reaction id="R_34HPPOR" name="4-Hydroxyphenylpyruvate:Oxygen Oxidoreductase" reversible="true"/>
+      <reaction id="R_SUCACETATALTc" name="Alternative Route for Formation of Succinylacetone, from Maleylacetoacetate" reversible="true"/>
+      <reaction id="R_DOPACCL" name="Dopamine O-Quinone Cyclization" reversible="true"/>
+      <reaction id="R_UDPG3DOPA" name="Dopamine 3-O-Glucuronidation" reversible="true"/>
+      <reaction id="R_SFGTH" name="S-Formylglutathione Hydralase" reversible="true"/>
+      <reaction id="R_ACTYRm" name="Acetylation of Tyrosine" reversible="true"/>
+      <reaction id="R_FALDH" name="Formaldehyde Dehydrogenase" reversible="true"/>
+      <reaction id="R_DOPASULT" name="Dopamine Sulfotransferase" reversible="true"/>
+      <reaction id="R_TYRTAm" name="Tyrosine Transaminase, Mitochondrial" reversible="true"/>
+      <reaction id="R_MACACI" name="Maleylacetoacetate Isomerase" reversible="true"/>
+      <reaction id="R_3HLYTCL" name="3-Hydroxy-L-Tyrosine Carboxy-Lyase" reversible="true"/>
+      <reaction id="R_RE1925C" name="RE1925C" reversible="true"/>
+      <reaction id="R_HGNTOR" name="Homogentisate:Oxygen 1, 2-Oxidoreductase (Decyclizing)" reversible="true"/>
+      <reaction id="R_3MOX4HOXPGALDOX" name="3-Methoxy-4-Hydroxyphenylglycolaldehyde:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_SALMCOM2" name="S-Adenosyl-L-Methionine:Catechol O-Methyltransferase" reversible="true"/>
+      <reaction id="R_IDHPOXOX4" name="Iodide:Hydrogen-Peroxide Oxidoreductase 4" reversible="true"/>
+      <reaction id="R_RE3201C" name="Tyrosinase" reversible="true"/>
+      <reaction id="R_DACGST" name="2, 3-Dihydro-1H-Indole-5, 6-Dione Glutathione Conjugation" reversible="true"/>
+      <reaction id="R_NRPPHRSULT" name="Norepinephrine Sulfotransferase" reversible="true"/>
+      <reaction id="R_34DHXMANDACOX" name="3, 4-Dihydroxymandelaldehyde:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_DACT" name="2, 3-Dihydro-1H-Indole-5, 6-Dione Tautomerization" reversible="true"/>
+      <reaction id="R_UDPG4DOPA" name="Dopamine 4-O-Glucuronidation" reversible="true"/>
+      <reaction id="R_IDHPOXOX2b" name="Iodide:Hydrogen-Peroxide Oxidoreductase 2" reversible="true"/>
+      <reaction id="R_IDHPOXOXb" name="Iodide:Hydrogen-Peroxide Oxidoreductase" reversible="true"/>
+      <reaction id="R_TYMc" name="Formation of Tyraminium" reversible="true"/>
+      <reaction id="R_3MOXTYROX" name="3-Methoxytyramine:Oxygen Oxidoreductase (Deaminating)" reversible="true"/>
+      <reaction id="R_TYRDOPO3" name="Tyrosine:Dopa Oxidase (Dopaquinone Producing 2)" reversible="true"/>
+      <reaction id="R_RE0918C" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_34DHOXPEGOX" name="3, 4-Dihydroxyphenylethyleneglycol:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_RE3198C" name="RE3198C" reversible="true"/>
+      <reaction id="R_34DHPHAMT" name="3, 4-Dihydroxyphenylacetate:Amet O-Methyltransferase" reversible="true"/>
+      <reaction id="R_RE0916C" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_TRIODTHYSULT" name="Triiodothyronine Sulfotransferase" reversible="true"/>
+      <reaction id="R_RE1915C" name="RE1915C" reversible="true"/>
+      <reaction id="R_MAOLNOR" name="Monoamine Oxidase (L-Normetanephrine)" reversible="true"/>
+      <reaction id="R_RE3095C" name="Peroxidase" reversible="true"/>
+      <reaction id="R_41R1H2MAE12BOOX" name="4-[ (1R)-1-Hydroxy-2- (Methylamino)Ethyl]-1, 2-Benzenediol:Oxygen Oxidoreductase (Deaminating) (Flavin-Containing)" reversible="true"/>
+      <reaction id="R_3M4HDXPAC" name="3-Methoxy-4-Hydroxyphenylacetaldehyde:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_FUMAC" name="Fumarylacetoacetase" reversible="true"/>
+      <reaction id="R_SUCACETOc" name="Alternative Route for Formation of Succinylacetone, from Succinyl-Acetoacetate" reversible="true"/>
+      <reaction id="R_DOPAMT" name="Dopamine:Amet O-Methyltransferase" reversible="true"/>
+      <reaction id="R_CYSGLYPTASEe_1" name="Cysteinylglycine Dipeptidase" reversible="true"/>
+      <reaction id="R_DOPAc" name="Formation of Dopamine" reversible="true"/>
+      <reaction id="R_TYRCBOX" name="L-Tyrosine Carboxy-Lyase" reversible="true"/>
+      <reaction id="R_NACVANALAm" name="Acetylation of 3-Methoxy-Tyrosine " reversible="true"/>
+      <reaction id="R_DOPAOQCYS" name="Dopamine-O-Quinone Cysteine Addition" reversible="true"/>
+      <reaction id="R_TYRDOPO" name="Tyrosine:Dopa Oxidase" reversible="true"/>
+      <reaction id="R_TYMSULT" name="Tyramine Sulfotransferase" reversible="true"/>
+      <reaction id="R_NADQNOXR" name="Dt-Diaphorase: NAD Quinone Oxireductase" reversible="true"/>
+      <reaction id="R_SALMCOM" name="S-Adenosyl-L-Methionine:Catechol O-Methyltransferase" reversible="true"/>
+      <reaction id="R_TYROXDAc" name="Tyramine:Oxygen Oxidoreductase (Deaminating) (Flavin-Containing) (Cytosol)" reversible="true"/>
+      <reaction id="R_RE0912C" name="RE0912C" reversible="true"/>
+      <reaction id="R_THYPX" name="Thyroid Peroxidase" reversible="true"/>
+      <reaction id="R_NADPQNOXR" name="Dt-Diaphorase: NADP Quinone Oxireductase" reversible="true"/>
+      <reaction id="R_34DHPLACOX" name="3, 4-Dihydroxyphenylacetaldehyde:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_DOPACHRMDC" name="L-Dopachrome Decarboxylation" reversible="true"/>
+      <reaction id="R_RE1916C" name="Glutathione Transferase" reversible="true"/>
+      <reaction id="R_42A12BOOX" name="4- (2-Aminoethyl)-1, 2-Benzenediol:Oxygen Oxidoreductase (Deaminating) (Flavin-Containing)" reversible="true"/>
+      <reaction id="R_RE0908C" name="Steryl-Sulfatase" reversible="true"/>
+      <reaction id="R_DOPACHRMISO" name="L-Dopachrome Isomerase 1" reversible="true"/>
+      <reaction id="R_RE1919C" name="RE1919C" reversible="true"/>
+      <reaction id="R_3MOX4HOXPGALDOX_NADP_" name="3-Methoxy-4-Hydroxyphenylglycolaldehyde:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_DOPAOQNOX" name="Dopamine-O-Quinone Oxidase" reversible="true"/>
+      <reaction id="R_MAOX" name="Methylamine Oxidase" reversible="true"/>
+      <reaction id="R_34DHPEAR" name="3, 4-Dihydroxyphenylethanol:NADP+ Reductase" reversible="true"/>
+      <reaction id="R_RE2122C" name="Catechol O-Methyltransferase" reversible="true"/>
+      <reaction id="R_RE1923C" name="Catechol O-Methyltransferase" reversible="true"/>
+      <reaction id="R_VANILPYRc" name="Formation of Vanilpyruvic Acid from Vanilalanine" reversible="true"/>
+      <reaction id="R_RE1918C" name="RE1918C" reversible="true"/>
+      <reaction id="R_LACROX" name="Leukoaminochrome Autoxidation" reversible="true"/>
+      <reaction id="R_IDHPOXOX3" name="Iodide:Hydrogen-Peroxide Oxidoreductase 3" reversible="true"/>
+      <reaction id="R_4HOXPACDOX_NADP_" name="4-Hydroxyphenylacetaldehyde:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_34DHPLACOX_NADP_" name="3, 4-Dihydroxyphenylacetaldehyde:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_TYRASE" name="Tyrosinase" reversible="true"/>
+      <reaction id="R_TYRDHINDOX" name="Tyrosinase: 5, 6-Dihydroxyindole Oxygen Oxidoreductase" reversible="true"/>
+      <reaction id="R_41R2A1H12BOOX" name="4-[ (1R)-2-Amino-1-Hydroxyethyl]-1, 2-Benzenediol:Oxygen Oxidoreductase (Deaminating) (Flavin-Containing)" reversible="true"/>
+      <reaction id="R_TYR3MO2" name="Tyrosine 3-Monooxygenase" reversible="true"/>
+      <reaction id="R_H2O2syn" name="Hydrogen Peroxide Synthesis (NADPH Dependent)" reversible="true"/>
+      <reaction id="R_DOPABMO" name="Dopamine Beta-Monooxygenase" reversible="true"/>
+      <reaction id="R_DOPASULT4" name="Dopamine 4-O-Sulfotransferase" reversible="true"/>
+      <reaction id="R_GGTe_1" name="Gamma-Glutamyltransferase" reversible="true"/>
+      <reaction id="R_TYRTA" name="Tyrosine Transaminase" reversible="true"/>
+      <reaction id="R_HMR_4702" name="HMR_4702" reversible="true"/>
+      <reaction id="R_DCT" name="Dopachrome Tautomerase" reversible="true"/>
+      <reaction id="R_34DHXMANDACOX_NADP_" name="3, 4-Dihydroxymandelaldehyde:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_RE2296C" name="Glutathione Transferase" reversible="true"/>
+      <reaction id="R_VANILLACc" name="Formation of Vanil-Lactate" reversible="true"/>
+      <reaction id="R_RE1921C" name="Aromatic-L-Amino-Acid Decarboxylase" reversible="true"/>
+      <reaction id="R_SUCACETATc" name="Alternative Route for Formation of Succinylacetone, from Fumarylacetoacetate" reversible="true"/>
+      <reaction id="R_TYRDOPOX" name="Tyrosinase: Dopamine Oxidation" reversible="true"/>
+      <reaction id="R_DOPAQNISO1" name="Dopaquinone Isomerase 1" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

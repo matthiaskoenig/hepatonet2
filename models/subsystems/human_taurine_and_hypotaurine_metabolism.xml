@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="taurine_and_hypotaurine_metabolism">
+    <listOfReactions>
+      <reaction id="R_r0381" name="Hypotaurine:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_CYSO" name="Cysteine Oxidase" reversible="true"/>
+      <reaction id="R_HYPTROX" name="Hypotaurine Oxidase" reversible="true"/>
+      <reaction id="R_3SALAOX" name="Cysteinesulfinic Acid Oxidase" reversible="true"/>
+      <reaction id="R_r0539" name="Cysteamine:Oxygen Oxidoreductase" reversible="true"/>
+      <reaction id="R_3SALACBOXL" name="3-Sulfino-L-Alanine Carboxy-Lyase" reversible="true"/>
+      <reaction id="R_LCYSTCBOXL" name="3-Sulfoalanine Carboxy-Lyase" reversible="true"/>
+      <reaction id="R_TAURtcx" name="Taurine Transport (Sodium Symport) (Cytosol to Peroxisome)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

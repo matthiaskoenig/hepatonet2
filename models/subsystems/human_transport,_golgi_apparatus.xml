@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model>
+    <listOfReactions>
+      <reaction id="R_H2Otg" name="H2O Transport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_ACN13ACNGALGBSIDEtg" name="Acn13Acngalgbside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_GMPtg" name="Transport of GMP, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_HMR_9665" name="HMR_9665" reversible="true"/>
+      <reaction id="R_OAGT3tg" name="Transport of 9-O-Acetylated Gt3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GDPtg" name="Transport of Guanosine-5&apos;-Diphosphate " reversible="true"/>
+      <reaction id="R_ACGALFUCGALACGALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_CO2tg" name="CO2 Golgi Transport" reversible="true"/>
+      <reaction id="R_GNCORE2t" name="Transport of gncore  2, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_Kt3g" name="Potassium Transport via Proton Antiport" reversible="true"/>
+      <reaction id="R_HMR_8084" name="HMR_8084" reversible="true"/>
+      <reaction id="R_PCHOL_HStg" name="Phosphatidylcholine Scramblase" reversible="true"/>
+      <reaction id="R_DIGALSIDEtg" name="Digalside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_COAtg" name="Transport of Coenzyme A (Diffusion), Golgi Apparatus" reversible="true"/>
+      <reaction id="R_CHOLPtg" name="Choline Phosphate Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_9667" name="HMR_9667" reversible="true"/>
+      <reaction id="R_FUCGALFUCGALACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_CMPACNAtg" name="Transport of Cytidine-5&apos;-Monophosphate-N-Acetyl-Beta-Neuraminate via CMP Antiport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GNCORE1t" name="Transport of gncore  1, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_ACGALtlg" name="N-Acetyl-Galactosamine Intracellular Transport" reversible="true"/>
+      <reaction id="R_SPHINGStg" name="Sphingosine Intracellular Transport" reversible="true"/>
+      <reaction id="R_GLCtg" name="Glucose Transport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_HMR_4955" name="HMR_4955" reversible="true"/>
+      <reaction id="R_FUCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_9671" name="HMR_9671" reversible="true"/>
+      <reaction id="R_XSERtg" name="Xyl-L-Ser (Protein) Transport from Endoplasmic Reticulum to Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GALGALGALTHCRMtg" name="Transport of Gal-Gal-Gal-Gal-Gal-Glc-Cer " reversible="true"/>
+      <reaction id="R_FUC13GALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_GALFUC12GAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_GP1Ctg" name="Transport of Gp1C " reversible="true"/>
+      <reaction id="R_NAt3_1g" name="Sodium Proton Antiporter (H:Na Is 1:1)" reversible="true"/>
+      <reaction id="R_SGALSIDEtg" name="Transport of Sulfatide Galactocerebroside" reversible="true"/>
+      <reaction id="R_ACNACNGALGBSIDEtg" name="Acnacngalgbside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_GALSIDEtg" name="Galactocerebroside Intracellular Transport" reversible="true"/>
+      <reaction id="R_FUCFUC132GALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_GD1Ctg" name="Transport of Gd1C " reversible="true"/>
+      <reaction id="R_GDPFUCtg" name="Transport of Guanosine-5&apos;-Diphosphate-L-Fucose via CMP Antiport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GQ1Btg" name="Transport of Gq1B " reversible="true"/>
+      <reaction id="R_ACNACNGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_ACGBGBSIDEtg" name="Acgbgbside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_GALGLUSIDEtg" name="Transport of Galactosyl Glucosyl Ceramide " reversible="true"/>
+      <reaction id="R_GP1CALPHAtg" name="Transport of Gp1C Alpha " reversible="true"/>
+      <reaction id="R_GALGALFUCFUCGALACGLCGALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_FUCFUCFUCGALACGLC13GALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_GALACGLCGALGBSIDEtg" name="Transport of Gal-GlcNac-Gal Globoside, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_HMR_8086" name="HMR_8086" reversible="true"/>
+      <reaction id="R_FUCFUCGALACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_OAGD3tg" name="Transport of 9-O-Acetylated Gd3, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_HMR_1916" name="HMR_1916" reversible="true"/>
+      <reaction id="R_UGALNACtg" name="UDP-Galnac Golgi Transport via CMP Antiport" reversible="true"/>
+      <reaction id="R_FUCFUC12GAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_UDPXYLtg" name="UDP-Xyl Golgi Transport via CMP Antiport" reversible="true"/>
+      <reaction id="R_HMR_9669" name="HMR_9669" reversible="true"/>
+      <reaction id="R_FUCACNGALACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_FUCFUCFUCGALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_SPHMYLNtg" name="Sphingomyelin Intracellular Transport" reversible="true"/>
+      <reaction id="R_CERT2gt" name="Ceramide Transport Protein" reversible="true"/>
+      <reaction id="R_GD1Atg" name="Transport of Gd1A " reversible="true"/>
+      <reaction id="R_PItg" name="Phosphate Transport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_Ser_Thrtg" name="Ser/Thr Transport (from Golgi to Lysosome)" reversible="true"/>
+      <reaction id="R_DIGALSGALSIDEtg" name="Digalsgalside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_UDPGALtg" name="UDP-Gal Golgi Transport via CMP Antiport" reversible="true"/>
+      <reaction id="R_CERT1gt" name="Ceramide Transport Protein" reversible="true"/>
+      <reaction id="R_GT1Atg" name="Transport of Gt1A " reversible="true"/>
+      <reaction id="R_PHSPHINGStg" name="Phytosphingosine Transport, from Golgi to Cytosol (Flippase?)" reversible="true"/>
+      <reaction id="R_GD1B2tg" name="Transport of Gd1Beta " reversible="true"/>
+      <reaction id="R_DHCRMtg" name="Dihydroceramide Transport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_ACtg" name="Acetate Transport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_ACGAGBSIDEtg" name="Acgagbside Hs Intracellular Transport" reversible="true"/>
+      <reaction id="R_ACN23ACNGALGBSIDEtg" name="Acn23Acngalgbside Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_7182" name="HMR_7182" reversible="true"/>
+      <reaction id="R_SPHGNtg" name="Sphinganine Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_7431" name="HMR_7431" reversible="true"/>
+      <reaction id="R_DAG_HStg" name="Diacylglycerol Golgi Export" reversible="true"/>
+      <reaction id="R_Htg" name="Proton Diffusion, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_PHCRMtg" name="Phytoceramide Transport, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_UGLCNACtg" name="UDP-GlcNac Golgi Transport via CMP Antiport" reversible="true"/>
+      <reaction id="R_FUCACGALFUCGALACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_ATPtg" name="ADP/ATP Transporter, Golgi" reversible="true"/>
+      <reaction id="R_HMR_9670" name="HMR_9670" reversible="true"/>
+      <reaction id="R_UDPGLCAtg" name="UDPglca Golgi Transport via UMP Antiport" reversible="true"/>
+      <reaction id="R_PA_HStg" name="Phosphatidate Scramblase" reversible="true"/>
+      <reaction id="R_HMR_7330" name="HMR_7330" reversible="true"/>
+      <reaction id="R_FUCACNGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_ACNGALACGLCGAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_CHOLtg" name="Choline Intracellular Transport" reversible="true"/>
+      <reaction id="R_FUCGALGBSIDEtg" name="Transport of Fucosyl Galactosylgloboside, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GQ1BALPHAtg" name="Transport of Gq1Balpha " reversible="true"/>
+      <reaction id="R_ACGALFUCGALACGALFUC12GAL14ACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_F1Atg" name="Transport of F1Alpha  (from Golgi to Lysosome)" reversible="true"/>
+      <reaction id="R_HMR_7437" name="HMR_7437" reversible="true"/>
+      <reaction id="R_FUC14GALACGLCGALGLUSIDEtg" name="Blood Group Intracellular Transport" reversible="true"/>
+      <reaction id="R_HMR_7432" name="HMR_7432" reversible="true"/>
+      <reaction id="R_Rtotaltg" name="Fatty Acid Intracellular Transport" reversible="true"/>
+      <reaction id="R_PAPtg" name="Adenosine 3&apos;, 5&apos;-Bisphosphate Golgi Transport" reversible="true"/>
+      <reaction id="R_PAPStg" name="3&apos;-Phosphoadenylyl Sufate Golgi Transport" reversible="true"/>
+      <reaction id="R_CHSTEROLtg" name="Cholesterol Efflux (ATP Depedent), Golgi Apparatus" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

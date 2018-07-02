@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="r_group_synthesis">
+    <listOfReactions>
+      <reaction id="R_ARTPLM3" name="R Group to Palmitate Conversion" reversible="true"/>
+      <reaction id="R_ARTFR208" name="R Group Artificial Flux" reversible="true"/>
+      <reaction id="R_ARTCOAL1" name="R Group Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_ARTPLM3m" name="R Group to Palmitate Conversion" reversible="true"/>
+      <reaction id="R_ARTCOAL3" name="R Group Coenzyme A Ligase" reversible="true"/>
+      <reaction id="R_ARTCOAL2" name="R Group Coenzyme A Ligase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

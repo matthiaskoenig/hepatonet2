@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="chondroitin_synthesis">
+    <listOfReactions>
+      <reaction id="R_GLCAT6g" name="Heparan Glucuronyltransferase Ii" reversible="true"/>
+      <reaction id="R_GLCNACT4g" name="Alpha-N-Acetylglucosaminyltransferase Ii" reversible="true"/>
+      <reaction id="R_S6T22g" name="Chondroitin 6-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GALNACT4g" name="Uridine Diphosphoacetylgalactosamine-Chondroitin Acetylgalactosaminyltransferase Ii, Golgi" reversible="true"/>
+      <reaction id="R_GALNACT1g" name="UDPgal-Chondroitin Acetylgalactosaminyltransferase I, Golgi" reversible="true"/>
+      <reaction id="R_GLCAT5g" name="Chondroitin Glucuronyltransferase Ii, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S2T1g" name="Chondroitin 2-Sulfotransferase, Golgi" reversible="true"/>
+      <reaction id="R_GALT2g" name="UDP-D-Galactose:Galactosylxylose Galactosyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S6T24g" name="Chondroitin 6-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S6T19g" name="Chondroitin 6-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_XYLTer" name="UDP-Xylose:Protein Xylosyltransferase, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_S2T2g" name="Chondroitin 2-Sulfotransferase, Golgi" reversible="true"/>
+      <reaction id="R_GALNACT3g" name="Uridine Diphosphoacetylgalactosamine-Chondroitin Acetylgalactosaminyltransferase Ii, Golgi" reversible="true"/>
+      <reaction id="R_S3T3g" name="Heparin-Glucosamine 3-O-Sulfotransferase" reversible="true"/>
+      <reaction id="R_S4T1g" name="Chondroitin 4-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCAT2g" name="Chondroitin Glucuronyltransferase Ii, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S3T2g" name="Heparin-Glucosamine 3-O-Sulfotransferase" reversible="true"/>
+      <reaction id="R_GLCAT9g" name="Heparan Glucuronyltransferase Ii" reversible="true"/>
+      <reaction id="R_GLCAT4g" name="Chondroitin Glucuronyltransferase Ii, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S2T4g" name="Uronyl 2-Sulfotransferase, Golgi" reversible="true"/>
+      <reaction id="R_S3T1g" name="Heparin-Glucosamine 3-O-Sulfotransferase" reversible="true"/>
+      <reaction id="R_GALNACT2g" name="Uridine Diphosphoacetylgalactosamine-Chondroitin Acetylgalactosaminyltransferase Ii, Golgi" reversible="true"/>
+      <reaction id="R_GALNACT5g" name="Uridine Diphosphoacetylgalactosamine-Chondroitin Acetylgalactosaminyltransferase Ii, Golgi" reversible="true"/>
+      <reaction id="R_GALTg" name="UDP-D-Galactose:D-Xylose Galactosyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCNACT5g" name="Alpha-N-Acetylglucosaminyltransferase Ii" reversible="true"/>
+      <reaction id="R_GLCAT8g" name="Heparan Glucuronyltransferase Ii" reversible="true"/>
+      <reaction id="R_S6T25g" name="Heparan Sulfate 6-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCNACT1g" name="Alpha-N-Acetylglucosaminyltransferase I, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S6T21g" name="Chondroitin 6-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCAE2g" name="Heparosan-N-Sulfate-Glucuronate 5-Epimerase" reversible="true"/>
+      <reaction id="R_GLCNACDASg" name="GlcNac N-Deacetylase / N-Sulfotransferase" reversible="true"/>
+      <reaction id="R_S6T20g" name="Chondroitin 6-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCNACT2g" name="Alpha-N-Acetylglucosaminyltransferase Ii" reversible="true"/>
+      <reaction id="R_S4T3g" name="Chondroitin 4-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S2T3g" name="Uronyl 2-Sulfotransferase, Golgi" reversible="true"/>
+      <reaction id="R_GLCNACT3g" name="Alpha-N-Acetylglucosaminyltransferase Ii" reversible="true"/>
+      <reaction id="R_S4T6g" name="Chondroitin 4-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S4T4g" name="Chondroitin 4-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCAT3g" name="Chondroitin Glucuronyltransferase Ii, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S6T23g" name="Chondroitin 6-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_S4T2g" name="Chondroitin 4-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCATg" name="UDP-D-Glucuronate:Galactosylgalactosylxylose Glucuronosyltransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCAT7g" name="Heparan Glucuronyltransferase Ii" reversible="true"/>
+      <reaction id="R_S4T5g" name="Chondroitin 4-Sulfotransferase, Golgi Apparatus" reversible="true"/>
+      <reaction id="R_GLCAE1g" name="Chondroitin-Glucuronate 5-Epimerase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

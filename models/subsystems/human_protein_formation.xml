@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="protein_formation">
+    <listOfReactions>
+      <reaction id="R_DM_PROTEIN" name="DM_PROTEIN" reversible="true"/>
+      <reaction id="R_PROTEIN_BS" name="PROTEIN_BS" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="oxidative_phosphorylation">
+    <listOfReactions>
+      <reaction id="R_r0205" name="Sn-Glycerol-3-Phosphate: (Acceptor) 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_FADH2ETC" name="Complex Ii Reaction for Respiratory Chain" reversible="true"/>
+      <reaction id="R_PPAm" name="Inorganic Diphosphatase" reversible="true"/>
+      <reaction id="R_GLYC3PFADm" name="Glycerophosphate Shuttle for Trasnfer of Reducing Equivalents " reversible="true"/>
+      <reaction id="R_PPA" name="Inorganic Diphosphatase" reversible="true"/>
+      <reaction id="R_NADH2_u10mi" name="NADH2_u10mi" reversible="true"/>
+      <reaction id="R_ATPS4mi" name="ATP synthase (four protons for one ATP)" reversible="true"/>
+      <reaction id="R_CYOOm3i" name="CYOOm3i" reversible="true"/>
+      <reaction id="R_CYOR_u10mi" name="CYOR_u10mi" reversible="true"/>
+      <reaction id="R_CYOOm2i" name="CYOOm2i" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

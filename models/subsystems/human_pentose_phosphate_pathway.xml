@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="pentose_phosphate_pathway">
+    <listOfReactions>
+      <reaction id="R_HMR_4592" name="Xylitol:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_PPM" name="Phosphopentomutase" reversible="true"/>
+      <reaction id="R_DRBK" name="Deoxyribokinase" reversible="true"/>
+      <reaction id="R_r0796" name="Ribitol:NAD+ 2-Oxidoreductase Pentose And Glucuronate Interconversions" reversible="true"/>
+      <reaction id="R_RE0124C" name="Diamine N-Acetyltransferase" reversible="true"/>
+      <reaction id="R_PRPPS" name="Phosphoribosylpyrophosphate Synthetase" reversible="true"/>
+      <reaction id="R_PGL" name="6-Phosphogluconolactonase" reversible="true"/>
+      <reaction id="R_RPEc" name="Ribulose 5-Phosphate 3-Epimerase" reversible="true"/>
+      <reaction id="R_RPI" name="Ribose-5-Phosphate Isomerase" reversible="true"/>
+      <reaction id="R_RBK" name="Ribokinase" reversible="true"/>
+      <reaction id="R_TALA" name="Transaldolase" reversible="true"/>
+      <reaction id="R_DRPA" name="Deoxyribose-Phosphate Aldolase" reversible="true"/>
+      <reaction id="R_G6PDH2rer" name="Glucose 6-Phosphate Dehydrogenase, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_RPE" name="Ribulose 5-Phosphate 3-Epimerase" reversible="true"/>
+      <reaction id="R_UDPGNP" name="UDPglucuronate Uridine-Diphosphohydrolase" reversible="true"/>
+      <reaction id="R_XYLUR" name="Xylulose Reductase" reversible="true"/>
+      <reaction id="R_r0570" name="2-Deoxy-D-Ribose 1-Phosphate 1, 5-Phosphomutase Ec:5.4.2.7" reversible="true"/>
+      <reaction id="R_XYLTD_Dr" name="Xylitol Dehydrogenase (D-Xyulose-Forming)" reversible="true"/>
+      <reaction id="R_GUR1PP" name="Glucuronate 1-Phosphate Phosphatase" reversible="true"/>
+      <reaction id="R_G6PDH2r" name="Glucose 6-Phosphate Dehydrogenase" reversible="true"/>
+      <reaction id="R_XYLK" name="Xylulokinase" reversible="true"/>
+      <reaction id="R_GND" name="Phosphogluconate Dehydrogenase" reversible="true"/>
+      <reaction id="R_DGULND" name="Dehydro-L-Gulonate Decarboxylase" reversible="true"/>
+      <reaction id="R_TKT1" name="Transketolase" reversible="true"/>
+      <reaction id="R_G6PDH2c" name="Glucose 6-Phosphate Dehydrogenase" reversible="true"/>
+      <reaction id="R_GULN3D" name="L-Gulonate 3-Dehydrogenase" reversible="true"/>
+      <reaction id="R_PGLc" name="6-Phosphogluconolactonase" reversible="true"/>
+      <reaction id="R_ABTD" name="L-Arabinitol 4-Dehydrogenase" reversible="true"/>
+      <reaction id="R_r0784" name="Xylitol:NAD Oxidoreductase Pentose And Glucuronate Interconversions" reversible="true"/>
+      <reaction id="R_ARABR" name="Arabinose Reductase" reversible="true"/>
+      <reaction id="R_GULNDer" name="Gulonate Dehydrogenase, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_TKT2" name="Transketolase" reversible="true"/>
+      <reaction id="R_UDPG1P" name="UDPglucuronate Uridine-Monophosphohydrolase" reversible="true"/>
+      <reaction id="R_ABTD1" name="L-Arabinitol 4-Dehydrogenase" reversible="true"/>
+      <reaction id="R_GLYPHEHYc" name="Hydrolysis of Glycylphenylalanine" reversible="true"/>
+      <reaction id="R_GNDer" name="Phosphogluconate Dehydrogenase, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_GNDc" name="Phosphogluconate Dehydrogenase" reversible="true"/>
+      <reaction id="R_PGLer" name="6-Phosphogluconolactonase, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_r0249" name="D-Ribose-5-Phosphate Ketol-Isomerase" reversible="true"/>
+      <reaction id="R_G6PDH1rer" name="Glucose-6-Phosphate Dehydrogenase, Endoplasmic Reticulum" reversible="true"/>
+      <reaction id="R_RBK_D" name="D-Ribulokinase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

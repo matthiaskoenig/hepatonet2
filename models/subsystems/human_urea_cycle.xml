@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="urea_cycle">
+    <listOfReactions>
+      <reaction id="R_OCBTm" name="Ornithine Carbamoyltransferase, Irreversible" reversible="true"/>
+      <reaction id="R_r0034" name="Carbon-Dioxide:Ammonia Ligase (ADP-Forming, Carbamate-Phosphorylating) " reversible="true"/>
+      <reaction id="R_RE0689E" name="RE0689E" reversible="true"/>
+      <reaction id="R_SPRMS" name="Spermine Synthase" reversible="true"/>
+      <reaction id="R_r0074" name="L-Glutamate 5-Semialdehyde:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_CKc" name="ATP Creatine Kinase, Cytosolic" reversible="true"/>
+      <reaction id="R_RE1235C" name="RE1235C" reversible="true"/>
+      <reaction id="R_RE3367E" name="RE3367E" reversible="true"/>
+      <reaction id="R_RE1897C" name="Deoxyhypusine Synthase" reversible="true"/>
+      <reaction id="R_ORNDC" name="Ornithine Decarboxylase" reversible="true"/>
+      <reaction id="R_ORNTArm" name="Ornithine Transaminase Reversible, Mitochondrial" reversible="true"/>
+      <reaction id="R_r0086" name="2-Oxoglutaramate Amidohydrolase" reversible="true"/>
+      <reaction id="R_CREATtmdiffir" name="Creatine Transport To/from Mitochondria via Diffusion" reversible="true"/>
+      <reaction id="R_GLU5Km" name="Glutamate 5-Kinase, Mitochondrial" reversible="true"/>
+      <reaction id="R_RE1234C" name="Diamine N-Acetyltransferase" reversible="true"/>
+      <reaction id="R_RE0828E" name="RE0828E" reversible="true"/>
+      <reaction id="R_UREAtm" name="Urea Transport via Diffusion" reversible="true"/>
+      <reaction id="R_ARGNm" name="Arginase, Mitochondrial" reversible="true"/>
+      <reaction id="R_CK" name="ATP Creatine Kinase" reversible="true"/>
+      <reaction id="R_SPMS" name="Spermidine Synthase" reversible="true"/>
+      <reaction id="R_ACGSm" name="N-Acteylglutamate Synthase, Mitochondrial" reversible="true"/>
+      <reaction id="R_RE0690E" name="RE0690E" reversible="true"/>
+      <reaction id="R_RE0691C" name="RE0691C" reversible="true"/>
+      <reaction id="R_ARGN" name="Arginase" reversible="true"/>
+      <reaction id="R_ACODA" name="Acetylornithine Deacetylase" reversible="true"/>
+      <reaction id="R_RE0827E" name="RE0827E" reversible="true"/>
+      <reaction id="R_RE0688E" name="RE0688E" reversible="true"/>
+      <reaction id="R_SARDHm" name="Sarcosine Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_GLYAMDTRc" name="Glycine Amidinotransferase, Cytosolic" reversible="true"/>
+      <reaction id="R_RE2034C" name="Alanine Transaminase" reversible="true"/>
+      <reaction id="R_CRTNsyn" name="Creatinine Synthase" reversible="true"/>
+      <reaction id="R_r0085" name="2-Oxoglutaramate Amidohydrolase" reversible="true"/>
+      <reaction id="R_r0156" name="L-Glutamine:Pyruvate Aminotransferase" reversible="true"/>
+      <reaction id="R_G5SDym" name="Glutamate-5-Semialdehyde Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_RE1898C" name="Deoxyhypusine Synthase" reversible="true"/>
+      <reaction id="R_G5SADs" name="L-Glutamate 5-Semialdehyde Dehydratase (Spontaneous)" reversible="true"/>
+      <reaction id="R_PCREATtmdiffir" name="Phosphocreatine Transport To/from Mitochondria via Diffusion" reversible="true"/>
+      <reaction id="R_GACMTRc" name="Guanidinoacetate N-Methyltransferase, Cytosolic" reversible="true"/>
+      <reaction id="R_RE2644C" name="Aspartoacylase" reversible="true"/>
+      <reaction id="R_r0157" name="L-Glutamine:Pyruvate Aminotransferase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

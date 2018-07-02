@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="glycerophospholipid_metabolism">
+    <listOfReactions>
+      <reaction id="R_SMS2" name="Sphingomyelin Synthase, Formation of Sm (D18:1/15:0)" reversible="true"/>
+      <reaction id="R_HMR_0657" name="S-Adenosyl-L-Methionine:Phosphatidyl-N-Dimethylethanolamine N-Methyltransferase" reversible="true"/>
+      <reaction id="R_PEDH14_HSPLA2" name="Formation of 1-Myristoylglycerophosphoethanolamine (C14:0 Pe) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS15" name="Sphingomyelin Synthase, Formation of Sm (D18:0/24:0)" reversible="true"/>
+      <reaction id="R_PCHOLN15_HSPLA2" name="Formation of 1-Pentadecanoylglycerophosphocholine, Sn1-Lpc (15:0) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PETOHMr_hs" name="Phosphatidylethanolamine N-Methyltransferase" reversible="true"/>
+      <reaction id="R_PCHOLN24_HSPLA2" name="Formation of 1-Lignocericylglycerophosphocholine (24:0), Lysopc A C24 by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PENDECAETH" name="Formation of Pentadecanoyl Thanolamide (C15:0)" reversible="true"/>
+      <reaction id="R_DAGK_hs" name="Diacylglycerol Phosphate Kinase (Homo Sapiens)" reversible="true"/>
+      <reaction id="R_PCHOLDOC_HSPLA2" name="Formation of 1-Docosahexaenoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_0634" name="Phosphatidylcholine:Sterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0597" name="Phosphatidate Phosphatase" reversible="true"/>
+      <reaction id="R_PE203_HSPLA2" name="Formation of 1-Eicosatrienoylglycerophosphoethanolamine (Delta 11, 14, 17), Lpe (20:3) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_r0202m" name="Mitochondrial Glycerol-3-Phosphate-Dehydrogenase" reversible="true"/>
+      <reaction id="R_PCHOLN204_HSPLA2" name="Formation of 1-Eicosatetraenoylglycerophosphocholine (Delta 8, 11, 14, 17), Sn1-Lpc (20:4) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_ETHP" name="Ethanolamine Phosphate Phosphatase" reversible="true"/>
+      <reaction id="R_HMR_0614" name="Ethanolaminephosphotransferase" reversible="true"/>
+      <reaction id="R_CLS_hs" name="Cardiolipin Synthase (Homo Sapiens)" reversible="true"/>
+      <reaction id="R_PEOLE_HSPLA2" name="Formation of 1-Oleoylglycerophosphoethanolamine (Delta 9) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS14" name="Sphingomyelin Synthase, Formation of Sm (D18:0/24:0)" reversible="true"/>
+      <reaction id="R_PELINL_HSPLA2" name="Formation of 1-Linoleoylglycerophosphoethanolamine (Delta 9, 12) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_CHLP" name="Choline Phosphate Phosphatase" reversible="true"/>
+      <reaction id="R_HMR_0647" name="Ethanolamine Ammonia-Lyase (Acetaldehyde-Forming)" reversible="true"/>
+      <reaction id="R_GLYK" name="Glycerol Kinase" reversible="true"/>
+      <reaction id="R_PETHCT" name="Phosphoethanolamine Cytidyltransferase" reversible="true"/>
+      <reaction id="R_PCHOLPm_hs" name="Choline Phosphatase" reversible="true"/>
+      <reaction id="R_G3PD1" name="Glycerol-3-Phosphate Dehydrogenase (NAD)" reversible="true"/>
+      <reaction id="R_DIHOLINETH" name="Formation of Dihomo-Gamma-Linolenoyl Ethanolamide" reversible="true"/>
+      <reaction id="R_HMR_0586" name="CDP-Diacylglycerol:Phosphatidylglycerol 3-Phosphatidyltransferase" reversible="true"/>
+      <reaction id="R_r0186" name="Ethanolamine-Phosphate Phospho-Lyase (Deaminating)" reversible="true"/>
+      <reaction id="R_OLEETH" name="Formation of Oleoyl Ethanolamide" reversible="true"/>
+      <reaction id="R_PCHOLN225_HSPLA2" name="Formation of 1-Docosapentenoylglycerophosphocholine (Delta 7, 10, 13, 16, 19), Sn1-Lpc (22:5)-W3 by Phospholipase A2" reversible="true"/>
+      <reaction id="R_CEPTC" name="Choline Phosphotransferase" reversible="true"/>
+      <reaction id="R_DAGKn_hs" name="Diacylglycerol Phosphate Kinase (Homo Sapiens)" reversible="true"/>
+      <reaction id="R_HMR_0582" name="CDP-Diacylglycerol-Glycerol-3-Phosphate 3-Phosphatidyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0653" name="S-Adenosyl-L-Methionine:Phosphatidylethanolamine N-Methyltransferase" reversible="true"/>
+      <reaction id="R_PGPP_hsc" name="Transport of Phosphatidyl Glycerol Phosphate, Mitochondrial" reversible="true"/>
+      <reaction id="R_PCHOLDEIC_HSPLA2" name="Formation of 1-Eicosadienoylglycerophosphocholine (Delta 11, 14) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOL2LINL_HSPLA2" name="Formation of 2-Linoleoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HEPDECETH" name="Formation of Heptadecanoyl Thanolamide (C17:0)" reversible="true"/>
+      <reaction id="R_HEXDECEETH" name="Formation of C16:1-Ethanolamide" reversible="true"/>
+      <reaction id="R_PSDm_hs" name="Phosphatidylserine Decarboxylase" reversible="true"/>
+      <reaction id="R_HMR_0593" name="1-Acylglycerol-3-Phosphate O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0625" name="Diacylglycerol Cholinephosphotransferase" reversible="true"/>
+      <reaction id="R_r0245" name="Glycerol:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_PCHOLP_hs" name="Choline Phosphatase" reversible="true"/>
+      <reaction id="R_CHLPCTD" name="Choline Phosphate Cytididyltransferase" reversible="true"/>
+      <reaction id="R_SMS6" name="Sphingomyelin Synthase, Formation of Sm (D18:1/18:0)" reversible="true"/>
+      <reaction id="R_CEPTE" name="Ethanolamine Phosphotransferase" reversible="true"/>
+      <reaction id="R_SMS13" name="Sphingomyelin Synthase, Formation of Sm (D18:0/24:1)" reversible="true"/>
+      <reaction id="R_HMR_7755" name="ATP:Glycerone Phosphotransferase" reversible="true"/>
+      <reaction id="R_PCHOL2OLE_HSPLA2" name="Formation of 2-Oleoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_r0480" name="S-Adenosyl-L-Methionine:Ethanolamine-Phosphate N-Methyltransferase" reversible="true"/>
+      <reaction id="R_SMS4" name="Sphingomyelin Synthase, Formation of Sm (D18:1/16:0)" reversible="true"/>
+      <reaction id="R_LPS5e" name="Lipase, Extracellular, Formation of 1-Palmitoylglycerol" reversible="true"/>
+      <reaction id="R_PCHOLAR_HSPLA2" name="Formation of 1-Arachidonoyl-Glycero-3-Phosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOLN224_HSPLA2" name="Formation of 1-Docosatetraenoylglycerophosphocholine (Delta 7, 10, 13, 16), Sn1-Lpc (22:4) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOLN226_HSPLA2" name="Formation of 1-Docosahexenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16, 19), Sn1-Lpc (22:6) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_0601" name="Phosphatidate Phosphatase" reversible="true"/>
+      <reaction id="R_PCHOLN281_HSPLA2" name="Formation of Lysopc A C28:1 (Delta 5) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_DOCTETETH" name="Formation of Docosatetraenoyl Ethanolamide (22:4, Delta 7, 10, 13, 16)" reversible="true"/>
+      <reaction id="R_ARACHETH" name="Formation of O-Arachidonoyl Ethanolamine" reversible="true"/>
+      <reaction id="R_PI4P5K" name="Phosphatidylinositol 4-Phosphate 5-Kinase" reversible="true"/>
+      <reaction id="R_PCHOLN28_HSPLA2" name="Formation of Lysopc A C28:0 by Phospholipase A2" reversible="true"/>
+      <reaction id="R_MAGLINL_HSe" name="Lipase, Extracellular, Formation of 1-Linoleoylglycerol" reversible="true"/>
+      <reaction id="R_AGPAT4" name="1-Acylglycerol-3-Phosphate O-Acyltransferase 1 (C18:2)" reversible="true"/>
+      <reaction id="R_CDSm" name="Phosphatidate Cytidylyltransferase" reversible="true"/>
+      <reaction id="R_ACHEe" name="Acetylcholinesterase" reversible="true"/>
+      <reaction id="R_PCHOL2PALM_HSPLA2" name="Formation of 2-Palmitoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS16" name="Sphingomyelin Synthase, Formation of Sm (D18:1/23:0)" reversible="true"/>
+      <reaction id="R_PCHOLSTE_HSPLA2" name="Formation of 1-Stearoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_0641" name="Acetylcholinesterase" reversible="true"/>
+      <reaction id="R_PEDH12_HSPLA2" name="Formation of 1-Didecanoylglycerophosphoethanolamine (C12:0 Pe) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_0629" name="Phospholipase D" reversible="true"/>
+      <reaction id="R_DIDECAETH" name="Formation of C12:0-Ethanolamide" reversible="true"/>
+      <reaction id="R_PCHOLN201_HSPLA2" name="Formation of 1-Eicosenoylglycerophosphocholine (Delta 11) , Sn1-Lpc (20:1) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PE2LINL_HSPLA2" name="Formation of 2-Linoleoylglycerophosphoethanolamine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PGPP_hs" name="Phosphatidylglycerol Phosphate Phosphatase (Homo Sapiens)" reversible="true"/>
+      <reaction id="R_SMS11" name="Sphingomyelin Synthase, Formation of Sm (D18:1/22:1)" reversible="true"/>
+      <reaction id="R_HMR_0003" name="Triacylglycerol Lipase" reversible="true"/>
+      <reaction id="R_HMR_0478" name="Glycerol-3-Phosphate Dehydrogenase [NAD (P)+]" reversible="true"/>
+      <reaction id="R_TETDECAETH" name="Formation of C14:0-Ethanolamide" reversible="true"/>
+      <reaction id="R_PEDH203_HSPLA2" name="Formation of 1-Dihomo-Linolenoylglycerophosphoethanolamine (20:3, Delta 8, 11, 14) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_0672" name="Triacylglycerol Lipase" reversible="true"/>
+      <reaction id="R_PCHOLHEP_HSPLA2" name="Formation of 1-Heptadecanoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PSSA2_hs" name="Phosphatidylserine Synthase Homo Sapiens" reversible="true"/>
+      <reaction id="R_HMR_0002" name="Lipoprotein Lipase" reversible="true"/>
+      <reaction id="R_PCHOLOLE_HSPLA2" name="Formation of 1-Oleoylglycerophosphocholine (Delta 9) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_RE3301C" name="Phospholipase D" reversible="true"/>
+      <reaction id="R_PCHOLN261_HSPLA2" name="Formation of Lysopc A C26:1 (Delta 5) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_LDL_HSSYN" name="Formation of LDL" reversible="true"/>
+      <reaction id="R_CHAT" name="Choline O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_PE226_HSPLA2" name="Formation of 1-Docosahexenoylglyceroethanolamine (Delta 4, 7, 10, 13, 16, 19), Lpe (22:6) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PAILPALM_HSPLA2" name="Formation of 1-Palmitoylglycerophosphoinositol by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PSSA1_hs" name="Phosphatidylserine Synthase Homo Sapiens" reversible="true"/>
+      <reaction id="R_ETHAK" name="Ethanolamine Kinase" reversible="true"/>
+      <reaction id="R_PCHOLN1836_HSPLA2" name="Formation of 1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 6, 9, 12) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_r0537" name="Sphinganine-1-Phosphate Pamlmitaldehyde-Lyase Sphingolipid Metabolism" reversible="true"/>
+      <reaction id="R_PSDm_hsc" name="Psdm_Hsc" reversible="true"/>
+      <reaction id="R_STEETH" name="Formation of Stearoyl Ethanolamide" reversible="true"/>
+      <reaction id="R_HDL_HSSYN" name="Formation of HDL" reversible="true"/>
+      <reaction id="R_CHOLK" name="Choline Kinase" reversible="true"/>
+      <reaction id="R_PCHOLLINL_HSPLA2" name="Formation of 1-Linoleoylglycerophosphocholine (Delta 9, 12) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS10" name="Sphingomyelin Synthase, Formation of Sm (D18:1/21:0)" reversible="true"/>
+      <reaction id="R_MYELIN_HSSYN" name="Formation of Myelin Sheath" reversible="true"/>
+      <reaction id="R_PCHOLN203_HSPLA2" name="Formation of 1-Dihomo-Linolenoylglycerophosphocholine (20:3, Delta 8, 11, 14), Lysopc A C20:3 by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PAFH" name="Platelet-Activating Factor Acetylhydrolase" reversible="true"/>
+      <reaction id="R_PCHOLN19_HSPLA2" name="Formation of 1-NoNADecanoylglycerophosphocholine, Sn1-Lpc (19:0) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_CDS" name="Phosphatidate Cytidylyltransferase" reversible="true"/>
+      <reaction id="R_PCHOLMYR_HSPLA2" name="Formation of 1-Myristoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PLA2_2" name="Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS3" name="Sphingomyelin Synthase, Formation of Sm (D18:1/16:1)" reversible="true"/>
+      <reaction id="R_PETOHMm_hs" name="Phosphatidylethanolamine N-Methyltransferase" reversible="true"/>
+      <reaction id="R_IDL_HSDEG" name="Degradation of IDL" reversible="true"/>
+      <reaction id="R_HDL_HSDEG" name="Degradation of HDL" reversible="true"/>
+      <reaction id="R_PGPPT" name="Phosphatidyl-CMP: Glycerophosphate Phosphatidyltransferase" reversible="true"/>
+      <reaction id="R_PCHOLN2254_HSPLA2" name="Formation of 1-Docosapentenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16), Sn1-Lpc (22:5)-W6 by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOLPg_hs" name="Choline Phosphatase" reversible="true"/>
+      <reaction id="R_LDL_HSDEG" name="Degradation of LDL" reversible="true"/>
+      <reaction id="R_SMS9" name="Sphingomyelin Synthase, Formation of Sm (D18:1/20:0)" reversible="true"/>
+      <reaction id="R_PEDH15_HSPLA2" name="Formation of 1-Pentadecanoylglycerophosphoethanolamine (C15:0 Pe) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOLN205_HSPLA2" name="Formation of 1-Eicosapentenoylglycerophosphocholine (Delta 5, 8, 11, 14, 17), Sn1-Lpc (20:5) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_0678" name="Acylglycerol Kinase" reversible="true"/>
+      <reaction id="R_TRIDECETH" name="Formation of C13:0-Ethanolamide" reversible="true"/>
+      <reaction id="R_PELINETH" name="Formation of Linoleoyl Ethanolamide" reversible="true"/>
+      <reaction id="R_HMR_0654" name="S-Adenosyl-L-Methionine:Phosphatidyl-N-Methylethanolamine N-Methyltransferase" reversible="true"/>
+      <reaction id="R_HMR_0482" name="Sn-Glycerol-3-Phosphate: (Acceptor) 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_PAILAR_HSPLA2" name="Formation of 1-Arachidonoylglycerophosphoinositol by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOLPALM_HSPLA2" name="Formation of 1-Palmitoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS12" name="Sphingomyelin Synthase, Formation of Sm (D18:1/22:0)" reversible="true"/>
+      <reaction id="R_PEDH161_HSPLA2" name="Formation of 1-Hexadecenoylglycerophosphoethanolamine (C16:1 Pe, Delta 9) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS7" name="Sphingomyelin Synthase, Formation of Sm (D18:1/18:1)" reversible="true"/>
+      <reaction id="R_PEPALM_HSPLA2" name="Formation of 1-Palmitoylglycerophosphoethanolamine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_GLYKm" name="Glycerol Kinase" reversible="true"/>
+      <reaction id="R_LPASE" name="Lysophospholipase" reversible="true"/>
+      <reaction id="R_LPS6e" name="Lipase, Extracellular, Formation of 1-Stearoylglycerol" reversible="true"/>
+      <reaction id="R_SMS8" name="Sphingomyelin Synthase, Formation of Sm (D18:1/20:1)" reversible="true"/>
+      <reaction id="R_PEDH17_HSPLA2" name="Formation of 1-Heptadecanoylglycerophosphoethanolamine (C17:0 Pe) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PE224_HSPLA2" name="Formation of 1-Docosatetraenoyglycerophosphoethanolamine (22:4, Delta 7, 10, 13, 16) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_DOCOHEXETHc" name="Formation of Docosahexaenoyl Ethanolamide" reversible="true"/>
+      <reaction id="R_PEPALM" name="Formation of Palmitoylethanolamide" reversible="true"/>
+      <reaction id="R_PLA2_2e" name="Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_9805" name="Sn-Glycero-3-Phosphocholine Cholinephosphohydrolase" reversible="true"/>
+      <reaction id="R_PCHOLDET_HSPLA2" name="Formation of 1-Eicosatrienoylglycerophosphocholine (Delta 11, 14, 17) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_HMR_0642" name="Phospholipase D" reversible="true"/>
+      <reaction id="R_PAFHe" name="Platelet-Activating Factor Acetylhydrolase" reversible="true"/>
+      <reaction id="R_PEAR_HSPLA2" name="Formation of 1-Arachidonoyl-Sn-Glycero-3-Phosphoethanolamine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOLPALME_HSPLA2" name="Formation of 1-Palmitoleoylglycerophosphocholine (Delta 9) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_IDL_HSSYN" name="Formation of IDL" reversible="true"/>
+      <reaction id="R_PCHOLN183_HSPLA2" name="Formation of 1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 9, 12, 15) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PIK4" name="Phosphatidylinositol 4-Kinase" reversible="true"/>
+      <reaction id="R_GPDDACHOL" name="Glycerophosphocholine Phosphodiesterase" reversible="true"/>
+      <reaction id="R_PEDH13_HSPLA2" name="Formation of 1-Tridecanoylglycerophosphoethanolamine (C13:0 Pe) by Phospholipase A2" reversible="true"/>
+      <reaction id="R_SMS1" name="Sphingomyelin Synthase, Formation of Sm (D18:1/14:0)" reversible="true"/>
+      <reaction id="R_PCHOL2STE_HSPLA2" name="Formation of 2-Stearoylglycerophosphocholine by Phospholipase A2" reversible="true"/>
+      <reaction id="R_PCHOLPr_hs" name="Choline Phosphatase" reversible="true"/>
+      <reaction id="R_GPDDA1" name="Glycerophosphodiester Phosphodiesterase (Glycerophosphocholine)" reversible="true"/>
+      <reaction id="R_PAFS" name="Alkyl Glycerol Phosphocholine Acetyl Transferase" reversible="true"/>
+      <reaction id="R_MAGOLE_HSe" name="Lipase, Extracellular, Formation of 1-Oleoylglycerol" reversible="true"/>
+      <reaction id="R_SMS5" name="Sphingomyelin Synthase, Formation of Sm (D18:1/17:0)" reversible="true"/>
+      <reaction id="R_CDIPTr" name="Phosphatidylinositol Synthase (Homo Sapiens)" reversible="true"/>
+      <reaction id="R_LPS7e" name="Lipase, Extracellular, Formation of 1-Linoleoylglycerol" reversible="true"/>
+      <reaction id="R_HMR_0598" name="Phosphatidate Phosphatase" reversible="true"/>
+      <reaction id="R_CHATn" name="Choline O-Acetyltransferase" reversible="true"/>
+      <reaction id="R_RE3267E" name="Diacylglycerol Cholinephosphotransferase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="cholesterol_metabolism">
+    <listOfReactions>
+      <reaction id="R_XOLEST205CEH" name="Hydrolysis of 1-Timnodnoyl-Cholesterol, Cholesterol-Ester (20:5, Delta 5, 8, 11, 14, 17)" reversible="true"/>
+      <reaction id="R_HMR_3741" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_EBP2r" name="3-Beta-Hydroxysteroid-Delta (8), Delta (7)-Isomerase" reversible="true"/>
+      <reaction id="R_C4STMO1r" name="C-4 Sterol Methyl Oxidase (4, 4-Dimethylzymosterol)" reversible="true"/>
+      <reaction id="R_HMR_3694" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT4e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Arachidonoylglycerophosphoinositol" reversible="true"/>
+      <reaction id="R_HMR_3723" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1493" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1539" name="Sterol 14Alpha-Demethylase" reversible="true"/>
+      <reaction id="R_LCAT12e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Oleoylglycerophosphoethanolamine (Delta 9)" reversible="true"/>
+      <reaction id="R_HMR_1546" name="3Beta-Hydroxysteroid-4Alpha-Carboxylate 3-Dehydrogenase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_HMR_1552" name="3Beta-Hydroxysteroid 3-Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_1548" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_3725" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3685" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3699" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_C3STDH1r" name="C-3 Sterol Dehydrogenase (4-Methylzymosterol)" reversible="true"/>
+      <reaction id="R_HMR_3686" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT7e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Heptadecanoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_r0321" name="Acetoacetate:Coa Ligase (AMP-Forming)" reversible="true"/>
+      <reaction id="R_HMR_3627" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1477" name="Sterol 14Alpha-Demethylase" reversible="true"/>
+      <reaction id="R_HMGLm" name="Hydroxymethylglutaryl Coenzyme A Lyase" reversible="true"/>
+      <reaction id="R_LCAT6e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Eicosatrienoylglycerophosphocholine (Delta 11, 14, 17)" reversible="true"/>
+      <reaction id="R_LCAT46e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Tridecanoylglycerophosphoethanolamine (C13:0 Pe)" reversible="true"/>
+      <reaction id="R_HMR_3721" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3729" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3663" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1470" name="Squalene, NADPH:Oxygen Oxidoreductase (2, 3-Epoxidizing)" reversible="true"/>
+      <reaction id="R_r0488" name="(R)-Mevalonate:NADP+ Oxidoreductase (Coa Acylating)" reversible="true"/>
+      <reaction id="R_HMR_3710" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_4630" name="(R)-Mevalonate:NADP+ Oxidoreductase (Coa Acylating)" reversible="true"/>
+      <reaction id="R_HMR_3698" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1490" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1500" name="3Beta-Hydroxysteroid 3-Dehydrogenase" reversible="true"/>
+      <reaction id="R_HMR_1545" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMGLx" name="Hydroxymethylglutaryl Coenzyme A Lyase" reversible="true"/>
+      <reaction id="R_HMR_1495" name="3Beta-Hydroxysteroid-4Alpha-Carboxylate 3-Dehydrogenase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_HMR_3631" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_DMATT" name="Dimethylallyltranstransferase" reversible="true"/>
+      <reaction id="R_HMR_3736" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3667" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT10e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Myristoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3644" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT8e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Linoleoylglycerophosphocholine (Delta 9, 12)" reversible="true"/>
+      <reaction id="R_HMR_1544" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_LCAT2e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Arachidonoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3711" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1516" name="HMR_1516" reversible="true"/>
+      <reaction id="R_HMR_1505" name="3Beta-Hydroxysteroid-4Alpha-Carboxylate 3-Dehydrogenase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_HMR_3695" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1512" name="Cholestenol Delta-Isomerase" reversible="true"/>
+      <reaction id="R_HMR_3665" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1526" name="Cholesterol:NADP+ Delta24-Oxidoreductase" reversible="true"/>
+      <reaction id="R_HMR_1473" name="(S)-2, 3-Epoxysqualene Mutase (Cyclizing, Lanosterol-Forming)" reversible="true"/>
+      <reaction id="R_LCAT50e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-1-Lignocericylglycerophosphocholine (24:0)" reversible="true"/>
+      <reaction id="R_XOLEST226CEH" name="Hydrolysis of Cholesteryl Docosahexanoate, Cholesterol-Ester (22:6, Delta 4, 7, 10, 13, 16, 19)" reversible="true"/>
+      <reaction id="R_HMR_3635" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1547" name="3Beta-Hydroxysteroid 3-Dehydrogenase" reversible="true"/>
+      <reaction id="R_LCAT49e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Dihomo-Linolenoylglycerophosphocholine (20:3, Delta 8, 11, 14)" reversible="true"/>
+      <reaction id="R_LCAT54e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Palmitoylglycerophosphoethanolamine" reversible="true"/>
+      <reaction id="R_LCAT52e" name="Lecithin-Cholesterol Acyltransferase, Formation of Lysopc A C28:1 (Delta 5)" reversible="true"/>
+      <reaction id="R_r0575" name="Presqualene Diphosphate:Farnesyl-Diphosphate Farnesyltransferase" reversible="true"/>
+      <reaction id="R_LSTO1r" name="Lathosterol Oxidase" reversible="true"/>
+      <reaction id="R_HMR_3688" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT47e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Pentadecanoylglycerophosphoethanolamine (C15:0 Pe)" reversible="true"/>
+      <reaction id="R_HMR_3740" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_C3STKR2r" name="C-3 Sterol Keto Reductase (Zymosterol)" reversible="true"/>
+      <reaction id="R_LCAT27e" name="Lecithin-Cholesterol Acyltransferase, Formation of Cholesterol-Ester (20:4)" reversible="true"/>
+      <reaction id="R_LCAT33e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Eicosenoylglycerophosphocholine (Delta 11)" reversible="true"/>
+      <reaction id="R_C14STRr" name="C-14 Sterol Reductase" reversible="true"/>
+      <reaction id="R_DHCR241r" name="24-Dehydrocholesterol Reductase [Precursor]" reversible="true"/>
+      <reaction id="R_LCAT40e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Eicosatrienoylglycerophosphoethanolamine (Delta 11, 14, 17)" reversible="true"/>
+      <reaction id="R_HMR_3629" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3687" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3706" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_GRTT" name="Geranyltranstransferase" reversible="true"/>
+      <reaction id="R_DHCR72r" name="7-Dehydrocholesterol Reductase" reversible="true"/>
+      <reaction id="R_HMR_1558" name="HMR_1558" reversible="true"/>
+      <reaction id="R_SQLSr" name="Squalene Synthase" reversible="true"/>
+      <reaction id="R_LCAT39e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Docosahexenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16, 19)" reversible="true"/>
+      <reaction id="R_LCAT57e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Docosahexaenoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3705" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3716" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3646" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3704" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1484" name="4, 4-Dimethyl-5A-Cholesta-8, 24-Dien-3B-Ol:NADP+ D14-Oxidoreductase" reversible="true"/>
+      <reaction id="R_HMR_3689" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1550" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_3675" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_XOLEST182CEH" name="Hydrolysis of 1-Linoleoyl-Cholesterol, Cholesterol-Ester (18:2, Delta 9, 12)" reversible="true"/>
+      <reaction id="R_SQLEr" name="Squalene Epoxidase, Endoplasmic Reticular (NADP)" reversible="true"/>
+      <reaction id="R_HMR_3647" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1479" name="Sterol 14Alpha-Demethylase" reversible="true"/>
+      <reaction id="R_LCAT34e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Eicosatetraenoylglycerophosphocholine (Delta 8, 11, 14, 17)" reversible="true"/>
+      <reaction id="R_HMR_3637" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT32e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-NoNADecanoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3653" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3715" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1538" name="Sterol 14Alpha-Demethylase" reversible="true"/>
+      <reaction id="R_r0781" name="Lanosterol, NADPH:Oxygen Oxidoreductase (14-Methyl Cleaving)" reversible="true"/>
+      <reaction id="R_DHCR242r" name="24-Dehydrocholesterol Reductase [Precursor]" reversible="true"/>
+      <reaction id="R_RE2410C" name="7-Dehydrocholesterol Reductase" reversible="true"/>
+      <reaction id="R_LCAT53e" name="Lecithin-Cholesterol Acyltransferase, Formation of Lysopc A C28:0" reversible="true"/>
+      <reaction id="R_HMR_3658" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3696" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT13e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Palmitoleoylglycerophosphocholine (Delta 9)" reversible="true"/>
+      <reaction id="R_LSTO2r" name="Lathosterol Oxidase" reversible="true"/>
+      <reaction id="R_r0783" name="Lanosterol D24-Reductase" reversible="true"/>
+      <reaction id="R_LNSTLSr" name="Lanosterol Synthase" reversible="true"/>
+      <reaction id="R_HMR_3669" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT5e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Eicosadienoylglycerophosphocholine (Delta 11, 14)" reversible="true"/>
+      <reaction id="R_HMR_3640" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3662" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE3181C" name="RE3181C" reversible="true"/>
+      <reaction id="R_LCAT29e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Pentadecanoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3684" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3666" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT3e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Arachidonoylglycerophosphoethanolamine" reversible="true"/>
+      <reaction id="R_HMR_3654" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_DHCR243r" name="24-Dehydrocholesterol Reductase [Precursor]" reversible="true"/>
+      <reaction id="R_LCAT45e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Myristoylglycerophosphoethanolamine (C14:0 Pe)" reversible="true"/>
+      <reaction id="R_LCAT55e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Palmitoylglycerophosphoinositol" reversible="true"/>
+      <reaction id="R_DHCR71r" name="7-Dehydrocholesterol Reductase" reversible="true"/>
+      <reaction id="R_LCAT41e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Docosahexenoylglyceroethanolamine (Delta 4, 7, 10, 13, 16, 19)" reversible="true"/>
+      <reaction id="R_HMR_3734" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_RE3134C" name="Delta14-Sterol Reductase" reversible="true"/>
+      <reaction id="R_HMR_3717" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1536" name="Sterol 14Alpha-Demethylase" reversible="true"/>
+      <reaction id="R_HMR_3668" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT17e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Stearoylglycerophosphoinositol" reversible="true"/>
+      <reaction id="R_HMR_3722" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_DMATTx" name="Dimethylallyltranstransferase" reversible="true"/>
+      <reaction id="R_HMR_1503" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_LCAT23e" name="Lecithin-Cholesterol Acyltransferase, Formation of Cholesterol-Ester (18:3)" reversible="true"/>
+      <reaction id="R_HMR_3660" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_r0170" name="Farnesyl-Diphosphate:Farnesyl-Diphosphate Farnesyltransferase" reversible="true"/>
+      <reaction id="R_LCAT51e" name="Lecithin-Cholesterol Acyltransferase, Formation of Lysopc A C26:1 (Delta 5)" reversible="true"/>
+      <reaction id="R_HMR_3659" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LNS14DM" name="Cytochrome P450 Lanosterol 14-Alpha-Demethylase (NADP)" reversible="true"/>
+      <reaction id="R_HMR_3630" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT20e" name="Lecithin-Cholesterol Acyltransferase, Formation of 2-Oleoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3633" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3657" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3718" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3649" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMGCOASim" name="Hydroxymethylglutaryl Coenzyme A Synthase (Ir)" reversible="true"/>
+      <reaction id="R_HMR_1565" name="Cholesterol:NADP+ Delta7-Oxidoreductase" reversible="true"/>
+      <reaction id="R_LCAT31e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Octadeca-Trienoylglycerophosphocholine (Delta 6, 9, 12)" reversible="true"/>
+      <reaction id="R_HMR_3692" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT11e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Oleoylglycerophosphocholine (Delta 9)" reversible="true"/>
+      <reaction id="R_HMR_1496" name="3Beta-Hydroxysteroid-4Alpha-Carboxylate 3-Dehydrogenase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_HMR_3655" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1502" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_3642" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_IPDDIx" name="Isopentenyl-Diphosphate D-Isomerase" reversible="true"/>
+      <reaction id="R_HMR_3626" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3645" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_DPMVDx" name="Diphosphomevalonate Decarboxylase" reversible="true"/>
+      <reaction id="R_CHOLESACATc" name="Esterification of Cholesterol to Cholesterol Ester" reversible="true"/>
+      <reaction id="R_C4STMO2Pr" name="C-4 Methyl Sterol Oxidase" reversible="true"/>
+      <reaction id="R_HMR_3728" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3712" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1494" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_r0463" name="(S)-3-Hydroxy-3-Methylglutaryl Coenzyme A Acetoacetyl Coenzyme A-Lyase (Coa-Acetylating) Synthesis And Degradation of Ketone Bodies Valine, Leucine And Isoleucine Degradation " reversible="true"/>
+      <reaction id="R_HMR_1504" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_1467" name="Presqualene-Diphosphate Diphosphate-Lyase (Reducing, Squalene-Forming)" reversible="true"/>
+      <reaction id="R_HMR_3709" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3708" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3680" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3719" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMGCOASi" name="Hydroxymethylglutaryl Coenzyme A Synthase (Ir)" reversible="true"/>
+      <reaction id="R_HMR_3652" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3664" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1478" name="Sterol 14Alpha-Demethylase" reversible="true"/>
+      <reaction id="R_HMR_3727" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT14e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Palmitoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_GRTTx" name="Geranyltranstransferase" reversible="true"/>
+      <reaction id="R_HMR_3724" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1549" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_LCAT21e" name="Lecithin-Cholesterol Acyltransferase, Formation of 2-Palmitoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3651" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT16e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Stearoylglycerophosphoethanolamine" reversible="true"/>
+      <reaction id="R_HMR_3737" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT42e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Docosatetraenoyglycerophosphoethanolamine (22:4, Delta 7, 10, 13, 16)" reversible="true"/>
+      <reaction id="R_HMR_3682" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3639" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_EBP1r" name="3-Beta-Hydroxysteroid-Delta (8), Delta (7)-Isomerase" reversible="true"/>
+      <reaction id="R_HMR_3713" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_MVLACc" name="Formation of Mevalonate-Lactone" reversible="true"/>
+      <reaction id="R_HMR_1543" name="Methylsterol Monooxygenase" reversible="true"/>
+      <reaction id="R_HMR_3677" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3714" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3625" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3678" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3650" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1557" name="HMR_1557" reversible="true"/>
+      <reaction id="R_LCAT37e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Docosapentenoylglycerophosphocholine (Delta 7, 10, 13, 16, 19)" reversible="true"/>
+      <reaction id="R_HMR_3739" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3681" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_LCAT36e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Docosatetraenoylglycerophosphocholine (Delta 7, 10, 13, 16)" reversible="true"/>
+      <reaction id="R_HMR_3707" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_LCAT18e" name="Lecithin-Cholesterol Acyltransferase, Formation of 2-Linoleoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_1540" name="Delta14-Sterol Reductase" reversible="true"/>
+      <reaction id="R_HMR_3726" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_1465" name="Farnesyl-Diphosphate:Farnesyl-Diphosphate Farnesyltransferase" reversible="true"/>
+      <reaction id="R_LCAT35e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Eicosapentenoylglycerophosphocholine (Delta 5, 8, 11, 14, 17)" reversible="true"/>
+      <reaction id="R_LCAT9e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Linoleoylglycerophosphoethanolamine (Delta 9, 12)" reversible="true"/>
+      <reaction id="R_HMR_3648" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3656" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_C3STDH1Pr" name="C-3 Sterol Dehydrogenase (4-Methylzymosterol)" reversible="true"/>
+      <reaction id="R_LCAT22e" name="Lecithin-Cholesterol Acyltransferase, Formation of 2-Stearoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_LCAT19e" name="Lecithin-Cholesterol Acyltransferase, Formation of 2-Linoleoylglycerophosphoethanolamine" reversible="true"/>
+      <reaction id="R_P450SCC1m" name="Cholesterol Monooxygenase" reversible="true"/>
+      <reaction id="R_PMEVKx" name="Phosphomevalonate Kinase" reversible="true"/>
+      <reaction id="R_LCAT44e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Didecanoylglycerophosphoethanolamine (C12:0 Pe)" reversible="true"/>
+      <reaction id="R_RE2407C" name="RE2407C" reversible="true"/>
+      <reaction id="R_LCAT38e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Docosapentenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16)" reversible="true"/>
+      <reaction id="R_LCAT48e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Heptadecanoylglycerophosphoethanolamine (C17:0 Pe)" reversible="true"/>
+      <reaction id="R_HMR_3690" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_SOAT12" name="Sterol O-Acyltransferase (Acyl-Coenzyme A: Cholesterol Acyltransferase) 1" reversible="true"/>
+      <reaction id="R_HMR_3636" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_RE3136C" name="Cholestenol Delta-Isomerase" reversible="true"/>
+      <reaction id="R_HMR_3703" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_r1380" name="Delta24-Sterol Reductase" reversible="true"/>
+      <reaction id="R_HMR_3701" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_MEVK1x" name="Mevalonate Kinase (ATP)" reversible="true"/>
+      <reaction id="R_LCAT30e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Octadeca-Trienoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_HMR_3738" name="Steryl-Ester Acylhydrolase" reversible="true"/>
+      <reaction id="R_HMR_3628" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_3679" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_HMR_1551" name="3Beta-Hydroxysteroid-4Alpha-Carboxylate 3-Dehydrogenase (Decarboxylating)" reversible="true"/>
+      <reaction id="R_HMR_3670" name="Acyl Coenzyme A:Cholesterol O-Acyltransferase" reversible="true"/>
+      <reaction id="R_ACACT1x" name="Acetyl Coenzyme A C-Acetyltransferase" reversible="true"/>
+      <reaction id="R_XOLEST183CEH" name="Hydrolysis of 1-Gamma-Linolenoyl-Cholesterol, Cholesterol-Ester (18:3, Delta 6, 9, 12)" reversible="true"/>
+      <reaction id="R_HMR_1509" name="3Beta-Hydroxysteroid 3-Dehydrogenase" reversible="true"/>
+      <reaction id="R_RE3180C" name="RE3180C" reversible="true"/>
+      <reaction id="R_C4STMO2r" name="C-4 Methyl Sterol Oxidase" reversible="true"/>
+      <reaction id="R_LCAT43e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Dihomo-Linolenoylglycerophosphoethanolamine (20:3, Delta 8, 11, 14)" reversible="true"/>
+      <reaction id="R_LCAT25e" name="Lecithin-Cholesterol Acyltransferase, Formation of Cholesterol-Ester (18:1)" reversible="true"/>
+      <reaction id="R_LCAT15e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Stearoylglycerophosphocholine" reversible="true"/>
+      <reaction id="R_LCAT56e" name="Lecithin-Cholesterol Acyltransferase, Formation of 1-Hexadecenoylglycerophosphoethanolamine (C16:1 Pe, Delta 9)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

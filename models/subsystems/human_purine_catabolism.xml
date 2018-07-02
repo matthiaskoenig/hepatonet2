@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="purine_catabolism">
+    <listOfReactions>
+      <reaction id="R_XAO2x" name="Xanthine Oxidase" reversible="true"/>
+      <reaction id="R_PUNP2" name="Purine-Nucleoside Phosphorylase (Deoxyadenosine)" reversible="true"/>
+      <reaction id="R_PUNP5" name="Purine-Nucleoside Phosphorylase (Inosine)" reversible="true"/>
+      <reaction id="R_PUNP4" name="Purine-Nucleoside Phosphorylase (Deoxyguanosine)" reversible="true"/>
+      <reaction id="R_r0047" name="Adenosine 5-Monophosphate Phosphohydrolase" reversible="true"/>
+      <reaction id="R_XAOx" name="Xanthine Oxidase, Peroxisomal" reversible="true"/>
+      <reaction id="R_HMR_9797" name="HMR_9797" reversible="true"/>
+      <reaction id="R_r0860" name="Utilized Transport" reversible="true"/>
+      <reaction id="R_r0502" name="Xanthine:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_HMR_6611" name="Urate:Oxygen Oxidoreductase" reversible="true"/>
+      <reaction id="R_PUNP3" name="Purine-Nucleoside Phosphorylase (Guanosine)" reversible="true"/>
+      <reaction id="R_r0119" name="Guanosine 5-Triphosphate Pyrophosphohydrolase" reversible="true"/>
+      <reaction id="R_r0028" name="ATP Pyrophosphohydrolase" reversible="true"/>
+      <reaction id="R_r0812" name="Mitochondrial Carrier (Mc) Tcdb:2.A.29.20.1" reversible="true"/>
+      <reaction id="R_ADAe" name="Adenosine Deaminase, Extracellular" reversible="true"/>
+      <reaction id="R_HMR_6607" name="HMR_6607" reversible="true"/>
+      <reaction id="R_r0859" name="Postulated Transport Reaction" reversible="true"/>
+      <reaction id="R_GUAD" name="Guanine Deaminase" reversible="true"/>
+      <reaction id="R_r0181" name="ITP Diphosphohydrolase" reversible="true"/>
+      <reaction id="R_r0853" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_RE2605C" name="RE2605C" reversible="true"/>
+      <reaction id="R_r0276" name="NADH:Guanosine-5-Phosphate Oxidoreductase (Deaminating)" reversible="true"/>
+      <reaction id="R_r0051" name="AMP:Pyrophosphate Phosphoribosyltransferase" reversible="true"/>
+      <reaction id="R_r0009" name="Pyrophosphate Phosphohydrolase" reversible="true"/>
+      <reaction id="R_NTD7l" name="5&apos;-Nucleotidase (AMP), Lysosomal" reversible="true"/>
+      <reaction id="R_r0809" name="Facilitated Diffusion" reversible="true"/>
+      <reaction id="R_NTD9l" name="5&apos;-Nucleotidase (GMP), Lysosomal" reversible="true"/>
+      <reaction id="R_NTD11" name="5&apos;-Nucleotidase (IMP)" reversible="true"/>
+      <reaction id="R_RE3352C" name="RE3352C" reversible="true"/>
+      <reaction id="R_XANDp" name="Xanthine Dehydrogenase, Peroxisomal" reversible="true"/>
+      <reaction id="R_ADA" name="Adenosine Deaminase" reversible="true"/>
+      <reaction id="R_RE2888C" name="Peroxidase" reversible="true"/>
+      <reaction id="R_r0504" name="Xanthine:Oxygen Oxidoreductase" reversible="true"/>
+      <reaction id="R_PUNP6" name="Purine-Nucleoside Phosphorylase (Deoxyinosine)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

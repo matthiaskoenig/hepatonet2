@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="pyruvate_metabolism">
+    <listOfReactions>
+      <reaction id="R_ME2" name="Malic Enzyme (NADP)" reversible="true"/>
+      <reaction id="R_r0055" name="2-Oxopropanal:NADP+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_LDH_D" name="D-Lactate Dehydrogenase" reversible="true"/>
+      <reaction id="R_ALR2" name="Aldose Reductase (Methylglyoxal)" reversible="true"/>
+      <reaction id="R_ME2m" name="Malic Enzyme (NADP), Mitochondrial" reversible="true"/>
+      <reaction id="R_MGSA2" name="Methyglyoxylate Synthase 2 (from G3P)" reversible="true"/>
+      <reaction id="R_L_LACDcm" name="L-Lactate Dehydrogenase, Cytosolic/Mitochondrial" reversible="true"/>
+      <reaction id="R_GLYOXm" name="Hydroxyacylglutathione Hydrolase, Mitochondrial" reversible="true"/>
+      <reaction id="R_LCADi" name="Lactaldehyde Dehydrogenase" reversible="true"/>
+      <reaction id="R_ALR3" name="Aldose Reductase (Acetol)" reversible="true"/>
+      <reaction id="R_LCADi_D" name="Lactaldehyde Dehydrogenase" reversible="true"/>
+      <reaction id="R_ALCD22_L" name="Alcohol Dehydrogenase (L-Lactaldehyde)" reversible="true"/>
+      <reaction id="R_ACTLMO" name="Acetol Monooxygenase" reversible="true"/>
+      <reaction id="R_ME1m" name="Malic Enzyme (NAD), Mitochondrial" reversible="true"/>
+      <reaction id="R_ACOAHi" name="Acetyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_ACTNMO" name="Acetone Monooxygenase" reversible="true"/>
+      <reaction id="R_LDH_Lm" name="L-Lactate Dehydrogenase" reversible="true"/>
+      <reaction id="R_ALCD21_D" name="Alcohol Dehydrogenase (D-1, 2-Propanediol)" reversible="true"/>
+      <reaction id="R_MGSA" name="Methylglyoxal Synthase" reversible="true"/>
+      <reaction id="R_PCm" name="Pyruvate Carboxylase" reversible="true"/>
+      <reaction id="R_ALCD21_L" name="Alcohol Dehydrogenase (L-1, 2-Propanediol)" reversible="true"/>
+      <reaction id="R_r0062" name="Acetyl Coenzyme A Hydrolase" reversible="true"/>
+      <reaction id="R_HMR_3855" name="Propane-1, 2-Diol:NAD+ 1-Oxidoreductase" reversible="true"/>
+      <reaction id="R_PPDOy" name="Propane-1, 2-Diol:NADP+ 1-Oxidoreductase" reversible="true"/>
+      <reaction id="R_r0818" name="Transport Reaction" reversible="true"/>
+      <reaction id="R_LGTHL" name="Lactoylglutathione Lyase" reversible="true"/>
+      <reaction id="R_LCADim" name="Lactaldehyde Dehydrogenase, Mitochondrial" reversible="true"/>
+      <reaction id="R_HMR_3859" name="(R)-Lactate:Ferricytochrome-C 2-Oxidoreductase" reversible="true"/>
+      <reaction id="R_LALDO" name="D-Lactaldehyde:NAD+ Oxidoreductase (Glutathione-Formylating)" reversible="true"/>
+      <reaction id="R_HMR_8501" name="Glyoxylate Reductase (NADP+)" reversible="true"/>
+      <reaction id="R_GLYOX" name="Hydroxyacylglutathione Hydrolase" reversible="true"/>
+      <reaction id="R_ALCD22_D" name="Alcohol Dehydrogenase (D-Lactaldehyde)" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>

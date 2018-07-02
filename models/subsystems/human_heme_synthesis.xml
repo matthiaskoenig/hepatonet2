@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="heme_synthesis">
+    <listOfReactions>
+      <reaction id="R_PPPGOm" name="Protoporphyrinogen Oxidase, Mitochondrial" reversible="true"/>
+      <reaction id="R_PPBNGS" name="Porphobilinogen Synthase" reversible="true"/>
+      <reaction id="R_CPPPGO" name="Coproporphyrinogen Oxidase (O2 Required)" reversible="true"/>
+      <reaction id="R_HMR_4764" name="Bilirubin:NAD+ Oxidoreductase" reversible="true"/>
+      <reaction id="R_FCLTm" name="Ferrochelatase, Mitochondrial" reversible="true"/>
+      <reaction id="R_UPPDC1" name="Uroporphyrinogen Decarboxylase (Uroporphyrinogen Iii)" reversible="true"/>
+      <reaction id="R_HMBS" name="Hydroxymethylbilane Synthase" reversible="true"/>
+      <reaction id="R_RE3637C" name="RE3637C" reversible="true"/>
+      <reaction id="R_FCLTc" name="Ferrochelatase, Cytosol" reversible="true"/>
+      <reaction id="R_HMR_4771" name="HMR_4771" reversible="true"/>
+      <reaction id="R_PPPGOc" name="Protoporphyrinogen Oxidase (Aerobic)" reversible="true"/>
+      <reaction id="R_RE3051C" name="RE3051C" reversible="true"/>
+      <reaction id="R_PPPG9tm" name="Protoporphyrinogen Ix Mitochondrial Transport" reversible="true"/>
+      <reaction id="R_5AOPtm" name="5-Aminolevulinate Mitochondrial Transport" reversible="true"/>
+      <reaction id="R_RE3052C" name="RE3052C" reversible="true"/>
+      <reaction id="R_FE3R2e" name="Fe3+ Reduction (Ascorbate)" reversible="true"/>
+      <reaction id="R_HMR_4757" name="Protoporphyrinogen Oxidase" reversible="true"/>
+      <reaction id="R_UPP3S" name="Uroporphyrinogen-Iii Synthase" reversible="true"/>
+      <reaction id="R_HMR_4772" name="Uroporphyrinogen Decarboxylase" reversible="true"/>
+    </listOfReactions>
+  </model>
+</sbml>
