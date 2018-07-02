@@ -90,10 +90,26 @@ def create_sbml_for_subsystem(subsystem, organism):
     reaction_ids = set(subsystems[subsystem])
     compartment_ids = set()
     species_ids = set()
-    geneproduct_ids = set()
+    geneproducts = dict()
     print(reaction_ids)
 
-    # species
+
+    # GPR rules
+    def process_association(association, gene_products=None):
+        """ Recursively get gene products from GPR. """
+        if gene_products is None:
+            gene_products = []
+
+        if association.isFbcOr() or association.isFbcAnd():
+            for c in association.getListOfAssociations():
+                process_association(c, gene_products)
+        elif association.isGeneProductRef():
+            gid = association.getGeneProduct()
+            gene_products.append(gid)
+
+        return gene_products
+
+    # species & gene products from reaction
     for rid in reaction_ids:
         r_recon = model_recon.getReaction(rid)  # type: libsbml.Reaction
         for s in r_recon.getListOfReactants():  # type: libsbml.SpeciesReference
@@ -104,7 +120,13 @@ def create_sbml_for_subsystem(subsystem, organism):
             species_ids.add(s.getSpecies())
 
         # parse the geneProduct information
-        # TODO: implement (add on reaction and as gene product)
+        r_recon_fbc = r_recon.getPlugin("fbc")  # type: libsbml.FbcReactionPlugin
+        if r_recon_fbc:
+            gpa = r_recon_fbc.getGeneProductAssociation()  # type: libsbml.GeneProductAssociation
+            if gpa is not None:
+                association = gpa.getAssociation()  # type: libsbml.FbcAssociation
+                # list of gene products
+                geneproducts[rid] = process_association(association)
 
     print(species_ids)
 
@@ -146,6 +168,20 @@ def create_sbml_for_subsystem(subsystem, organism):
         s_fbc = s.getPlugin("fbc")  # type: libsbml.FbcSpeciesPlugin
         s_fbc.setCharge(s_recon_fbc.getCharge())
         s_fbc.setChemicalFormula(s_recon_fbc.getChemicalFormula())
+
+    # gene products
+    model_fbc = model.getPlugin("fbc")  # type: libsbml.FbcModelPlugin
+    model_recon_fbc = model_recon.getPlugin("fbc")  # type: libsbml.FbcModelPlugin
+    for rid, gpids in geneproducts.items():
+        for gid in gpids:
+            gp_recon = model_recon_fbc.getGeneProduct(gid)  # type: libsbml.GeneProduct
+            gp = model_fbc.createGeneProduct()  # type: libsbml.GeneProduct
+            gp.setId(gp_recon.getId())
+            gp.setLabel(gp_recon.getLabel())
+            gp.setMetaId(gp_recon.getMetaId())
+            gp.setAnnotation(gp_recon.getAnnotation())
+
+            # TODO: add the ensg information (from external file)
 
     # add reactions
     for rid in reaction_ids:
@@ -192,8 +228,8 @@ def create_sbml_for_subsystem(subsystem, organism):
             sref.setSBOTerm(sref_recon.getSBOTerm())
         '''
 
-    # add gene products
-    # TODO: implement
+        # add GPA information
+        # TODO: implement
 
 
     # mapping to mouse
