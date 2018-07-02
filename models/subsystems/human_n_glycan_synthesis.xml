@@ -30,6 +30,85 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
+      <species metaid="M_dedoldp__L_c" id="M_dedoldp__L_c" name="Dehydrodolichol diphosphate, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-30" fbc:chemicalFormula="C1080H1738O70P20">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dedoldp__L_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dedoldp__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM148197"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_udp_c" id="M_udp_c" name="UDP C9H11N2O12P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H11N2O12P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_udp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UDP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13445"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17659"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27230"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46402"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58223"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9802"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00015"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10619"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM17"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00014"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_nadph_c" id="M_nadph_c" name="Nicotinamide adenine dinucleotide phosphate - reduced" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C21H26N7O17P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_nadph_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nadph"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NADPH"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13399"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13400"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16474"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21904"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44286"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57783"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7425"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00221"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00799"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06341"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00005"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM6"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00005"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dolmanp_U_r" id="M_dolmanp_U_r" name="Dolichyl phosphate D-mannose, human uterine homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C1085H1780O90P10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolmanp_U_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolmanp_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2667"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_gdpmann_c" id="M_gdpmann_c" name="GDP-D-mannose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C16H23N5O16P2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -59,28 +138,14 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_dolp__L_r" id="M_dolp__L_r" name="Dolichol phosphate, human liver homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1080H1758O40P10">
+      <species metaid="M_dolmanp_U_c" id="M_dolmanp_U_c" name="Dolichyl phosphate D-mannose, human uterine homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C1085H1780O90P10">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolp__L_r">
+            <rdf:Description rdf:about="#M_dolmanp_U_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM145597"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dedol__L_c" id="M_dedol__L_c" name="Dehydrodolichol, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1080H1748O10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dedol__L_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dedol__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM148199"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolmanp_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2667"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -120,6 +185,195 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="M_dolichol_U_c" id="M_dolichol_U_c" name="Dolichol, human uterine homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1025H1680O10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolichol_U_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7321"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dolp__L_r" id="M_dolp__L_r" name="Dolichol phosphate, human liver homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1080H1758O40P10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolp__L_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM145597"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_nadp_c" id="M_nadp_c" name="Nicotinamide adenine dinucleotide phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H25N7O17P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_nadp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nadp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NADP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13397"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13398"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18009"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21903"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25523"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29868"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44405"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44409"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58349"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7424"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00006"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00006"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dolp_U_r" id="M_dolp_U_r" name="Dolichol phosphate, human uterine homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1025H1670O40P10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolp_U_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1665"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dolp_U_c" id="M_dolp_U_c" name="Dolichol phosphate, human uterine homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1025H1670O40P10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolp_U_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1665"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dolichol_U_r" id="M_dolichol_U_r" name="Dolichol, human uterine homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1025H1680O10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolichol_U_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7321"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ipdp_c" id="M_ipdp_c" name="Isopentenyl diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C5H9O7P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ipdp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ipdp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:DELTA3-ISOPENTENYL-PP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:128769"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14473"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24907"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6037"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01347"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB04196"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00129"/>
+                  <rdf:li rdf:resource="http://identifiers.org/lipidmaps/LMPR01010008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM83"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00113"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dolp__L_c" id="M_dolp__L_c" name="Dolichol phosphate, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1080H1758O40P10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolp__L_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM145597"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dedolp__L_c" id="M_dedolp__L_c" name="Dehydrodolichol phosphate, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1080H1738O40P10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dedolp__L_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dedolp__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM148198"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dedol__L_c" id="M_dedol__L_c" name="Dehydrodolichol, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1080H1748O10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dedol__L_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dedol__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM148199"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_frdp_c" id="M_frdp_c" name="Farnesyl diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C15H25O7P2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -152,120 +406,110 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_gdp_c" id="M_gdp_c" name="GDP C10H12N5O11P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O11P2">
+      <species metaid="M_pi_r" id="M_pi_r" name="Phosphate" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="HO4P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_gdp_c">
+            <rdf:Description rdf:about="#M_pi_r">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/gdp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:GDP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13327"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17552"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24448"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42738"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5212"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58189"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:65180"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00035"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10620"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM30"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00031"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pi"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-16459"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-9010"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PHOSPHATE-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:Pi"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14791"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18367"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26078"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29137"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29139"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:35780"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:39739"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:39745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43470"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43474"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45024"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00973"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01429"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02105"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02142"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB05947"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00009"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C13558"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D05467"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM9"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00009"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27787"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_nadph_c" id="M_nadph_c" name="Nicotinamide adenine dinucleotide phosphate - reduced" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C21H26N7O17P3">
+      <species metaid="M_h2o_c" id="M_h2o_c" name="H2O H2O" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_nadph_c">
+            <rdf:Description rdf:about="#M_h2o_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nadph"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NADPH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13399"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13400"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16474"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21904"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44286"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57783"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7425"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00221"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00799"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06341"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00005"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM6"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00005"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-15815"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROXYL-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OH"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXONIUM"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:WATER"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10743"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13352"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13365"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13419"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27313"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29373"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29374"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29375"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29412"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30490"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33806"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33811"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33813"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41979"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41981"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42043"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42857"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43228"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44292"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44641"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44701"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44819"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5585"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5594"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02111"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01328"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18714"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D03703"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_dolmanp_U_c" id="M_dolmanp_U_c" name="Dolichyl phosphate D-mannose, human uterine homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C1085H1780O90P10">
+      <species metaid="M_dolglcp__L_r" id="M_dolglcp__L_r" name="Dolichyl beta-D-glucosyl phosphate, human liver homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C1140H1868O90P10">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolmanp_U_c">
+            <rdf:Description rdf:about="#M_dolglcp__L_r">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolmanp_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2667"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ipdp_c" id="M_ipdp_c" name="Isopentenyl diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C5H9O7P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ipdp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ipdp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:DELTA3-ISOPENTENYL-PP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:128769"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14473"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24907"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6037"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01347"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB04196"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00129"/>
-                  <rdf:li rdf:resource="http://identifiers.org/lipidmaps/LMPR01010008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM83"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00113"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dolichol__L_c" id="M_dolichol__L_c" name="Dolichol, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1080H1768O10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolichol__L_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147098"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dolp__L_c" id="M_dolp__L_c" name="Dolichol phosphate, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1080H1758O40P10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolp__L_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM145597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolglcp__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM146386"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -343,14 +587,91 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_dolichol_U_c" id="M_dolichol_U_c" name="Dolichol, human uterine homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1025H1680O10">
+      <species metaid="M_dolichol__L_c" id="M_dolichol__L_c" name="Dolichol, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1080H1768O10">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolichol_U_c">
+            <rdf:Description rdf:about="#M_dolichol__L_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7321"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147098"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_dolichol__L_r" id="M_dolichol__L_r" name="Dolichol, human liver homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1080H1768O10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_dolichol__L_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147098"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_gdp_c" id="M_gdp_c" name="GDP C10H12N5O11P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O11P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_gdp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/gdp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:GDP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13327"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17552"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24448"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42738"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5212"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58189"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:65180"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00035"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10620"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM30"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00031"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_cdp_c" id="M_cdp_c" name="CDP C9H12N3O11P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H12N3O11P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_cdp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/cdp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CDP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13254"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17239"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23519"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3260"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41451"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58069"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00112"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM220"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00096"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ttc_ggdp_c" id="M_ttc_ggdp_c" name="Trans,trans,cis-Geranylgeranyl diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C20H33O7P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ttc_ggdp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ttc_ggdp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM163002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -365,87 +686,6 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolglcp__L"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM146386"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h2o_c" id="M_h2o_c" name="H2O H2O" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-15815"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROXYL-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXONIUM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:WATER"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10743"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13352"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13365"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13419"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27313"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29373"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29374"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29375"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29412"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30490"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33806"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33811"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33813"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41979"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41981"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42043"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42857"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43228"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44292"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44641"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44701"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44819"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5585"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5594"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02111"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01328"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18714"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D03703"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06322"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -470,193 +710,6 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00063"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM63"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00052"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_r" id="M_h_r" name="H+" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dolmanp_U_r" id="M_dolmanp_U_r" name="Dolichyl phosphate D-mannose, human uterine homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C1085H1780O90P10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolmanp_U_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolmanp_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2667"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dedoldp__L_c" id="M_dedoldp__L_c" name="Dehydrodolichol diphosphate, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-30" fbc:chemicalFormula="C1080H1738O70P20">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dedoldp__L_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dedoldp__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM148197"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dolichol__L_r" id="M_dolichol__L_r" name="Dolichol, human liver homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1080H1768O10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolichol__L_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147098"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_udp_c" id="M_udp_c" name="UDP C9H11N2O12P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H11N2O12P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_udp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UDP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13445"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17659"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27230"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46402"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58223"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9802"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00015"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10619"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM17"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00014"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dolichol_U_r" id="M_dolichol_U_r" name="Dolichol, human uterine homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C1025H1680O10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolichol_U_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolichol_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7321"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_pi_r" id="M_pi_r" name="Phosphate" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="HO4P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_pi_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pi"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-16459"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-9010"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PHOSPHATE-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:Pi"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14791"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18367"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26078"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29137"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29139"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:35780"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:39739"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:39745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43470"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43474"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45024"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00973"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01429"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02105"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02142"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB05947"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00009"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C13558"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D05467"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00009"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27787"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dedolp__L_c" id="M_dedolp__L_c" name="Dehydrodolichol phosphate, human liver homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1080H1738O40P10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dedolp__L_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dedolp__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM148198"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dolp_U_c" id="M_dolp_U_c" name="Dolichol phosphate, human uterine homolog" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1025H1670O40P10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolp_U_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1665"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_dolglcp__L_r" id="M_dolglcp__L_r" name="Dolichyl beta-D-glucosyl phosphate, human liver homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C1140H1868O90P10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolglcp__L_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolglcp__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM146386"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -719,43 +772,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_cdp_c" id="M_cdp_c" name="CDP C9H12N3O11P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H12N3O11P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_cdp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/cdp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CDP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13254"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17239"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23519"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3260"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41451"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58069"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00112"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM220"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00096"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ttc_ggdp_c" id="M_ttc_ggdp_c" name="Trans,trans,cis-Geranylgeranyl diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C20H33O7P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ttc_ggdp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ttc_ggdp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM163002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="M_glc__D_r" id="M_glc__D_r" name="D-Glucose" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -781,41 +797,25 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_dolp_U_r" id="M_dolp_U_r" name="Dolichol phosphate, human uterine homolog" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-20" fbc:chemicalFormula="C1025H1670O40P10">
+      <species metaid="M_h_r" id="M_h_r" name="H+" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_dolp_U_r">
+            <rdf:Description rdf:about="#M_h_r">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/dolp_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1665"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_nadp_c" id="M_nadp_c" name="Nicotinamide adenine dinucleotide phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H25N7O17P3">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_nadp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nadp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NADP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13397"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13398"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18009"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21903"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25523"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29868"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44405"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44409"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58349"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7424"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00006"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00006"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -824,69 +824,6 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_DOLICHOL_Lter" sboTerm="SBO:0000375" id="R_DOLICHOL_Lter" name="Dolichol diffusion, human (liver)" reversible="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLICHOL_Lter">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLICHOL_Lter"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97703"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolichol__L_r" stoichiometry="0.1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolichol__L_c" stoichiometry="0.1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_DOLK_U" sboTerm="SBO:0000375" id="R_DOLK_U" name="Dolichol kinase, human (uterus)" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLK_U">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLK_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97708"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ctp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolichol_U_c" stoichiometry="0.1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_cdp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolp_U_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_DOLMANP_Uter" sboTerm="SBO:0000375" id="R_DOLMANP_Uter" name="Dolichol-phosphate mannose flippase (uterus)" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLMANP_Uter">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLMANP_Uter"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97710"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolmanp_U_c" stoichiometry="0.1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolmanp_U_r" stoichiometry="0.1" constant="true"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="R_DEDOLP1_L" sboTerm="SBO:0000375" id="R_DEDOLP1_L" name="Dehydrodolichol diphosphate phosphatase (liver)" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -910,122 +847,131 @@
           <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_DOLGPP_Ler" sboTerm="SBO:0000375" id="R_DOLGPP_Ler" name="Dolichyl-beta-D-glucosyl-phosphate dolichylphosphohydrolase (liver)" reversible="false">
+      <reaction metaid="R_DOLICHOL_Lter" sboTerm="SBO:0000375" id="R_DOLICHOL_Lter" name="Dolichol diffusion, human (liver)" reversible="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLGPP_Ler">
+            <rdf:Description rdf:about="#R_DOLICHOL_Lter">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLGPP_Ler"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97700"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLICHOL_Lter"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97703"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolglcp__L_r" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolichol__L_r" stoichiometry="0.1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolichol__L_c" stoichiometry="0.1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_DOLPH_Uer" sboTerm="SBO:0000375" id="R_DOLPH_Uer" name="Dolichol-phosphate phosphohydrolase, human (uterus)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_DOLPH_Uer">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLPH_Uer"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97725"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolp_U_r" stoichiometry="0.1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_r" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolp__L_r" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_glc__D_r" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_r" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_DOLPMT_U" sboTerm="SBO:0000375" id="R_DOLPMT_U" name="Dolichyl-phosphate D-mannosyltransferase (uterus)" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLPMT_U">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLPMT_U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97744"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolp_U_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_gdpmann_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolmanp_U_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_gdp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolichol_U_r" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pi_r" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_79087_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_84920_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_GGT_L" sboTerm="SBO:0000375" id="R_GGT_L" name="Geranylgeranyltransferase (liver)" reversible="false">
+      <reaction metaid="R_DOLMANP_Uter" sboTerm="SBO:0000375" id="R_DOLMANP_Uter" name="Dolichol-phosphate mannose flippase (uterus)" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_GGT_L">
+            <rdf:Description rdf:about="#R_DOLMANP_Uter">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GGT_L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100138"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLMANP_Uter"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97710"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_ipdp_c" stoichiometry="17.6" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_ttc_ggdp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolmanp_U_c" stoichiometry="0.1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dedoldp__L_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ppi_c" stoichiometry="17.6" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolmanp_U_r" stoichiometry="0.1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_UDPDOLPT_L" sboTerm="SBO:0000375" id="R_UDPDOLPT_L" name="UDPglucose:dolichyl-phosphate beta-D-glucosyltransferase (liver)" reversible="false">
+      <reaction metaid="R_DOLICHOL_Uter" sboTerm="SBO:0000375" id="R_DOLICHOL_Uter" name="Dolichol diffusion, human (uterus)" reversible="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_UDPDOLPT_L">
+            <rdf:Description rdf:about="#R_DOLICHOL_Uter">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/UDPDOLPT_L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR105050"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLICHOL_Uter"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97704"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolp__L_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_udpg_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolichol_U_r" stoichiometry="0.1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolglcp__L_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_udp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolichol_U_c" stoichiometry="0.1" constant="true"/>
         </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_29880_AT1"/>
-        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_FT" sboTerm="SBO:0000375" id="R_FT" name="Trans,trans,cis-geranylgeranyl diphosphate synthase" reversible="false">
+      <reaction metaid="R_DOLP_Lter" sboTerm="SBO:0000375" id="R_DOLP_Lter" name="Dolichol phosphate flippase (liver)" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_FT">
+            <rdf:Description rdf:about="#R_DOLP_Lter">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/FT"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.5.1.-"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99666"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLP_Lter"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97746"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_frdp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_ipdp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolp__L_r" stoichiometry="0.1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_ppi_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ttc_ggdp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolp__L_c" stoichiometry="0.1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_DEDOLP2_L" sboTerm="SBO:0000375" id="R_DEDOLP2_L" name="Dehydrodolichol phosphate phosphatase (liver)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_DEDOLP2_L">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DEDOLP2_L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97232"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_dedolp__L_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_dedol__L_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_DOLPH_Ler" sboTerm="SBO:0000375" id="R_DOLPH_Ler" name="Dolichol-phosphate phosphohydrolase, human (liver)" reversible="false">
@@ -1096,111 +1042,50 @@
           <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_DOLICHOL_Uter" sboTerm="SBO:0000375" id="R_DOLICHOL_Uter" name="Dolichol diffusion, human (uterus)" reversible="true">
+      <reaction metaid="R_FT" sboTerm="SBO:0000375" id="R_FT" name="Trans,trans,cis-geranylgeranyl diphosphate synthase" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLICHOL_Uter">
+            <rdf:Description rdf:about="#R_FT">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLICHOL_Uter"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/FT"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.5.1.-"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR99666"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolichol_U_r" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_frdp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_ipdp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolichol_U_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ppi_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ttc_ggdp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_DOLPH_Uer" sboTerm="SBO:0000375" id="R_DOLPH_Uer" name="Dolichol-phosphate phosphohydrolase, human (uterus)" reversible="false">
+      <reaction metaid="R_DOLGPP_Ler" sboTerm="SBO:0000375" id="R_DOLGPP_Ler" name="Dolichyl-beta-D-glucosyl-phosphate dolichylphosphohydrolase (liver)" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLPH_Uer">
+            <rdf:Description rdf:about="#R_DOLGPP_Ler">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLPH_Uer"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97725"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLGPP_Ler"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97700"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolp_U_r" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolglcp__L_r" stoichiometry="0.1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_r" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolichol_U_r" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pi_r" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_84920_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_DOLGLCP_Lter" sboTerm="SBO:0000375" id="R_DOLGLCP_Lter" name="Dolichyl beta-D-glucosyl phosphate flippase (liver)" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLGLCP_Lter">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLGLCP_Lter"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97697"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolglcp__L_c" stoichiometry="0.1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolglcp__L_r" stoichiometry="0.1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_DOLP_Lter" sboTerm="SBO:0000375" id="R_DOLP_Lter" name="Dolichol phosphate flippase (liver)" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DOLP_Lter">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLP_Lter"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97746"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dolp__L_r" stoichiometry="0.1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dolp__L_c" stoichiometry="0.1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_DEDOLP2_L" sboTerm="SBO:0000375" id="R_DEDOLP2_L" name="Dehydrodolichol phosphate phosphatase (liver)" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_DEDOLP2_L">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DEDOLP2_L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97232"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_dedolp__L_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_dedol__L_c" stoichiometry="0.1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolp__L_r" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_glc__D_r" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_r" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_DEDOLR_L" sboTerm="SBO:0000375" id="R_DEDOLR_L" name="Dehydrodolichol reductase (liver)" reversible="false">
@@ -1226,8 +1111,146 @@
           <speciesReference sboTerm="SBO:0000011" species="M_nadp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="R_DOLGLCP_Lter" sboTerm="SBO:0000375" id="R_DOLGLCP_Lter" name="Dolichyl beta-D-glucosyl phosphate flippase (liver)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_DOLGLCP_Lter">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLGLCP_Lter"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97697"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolglcp__L_c" stoichiometry="0.1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolglcp__L_r" stoichiometry="0.1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_DOLK_U" sboTerm="SBO:0000375" id="R_DOLK_U" name="Dolichol kinase, human (uterus)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_DOLK_U">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLK_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97708"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ctp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolichol_U_c" stoichiometry="0.1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_cdp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolp_U_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_UDPDOLPT_L" sboTerm="SBO:0000375" id="R_UDPDOLPT_L" name="UDPglucose:dolichyl-phosphate beta-D-glucosyltransferase (liver)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_UDPDOLPT_L">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/UDPDOLPT_L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR105050"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolp__L_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_udpg_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolglcp__L_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_udp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_29880_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_GGT_L" sboTerm="SBO:0000375" id="R_GGT_L" name="Geranylgeranyltransferase (liver)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_GGT_L">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GGT_L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100138"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_ipdp_c" stoichiometry="17.6" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_ttc_ggdp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_dedoldp__L_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ppi_c" stoichiometry="17.6" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_DOLPMT_U" sboTerm="SBO:0000375" id="R_DOLPMT_U" name="Dolichyl-phosphate D-mannosyltransferase (uterus)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_DOLPMT_U">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/DOLPMT_U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR97744"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_dolp_U_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_gdpmann_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_dolmanp_U_c" stoichiometry="0.1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_gdp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_79087_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfGeneProducts>
+      <fbc:geneProduct metaid="G_29880_AT1" fbc:id="G_29880_AT1" fbc:label="29880_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_29880_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS45033.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS9361.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/05193"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/29880"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/604565"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000120697"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9Y673"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000036632"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9DB25"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000058694"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q4QQS6"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="G_84920_AT1" fbc:id="G_84920_AT1" fbc:label="84920_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -1266,29 +1289,6 @@
                   <rdf:li rdf:resource="https://identifier.org/uniprot/Q8VDB2"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000004591"/>
                   <rdf:li rdf:resource="https://identifier.org/uniprot/B1WBY3"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_29880_AT1" fbc:id="G_29880_AT1" fbc:label="29880_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_29880_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS45033.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS9361.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/05193"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/29880"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/604565"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000120697"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9Y673"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000036632"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q9DB25"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000058694"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q4QQS6"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>

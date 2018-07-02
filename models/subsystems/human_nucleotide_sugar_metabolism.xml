@@ -43,33 +43,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_co2_g" id="M_co2_g" name="CO2 CO2" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_co2_g">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/co2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CARBON-DIOXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13282"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13283"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13284"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13285"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16526"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23011"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3283"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:48829"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01967"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00011"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00004"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM13"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00011"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="M_h_g" id="M_h_g" name="H+" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -114,6 +87,33 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10612"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM87"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00144"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_co2_g" id="M_co2_g" name="CO2 CO2" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_co2_g">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/co2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CARBON-DIOXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13282"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13283"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13284"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13285"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16526"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23011"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3283"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:48829"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01967"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00011"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00004"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM13"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00011"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>

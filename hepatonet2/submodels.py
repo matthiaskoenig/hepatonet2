@@ -84,8 +84,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
     compartment_ids = set()
     species_ids = set()
     geneproducts = dict()
-    print(reaction_ids)
-
+    print("reactions:", reaction_ids)
 
     # GPR rules
     # FIXME: here is a bug, example Hippurate metabolism
@@ -122,22 +121,16 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
                 # list of gene products
                 geneproducts[rid] = set(process_association(association))
 
-    '''
-    # lookup reactions for given gene product
-    gp2reactions = defaultdict(list)
-    for rid, gps in geneproducts.items():
-        for gpid in gps:
-            gp2reactions[gpid].append(rid)
-    '''
-
-    print(species_ids)
+    print("species:", species_ids)
+    from pprint import pprint
+    pprint(geneproducts)
 
     # compartments
     for sid in species_ids:
         s_recon = model_recon.getSpecies(sid)  # type: libsbml.Species
         c_recon = model_recon.getCompartment(s_recon.getCompartment())
         compartment_ids.add(c_recon.getId())
-    print(compartment_ids)
+    print("compartments", compartment_ids)
 
     # add compartments
     for cid in compartment_ids:
@@ -233,11 +226,11 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
 
         # add GPA information
         gpa_recon = r_recon_fbc.getGeneProductAssociation()
-        code = r_fbc.setGeneProductAssociation(gpa_recon)
-
-        print(rid)
-        print("code GPA:", code)
-
+        if gpa_recon:
+            code = r_fbc.setGeneProductAssociation(gpa_recon)
+            if code != 0:
+                print(rid)
+                print("code GPA:", code)
 
     def gid_from_gpid(gpid):
         gid = gpid.replace("G_", "")
@@ -349,9 +342,10 @@ if __name__ == "__main__":
         libsbml.writeSBMLToFile(doc, sbml_path)
         print(sbml_path)
 
-    # create annotated RECON3D
-    doc = create_sbml_for_subsystem(doc_recon=doc_recon, subsystem=None, organism=organism)
-    sbml_path = os.path.join(models_dir, "recon3d", "{}_recon3d.xml".format(organism))
-    libsbml.writeSBMLToFile(doc, sbml_path)
-    print(sbml_path)
+    if True:
+        # create annotated RECON3D
+        doc = create_sbml_for_subsystem(doc_recon=doc_recon, subsystem=None, organism=organism)
+        sbml_path = os.path.join(models_dir, "recon3d", "{}_recon3d.xml".format(organism))
+        libsbml.writeSBMLToFile(doc, sbml_path)
+        print(sbml_path)
 

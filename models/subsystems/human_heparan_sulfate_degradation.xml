@@ -2,19 +2,6 @@
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2" fbc:required="false">
   <model id="heparan_sulfate_degradation" fbc:strict="false">
     <listOfCompartments>
-      <compartment metaid="_0820b394-b07d-4548-9f12-3bf9a78a4d8e" sboTerm="SBO:0000290" id="l" name="lysosome" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_0820b394-b07d-4548-9f12-3bf9a78a4d8e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/l"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </compartment>
       <compartment metaid="_1d3b6a6d-641a-421e-ab79-d3e9f2f3106e" sboTerm="SBO:0000290" id="c" name="cytosol" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28,50 +15,21 @@
           </rdf:RDF>
         </annotation>
       </compartment>
+      <compartment metaid="_0820b394-b07d-4548-9f12-3bf9a78a4d8e" sboTerm="SBO:0000290" id="l" name="lysosome" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#_0820b394-b07d-4548-9f12-3bf9a78a4d8e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/l"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="M_hs_deg13_l" id="M_hs_deg13_l" name="Heparan sulfate, degradation product 13" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-6" fbc:chemicalFormula="C55H83N3O61S5">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg13_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg13"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11757"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg23_l" id="M_hs_deg23_l" name="Heparan sulfate, degradation product 23" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C31H49NO29S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg23_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg23"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11768"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg17_l" id="M_hs_deg17_l" name="Heparan sulfate, degradation product 17" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-5" fbc:chemicalFormula="C43H65N2O48S4">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg17_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg17"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11761"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="M_hs_deg19_l" id="M_hs_deg19_l" name="Heparan sulfate, degradation product 19" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C43H67N2O42S2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -86,53 +44,14 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg4_l" id="M_hs_deg4_l" name="Heparan sulfate, degradation product 4" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-12" fbc:chemicalFormula="C73H104N4O92S10">
+      <species metaid="M_hs_deg14_l" id="M_hs_deg14_l" name="Heparan sulfate, degradation product 14" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-7" fbc:chemicalFormula="C57H84N3O62S5">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg4_l">
+            <rdf:Description rdf:about="#M_hs_deg14_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11772"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_l" id="M_h_l" name="H+" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg20_l" id="M_hs_deg20_l" name="Heparan sulfate, degradation product 20" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C45H68N2O43S2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg20_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg20"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11765"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg14"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11758"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -162,6 +81,224 @@
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM390"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00108"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00724"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg4_l" id="M_hs_deg4_l" name="Heparan sulfate, degradation product 4" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-12" fbc:chemicalFormula="C73H104N4O92S10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg4_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11772"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg12_l" id="M_hs_deg12_l" name="Heparan sulfate, degradation product 12" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-7" fbc:chemicalFormula="C55H82N3O64S6">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg12_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg12"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11756"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_Ser_Gly_Ala_X_Gly_l" id="M_Ser_Gly_Ala_X_Gly_l" name="Protein-linked serine residue (glycosaminoglycan attachment site)" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="XH">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_Ser_Gly_Ala_X_Gly_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/Ser_Gly_Ala_X_Gly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM146222"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg15_l" id="M_hs_deg15_l" name="Heparan sulfate, degradation product 15" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-7" fbc:chemicalFormula="C49H71N2O57S5">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg15_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg15"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11759"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg2_l" id="M_hs_deg2_l" name="Heparan sulfate, degradation product 2" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-11" fbc:chemicalFormula="C79H116N5O96S10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg2_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11764"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg23_l" id="M_hs_deg23_l" name="Heparan sulfate, degradation product 23" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C31H49NO29S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg23_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg23"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11768"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg18_l" id="M_hs_deg18_l" name="Heparan sulfate, degradation product 18" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C43H66N2O45S3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg18_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg18"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11762"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg22_l" id="M_hs_deg22_l" name="Heparan sulfate, degradation product 22" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C37H56NO35S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg22_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg22"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11767"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg8_l" id="M_hs_deg8_l" name="Heparan sulfate, degradation product 8" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C69H100N4O81S8">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg8_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11776"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_so4_l" id="M_so4_l" name="Sulfate" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="O4S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_so4_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/so4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HSO4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SULFATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15135"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16189"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26836"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29199"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45687"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45693"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45696"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9335"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01448"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00059"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D05963"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM58"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00048"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg9_l" id="M_hs_deg9_l" name="Heparan sulfate, degradation product 9" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C61H87N3O76S8">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg9_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg9"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11777"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg6_l" id="M_hs_deg6_l" name="Heparan sulfate, degradation product 6" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C67H98N4O83S9">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg6_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg6"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11774"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_xyl__D_l" id="M_xyl__D_l" name="D-Xylose" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_xyl__D_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/xyl__D"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:D-Xylopyranose"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:53455"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:65327"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00098"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03763"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00181"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06346"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM348"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00154"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg20_l" id="M_hs_deg20_l" name="Heparan sulfate, degradation product 20" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C45H68N2O43S2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg20_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg20"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11765"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -224,128 +361,42 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_coa_c" id="M_coa_c" name="Coenzyme A" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C21H32N7O16P3S">
+      <species metaid="M_hs_deg1_l" id="M_hs_deg1_l" name="Heparan sulfate, degradation product 1" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-12" fbc:chemicalFormula="C79H115N5O99S11">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_coa_c">
+            <rdf:Description rdf:about="#M_hs_deg1_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/coa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CO-A"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:COA-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13294"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13295"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13298"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15346"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23355"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3771"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41631"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57287"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:741566"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01423"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00010"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00010"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22528"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11753"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg8_l" id="M_hs_deg8_l" name="Heparan sulfate, degradation product 8" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C69H100N4O81S8">
+      <species metaid="M_hs_deg25_l" id="M_hs_deg25_l" name="Heparan sulfate, degradation product 25" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C23H37O21">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg8_l">
+            <rdf:Description rdf:about="#M_hs_deg25_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg8"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11776"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg25"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11770"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg3_l" id="M_hs_deg3_l" name="Heparan sulfate, degradation product 3" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-12" fbc:chemicalFormula="C81H117N5O97S10">
+      <species metaid="M_hs_l" id="M_hs_l" name="Heparan sulfate, free chain" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-13" fbc:chemicalFormula="C79H114N5O102S12">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg3_l">
+            <rdf:Description rdf:about="#M_hs_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11771"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg5_l" id="M_hs_deg5_l" name="Heparan sulfate, degradation product 5" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-11" fbc:chemicalFormula="C67H97N4O86S10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg5_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11773"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg15_l" id="M_hs_deg15_l" name="Heparan sulfate, degradation product 15" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-7" fbc:chemicalFormula="C49H71N2O57S5">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg15_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg15"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11759"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_Ser_Gly_Ala_X_Gly_l" id="M_Ser_Gly_Ala_X_Gly_l" name="Protein-linked serine residue (glycosaminoglycan attachment site)" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="XH">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_Ser_Gly_Ala_X_Gly_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/Ser_Gly_Ala_X_Gly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM146222"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg6_l" id="M_hs_deg6_l" name="Heparan sulfate, degradation product 6" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C67H98N4O83S9">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg6_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg6"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11774"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg24_l" id="M_hs_deg24_l" name="Heparan sulfate, degradation product 24" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C31H50NO26">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg24_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg24"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11769"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11778"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -381,112 +432,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg7_l" id="M_hs_deg7_l" name="Heparan sulfate, degradation product 7" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-9" fbc:chemicalFormula="C67H99N4O80S8">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg7_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11775"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_xyl__D_l" id="M_xyl__D_l" name="D-Xylose" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_xyl__D_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/xyl__D"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:D-Xylopyranose"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:53455"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:65327"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00098"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03763"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00181"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06346"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM348"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00154"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg9_l" id="M_hs_deg9_l" name="Heparan sulfate, degradation product 9" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-10" fbc:chemicalFormula="C61H87N3O76S8">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg9_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11777"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg14_l" id="M_hs_deg14_l" name="Heparan sulfate, degradation product 14" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-7" fbc:chemicalFormula="C57H84N3O62S5">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg14_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg14"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11758"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hspg_l" id="M_hspg_l" name="Heparan sulfate proteoglycan" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-13" fbc:chemicalFormula="C79H113N5O101S12X">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hspg_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hspg"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7411"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg16_l" id="M_hs_deg16_l" name="Heparan sulfate, degradation product 16" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-6" fbc:chemicalFormula="C49H72N2O54S4">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg16_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg16"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11760"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg12_l" id="M_hs_deg12_l" name="Heparan sulfate, degradation product 12" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-7" fbc:chemicalFormula="C55H82N3O64S6">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg12_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg12"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11756"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="M_glcur_l" id="M_glcur_l" name="D-Glucuronate" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -512,84 +457,28 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg1_l" id="M_hs_deg1_l" name="Heparan sulfate, degradation product 1" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-12" fbc:chemicalFormula="C79H115N5O99S11">
+      <species metaid="M_hs_deg17_l" id="M_hs_deg17_l" name="Heparan sulfate, degradation product 17" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-5" fbc:chemicalFormula="C43H65N2O48S4">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg1_l">
+            <rdf:Description rdf:about="#M_hs_deg17_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11753"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg17"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11761"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg18_l" id="M_hs_deg18_l" name="Heparan sulfate, degradation product 18" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C43H66N2O45S3">
+      <species metaid="M_hspg_l" id="M_hspg_l" name="Heparan sulfate proteoglycan" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-13" fbc:chemicalFormula="C79H113N5O101S12X">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg18_l">
+            <rdf:Description rdf:about="#M_hspg_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg18"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11762"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg2_l" id="M_hs_deg2_l" name="Heparan sulfate, degradation product 2" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-11" fbc:chemicalFormula="C79H116N5O96S10">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg2_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11764"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_l" id="M_hs_l" name="Heparan sulfate, free chain" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-13" fbc:chemicalFormula="C79H114N5O102S12">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11778"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg10_l" id="M_hs_deg10_l" name="Heparan sulfate, degradation product 10" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-9" fbc:chemicalFormula="C55H80N3O70S8">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg10_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11754"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_hs_deg25_l" id="M_hs_deg25_l" name="Heparan sulfate, degradation product 25" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C23H37O21">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg25_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg25"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11770"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hspg"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7411"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -610,28 +499,56 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg21_l" id="M_hs_deg21_l" name="Heparan sulfate, degradation product 21" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C37H55NO38S2">
+      <species metaid="M_hs_deg7_l" id="M_hs_deg7_l" name="Heparan sulfate, degradation product 7" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-9" fbc:chemicalFormula="C67H99N4O80S8">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg21_l">
+            <rdf:Description rdf:about="#M_hs_deg7_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg21"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11766"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg7"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11775"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_hs_deg22_l" id="M_hs_deg22_l" name="Heparan sulfate, degradation product 22" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C37H56NO35S">
+      <species metaid="M_hs_deg16_l" id="M_hs_deg16_l" name="Heparan sulfate, degradation product 16" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-6" fbc:chemicalFormula="C49H72N2O54S4">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_hs_deg22_l">
+            <rdf:Description rdf:about="#M_hs_deg16_l">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg22"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11767"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg16"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11760"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg13_l" id="M_hs_deg13_l" name="Heparan sulfate, degradation product 13" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-6" fbc:chemicalFormula="C55H83N3O61S5">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg13_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg13"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11757"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg24_l" id="M_hs_deg24_l" name="Heparan sulfate, degradation product 24" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C31H50NO26">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg24_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg24"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11769"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -664,6 +581,117 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="M_coa_c" id="M_coa_c" name="Coenzyme A" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C21H32N7O16P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_coa_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/coa"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CO-A"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:COA-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13294"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13295"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13298"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15346"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3771"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41631"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57287"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:741566"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01423"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00010"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM12"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00010"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22528"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg5_l" id="M_hs_deg5_l" name="Heparan sulfate, degradation product 5" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-11" fbc:chemicalFormula="C67H97N4O86S10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg5_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11773"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_l" id="M_h_l" name="H+" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg10_l" id="M_hs_deg10_l" name="Heparan sulfate, degradation product 10" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-9" fbc:chemicalFormula="C55H80N3O70S8">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg10_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11754"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg3_l" id="M_hs_deg3_l" name="Heparan sulfate, degradation product 3" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-12" fbc:chemicalFormula="C81H117N5O97S10">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg3_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11771"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_hs_deg21_l" id="M_hs_deg21_l" name="Heparan sulfate, degradation product 21" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C37H55NO38S2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_hs_deg21_l">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/hs_deg21"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11766"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_idour_l" id="M_idour_l" name="L-Iduronate" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -678,44 +706,16 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_so4_l" id="M_so4_l" name="Sulfate" compartment="l" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="O4S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_so4_l">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/so4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HSO4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SULFATE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15135"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16189"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26836"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29199"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45687"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45693"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45696"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9335"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01448"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00059"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D05963"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM58"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00048"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_GLCNACASE5ly" sboTerm="SBO:0000375" id="R_GLCNACASE5ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
+      <reaction metaid="R_IDOAASE2ly" sboTerm="SBO:0000375" id="R_IDOAASE2ly" name="Alpha-L-iduronidase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_GLCNACASE5ly">
+            <rdf:Description rdf:about="#R_IDOAASE2ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCNACASE5ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100193"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/IDOAASE2ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100798"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -723,14 +723,14 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg24_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg16_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_acgam_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg25_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg17_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_idour_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_4669_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_3425_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="R_HS3ly" sboTerm="SBO:0000375" id="R_HS3ly" name="Heparan-N-sulfatase, lysosomal" reversible="false">
@@ -759,14 +759,14 @@
           <fbc:geneProductRef fbc:geneProduct="G_6448_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_HS1ly" sboTerm="SBO:0000375" id="R_HS1ly" name="Heparan-N-sulfatase, lysosomal" reversible="false">
+      <reaction metaid="R_HS4ly" sboTerm="SBO:0000375" id="R_HS4ly" name="Heparan-N-sulfatase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HS1ly">
+            <rdf:Description rdf:about="#R_HS4ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HS1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100705"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HS4ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100708"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -774,15 +774,85 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg1_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg18_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg2_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg19_l" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_6448_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_HSPASEly" sboTerm="SBO:0000375" id="R_HSPASEly" name="Heparan sulfate proteoglycan protease, lysosome (endosome)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_HSPASEly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HSPASEly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100738"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hspg_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_Ser_Gly_Ala_X_Gly_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_HSAT3ly" sboTerm="SBO:0000375" id="R_HSAT3ly" name="Heparan-glucosaminide N-acetyltransferase, lysosomal" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_HSAT3ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HSAT3ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100711"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg13_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_coa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg14_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_GLCNACASE1ly" sboTerm="SBO:0000375" id="R_GLCNACASE1ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_GLCNACASE1ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCNACASE1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100189"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg3_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_acgam_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg4_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_4669_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="R_GLCNACASE4ly" sboTerm="SBO:0000375" id="R_GLCNACASE4ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
@@ -810,103 +880,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_4669_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_HSPASEly" sboTerm="SBO:0000375" id="R_HSPASEly" name="Heparan sulfate proteoglycan protease, lysosome (endosome)" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HSPASEly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HSPASEly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100738"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hspg_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_Ser_Gly_Ala_X_Gly_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_S3TASE3ly" sboTerm="SBO:0000375" id="R_S3TASE3ly" name="N-acetylglucosamine-3-sulfatase, lysosomal" reversible="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S3TASE3ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S3TASE3ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104170"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg23_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg24_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_S2TASE1ly" sboTerm="SBO:0000375" id="R_S2TASE1ly" name="Iduronate-2-sulfatase, lysosomal" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S2TASE1ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S2TASE1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104159"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg15_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg16_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or sboTerm="SBO:0000174">
-            <fbc:geneProductRef fbc:geneProduct="G_3423_AT1"/>
-            <fbc:geneProductRef fbc:geneProduct="G_3423_AT2"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_HSAT3ly" sboTerm="SBO:0000375" id="R_HSAT3ly" name="Heparan-glucosaminide N-acetyltransferase, lysosomal" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HSAT3ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HSAT3ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100711"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_accoa_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg13_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_coa_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg14_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="R_GLCNACASE3ly" sboTerm="SBO:0000375" id="R_GLCNACASE3ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -932,14 +905,14 @@
           <fbc:geneProductRef fbc:geneProduct="G_4669_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_GLCNACASE1ly" sboTerm="SBO:0000375" id="R_GLCNACASE1ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
+      <reaction metaid="R_GLCNACASE5ly" sboTerm="SBO:0000375" id="R_GLCNACASE5ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_GLCNACASE1ly">
+            <rdf:Description rdf:about="#R_GLCNACASE5ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCNACASE1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100189"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCNACASE5ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100193"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -947,91 +920,14 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg3_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg24_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_acgam_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg4_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg25_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_4669_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_S6TASE3ly" sboTerm="SBO:0000375" id="R_S6TASE3ly" name="N-acetylglucosamine-6-sulfatase, lysosomal" reversible="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6TASE3ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6TASE3ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104228"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg11_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg12_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_2799_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_GLCAASE1ly" sboTerm="SBO:0000375" id="R_GLCAASE1ly" name="Beta-glucuronidase, lysosomal" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_GLCAASE1ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCAASE1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100156"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg9_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_glcur_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg10_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_2990_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_S6TASE1ly" sboTerm="SBO:0000375" id="R_S6TASE1ly" name="N-acetylglucosamine-6-sulfatase, lysosomal" reversible="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S6TASE1ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6TASE1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104219"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg1_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_2799_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="R_S2TASE2ly" sboTerm="SBO:0000375" id="R_S2TASE2ly" name="Iduronate-2-sulfatase, lysosomal" reversible="false">
@@ -1063,14 +959,14 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_S3TASE2ly" sboTerm="SBO:0000375" id="R_S3TASE2ly" name="N-acetylglucosamine-3-sulfatase, lysosomal" reversible="true">
+      <reaction metaid="R_GLCAASE1ly" sboTerm="SBO:0000375" id="R_GLCAASE1ly" name="Beta-glucuronidase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S3TASE2ly">
+            <rdf:Description rdf:about="#R_GLCAASE1ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S3TASE2ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104169"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCAASE1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100156"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1078,62 +974,14 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg17_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg9_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg18_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_IDOAASE2ly" sboTerm="SBO:0000375" id="R_IDOAASE2ly" name="Alpha-L-iduronidase, lysosomal" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_IDOAASE2ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/IDOAASE2ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100798"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg16_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg17_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_idour_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_glcur_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg10_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_3425_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_IDOAASE1ly" sboTerm="SBO:0000375" id="R_IDOAASE1ly" name="Alpha-L-iduronidase, lysosomal" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_IDOAASE1ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/IDOAASE1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100797"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg4_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg5_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_idour_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_3425_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_2990_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="R_HS2ly" sboTerm="SBO:0000375" id="R_HS2ly" name="Heparan-N-sulfatase, lysosomal" reversible="false">
@@ -1162,52 +1010,27 @@
           <fbc:geneProductRef fbc:geneProduct="G_6448_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_IDOAASE3ly" sboTerm="SBO:0000375" id="R_IDOAASE3ly" name="Alpha-L-iduronidase, lysosomal" reversible="false">
+      <reaction metaid="R_HSAT2ly" sboTerm="SBO:0000375" id="R_HSAT2ly" name="Heparan-glucosaminide N-acetyltransferase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_IDOAASE3ly">
+            <rdf:Description rdf:about="#R_HSAT2ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/IDOAASE3ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100799"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HSAT2ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100710"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg22_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg7_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg23_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_idour_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_3425_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_LINKDEG1ly" sboTerm="SBO:0000375" id="R_LINKDEG1ly" name="Degradation of proteoglycan linkage region, lysosomal" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_LINKDEG1ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/LINKDEG1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR101071"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="3" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg25_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_gal_l" stoichiometry="2" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_glcur_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_xyl__D_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_coa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg8_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="R_HSAT4ly" sboTerm="SBO:0000375" id="R_HSAT4ly" name="Heparan-glucosaminide N-acetyltransferase, lysosomal" reversible="false">
@@ -1233,37 +1056,14 @@
           <speciesReference sboTerm="SBO:0000011" species="M_hs_deg20_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_HSAT2ly" sboTerm="SBO:0000375" id="R_HSAT2ly" name="Heparan-glucosaminide N-acetyltransferase, lysosomal" reversible="false">
+      <reaction metaid="R_IDOAASE1ly" sboTerm="SBO:0000375" id="R_IDOAASE1ly" name="Alpha-L-iduronidase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HSAT2ly">
+            <rdf:Description rdf:about="#R_IDOAASE1ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HSAT2ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100710"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_accoa_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg7_l" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_coa_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg8_l" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_GLCNACASE2ly" sboTerm="SBO:0000375" id="R_GLCNACASE2ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_GLCNACASE2ly">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCNACASE2ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100190"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/IDOAASE1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100797"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1271,15 +1071,38 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg8_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg4_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_acgam_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg9_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg5_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_idour_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_4669_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_3425_AT1"/>
         </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S3TASE3ly" sboTerm="SBO:0000375" id="R_S3TASE3ly" name="N-acetylglucosamine-3-sulfatase, lysosomal" reversible="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S3TASE3ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S3TASE3ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104170"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg23_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg24_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="R_HSAT1ly" sboTerm="SBO:0000375" id="R_HSAT1ly" name="Heparan-glucosaminide N-acetyltransferase, lysosomal" reversible="false">
         <annotation>
@@ -1304,14 +1127,14 @@
           <speciesReference sboTerm="SBO:0000011" species="M_hs_deg3_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_S3TASE1ly" sboTerm="SBO:0000375" id="R_S3TASE1ly" name="N-acetylglucosamine-3-sulfatase, lysosomal" reversible="true">
+      <reaction metaid="R_HS1ly" sboTerm="SBO:0000375" id="R_HS1ly" name="Heparan-N-sulfatase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_S3TASE1ly">
+            <rdf:Description rdf:about="#R_HS1ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S3TASE1ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104168"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HS1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100705"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1319,13 +1142,16 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg10_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg1_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg11_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg2_l" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_6448_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="R_S6TASE2ly" sboTerm="SBO:0000375" id="R_S6TASE2ly" name="N-acetylglucosamine-6-sulfatase, lysosomal" reversible="true">
         <annotation>
@@ -1353,14 +1179,14 @@
           <fbc:geneProductRef fbc:geneProduct="G_2799_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_HS4ly" sboTerm="SBO:0000375" id="R_HS4ly" name="Heparan-N-sulfatase, lysosomal" reversible="false">
+      <reaction metaid="R_GLCNACASE2ly" sboTerm="SBO:0000375" id="R_GLCNACASE2ly" name="Alpha-N-acetylglucosaminidase, lysosomal" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HS4ly">
+            <rdf:Description rdf:about="#R_GLCNACASE2ly">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HS4ly"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100708"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/GLCNACASE2ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100190"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1368,61 +1194,193 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg18_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg8_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_acgam_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg9_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_4669_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_LINKDEG1ly" sboTerm="SBO:0000375" id="R_LINKDEG1ly" name="Degradation of proteoglycan linkage region, lysosomal" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_LINKDEG1ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/LINKDEG1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR101071"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="3" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg25_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_gal_l" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_glcur_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_xyl__D_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_S3TASE1ly" sboTerm="SBO:0000375" id="R_S3TASE1ly" name="N-acetylglucosamine-3-sulfatase, lysosomal" reversible="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S3TASE1ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S3TASE1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104168"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg10_l" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg19_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg11_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_S3TASE2ly" sboTerm="SBO:0000375" id="R_S3TASE2ly" name="N-acetylglucosamine-3-sulfatase, lysosomal" reversible="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S3TASE2ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S3TASE2ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104169"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg17_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg18_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_S6TASE3ly" sboTerm="SBO:0000375" id="R_S6TASE3ly" name="N-acetylglucosamine-6-sulfatase, lysosomal" reversible="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S6TASE3ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6TASE3ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104228"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg11_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg12_l" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_6448_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_2799_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S6TASE1ly" sboTerm="SBO:0000375" id="R_S6TASE1ly" name="N-acetylglucosamine-6-sulfatase, lysosomal" reversible="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S6TASE1ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S6TASE1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104219"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg1_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_2799_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_S2TASE1ly" sboTerm="SBO:0000375" id="R_S2TASE1ly" name="Iduronate-2-sulfatase, lysosomal" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_S2TASE1ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/S2TASE1ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104159"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg15_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg16_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_so4_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or sboTerm="SBO:0000174">
+            <fbc:geneProductRef fbc:geneProduct="G_3423_AT1"/>
+            <fbc:geneProductRef fbc:geneProduct="G_3423_AT2"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_IDOAASE3ly" sboTerm="SBO:0000375" id="R_IDOAASE3ly" name="Alpha-L-iduronidase, lysosomal" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_IDOAASE3ly">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/IDOAASE3ly"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100799"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_hs_deg22_l" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_hs_deg23_l" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_idour_l" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_3425_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
     </listOfReactions>
     <fbc:listOfGeneProducts>
-      <fbc:geneProduct metaid="G_3425_AT1" fbc:id="G_3425_AT1" fbc:label="3425_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_3425_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS3343.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/3425"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/252800"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000127415"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/P35475"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000033540"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8BMG0"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8BLF6"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000000043"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_4669_AT1" fbc:id="G_4669_AT1" fbc:label="4669_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_4669_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS11427.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/4669"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/609701"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000108784"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/P54802"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000001751"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/O88325"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000032381"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZZL3"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="G_6448_AT1" fbc:id="G_6448_AT1" fbc:label="6448_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -1443,21 +1401,21 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_2799_AT1" fbc:id="G_2799_AT1" fbc:label="2799_AT1">
+      <fbc:geneProduct metaid="G_3425_AT1" fbc:id="G_3425_AT1" fbc:label="3425_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_2799_AT1">
+            <rdf:Description rdf:about="#G_3425_AT1">
               <bqbiol:isEncodedBy>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS8970.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/09637"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/2799"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/607664"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000135677"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000034707"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8BFR4"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000046159"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q32KJ5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS3343.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/3425"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/252800"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000127415"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/P35475"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000033540"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8BMG0"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8BLF6"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000000043"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1533,6 +1491,48 @@
                   <rdf:li rdf:resource="https://identifier.org/uniprot/P12265"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000000913"/>
                   <rdf:li rdf:resource="https://identifier.org/uniprot/Q7TPJ3"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_2799_AT1" fbc:id="G_2799_AT1" fbc:label="2799_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_2799_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS8970.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hprd/09637"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/2799"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/607664"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000135677"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000034707"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8BFR4"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000046159"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q32KJ5"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_4669_AT1" fbc:id="G_4669_AT1" fbc:label="4669_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_4669_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS11427.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/4669"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/609701"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000108784"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/P54802"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000001751"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/O88325"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000032381"/>
+                  <rdf:li rdf:resource="https://identifier.org/uniprot/D3ZZL3"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>

@@ -17,14 +17,14 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="M_egme_r" id="M_egme_r" name="Ecgonine methyl ester" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H17NO3">
+      <species metaid="M_coke_r" id="M_coke_r" name="Cocaine" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H21NO4">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_egme_r">
+            <rdf:Description rdf:about="#M_coke_r">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/egme"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM164755"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/coke"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM167466"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -50,47 +50,6 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_coke_r" id="M_coke_r" name="Cocaine" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H21NO4">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_coke_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/coke"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM167466"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_bz_r" id="M_bz_r" name="Benzoate" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H5O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_bz_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/bz"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BENZOATE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13879"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16150"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22717"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22722"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3029"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30746"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41051"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01870"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00180"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00539"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00038"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM217"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00153"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -147,6 +106,47 @@
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_egme_r" id="M_egme_r" name="Ecgonine methyl ester" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H17NO3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_egme_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/egme"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM164755"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_bz_r" id="M_bz_r" name="Benzoate" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H5O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_bz_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/bz"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BENZOATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13879"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16150"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22717"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22722"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3029"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30746"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41051"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01870"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00180"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00539"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00038"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM217"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00153"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
