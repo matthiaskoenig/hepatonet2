@@ -65,8 +65,12 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
 
     sbmlns = libsbml.SBMLNamespaces(3, 2, 'fbc', 2)
     doc = libsbml.SBMLDocument(sbmlns)  # type: libsbml.SBMLDocument
+    doc.setPackageRequired("fbc", False)
     model = doc.createModel()  # type: libsbml.Model
     model.setId(_normalize_to_sid(subsystem))
+
+    model_fbc = model.getPlugin("fbc")  # type: libsbml.FbcModelPlugin
+    model_fbc.setStrict(False)
 
     # reaction ids for subsystem
     reaction_ids = set(subsystems[subsystem])
@@ -77,6 +81,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
 
 
     # GPR rules
+    # FIXME: here is a bug, example Hippurate metabolism
     def process_association(association, gene_products=None):
         """ Recursively get gene products from GPR. """
         if gene_products is None:
@@ -108,7 +113,15 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
             if gpa is not None:
                 association = gpa.getAssociation()  # type: libsbml.FbcAssociation
                 # list of gene products
-                geneproducts[rid] = process_association(association)
+                geneproducts[rid] = set(process_association(association))
+
+    '''
+    # lookup reactions for given gene product
+    gp2reactions = defaultdict(list)
+    for rid, gps in geneproducts.items():
+        for gpid in gps:
+            gp2reactions[gpid].append(rid)
+    '''
 
     print(species_ids)
 
@@ -156,14 +169,13 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
     model_recon_fbc = model_recon.getPlugin("fbc")  # type: libsbml.FbcModelPlugin
     for rid, gpids in geneproducts.items():
         for gid in gpids:
-            gp_recon = model_recon_fbc.getGeneProduct(gid)  # type: libsbml.GeneProduct
-            gp = model_fbc.createGeneProduct()  # type: libsbml.GeneProduct
-            gp.setId(gp_recon.getId())
-            gp.setLabel(gp_recon.getLabel())
-            gp.setMetaId(gp_recon.getMetaId())
-            gp.setAnnotation(gp_recon.getAnnotation())
-
-            # TODO: add the ensg information (from external file)
+            if not model_fbc.getGeneProduct(gid):
+                gp_recon = model_recon_fbc.getGeneProduct(gid)  # type: libsbml.GeneProduct
+                gp = model_fbc.createGeneProduct()  # type: libsbml.GeneProduct
+                gp.setId(gp_recon.getId())
+                gp.setLabel(gp_recon.getLabel())
+                gp.setMetaId(gp_recon.getMetaId())
+                gp.setAnnotation(gp_recon.getAnnotation())
 
     # add reactions
     for rid in reaction_ids:
@@ -180,8 +192,10 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
         # fbc
         r_recon_fbc = r_recon.getPlugin("fbc")  # type: libsbml.FbcReactionPlugin
         r_fbc = r.getPlugin("fbc")  # type: libsbml.FbcReactionPlugin
-        r_fbc.setLowerFluxBound(r_recon_fbc.getLowerFluxBound())
-        r_fbc.setUpperFluxBound(r_recon_fbc.getUpperFluxBound())
+
+        # FIXME: necessary to read the parameters of the flux bounds
+        # r_fbc.setLowerFluxBound(r_recon_fbc.getLowerFluxBound())
+        # r_fbc.setUpperFluxBound(r_recon_fbc.getUpperFluxBound())
 
         for sref_recon in r_recon.getListOfReactants():  # type: libsbml.SpeciesReference
             sid = sref_recon.getSpecies()
@@ -211,7 +225,11 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
         '''
 
         # add GPA information
-        # TODO: implement
+        gpa_recon = r_recon_fbc.getGeneProductAssociation()
+        code = r_fbc.setGeneProductAssociation(gpa_recon)
+
+        print(rid)
+        print("code GPA:", code)
 
 
     def gid_from_gpid(gpid):
@@ -219,9 +237,9 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
         gid = gid.replace("_AT", ".")
         return gid
 
-
-    # Load gene and gene mapping information
-
+    # ------------------
+    # Gene mapping
+    # ------------------
     human_genes = None
     mouse_genes = None
     rat_genes = None
@@ -250,8 +268,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
             code = gp.addCVTerm(term)
             # print("CODE:", code)
 
-
-    # mapping to ensemble and 2 mouse (for all the gene products perform the mapping)
+    # mapping to ensemble
     for gp in model_fbc.getListOfGeneProducts():  # type: libsbml.GeneProduct
         gpid = gp.getId()
         gid = gid_from_gpid(gpid)
@@ -264,12 +281,8 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
         tokens = gid.split(".")
         if len(tokens) != 2:
             warnings.warn("Gene identifier could not be split: {}".format(gid))
-            if len(tokens) == 1:
-                gid_core = gid
-                gid_version = 1
         else:
             gid_core, gid_version = tokens[0], tokens[1]
-            # print(gid_core, gid_version)
 
         # mouse
         gid_mouse = human2mouse.get(gid_core)
@@ -293,7 +306,9 @@ if __name__ == "__main__":
 
     # Create submodels
     # subsystems = ['Glycolysis/gluconeogenesis']
-    subsystems = subsystems_dict.keys()
+    subsystems = ['Hippurate metabolism']
+
+    # subsystems = subsystems_dict.keys()
     organism = "human"
 
     # load RECON3D reference

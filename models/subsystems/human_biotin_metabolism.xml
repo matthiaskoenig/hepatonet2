@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2">
-  <model id="biotin_metabolism">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2" fbc:required="false">
+  <model id="biotin_metabolism" fbc:strict="false">
     <listOfCompartments>
-      <compartment metaid="_1b6b835a-8865-430c-9a03-a922a21eedd7" sboTerm="SBO:0000290" id="m" name="mitochondria" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_1b6b835a-8865-430c-9a03-a922a21eedd7">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/m"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </compartment>
       <compartment metaid="_21b9ad89-0438-4385-bc5c-126cddd1a07c" sboTerm="SBO:0000290" id="n" name="nucleus" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -54,8 +41,381 @@
           </rdf:RDF>
         </annotation>
       </compartment>
+      <compartment metaid="_1b6b835a-8865-430c-9a03-a922a21eedd7" sboTerm="SBO:0000290" id="m" name="mitochondria" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#_1b6b835a-8865-430c-9a03-a922a21eedd7">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/m"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
     </listOfCompartments>
     <listOfSpecies>
+      <species metaid="M_btamp_c" id="M_btamp_c" name="Biotinyl 5  AMP C20H27N7O9PS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H27N7O9PS">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_btamp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btamp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIO-5-AMP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3110"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:62414"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB04220"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06520"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05921"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2351"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd03517"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22432"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_biocyt_m" id="M_biocyt_m" name="Biocyt c" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_biocyt_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_btn_e" id="M_btn_e" name="Biotin" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H15N2O3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_btn_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btn"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIOTIN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13905"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15956"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22882"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22884"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3108"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41236"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00030"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00120"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00029"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM304"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00104"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_amp_c" id="M_amp_c" name="AMP C10H12N5O7P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_amp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/amp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:12056"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13235"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13736"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13740"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22242"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22245"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40510"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40721"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40726"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40786"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40826"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456215"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:47222"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00020"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02769"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM14"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22272"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_lys__L_c" id="M_lys__L_c" name="L-Lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_lys__L_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/lys__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:LYS"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13135"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:133538"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18019"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21351"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25094"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32550"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32551"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32552"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32563"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32564"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32565"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43950"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6264"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62809"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00047"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16440"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02304"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM78"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00039"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19182"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_lys__L_e" id="M_lys__L_e" name="L-Lysine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_lys__L_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/lys__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:LYS"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13135"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:133538"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18019"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21351"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25094"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32550"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32551"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32552"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32563"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32564"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32565"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43950"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6264"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62809"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00047"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16440"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02304"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM78"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00039"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19182"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_apoC_Lys_btn_m" id="M_apoC_Lys_btn_m" name="Holocarboxylase (biotin covalent bound to Lys residue of apoC)" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H27N4O3SX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_apoC_Lys_btn_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys_btn"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147123"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_amp_m" id="M_amp_m" name="AMP C10H12N5O7P" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_amp_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/amp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:12056"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13235"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13736"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13740"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22242"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22245"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40510"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40721"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40726"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40786"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40826"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456215"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:47222"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00020"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02769"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM14"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22272"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_apoC_Lys_c" id="M_apoC_Lys_c" name="Apocarboxylase (Lys residue)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13N2OX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_apoC_Lys_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147044"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_ppi_c" id="M_ppi_c" name="Diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="HO7P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_ppi_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ppi"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PPI"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYROPHOSPHATE-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13420"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18361"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29888"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33017"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33019"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42009"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45067"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45208"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45212"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8683"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00250"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00013"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00012"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27828"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_lys__L_n" id="M_lys__L_n" name="L-Lysine" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_lys__L_n">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/lys__L"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:LYS"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13135"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:133538"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18019"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21351"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25094"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32550"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32551"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32552"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32563"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32564"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32565"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43950"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6264"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62809"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00047"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16440"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02304"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM78"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00039"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19182"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_btamp_m" id="M_btamp_m" name="Biotinyl 5  AMP C20H27N7O9PS" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H27N7O9PS">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_btamp_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btamp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIO-5-AMP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3110"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:62414"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB04220"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06520"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05921"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2351"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd03517"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22432"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_atp_c" id="M_atp_c" name="ATP C10H12N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_atp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_apoC_m" id="M_apoC_m" name="Apocarboxlase (no lys residue)" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="XH">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_apoC_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7077"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_h2o_c" id="M_h2o_c" name="H2O H2O" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -106,266 +466,6 @@
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h2o_e" id="M_h2o_e" name="H2O H2O" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-15815"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROXYL-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXONIUM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:WATER"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10743"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13352"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13365"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13419"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27313"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29373"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29374"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29375"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29412"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30490"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33806"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33811"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33813"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41979"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41981"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42043"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42857"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43228"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44292"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44641"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44701"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44819"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5585"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5594"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02111"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01328"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18714"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D03703"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06322"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_lys__L_e" id="M_lys__L_e" name="L-Lysine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_lys__L_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/lys__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:LYS"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13135"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:133538"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18019"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21351"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25094"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32550"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32551"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32552"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32563"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32564"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32565"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43950"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6264"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62809"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00047"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16440"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02304"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM78"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00039"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19182"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_lys__L_m" id="M_lys__L_m" name="L-Lysine" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_lys__L_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/lys__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:LYS"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13135"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:133538"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18019"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21351"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25094"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32550"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32551"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32552"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32563"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32564"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32565"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43950"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6264"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62809"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00047"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16440"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02304"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM78"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00039"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19182"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_biocyt_c" id="M_biocyt_c" name="Biocyt c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_biocyt_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_apoC_c" id="M_apoC_c" name="Apocarboxlase (no lys residue)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="XH">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_apoC_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7077"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_btn_n" id="M_btn_n" name="Biotin" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H15N2O3S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_btn_n">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btn"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIOTIN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13905"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15956"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22882"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22884"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3108"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41236"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00030"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00120"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00029"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM304"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00104"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h2o_m" id="M_h2o_m" name="H2O H2O" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-15815"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROXYL-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXONIUM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:WATER"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10743"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13352"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13365"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13419"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27313"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29373"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29374"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29375"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29412"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30490"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33806"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33811"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33813"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41979"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41981"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42043"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42857"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43228"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44292"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44641"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44701"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44819"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5585"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5594"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02111"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01328"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18714"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D03703"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06322"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_btn_c" id="M_btn_c" name="Biotin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H15N2O3S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_btn_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btn"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIOTIN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13905"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15956"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22882"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22884"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3108"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41236"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00030"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00120"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00029"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM304"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00104"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -428,26 +528,190 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_btn_e" id="M_btn_e" name="Biotin" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H15N2O3S">
+      <species metaid="M_h2o_m" id="M_h2o_m" name="H2O H2O" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_btn_e">
+            <rdf:Description rdf:about="#M_h2o_m">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btn"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIOTIN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13905"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15956"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22882"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22884"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3108"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41236"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00030"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00120"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00029"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM304"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00104"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-15815"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROXYL-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OH"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXONIUM"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:WATER"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10743"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13352"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13365"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13419"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27313"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29373"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29374"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29375"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29412"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30490"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33806"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33811"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33813"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41979"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41981"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42043"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42857"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43228"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44292"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44641"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44701"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44819"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5585"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5594"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02111"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01328"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18714"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D03703"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_biocyt_e" id="M_biocyt_e" name="Biocyt c" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_biocyt_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_biocyt_n" id="M_biocyt_n" name="Biocyt c" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_biocyt_n">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_m" id="M_h_m" name="H+" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_biocyt_c" id="M_biocyt_c" name="Biocyt c" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_biocyt_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_apoC_Lys_m" id="M_apoC_Lys_m" name="Apocarboxylase (Lys residue)" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13N2OX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_apoC_Lys_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147044"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_apoC_c" id="M_apoC_c" name="Apocarboxlase (no lys residue)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="XH">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_apoC_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7077"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_apoC_Lys_btn_c" id="M_apoC_Lys_btn_c" name="Holocarboxylase (biotin covalent bound to Lys residue of apoC)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H27N4O3SX">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_apoC_Lys_btn_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys_btn"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147123"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -480,401 +744,26 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_h_m" id="M_h_m" name="H+" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+      <species metaid="M_btn_n" id="M_btn_n" name="Biotin" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H15N2O3S">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_m">
+            <rdf:Description rdf:about="#M_btn_n">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_btamp_c" id="M_btamp_c" name="Biotinyl 5  AMP C20H27N7O9PS" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H27N7O9PS">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_btamp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btamp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIO-5-AMP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3110"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:62414"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB04220"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06520"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05921"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2351"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd03517"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22432"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_ppi_c" id="M_ppi_c" name="Diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="HO7P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_ppi_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/ppi"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PPI"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYROPHOSPHATE-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13420"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18361"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29888"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33017"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33018"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33019"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42009"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45067"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45208"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45212"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8683"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00250"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00013"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM11"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00012"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27828"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_apoC_Lys_btn_c" id="M_apoC_Lys_btn_c" name="Holocarboxylase (biotin covalent bound to Lys residue of apoC)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H27N4O3SX">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_apoC_Lys_btn_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys_btn"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147123"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_apoC_Lys_m" id="M_apoC_Lys_m" name="Apocarboxylase (Lys residue)" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13N2OX">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_apoC_Lys_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147044"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_biocyt_m" id="M_biocyt_m" name="Biocyt c" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_biocyt_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_biocyt_n" id="M_biocyt_n" name="Biocyt c" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_biocyt_n">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_apoC_m" id="M_apoC_m" name="Apocarboxlase (no lys residue)" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="XH">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_apoC_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7077"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_biocyt_e" id="M_biocyt_e" name="Biocyt c" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H28N4O4S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_biocyt_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/biocyt"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2981"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_apoC_Lys_btn_m" id="M_apoC_Lys_btn_m" name="Holocarboxylase (biotin covalent bound to Lys residue of apoC)" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C16H27N4O3SX">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_apoC_Lys_btn_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys_btn"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147123"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_atp_c" id="M_atp_c" name="ATP C10H12N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_atp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_apoC_Lys_c" id="M_apoC_Lys_c" name="Apocarboxylase (Lys residue)" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13N2OX">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_apoC_Lys_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/apoC_Lys"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM147044"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_lys__L_n" id="M_lys__L_n" name="L-Lysine" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_lys__L_n">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/lys__L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:LYS"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13135"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:133538"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18019"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21351"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25094"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32550"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32551"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32552"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32563"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32564"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32565"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43950"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:6264"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62809"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00047"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16440"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02304"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM78"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00039"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19182"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_amp_c" id="M_amp_c" name="AMP C10H12N5O7P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_amp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/amp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:12056"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13235"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13736"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13740"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22242"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22245"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40510"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40721"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40726"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40786"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40826"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456215"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:47222"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00020"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02769"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM14"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00018"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22272"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_atp_m" id="M_atp_m" name="ATP C10H12N5O13P3" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_atp_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_amp_m" id="M_amp_m" name="AMP C10H12N5O7P" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_amp_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/amp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:12056"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13235"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13736"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13740"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22242"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22245"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40510"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40721"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40726"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40786"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40826"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456215"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:47222"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00020"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02769"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM14"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00018"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22272"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_btamp_m" id="M_btamp_m" name="Biotinyl 5  AMP C20H27N7O9PS" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H27N7O9PS">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_btamp_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btamp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIO-5-AMP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3110"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:62414"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB04220"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06520"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05921"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2351"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd03517"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22432"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btn"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIOTIN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13905"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15956"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22882"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22884"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3108"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41236"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00030"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00120"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00029"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM304"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00104"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -912,10 +801,10 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_lys__L_c" id="M_lys__L_c" name="L-Lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
+      <species metaid="M_lys__L_m" id="M_lys__L_m" name="L-Lysine" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H15N2O2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_lys__L_c">
+            <rdf:Description rdf:about="#M_lys__L_m">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/lys__L"/>
@@ -946,15 +835,126 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="M_btn_c" id="M_btn_c" name="Biotin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H15N2O3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_btn_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/btn"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:BIOTIN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13905"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15956"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22882"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22884"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:3108"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41236"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00030"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00120"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00029"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM304"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00104"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h2o_e" id="M_h2o_e" name="H2O H2O" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h2o_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-15815"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROXYL-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OH"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXONIUM"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:WATER"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10743"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13352"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13365"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13419"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27313"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29373"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29374"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29375"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29412"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30490"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33806"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33811"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:33813"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41979"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:41981"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42043"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:42857"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:43228"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44292"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44641"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44701"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44819"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5585"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5594"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02111"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01328"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18714"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D03703"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D06322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00001"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd15275"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd27222"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_atp_m" id="M_atp_m" name="ATP C10H12N5O13P3" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_atp_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_BTND1n" sboTerm="SBO:0000375" id="R_BTND1n" name="Biotinidase (biotin), nuclear" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_BTNDm" sboTerm="SBO:0000375" id="R_BTNDm" name="Biotinidase (biotin), mitochondrial" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_BTND1n">
+            <rdf:Description rdf:about="#R_BTNDm">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTND1n"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTNDm"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.5.1.12"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96331"/>
                 </rdf:Bag>
@@ -963,61 +963,18 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_biocyt_n" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_n" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_biocyt_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_m" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_btn_n" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_lys__L_n" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_btn_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_lys__L_m" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_686_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_BTND1" sboTerm="SBO:0000375" id="R_BTND1" name="Biotinidase (biotin)" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_BTND1">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTND1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.5.1.12"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96331"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_biocyt_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_btn_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_lys__L_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_BTNPLm" sboTerm="SBO:0000375" id="R_BTNPLm" name="Holocarboxylase synthestase (biotin protein ligase), mitochondrial" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_BTNPLm">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTNPLm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96332"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_btamp_m" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_amp_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_apoC_Lys_btn_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_m" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_BTNDe" sboTerm="SBO:0000375" id="R_BTNDe" name="Biotinidase (biotin), extracellular" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_BTNDe" sboTerm="SBO:0000375" id="R_BTNDe" name="Biotinidase (biotin), extracellular" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_BTNDe">
@@ -1039,65 +996,82 @@
           <speciesReference sboTerm="SBO:0000011" species="M_btn_e" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_lys__L_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_686_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_BACCL" sboTerm="SBO:0000375" id="R_BACCL" name="Biotin acetyl CoA carboxylase ligase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_BTND1n" sboTerm="SBO:0000375" id="R_BTND1n" name="Biotinidase (biotin), nuclear" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_BACCL">
+            <rdf:Description rdf:about="#R_BTND1n">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BACCL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-7192"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.11"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.11"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.15"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01074"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96208"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/31115"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/31116"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/31117"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/31118"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTND1n"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.5.1.12"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96331"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_btn_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_biocyt_n" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_n" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_btamp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_ppi_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_btn_n" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_lys__L_n" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_686_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_BTNPL" sboTerm="SBO:0000375" id="R_BTNPL" name="Holocarboxylase synthestase (biotin protein ligase)" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_APOCFm" sboTerm="SBO:0000375" id="R_APOCFm" name="Apocarboxylase formation, mitochondrial" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_BTNPL">
+            <rdf:Description rdf:about="#R_APOCFm">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTNPL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96332"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/APOCFm"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95887"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_btamp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_apoC_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_lys__L_m" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_amp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_apoC_Lys_btn_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_apoC_Lys_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h2o_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_m" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_BACCLm" sboTerm="SBO:0000375" id="R_BACCLm" name="Biotin-[acetyl-CoA-carboxylase] ligase, mitochondrial" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_APOC_LYS_BTNP" sboTerm="SBO:0000375" id="R_APOC_LYS_BTNP" name="Proteolysis of apoC-Lys-btn" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_APOC_LYS_BTNP">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/APOC_LYS_BTNP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95888"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_btn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_apoC_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_biocyt_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_BACCLm" sboTerm="SBO:0000375" id="R_BACCLm" name="Biotin-[acetyl-CoA-carboxylase] ligase, mitochondrial" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_BACCLm">
@@ -1130,14 +1104,102 @@
           <speciesReference sboTerm="SBO:0000011" species="M_btamp_m" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_ppi_m" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_3141_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_BTNDm" sboTerm="SBO:0000375" id="R_BTNDm" name="Biotinidase (biotin), mitochondrial" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_APOC_LYS_BTNPm" sboTerm="SBO:0000375" id="R_APOC_LYS_BTNPm" name="Proteolysis of apoC-Lys-btn, mitochondrial" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_BTNDm">
+            <rdf:Description rdf:about="#R_APOC_LYS_BTNPm">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTNDm"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/APOC_LYS_BTNPm"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95888"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_btn_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_m" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_apoC_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_biocyt_m" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_BACCL" sboTerm="SBO:0000375" id="R_BACCL" name="Biotin acetyl CoA carboxylase ligase" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_BACCL">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BACCL"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-7192"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.11"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.11"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.15"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.4.9"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01074"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96208"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/31115"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/31116"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/31117"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/31118"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_btn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_btamp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_ppi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_3141_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_BTNPLm" sboTerm="SBO:0000375" id="R_BTNPLm" name="Holocarboxylase synthestase (biotin protein ligase), mitochondrial" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_BTNPLm">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTNPLm"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96332"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_btamp_m" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_amp_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_apoC_Lys_btn_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_m" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_3141_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_BTND1" sboTerm="SBO:0000375" id="R_BTND1" name="Biotinidase (biotin)" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_BTND1">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTND1"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.5.1.12"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96331"/>
                 </rdf:Bag>
@@ -1146,60 +1208,18 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_biocyt_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_m" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_btn_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_lys__L_m" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_APOCFm" sboTerm="SBO:0000375" id="R_APOCFm" name="Apocarboxylase formation, mitochondrial" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_APOCFm">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/APOCFm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95887"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_apoC_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_lys__L_m" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_apoC_Lys_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h2o_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_m" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_APOC_LYS_BTNP" sboTerm="SBO:0000375" id="R_APOC_LYS_BTNP" name="Proteolysis of apoC-Lys-btn" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_APOC_LYS_BTNP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/APOC_LYS_BTNP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95888"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_btn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_biocyt_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_apoC_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_biocyt_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_btn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_lys__L_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_686_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_APOCF" sboTerm="SBO:0000375" id="R_APOCF" name="Apocarboxylase formation" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_APOCF" sboTerm="SBO:0000375" id="R_APOCF" name="Apocarboxylase formation" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_APOCF">
@@ -1222,27 +1242,31 @@
           <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_APOC_LYS_BTNPm" sboTerm="SBO:0000375" id="R_APOC_LYS_BTNPm" name="Proteolysis of apoC-Lys-btn, mitochondrial" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_BTNPL" sboTerm="SBO:0000375" id="R_BTNPL" name="Holocarboxylase synthestase (biotin protein ligase)" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_APOC_LYS_BTNPm">
+            <rdf:Description rdf:about="#R_BTNPL">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/APOC_LYS_BTNPm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95888"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/BTNPL"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR96332"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_btn_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_apoC_Lys_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_btamp_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_apoC_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_biocyt_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_amp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_apoC_Lys_btn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_3141_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
     </listOfReactions>
     <fbc:listOfGeneProducts>
@@ -1280,126 +1304,6 @@
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000169814"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000021900"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000019656"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_686_AT1" fbc:id="G_686_AT1" fbc:label="686_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_686_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS2628.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63563.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63564.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63565.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/686"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/609019"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000169814"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000021900"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000019656"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_3141_AT1" fbc:id="G_3141_AT1" fbc:label="3141_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_3141_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS13647.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/08360"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/3141"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/609018"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000159267"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000040820"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000001686"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_686_AT1" fbc:id="G_686_AT1" fbc:label="686_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_686_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS2628.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63563.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63564.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63565.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/686"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/609019"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000169814"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000021900"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000019656"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_3141_AT1" fbc:id="G_3141_AT1" fbc:label="3141_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_3141_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS13647.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/08360"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/3141"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/609018"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000159267"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000040820"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000001686"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_686_AT1" fbc:id="G_686_AT1" fbc:label="686_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_686_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS2628.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63563.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63564.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS63565.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/686"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/609019"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000169814"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000021900"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000019656"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_3141_AT1" fbc:id="G_3141_AT1" fbc:label="3141_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_3141_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS13647.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hprd/08360"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/3141"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/609018"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000159267"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000040820"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000001686"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>

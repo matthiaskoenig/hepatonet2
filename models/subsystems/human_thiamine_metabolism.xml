@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2">
-  <model id="thiamine_metabolism">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2" fbc:required="false">
+  <model id="thiamine_metabolism" fbc:strict="false">
     <listOfCompartments>
-      <compartment metaid="_1b6b835a-8865-430c-9a03-a922a21eedd7" sboTerm="SBO:0000290" id="m" name="mitochondria" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_1b6b835a-8865-430c-9a03-a922a21eedd7">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/m"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </compartment>
       <compartment metaid="_1d3b6a6d-641a-421e-ab79-d3e9f2f3106e" sboTerm="SBO:0000290" id="c" name="cytosol" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -28,12 +15,97 @@
           </rdf:RDF>
         </annotation>
       </compartment>
-    </listOfCompartments>
-    <listOfSpecies>
-      <species metaid="M_h2o_c" id="M_h2o_c" name="H2O H2O" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
+      <compartment metaid="_1b6b835a-8865-430c-9a03-a922a21eedd7" sboTerm="SBO:0000290" id="m" name="mitochondria" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o_c">
+            <rdf:Description rdf:about="#_1b6b835a-8865-430c-9a03-a922a21eedd7">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/m"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="M_thmmp_m" id="M_thmmp_m" name="Thiamin monophosphate" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C12H16N4O4PS">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_thmmp_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thmmp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMINE-P"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15230"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15231"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26945"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:37574"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:37575"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46189"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9533"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02666"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01081"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM662"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00793"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_thm_c" id="M_thm_c" name="Thiamin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C12H17N4OS">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_thm_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thm"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMINE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15227"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18385"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26941"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46393"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:49107"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9530"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00235"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00305"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_thmtp_c" id="M_thmtp_c" name="Thiamin triphosphate C12H16N4O10P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C12H16N4O10P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_thmtp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thmtp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-611"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15232"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18284"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26946"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58938"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9534"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01512"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03028"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1341"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd01937"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h2o_m" id="M_h2o_m" name="H2O H2O" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h2o_m">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
@@ -86,124 +158,29 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_thmmp_m" id="M_thmmp_m" name="Thiamin monophosphate" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C12H16N4O4PS">
+      <species metaid="M_atp_c" id="M_atp_c" name="ATP C10H12N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_thmmp_m">
+            <rdf:Description rdf:about="#M_atp_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thmmp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMINE-P"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15230"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15231"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26945"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:37574"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:37575"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46189"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9533"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02666"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01081"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM662"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00793"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_adp_c" id="M_adp_c" name="ADP C10H12N5O10P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O10P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_adp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/adp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ADP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1651"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13222"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16761"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22244"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2342"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40553"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456216"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:87518"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01341"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G11113"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00008"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_thmtp_c" id="M_thmtp_c" name="Thiamin triphosphate C12H16N4O10P3S" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C12H16N4O10P3S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_thmtp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thmtp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD-611"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15232"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18284"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26946"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58938"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9534"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01512"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03028"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1341"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd01937"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_thmpp_m" id="M_thmpp_m" name="Thiamine diphosphate" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C12H16N4O7P2S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_thmpp_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thmpp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMINE-PYROPHOSPHATE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15229"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45930"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45931"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:49939"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58937"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9532"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00068"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM256"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00056"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_m" id="M_h_m" name="H+" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -250,10 +227,10 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_thmpp_c" id="M_thmpp_c" name="Thiamine diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C12H16N4O7P2S">
+      <species metaid="M_thmpp_m" id="M_thmpp_m" name="Thiamine diphosphate" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C12H16N4O7P2S">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_thmpp_c">
+            <rdf:Description rdf:about="#M_thmpp_m">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thmpp"/>
@@ -268,95 +245,6 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00068"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM256"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00056"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_atp_c" id="M_atp_c" name="ATP C10H12N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_atp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_thm_c" id="M_thm_c" name="Thiamin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C12H17N4OS">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_thm_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMINE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15227"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18385"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26941"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46393"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:49107"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9530"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00235"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM322"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00305"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_amp_c" id="M_amp_c" name="AMP C10H12N5O7P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_amp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/amp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP-GROUP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:12056"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13235"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13736"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13740"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22242"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22245"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40510"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40721"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40726"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40786"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40826"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456215"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:47222"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00020"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02769"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM14"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00018"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22272"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -428,10 +316,71 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_h2o_m" id="M_h2o_m" name="H2O H2O" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
+      <species metaid="M_amp_c" id="M_amp_c" name="AMP C10H12N5O7P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H12N5O7P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o_m">
+            <rdf:Description rdf:about="#M_amp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/amp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMP-GROUP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:12056"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13235"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13736"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13740"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22242"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22245"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40510"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40721"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40726"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40786"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40826"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456215"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:47222"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00020"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02769"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM14"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd22272"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_m" id="M_h_m" name="H+" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h2o_c" id="M_h2o_c" name="H2O H2O" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h2o_c">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o"/>
@@ -484,6 +433,30 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="M_thmpp_c" id="M_thmpp_c" name="Thiamine diphosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C12H16N4O7P2S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_thmpp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/thmpp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMINE-PYROPHOSPHATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15229"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45930"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45931"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:49939"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58937"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9532"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB62636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00068"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM256"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00056"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -509,101 +482,36 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="M_adp_c" id="M_adp_c" name="ADP C10H12N5O10P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O10P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_adp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/adp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ADP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1651"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13222"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16761"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22244"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2342"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40553"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456216"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:87518"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01341"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G11113"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00008"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_TDPm" sboTerm="SBO:0000375" id="R_TDPm" name="Thiamin pyrophosphatase, mitochondrial" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_TDPm">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/TDPm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-3542"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.-"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.15"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00615"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104756"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/27998"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/27999"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/28000"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/28001"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_thmpp_m" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pi_m" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_thmmp_m" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_TDP" sboTerm="SBO:0000375" id="R_TDP" name="Thiamin pyrophosphatase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_TDP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/TDP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-3542"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.-"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.15"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00615"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104756"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/27998"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/27999"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/28000"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/28001"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_thmpp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_thmmp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_TMDPPK" sboTerm="SBO:0000375" id="R_TMDPPK" name="Thiamine diphosphate kinase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_TMDPPK">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/TMDPPK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMIN-DIPHOSPHATE-KINASE-RXN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.4.15"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.6.2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00616"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104888"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/11240"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/11241"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/11242"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/11243"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_thmpp_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_adp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_thmtp_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="R_THMP" sboTerm="SBO:0000375" id="R_THMP" name="Thiamin phosphatase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_THMP" sboTerm="SBO:0000375" id="R_THMP" name="Thiamin phosphatase" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_THMP">
@@ -634,7 +542,7 @@
           <speciesReference sboTerm="SBO:0000011" species="M_thm_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_TMDPK" sboTerm="SBO:0000375" id="R_TMDPK" name="Thiamine diphosphokinase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_TMDPK" sboTerm="SBO:0000375" id="R_TMDPK" name="Thiamine diphosphokinase" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_TMDPK">
@@ -663,8 +571,11 @@
           <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_thmpp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_27010_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_THMTP" sboTerm="SBO:0000375" id="R_THMTP" name="Thiamine-triphosphatase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_THMTP" sboTerm="SBO:0000375" id="R_THMTP" name="Thiamine-triphosphatase" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_THMTP">
@@ -693,29 +604,104 @@
           <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_thmpp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_79178_AT1"/>
+        </fbc:geneProductAssociation>
       </reaction>
-    </listOfReactions>
-    <fbc:listOfGeneProducts>
-      <fbc:geneProduct metaid="G_79178_AT1" fbc:id="G_79178_AT1" fbc:label="79178_AT1">
+      <reaction metaid="R_TDP" sboTerm="SBO:0000375" id="R_TDP" name="Thiamin pyrophosphatase" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_79178_AT1">
-              <bqbiol:isEncodedBy>
+            <rdf:Description rdf:about="#R_TDP">
+              <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS32053.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS58306.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS58307.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/79178"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/611612"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000259431"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000045691"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000018105"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/TDP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-3542"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.-"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.15"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00615"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104756"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/27998"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/27999"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/28000"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/28001"/>
                 </rdf:Bag>
-              </bqbiol:isEncodedBy>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
-      </fbc:geneProduct>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_thmpp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_thmmp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_TDPm" sboTerm="SBO:0000375" id="R_TDPm" name="Thiamin pyrophosphatase, mitochondrial" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_TDPm">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/TDPm"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-3542"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.-"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.15"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00615"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104756"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/27998"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/27999"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/28000"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/28001"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_thmpp_m" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pi_m" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_thmmp_m" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="R_TMDPPK" sboTerm="SBO:0000375" id="R_TMDPPK" name="Thiamine diphosphate kinase" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_TMDPPK">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/TMDPPK"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:THIAMIN-DIPHOSPHATE-KINASE-RXN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.4.15"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.6.2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00616"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104888"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/11240"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/11241"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/11242"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/11243"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_thmpp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_thmtp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+    <fbc:listOfGeneProducts>
       <fbc:geneProduct metaid="G_27010_AT1" fbc:id="G_27010_AT1" fbc:label="27010_AT1">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -766,6 +752,26 @@
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000196511"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000029735"/>
                   <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000029922"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_79178_AT1" fbc:id="G_79178_AT1" fbc:label="79178_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_79178_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS32053.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS58306.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS58307.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/79178"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/611612"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000259431"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000045691"/>
+                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000018105"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
