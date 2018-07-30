@@ -132,31 +132,45 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
         compartment_ids.add(c_recon.getId())
     print("compartments", compartment_ids)
 
+    def set_sbase_info(s_recon, s):
+        """ Sets the basic information on SBase.
+
+        :param s_recon: SBase in Recon3D model
+        :param s: created SBase
+        :return:
+        """
+        s.setId(s_recon.getId())
+        s.setMetaId(s_recon.getMetaId())
+        s.setName(s_recon.getName())
+        s.setSBOTerm(s_recon.getSBOTerm())
+        s.setAnnotation(s_recon.getAnnotation())
+
+
     # add compartments
     for cid in compartment_ids:
         c_recon = model_recon.getCompartment(cid)  # type: libsbml.Compartment
         c = model.createCompartment()  # type: libsbml.Compartment
-        c.setId(c_recon.getId())
+        set_sbase_info(c_recon, c)
         c.setConstant(c_recon.getConstant())
-        c.setMetaId(c_recon.getMetaId())
-        c.setName(c_recon.getName())
-        c.setSBOTerm(c_recon.getSBOTerm())
         # c.setUnits(c_recon.getUnits())  # FIXME (no units so far), register in listOfUnitDefinitions
-        c.setAnnotation(c_recon.getAnnotation())
+
+    # add parameters (flux bounds)
+    for p_recon in model_recon.getListOfParameters():  # type: libsbml.Parameter
+        p = model.createParameter()  # type: libsbml.Parameter
+        set_sbase_info(p_recon, p)
+        p.setConstant(p_recon.getConstant())
+        p.setValue(p_recon.getValue())
+        # p.setUnits(p_recon.getUnits())  # FIXME (no units so far), register in listOfUnitDefinitions
 
     # add species
     for sid in species_ids:
         s_recon = model_recon.getSpecies(sid)  # type: libsbml.Species
         s = model.createSpecies()  # type: libsbml.Species
-        s.setId(s_recon.getId())
-        s.setMetaId(s_recon.getMetaId())
+        set_sbase_info(s_recon, s)
         s.setBoundaryCondition(s_recon.getBoundaryCondition())
         s.setCompartment(s_recon.getCompartment())
         s.setConstant(s_recon.getConstant())
         s.setHasOnlySubstanceUnits(s_recon.getHasOnlySubstanceUnits())
-        s.setName(s_recon.getName())
-        s.setSBOTerm(s.getSBOTerm())
-        s.setAnnotation(s_recon.getAnnotation())
 
         # fbc
         s_recon_fbc = s_recon.getPlugin("fbc")  # type: libsbml.FbcSpeciesPlugin
@@ -172,30 +186,24 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
             if not model_fbc.getGeneProduct(gid):
                 gp_recon = model_recon_fbc.getGeneProduct(gid)  # type: libsbml.GeneProduct
                 gp = model_fbc.createGeneProduct()  # type: libsbml.GeneProduct
-                gp.setId(gp_recon.getId())
+                set_sbase_info(gp_recon, gp)
                 gp.setLabel(gp_recon.getLabel())
-                gp.setMetaId(gp_recon.getMetaId())
-                gp.setAnnotation(gp_recon.getAnnotation())
+
 
     # add reactions
     for rid in reaction_ids:
         r_recon = model_recon.getReaction(rid)  # type: libsbml.Reaction
         r = model.createReaction()  # type: libsbml.Reaction
+        set_sbase_info(r_recon, r)
         r.setId(r_recon.getId())
-        r.setMetaId(r_recon.getMetaId())
-        r.setAnnotation(r_recon.getAnnotation())
-        r.setName(r_recon.getName())
-        r.setSBOTerm(r_recon.getSBOTerm())
         r.setFast(r_recon.getFast())
         r.setReversible(r_recon.getReversible())
 
         # fbc
         r_recon_fbc = r_recon.getPlugin("fbc")  # type: libsbml.FbcReactionPlugin
         r_fbc = r.getPlugin("fbc")  # type: libsbml.FbcReactionPlugin
-
-        # FIXME: necessary to read the parameters of the flux bounds
-        # r_fbc.setLowerFluxBound(r_recon_fbc.getLowerFluxBound())
-        # r_fbc.setUpperFluxBound(r_recon_fbc.getUpperFluxBound())
+        r_fbc.setLowerFluxBound(r_recon_fbc.getLowerFluxBound())
+        r_fbc.setUpperFluxBound(r_recon_fbc.getUpperFluxBound())
 
         for sref_recon in r_recon.getListOfReactants():  # type: libsbml.SpeciesReference
             sid = sref_recon.getSpecies()
@@ -264,7 +272,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
             term = libsbml.CVTerm()  # type: libsbml.CVTerm
             term.setQualifierType(libsbml.BIOLOGICAL_QUALIFIER)
             term.setBiologicalQualifierType(libsbml.BQB_IS_ENCODED_BY)
-            term.addResource("https://identifier.org/ensemble/{}".format(ensemble_id))
+            term.addResource("https://identifiers.org/ensemble/{}".format(ensemble_id))
             code = gp.addCVTerm(term)
             # print("CODE:", code)
 
@@ -281,7 +289,7 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
                 term = libsbml.CVTerm()  # type: libsbml.CVTerm
                 term.setQualifierType(libsbml.BIOLOGICAL_QUALIFIER)
                 term.setBiologicalQualifierType(libsbml.BQB_IS_ENCODED_BY)
-                term.addResource("https://identifier.org/uniprot/{}".format(uniprot_id))
+                term.addResource("https://identifiers.org/uniprot/{}".format(uniprot_id))
                 code = gp.addCVTerm(term)
                 # print("CODE:", code)
 

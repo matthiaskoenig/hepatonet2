@@ -41,3 +41,5 @@ Start the notebook via
 ```
 jupyter lab
 ```
+
+&copy; 2018 [Matthias König](https://livermetabolism.com)

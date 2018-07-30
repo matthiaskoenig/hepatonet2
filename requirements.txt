@@ -1,5 +1,5 @@
 cython>=0.28.4
-cobra>=0.13.3
+
 optlang>=1.4.2
 numpy>=1.15.0
 scipy>=1.1.0
@@ -9,3 +9,6 @@ yml>=0.0.1
 django
 xlrd
 requests
+
+# cobra>=0.13.3
+# use latest development branch (libsbml)

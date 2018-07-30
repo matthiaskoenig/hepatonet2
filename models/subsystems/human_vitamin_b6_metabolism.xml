@@ -17,33 +17,96 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="M_h2o2_c" id="M_h2o2_c" name="Hydrogen peroxide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
+      <species metaid="M_o2_c" id="M_o2_c" name="O2 O2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o2_c">
+            <rdf:Description rdf:about="#M_o2_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_pydx_c" id="M_pydx_c" name="Pyridoxal" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H9NO3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_pydx_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pydx"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXAL"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:131530"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14976"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17310"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26423"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45112"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8667"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01545"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00250"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM311"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00215"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_nh4_c" id="M_nh4_c" name="Ammonium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H4N">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_nh4_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nh4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMMONIA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMMONIUM"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13405"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13406"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13407"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:135980"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13771"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16134"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22533"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22534"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:28938"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29337"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29340"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44269"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44284"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44404"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:49783"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7434"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7435"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00051"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB41827"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00014"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01342"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02915"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02916"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM15"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00013"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19013"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -90,24 +153,56 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_pydx_c" id="M_pydx_c" name="Pyridoxal" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H9NO3">
+      <species metaid="M_pdx5p_c" id="M_pdx5p_c" name="Pyridoxine 5&apos;-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C8H10NO6P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_pydx_c">
+            <rdf:Description rdf:about="#M_pdx5p_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pydx"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXAL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:131530"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14976"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17310"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26423"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45112"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8667"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01545"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00250"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM311"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00215"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pdx5p"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXINE-5P"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26430"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:28803"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45202"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58589"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8672"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01319"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00627"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM454"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00478"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h2o2_c" id="M_h2o2_c" name="Hydrogen peroxide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h2o2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -132,6 +227,31 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08454"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM419"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00263"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_pyam5p_c" id="M_pyam5p_c" name="Pyridoxamine 5&apos;-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H12N2O5P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_pyam5p_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyam5p"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXAMINE-5P"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14979"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14980"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18335"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26427"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45037"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58451"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8670"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01555"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00647"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00493"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -177,23 +297,29 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_pdx5p_c" id="M_pdx5p_c" name="Pyridoxine 5&apos;-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C8H10NO6P">
+      <species metaid="M_atp_c" id="M_atp_c" name="ATP C10H12N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_pdx5p_c">
+            <rdf:Description rdf:about="#M_atp_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pdx5p"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXINE-5P"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26430"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:28803"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45202"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58589"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8672"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01319"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00627"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM454"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00478"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -226,29 +352,53 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_atp_c" id="M_atp_c" name="ATP C10H12N5O13P3" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C10H12N5O13P3">
+      <species metaid="M_pydx5p_c" id="M_pydx5p_c" name="Pyridoxal 5&apos;-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C8H8NO6P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_atp_c">
+            <rdf:Description rdf:about="#M_pydx5p_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/atp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ATP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1634"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10789"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10841"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13236"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15422"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22249"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2359"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:237958"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30616"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40938"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57299"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00002"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D08646"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pydx5p"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXAL_PHOSPHATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14977"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18405"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:234571"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26424"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:358848"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45145"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:597326"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8668"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM161"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00016"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_adp_c" id="M_adp_c" name="ADP C10H12N5O10P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O10P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_adp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/adp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ADP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1651"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13222"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16761"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22244"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2342"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40553"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456216"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:87518"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01341"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G11113"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00008"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -311,173 +461,28 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_pydx5p_c" id="M_pydx5p_c" name="Pyridoxal 5&apos;-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C8H8NO6P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_pydx5p_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pydx5p"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXAL_PHOSPHATE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14977"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18405"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:234571"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26424"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:358848"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45145"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:597326"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8668"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00018"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM161"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00016"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_pyam5p_c" id="M_pyam5p_c" name="Pyridoxamine 5&apos;-phosphate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H12N2O5P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_pyam5p_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyam5p"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXAMINE-5P"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14979"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14980"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18335"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26427"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45037"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58451"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8670"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01555"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00647"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00493"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_nh4_c" id="M_nh4_c" name="Ammonium" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H4N">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_nh4_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nh4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMMONIA"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:AMMONIUM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13405"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13406"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13407"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:135980"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13771"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16134"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22533"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22534"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:28938"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29337"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29340"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44269"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44284"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44404"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:49783"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7434"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7435"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00051"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB41827"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00014"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01342"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02915"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D02916"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM15"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00013"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd19013"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2_c" id="M_o2_c" name="O2 O2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_adp_c" id="M_adp_c" name="ADP C10H12N5O10P2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H12N5O10P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_adp_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/adp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:ADP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:CPD0-1651"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13222"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16761"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22244"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:2342"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:40553"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:456216"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:87518"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01341"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G11113"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00008"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
     </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_lb" name="cobra default - lb" value="-1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_ub" name="cobra default - ub" value="1000" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="cobra_0_bound" name="cobra 0 - bound" value="0" constant="true"/>
+    </listOfParameters>
     <listOfReactions>
-      <reaction metaid="R_PDXPP" sboTerm="SBO:0000375" id="R_PDXPP" name="Pyridoxine 5-phosphate phosphatase" reversible="false">
+      <reaction metaid="R_HYPOE" sboTerm="SBO:0000375" id="R_HYPOE" name="Hypothetical enyme" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_PDXPP">
+            <rdf:Description rdf:about="#R_HYPOE">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PDXPP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN-14181"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HYPOE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN-14046"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.74"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01911"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR102440"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25112"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25113"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25114"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25115"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R02494"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100763"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25135"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25136"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25137"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25138"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -485,50 +490,17 @@
         </annotation>
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_pdx5p_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_pyam5p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pydxn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pydam_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_57026_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_PYDXNK" sboTerm="SBO:0000375" id="R_PYDXNK" name="Pyridoxine kinase" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_PYDXNK">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXNK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PNKIN-RXN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.35"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01909"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103362"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25108"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25109"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25110"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25111"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_pydxn_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_adp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pdx5p_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_8566_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_PDX5POi" sboTerm="SBO:0000375" id="R_PDX5POi" name="Pyridoxine 5&apos;-phosphate oxidase" reversible="false">
+      <reaction metaid="R_PDX5POi" sboTerm="SBO:0000375" id="R_PDX5POi" name="Pyridoxine 5&apos;-phosphate oxidase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_PDX5POi">
@@ -560,21 +532,80 @@
           <fbc:geneProductRef fbc:geneProduct="G_55163_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_PYAM5PO" sboTerm="SBO:0000375" id="R_PYAM5PO" name="Pyridoxamine 5&apos;-phosphate oxidase" reversible="false">
+      <reaction metaid="R_PYDXNO" sboTerm="SBO:0000375" id="R_PYDXNO" name="Pyridoxine oxidase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_PYAM5PO">
+            <rdf:Description rdf:about="#R_PYDXNO">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYAM5PO"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PMPOXI-RXN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXNO"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXINE-4-OXIDASE-RXN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.3.12"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.4.3.5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00277"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103355"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15817"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15818"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15819"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15820"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01711"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103363"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15033"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15034"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15035"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15036"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_pydxn_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pydx_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_55163_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_PDXPP" sboTerm="SBO:0000375" id="R_PDXPP" name="Pyridoxine 5-phosphate phosphatase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_PDXPP">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PDXPP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN-14181"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.74"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01911"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR102440"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25112"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25113"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25114"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25115"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_pdx5p_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pydxn_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_57026_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_PYDXDH" sboTerm="SBO:0000375" id="R_PYDXDH" name="Pyridoxal dehydrogenase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_PYDXDH">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXDH"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.3.8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103360"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -583,18 +614,50 @@
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_pyam5p_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_pydx_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_4pyrdx_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_h2o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_nh4_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_316_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="R_PYDXK" sboTerm="SBO:0000375" id="R_PYDXK" name="Pyridoxal kinase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_PYDXK">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXK"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXKIN-RXN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.35"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00174"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103361"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/10224"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/10225"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/10226"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/10227"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_pydx_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_pydx5p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_55163_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_8566_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_PYDXPP" sboTerm="SBO:0000375" id="R_PYDXPP" name="Pyridoxal 5-phosphate phosphatase" reversible="false">
+      <reaction metaid="R_PYDXPP" sboTerm="SBO:0000375" id="R_PYDXPP" name="Pyridoxal 5-phosphate phosphatase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_PYDXPP">
@@ -626,7 +689,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_57026_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_PYDXO_1" sboTerm="SBO:0000375" id="R_PYDXO_1" name="Pyridoxamine:oxygen oxidoreductase (deaminating)" reversible="false">
+      <reaction metaid="R_PYDXO_1" sboTerm="SBO:0000375" id="R_PYDXO_1" name="Pyridoxamine:oxygen oxidoreductase (deaminating)" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_PYDXO_1">
@@ -661,15 +724,21 @@
           <fbc:geneProductRef fbc:geneProduct="G_55163_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_PYDXDH" sboTerm="SBO:0000375" id="R_PYDXDH" name="Pyridoxal dehydrogenase" reversible="false">
+      <reaction metaid="R_PYAM5PO" sboTerm="SBO:0000375" id="R_PYAM5PO" name="Pyridoxamine 5&apos;-phosphate oxidase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_PYDXDH">
+            <rdf:Description rdf:about="#R_PYAM5PO">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXDH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.3.8"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103360"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYAM5PO"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PMPOXI-RXN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.4.3.5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00277"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15817"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15818"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15819"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/15820"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -678,49 +747,51 @@
         <listOfReactants>
           <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000010" species="M_o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_pydx_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_pyam5p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_4pyrdx_c" stoichiometry="1" constant="true"/>
           <speciesReference sboTerm="SBO:0000011" species="M_h2o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_nh4_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pydx5p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_316_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_55163_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_HYPOE" sboTerm="SBO:0000375" id="R_HYPOE" name="Hypothetical enyme" reversible="false">
+      <reaction metaid="R_PYDXNK" sboTerm="SBO:0000375" id="R_PYDXNK" name="Pyridoxine kinase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_HYPOE">
+            <rdf:Description rdf:about="#R_PYDXNK">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/HYPOE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN-14046"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.74"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R02494"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100763"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25135"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25136"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25137"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/25138"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXNK"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PNKIN-RXN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.35"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01909"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103362"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25108"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25109"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25110"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/25111"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h2o_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_pyam5p_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_pydxn_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_pi_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pydam_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_pdx5p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_57026_AT1"/>
+          <fbc:geneProductRef fbc:geneProduct="G_8566_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_PYDAMK" sboTerm="SBO:0000375" id="R_PYDAMK" name="Pyridoxamine kinase" reversible="false">
+      <reaction metaid="R_PYDAMK" sboTerm="SBO:0000375" id="R_PYDAMK" name="Pyridoxamine kinase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_PYDAMK">
@@ -753,72 +824,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_8566_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_PYDXNO" sboTerm="SBO:0000375" id="R_PYDXNO" name="Pyridoxine oxidase" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_PYDXNO">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXNO"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXINE-4-OXIDASE-RXN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.3.12"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.4.3.5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01711"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103363"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15033"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15034"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15035"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/15036"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_pydxn_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pydx_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_55163_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_PYDXK" sboTerm="SBO:0000375" id="R_PYDXK" name="Pyridoxal kinase" reversible="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_PYDXK">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/PYDXK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRIDOXKIN-RXN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.35"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00174"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR103361"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/10224"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/10225"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/10226"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/10227"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_pydx_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_adp_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_pydx5p_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_8566_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
     </listOfReactions>
     <fbc:listOfGeneProducts>
       <fbc:geneProduct metaid="G_57026_AT1" fbc:id="G_57026_AT1" fbc:label="57026_AT1">
@@ -830,10 +835,10 @@
                   <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS13953.1"/>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/57026"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/609246"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000241360"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q96GD0"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000009570"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/B2GV79"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSG00000241360"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q96GD0"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000009570"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/B2GV79"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -850,12 +855,33 @@
                   <rdf:li rdf:resource="http://identifiers.org/hprd/04476"/>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/55163"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/603287"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000108439"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000018659"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/A2A6E7"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q91XF0"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000046493"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/O88794"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSG00000108439"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSMUSG00000018659"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/A2A6E7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q91XF0"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000046493"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/O88794"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_316_AT1" fbc:id="G_316_AT1" fbc:label="316_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_316_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS33360.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/316"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/602841"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSG00000138356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q06278"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSMUSG00000063558"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/G3X8P9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000015354"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/F1LRQ1"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -872,30 +898,9 @@
                   <rdf:li rdf:resource="http://identifiers.org/hprd/01526"/>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/8566"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/179020"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000160209"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000032788"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8K183"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_316_AT1" fbc:id="G_316_AT1" fbc:label="316_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_316_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS33360.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/316"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/602841"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000138356"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q06278"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000063558"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/G3X8P9"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000015354"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/F1LRQ1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSG00000160209"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSMUSG00000032788"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q8K183"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>

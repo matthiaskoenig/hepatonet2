@@ -17,26 +17,25 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="M_udpxyl_g" id="M_udpxyl_g" name="UDP-D-xylose" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H20N2O16P2">
+      <species metaid="M_udpglcur_g" id="M_udpglcur_g" name="UDP-D-glucuronate" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C15H19N2O18P2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_udpxyl_g">
+            <rdf:Description rdf:about="#M_udpglcur_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udpxyl"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UDP-D-XYLOSE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13490"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16082"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22105"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46260"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57632"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:59456"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9813"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01018"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00190"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10613"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM284"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00163"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udpglcur"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UDP-GLUCURONATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13489"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13506"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17200"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22104"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46309"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58052"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9846"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00167"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10612"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM87"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00144"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -68,25 +67,26 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_udpglcur_g" id="M_udpglcur_g" name="UDP-D-glucuronate" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C15H19N2O18P2">
+      <species metaid="M_udpxyl_g" id="M_udpxyl_g" name="UDP-D-xylose" compartment="g" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H20N2O16P2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_udpglcur_g">
+            <rdf:Description rdf:about="#M_udpxyl_g">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udpglcur"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UDP-GLUCURONATE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13489"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13506"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:17200"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22104"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46309"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:58052"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9846"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00167"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10612"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM87"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00144"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/udpxyl"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:UDP-D-XYLOSE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13490"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16082"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:22105"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:46260"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57632"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:59456"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:9813"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00190"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.glycan/G10613"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM284"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00163"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -121,8 +121,13 @@
         </annotation>
       </species>
     </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_lb" name="cobra default - lb" value="-1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_ub" name="cobra default - ub" value="1000" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="cobra_0_bound" name="cobra 0 - bound" value="0" constant="true"/>
+    </listOfParameters>
     <listOfReactions>
-      <reaction metaid="R_UDPGLDCg" sboTerm="SBO:0000375" id="R_UDPGLDCg" name="UDP-D-glucuronate decarboxylase, Golgi apparatus" reversible="false">
+      <reaction metaid="R_UDPGLDCg" sboTerm="SBO:0000375" id="R_UDPGLDCg" name="UDP-D-glucuronate decarboxylase, Golgi apparatus" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_UDPGLDCg">
@@ -167,13 +172,13 @@
                   <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS58721.1"/>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/80146"/>
                   <rdf:li rdf:resource="http://identifiers.org/omim/609749"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSG00000115652"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q8NBZ7"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSMUSG00000057363"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/G5E8H4"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q91XL3"/>
-                  <rdf:li rdf:resource="https://identifier.org/ensemble/ENSRNOG00000045605"/>
-                  <rdf:li rdf:resource="https://identifier.org/uniprot/Q5PQX0"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSG00000115652"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q8NBZ7"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSMUSG00000057363"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/G5E8H4"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q91XL3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000045605"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q5PQX0"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
