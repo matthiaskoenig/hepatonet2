@@ -240,6 +240,22 @@ def create_sbml_for_subsystem(doc_recon, subsystem, organism):
                 print(rid)
                 print("code GPA:", code)
 
+    # for full model add the objective function
+    if not subsystem:
+        obj_list_recon = model_recon_fbc.getListOfObjectives()  # type: libsbml.ListOfObjectives
+        if obj_list_recon and obj_list_recon.size() > 0:
+            for obj_recon in obj_list_recon:  # type: libsbml.Objective
+                obj = model_fbc.createObjective()  # type: libsbml.Objective
+                set_sbase_info(obj_recon, obj)
+                obj.setType(obj_recon.getType())
+                for flux_obj_recon in obj_recon.getListOfFluxObjectives():  # type: libsbml.FluxObjective
+                    flux_obj = obj.createFluxObjective()  # type: libsbml.FluxObjective
+                    set_sbase_info(flux_obj_recon, flux_obj)
+                    flux_obj.setCoefficient(flux_obj_recon.getCoefficient())
+                    flux_obj.setReaction(flux_obj_recon.getReaction())
+        obj_list = model_fbc.getListOfObjectives()  # type: libsbml.ListOfObjectives
+        obj_list.setActiveObjective(obj_list_recon.getActiveObjective())
+
     def gid_from_gpid(gpid):
         gid = gpid.replace("G_", "")
         gid = gid.replace("_AT", ".")

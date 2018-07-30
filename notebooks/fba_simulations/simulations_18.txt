@@ -1,0 +1,289 @@
+###############################################################################
+# 	HepatoCore FBA Simulations
+# 	Simulations are performed for validation of the reconstructed network
+# 
+# 	author:		Matthias Koenig
+###############################################################################
+
+
+####################	Glycolysis & PPP (ATP, NADH, NADPH)	###################
+
+# test simulation
+# 	Import: glucose		Export: lactate		Forbidden: lactate import
+00_test	ID_19899_plasma_membrane	defaults.txt -ID_14148_blood_circulation +ID_14148_cytosol	ID_19899_plasma_membrane
+
+# degradation of glucose to lactate
+# 	Import: glucose		Export: lactate
+01_glucose_to_lactate	ID_20156_plasma_membrane	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation %ID_19909_plasma_membrane	ID_20156_plasma_membrane
+
+# generating ribose for nucleotid synthesis
+# 	Import: glucose		Export: lactate, ribose
+02_ribose_needed_no_nadph	ID_13729_cytosol	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation	ID_13729_cytosol
+
+# generating ribose and NADPH consumption is possible
+# 	Import: glucose		Export: lactate, ribose		NAPH consumption possible
+03_ribose_needed_and_nadph	ID_13729_cytosol	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation	ID_13729_cytosol
+
+# generating NADPH cytosol
+#	Import: glucose		Export: lactate	
+04_NADPH_cyto_needed	ID_20797_cytosol	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation	ID_20797_cytosol
+
+# generating NADPH mitochondrion
+#	Import: glucose		Export: lactate		Forbidden: Arginine import	
+05_NADPH_mito_needed	ID_20797_mitochondrial_matrix	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation %ID_19923_plasma_membrane	ID_20797_mitochondrial_matrix
+
+# glycerol degradation
+# 	Import: glucose, glycerol	Export: lactate
+06_glycerol_to_lactate	ID_19816_plasma_membrane	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation -ID_13966_blood_circulation	ID_19816_plasma_membrane
+
+# glycerol degradation with unbalanced NADH and NAD
+# 	Import: glucose, glycerol	Export: lactate		Unbalanced: NAD, NADH
+07_glycerol_to_lactate_nadh_unbalanced	ID_19816_plasma_membrane	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation -ID_13966_blood_circulation =ID_13623_cytosol =ID_13620_cytosol	ID_19816_plasma_membrane
+
+# glycerol degradation with unbalanced NADH and NAD, no NADPH usage
+# 	Import: glucose, glycerol	Export: lactate		Unbalanced: NAD, NADH 	Forbidden: NADPH usage mito
+08_glycerol_to_lactate_no_nadph_usage	ID_19816_plasma_membrane	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation -ID_13966_blood_circulation %ID_20797_mitochondrial_matrix	ID_19816_plasma_membrane
+
+# fructose usage
+#	Import: glucose, fructose	Export: lactate
+09_fructose_to_pyruvate	ID_20177_plasma_membrane	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation -ID_14681_blood_circulation	ID_20177_plasma_membrane
+
+# fructose, glucose and glycerol for energy
+#	Import: glucose, fructose, glycerol	Export: lactate
+10_atp_consumption	ID_20827_cytosol	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation -ID_14681_blood_circulation -ID_13966_blood_circulation	ID_20827_cytosol
+
+# Using glycogen for energy
+#	Import: glycogen	Export: lactate		Forbidden: glycogen synthase
+11_glycogen_to_pyruvate	ID_19256_cytosol	defaults.txt -ID_15924_cytosol +ID_15668_blood_circulation %ID_19252_cytosol	ID_19256_cytosol
+
+# pep to glycogen with additional glucose available
+#	Import: PEP_cytosol, glucose	Export: glycogen
+12_pep_to_glycogen	ID_15924_cytosol	defaults.txt +ID_15924_cytosol -ID_14341_cytosol -ID_14148_blood_circulation	ID_15924_cytosol
+
+#	Import: PEP_cytosol	Export: glycogen
+13_pep_to_glycogen_2	ID_15924_cytosol	defaults.txt +ID_15924_cytosol -ID_14341_cytosol	ID_15924_cytosol
+
+
+############### 	Gluconeogenese		#########################################	
+
+#	Import: lactate		Export: glucose
+14_lactate_to_glucose	-1 ID_19899_plasma_membrane	defaults.txt -ID_15668_blood_circulation %ID_13620_mitochondrial_matrix %ID_13622_mitochondrial_matrix %ID_13623_mitochondrial_matrix +ID_14148_blood_circulation %ID_19054_cytosol	ID_19899_plasma_membrane
+
+#	Import: alanine		Export: glucose		Unbalanced: NADH, NAD, H+ cytosol
+15_alanine_to_glucose	-1 ID_19899_plasma_membrane	defaults.txt -ID_13663_blood_circulation %ID_13620_mitochondrial_matrix %ID_13622_mitochondrial_matrix %ID_13623_mitochondrial_matrix +ID_14148_blood_circulation %ID_19054_cytosol	ID_19899_plasma_membrane
+#
+#	Import: pyruvate
+16_pyruvate_to_glucose	-1 ID_19899_plasma_membrane	defaults.txt -ID_13917_mitochondrial_matrix %ID_13620_mitochondrial_matrix %ID_13622_mitochondrial_matrix %ID_13623_mitochondrial_matrix +ID_14148_blood_circulation %ID_19054_cytosol	ID_19899_plasma_membrane
+#
+#	Import: oxalacetate		Export: glucose
+17_oxalacetate_to_glucose	-1 ID_19899_plasma_membrane	defaults.txt -ID_14191_mitochondrial_matrix %ID_13620_mitochondrial_matrix %ID_13622_mitochondrial_matrix %ID_13623_mitochondrial_matrix +ID_14148_blood_circulation %ID_19054_cytosol	ID_19899_plasma_membrane
+#
+#	Import: glycerol		Export: glucose
+18_glycerol_to_glucose	-1 ID_19899_plasma_membrane	defaults.txt -ID_13966_blood_circulation %ID_13620_mitochondrial_matrix %ID_13622_mitochondrial_matrix %ID_13623_mitochondrial_matrix +ID_14148_blood_circulation %ID_19054_cytosol	ID_19899_plasma_membrane
+#
+#
+
+#########	Glycolysis under aearob and anaerob conditions		#####
+
+#	Import: glucose		Export: lactate	
+19_atp_cyto_aerob	ID_20827_cytosol	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation	ID_20827_cytosol
+
+#	Import: glucose		Export: lactate		Forbidden: O2 transport
+20_atp_cyto_anaerob	ID_20827_cytosol	defaults.txt -ID_14148_blood_circulation %ID_20333_plasma_membrane +ID_15668_blood_circulation	ID_20827_cytosol
+
+#	Import: glucose		Export: lactate	
+21_atp_mito_aerob	ID_20827_mitochondrial_matrix	defaults.txt -ID_14148_blood_circulation +ID_15668_blood_circulation	ID_20827_mitochondrial_matrix
+
+#	Import: glucose		Export: lactate		Forbidden: O2 transport
+22_atp_mito_anaerob	ID_20827_mitochondrial_matrix	defaults.txt -ID_14148_blood_circulation %ID_20333_plasma_membrane +ID_15668_blood_circulation	ID_20827_mitochondrial_matrix
+
+#	Import: glucose
+23_atp_minexchange_cyto	ID_20827_cytosol	defaults.txt minexchange.txt	ID_20827_cytosol
+24_atp_minexchange_mito	ID_20827_mitochondrial_matrix	defaults.txt minexchange.txt	ID_20827_mitochondrial_matrix
+
+#########	Ethanol degradation		########################
+
+24_ethanol_degradation	ID_20072_plasma_membrane	defaults.txt minexchange.txt -ID_13685_blood_circulation	ID_20072_plasma_membrane
+25_ethanol_degradation_1	ID_20072_plasma_membrane	defaults.txt minexchange.txt -ID_13685_blood_circulation =ID_14769_blood_circulation	ID_20072_plasma_membrane
+
+
+##########	Fatty acid synthesis and degradation	####################
+
+# fatty-acid synthesis from acetyl-CoA and NADPH
+# 	Analysis of the fatty acid synthesis (only C16 palmitate in the model at the moment)
+#	NADPH mitochondrium is available for the synthesis
+#	Import: Acetyl-CoA	Export: Fatty-Acid	Forbidden: beta-Oxidation 	Unbalanced: NADPH, NADP, H mito 
+26_fatty_acid_synthesis	ID_19342_cytosol	defaults.txt +ID_15925_blood_circulation -ID_13675_mitochondrial_matrix %ID_19326_mitochondrial_matrix =ID_13684_mitochondrial_matrix  =ID_13686_mitochondrial_matrix =ID_13622_mitochondrial_matrix	ID_19342_cytosol
+
+# fatty-acid synthesis from acetyl-CoA and NADPH
+# 	Analysis of the fatty acid synthesis (only C16 palmitate in the model at the moment)
+#	NADPH cyto is available for the synthesis
+#	Import: Acetyl-CoA	Export: Fatty-Acid	Forbidden: beta-Oxidation 	Unbalanced: NADPH, NADP, H cyto
+27_fatty_acid_synthesis	ID_19342_cytosol	defaults.txt +ID_15925_blood_circulation -ID_13675_mitochondrial_matrix  %ID_19326_mitochondrial_matrix =ID_13684_cytosol  =ID_13686_cytosol =ID_13622_cytosol	ID_19342_cytosol
+
+# fatty-acid synthesis from minexchange
+# 	Analysis of the fatty acid synthesis (only C16 palmitate in the model at the moment)
+#	min exchange set
+#	Import: Acetyl-CoA	Export: Fatty-Acid	Forbidden: beta-Oxidation 	Unbalanced: NADPH, NADP, H cyto
+28_fatty_acid_synthesis	ID_19342_cytosol	defaults.txt minexchange.txt +ID_15925_blood_circulation -ID_13675_mitochondrial_matrix %ID_19326_mitochondrial_matrix	ID_19342_cytosol
+
+
+##########	beta-Oxidation of fatty acids	###########################################################
+
+# beta_ox_test
+# Import: Fatty acid;	Forbidden: fatty acid synthesis; 	Allowed: ATP usage
+30_beta_ox_test_1	ID_19326_mitochondrial_matrix	defaults.txt minexchange.txt %ID_19342_cytosol -ID_15925_blood_circulation +ID_20827_mitochondrial_matrix	ID_19326_mitochondrial_matrix
+
+# transport in cytosol possible
+31_beta_ox_test_4	ID_20107_plasma_membrane	defaults.txt minexchange.txt -ID_15925_blood_circulation +ID_15925_cytosol	ID_20107_plasma_membrane
+
+# beta-Oxidation for ATP cytosol
+# ATP consuming process
+# Import: Fatty acid, minexchange	Export: Acetyl-CoA, Glucose, Glycogen	Forbidden: Fatty acid synthesis		Allowed: ATP-consumption
+32_beta_oxidation_for_atp_cyto	ID_19326_mitochondrial_matrix	defaults.txt minexchange.txt -ID_15925_blood_circulation +ID_15924_cytosol +ID_14148_blood_circulation +ID_20827_mitochondrial_matrix	ID_19326_mitochondrial_matrix
+
+# beta-Oxidation for ATP cytosol
+# ATP consuming process, COA not balanced
+# Import: Fatty acid, minexchange	Export: Acetyl-CoA, Glucose, Glycogen	Forbidden: Fatty acid synthesis		Allowed: ATP-consumption
+33_1_beta_oxidation_for_atp_cyto	ID_19326_mitochondrial_matrix	defaults.txt minexchange.txt -ID_15925_blood_circulation +ID_15924_cytosol +ID_14148_blood_circulation +ID_20827_mitochondrial_matrix %ID_13910_mitochondrial_matrix %ID_13910_cytosol	ID_19326_mitochondrial_matrix
+
+
+##########	NH3 metabolism		##########################
+
+# NH3 with minimal exchange set
+# Import NH3. no glutamin export
+40_nh3_minexchange	ID_22281_plasma_membrane	defaults.txt minexchange.txt -ID_13612_blood_circulation %ID_20050_plasma_membrane	ID_22281_plasma_membrane
+
+# NH3 with minimal exchange set and glutamine export
+41_nh3_minexchange_gln	ID_22281_plasma_membrane	defaults.txt minexchange.txt +ID_13649_blood_circulation -ID_13612_blood_circulation	ID_22281_plasma_membrane
+
+# NH3 with minimal exchange set, no oxygen, no gln export
+42_nh3_minexchange_no_o2	ID_22281_plasma_membrane	defaults.txt minexchange.txt %ID_20333_plasma_membrane -ID_13612_blood_circulation %ID_20050_plasma_membrane	ID_22281_plasma_membrane
+
+# NH3 with minimal exchange set, no oxygen, gln export
+43_nh3_minexchange_no_o2_gln	ID_22281_plasma_membrane	defaults.txt minexchange.txt %ID_20333_plasma_membrane +ID_13649_blood_circulation -ID_13612_blood_circulation	ID_22281_plasma_membrane
+
+# NH3 with minimal exchange set and glutamate
+44_nh3_minexchange_no_o2	ID_22281_plasma_membrane	defaults.txt minexchange.txt -ID_13650_blood_circulation -ID_13612_blood_circulation	ID_22281_plasma_membrane
+
+# NH3 with minimal exchange set and glutatamate and no oxygen
+45_nh3_minexchange_no_o2	ID_22281_plasma_membrane	defaults.txt minexchange.txt %ID_20333_plasma_membrane -ID_13650_blood_circulation -ID_13612_blood_circulation	ID_22281_plasma_membrane
+
+# NH3 with minimal exchange set no urea export
+46_nh3_minexchange	ID_22281_plasma_membrane	defaults.txt minexchange.txt -ID_13612_blood_circulation %20079_plasma_membrane	ID_22281_plasma_membrane
+
+
+##########	Synthesis of amino acids	####################################
+##	nonessential	###
+99_arginine_01	ID_13885_blood_circulation	defaults.txt minexchange.txt	ID_13885_blood_circulation
+99_glutamate	ID_13650_blood_circulation	defaults.txt minexchange.txt	ID_13650_blood_circulation
+99_alanine	ID_13663_blood_circulation	defaults.txt minexchange.txt %ID_21199_plasma_membrane	ID_13663_blood_circulation
+99_cysteine	ID_13795_blood_circulation	defaults.txt minexchange.txt	ID_13795_blood_circulation
+99_serine	ID_13704_blood_circulation	defaults.txt minexchange.txt 	ID_13704_blood_circulation
+99_histidine	ID_13787_blood_circulation	defaults.txt minexchange.txt	ID_13787_blood_circulation	
+99_tyrosine	ID_13781_blood_circulation	defaults.txt minexchange.txt	ID_13781_blood_circulation
+99_glycine	ID_14131_blood_circulation	defaults.txt minexchange.txt	ID_14131_blood_circulation
+99_proline	ID_14215_blood_circulation	defaults.txt minexchange.txt	ID_14215_blood_circulation
+99_asparagine	ID_15065_blood_circulation	defaults.txt minexchange.txt	ID_15065_blood_circulation
+99_aspartate	ID_14072_blood_circulation	defaults.txt minexchange.txt	ID_14072_blood_circulation
+99_glutamine	ID_20050_plasma_membrane	defaults.txt minexchange.txt +ID_13649_blood_circulation %ID_19935_plasma_membrane	ID_20050_plasma_membrane
+99_glutamate	ID_13650_blood_circulation	defaults.txt minexchange.txt	ID_13650_blood_circulation
+
+##	essential aminoacids 
+99_phenylalanine	ID_14614_blood_circulation	defaults.txt minexchange.txt	0
+99_valin	ID_14028_blood_circulation	defaults.txt minexchange.txt	0
+99_isoleucin	ID_15249_blood_circulation	defaults.txt minexchange.txt	0
+99_leucin	ID_14832_blood_circulation	defaults.txt minexchange.txt	0
+99_threonine	ID_13868_blood_circulation	defaults.txt minexchange.txt	0
+99_trypthophan	ID_14082_blood_circulation	defaults.txt minexchange.txt	0
+99_methionine	ID_13695_blood_circulation	defaults.txt minexchange.txt	0
+99_lysine	ID_14958_blood_circulation	defaults.txt minexchange.txt	0
+
+#########	Degradation of all amino acids    ############################################
+##	nonessential	###
+98_arginine	ID_19923_plasma_membrane	defaults.txt minexchange.txt -ID_13885_blood_circulation	ID_19923_plasma_membrane
+98_glutamate	ID_19930_plasma_membrane	defaults.txt minexchange.txt -ID_13650_blood_circulation	ID_19930_plasma_membrane
+98_alanine	ID_19916_plasma_membrane	defaults.txt minexchange.txt -ID_13663_blood_circulation %ID_21199_plasma_membrane	ID_19916_plasma_membrane
+98_cysteine	ID_19989_plasma_membrane	defaults.txt minexchange.txt -ID_13795_blood_circulation +ID_14208_cytosol	ID_19989_plasma_membrane
+98_serine	ID_19975_plasma_membrane	defaults.txt minexchange.txt -ID_13704_blood_circulation	ID_19975_plasma_membrane
+98_histidine	ID_19954_plasma_membrane	defaults.txt minexchange.txt -ID_13787_blood_circulation	ID_19954_plasma_membrane	
+98_tyrosine	ID_20029_plasma_membrane	defaults.txt minexchange.txt -ID_13781_blood_circulation	ID_20029_plasma_membrane
+98_glycine	ID_19968_plasma_membrane	defaults.txt minexchange.txt -ID_14131_blood_circulation	ID_19968_plasma_membrane
+98_proline	ID_19994_plasma_membrane	defaults.txt minexchange.txt -ID_14215_blood_circulation	ID_19994_plasma_membrane
+98_asparagine	ID_19942_plasma_membrane	defaults.txt minexchange.txt -ID_15065_blood_circulation	ID_19942_plasma_membrane
+98_aspartate	ID_19949_plasma_membrane	defaults.txt minexchange.txt -ID_14072_blood_circulation	ID_19949_plasma_membrane
+98_glutamine	ID_19935_plasma_membrane	defaults.txt minexchange.txt -ID_13649_blood_circulation %ID_20050_plasma_membrane	ID_19935_plasma_membrane
+98_glutamate	ID_19930_plasma_membrane	defaults.txt minexchange.txt -ID_13650_blood_circulation	ID_19930_plasma_membrane
+
+## essential
+98_phenylalanine	ID_20022_plasma_membrane	defaults.txt minexchange.txt -ID_14614_blood_circulation	ID_20022_plasma_membrane
+98_valin	ID_20008_plasma_membrane	defaults.txt minexchange.txt -ID_14028_blood_circulation	ID_20008_plasma_membrane
+98_isoleucin	ID_20015_plasma_membrane	defaults.txt minexchange.txt -ID_15249_blood_circulation	ID_20015_plasma_membrane
+98_leucin	ID_20001_plasma_membrane	defaults.txt minexchange.txt -ID_14832_blood_circulation	ID_20001_plasma_membrane
+98_threonine	ID_19982_plasma_membrane	defaults.txt minexchange.txt -ID_13868_blood_circulation	ID_19982_plasma_membrane
+98_trypthophan	ID_20036_plasma_membrane	defaults.txt minexchange.txt -ID_14082_blood_circulation	ID_20036_plasma_membrane
+
+98_methionine	ID_19961_plasma_membrane	defaults.txt minexchange.txt -ID_13695_blood_circulation +ID_14208_cytosol	ID_19961_plasma_membrane
+98_methionine_1	ID_19961_plasma_membrane	defaults.txt minexchange.txt -ID_13695_blood_circulation +ID_13980_cytosol	ID_19961_plasma_membrane
+98_methionine_2	ID_19961_plasma_membrane	defaults.txt minexchange.txt -ID_13695_blood_circulation +ID_13795_cytosol	ID_19961_plasma_membrane
+
+98_lysine	ID_20043_plasma_membrane	defaults.txt minexchange.txt -ID_14958_blood_circulation	ID_20043_plasma_membrane
+
+
+##########	Synthesis and degradation of nucleotides	##########################################
+# NADPH and ATP is given for synthesis reactions
+# Don't test for the Triphosphonucleotides but for the last synthesis reaction.
+# UTP: 14675_cytosol
+# CTP: 14669_cytosol
+# GTP: 13710_cytosol
+# ATP: 13648_cytosol
+
+# synthesis
+300_prpp_synthesis	ID_13937_cytosol	defaults.txt minexchange.txt	ID_13937_cytosol	
+300_utp_synthesis	ID_14675_cytosol	defaults.txt minexchange.txt	ID_14675_cytosol	
+300_ctp_synthesis	ID_14669_cytosol	defaults.txt minexchange.txt	ID_14669_cytosol	
+300_gtp_synthesis	ID_13710_cytosol	defaults.txt minexchange.txt	ID_13710_cytosol	
+300_atp_synthesis	ID_13648_cytosol	defaults.txt minexchange.txt	ID_13648_cytosol	
+# degradation
+# A, G to urate
+350_atp_degradation	ID_15523_blood_circulation	defaults.txt minexchange.txt -ID_13648_cytosol	ID_15523_blood_circulation
+350_gtp_degradation	ID_15523_blood_circulation	defaults.txt minexchange.txt -ID_13710_cytosol	ID_15523_blood_circulation
+# C, U over beta alanine
+350_utp_degradation	ID_18509_cytosol	defaults.txt minexchange.txt -ID_14675_cytosol	ID_18509_cytosol
+350_ctp_degradation	ID_18509_cytosol	defaults.txt minexchange.txt -ID_14669_cytosol	ID_18509_cytosol
+350_utp_degradation	ID_15136_cytosol	defaults.txt minexchange.txt -ID_14675_cytosol +ID_15136_cytosol	ID_15136_cytosol
+350_ctp_degradation	ID_15136_cytosol	defaults.txt minexchange.txt -ID_14669_cytosol +ID_15136_cytosol	ID_15136_cytosol
+
+
+################   Ketone body synthesis	#################################
+# 
+# Generate the different ketone bodies unter the conditions of ketone body synthesis.
+# Lots of acetyl-CoA but no oxalacetate for ligation in citrate cycle.
+
+# Citrate synthase reaction forbidden (no oxalacetate for the reaction) and acetyl-CoA in system
+# Also the Pyruvate carboxylase has to be forbidden
+# %18157_mitochondrial_matrix
+
+# acetyl-CoA given and NADH available,
+# Import: Acetyl-CoA	Forbidden: reverse reaction, citrate synthase	Unbalanced: NADH
+900_ketone_bodies_acetoacetate	ID_13809_blood_circulation	defaults.txt minexchange.txt -ID_13675_mitochondrial_matrix %ID_17711_mitochondrial_matrix %ID_19008_mitochondrial_matrix =ID_13620_mitochondrial_matrix =ID_13623_mitochondrial_matrix =ID_13622_mitochondrial_matrix	ID_13809_blood_circulation
+
+900_ketone_bodies_acetone	ID_13810_blood_circulation	defaults.txt minexchange.txt -ID_13675_mitochondrial_matrix %ID_17711_mitochondrial_matrix %ID_19008_mitochondrial_matrix =ID_13620_mitochondrial_matrix =ID_13623_mitochondrial_matrix =ID_13622_mitochondrial_matrix	ID_13810_blood_circulation
+
+900_ketone_bodies_hydroxybutyrate	ID_13832_blood_circulation	defaults.txt minexchange.txt -ID_13675_mitochondrial_matrix %ID_17711_mitochondrial_matrix %ID_19008_mitochondrial_matrix =ID_13620_mitochondrial_matrix =ID_13623_mitochondrial_matrix =ID_13622_mitochondrial_matrix	ID_13832_blood_circulation
+
+
+##########	Synthesis of example protein	###########################################################
+# minimal exchange set is given
+# generate the protein:
+
+000_test_protein	ID_22334_cytosol	defaults.txt minexchange.txt +ID_22331_cytosol	ID_22334_cytosol
+# ATP and ADP not balanced
+000_test_protein_1	ID_22334_cytosol	defaults.txt minexchange.txt =ID_13653_cytosol =ID_13648_cytosol +ID_22331_cytosol	ID_22334_cytosol
+# ATP and ADP, NADH, NAD not balanced
+000_test_protein_2	ID_22334_cytosol	defaults.txt minexchange.txt =ID_13653_cytosol =ID_13648_cytosol =ID_13623_cytosol =ID_13620_cytosol +ID_22331_cytosol	ID_22334_cytosol
+
+# ATP and ADP, NADH, NAD, full_exchange
+000_test_protein_3	ID_22334_cytosol	defaults.txt fullexchange.txt =ID_13653_cytosol =ID_13648_cytosol =ID_13623_cytosol =ID_13620_cytosol +ID_22331_cytosol	ID_22334_cytosol
+
+

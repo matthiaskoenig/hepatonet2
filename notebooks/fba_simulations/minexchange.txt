@@ -1,0 +1,25 @@
++ID_13886_blood_circulation
++ID_15523_blood_circulation
++ID_13809_blood_circulation
++ID_13810_blood_circulation
++ID_13832_blood_circulation
++ID_15668_blood_circulation
++ID_14035_blood_circulation
+=ID_13640_blood_circulation
+-ID_13638_blood_circulation
+=ID_14148_blood_circulation
++ID_15924_cytosol
+# essential amino acid uptake
+-ID_14250_blood_circulation
+-ID_14614_blood_circulation
+-ID_14028_blood_circulation
+-ID_13868_blood_circulation
+-ID_14082_blood_circulation
+-ID_15249_blood_circulation
+-ID_13695_blood_circulation
+-ID_14832_blood_circulation
+-ID_14958_blood_circulation
+# glutamine can be exported
++ID_13649_blood_circulation
+
+

@@ -2,6 +2,45 @@
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2" fbc:required="false">
   <model id="ros_detoxification" fbc:strict="false">
     <listOfCompartments>
+      <compartment metaid="_15afc92b-afdd-4e68-9551-911277ead2a3" sboTerm="SBO:0000290" id="x" name="peroxisome/glyoxysome" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#_15afc92b-afdd-4e68-9551-911277ead2a3">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/x"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="fce79ec7-457d-4446-9060-1aec48ed8905" sboTerm="SBO:0000290" id="r" name="endoplasmic reticulum" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#fce79ec7-457d-4446-9060-1aec48ed8905">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/r"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="_9ea6d3a9-dd79-4903-a3c4-44e8e4a4baf8" sboTerm="SBO:0000290" id="e" name="extracellular space" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#_9ea6d3a9-dd79-4903-a3c4-44e8e4a4baf8">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/e"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
       <compartment metaid="_1b6b835a-8865-430c-9a03-a922a21eedd7" sboTerm="SBO:0000290" id="m" name="mitochondria" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -41,126 +80,8 @@
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="_9ea6d3a9-dd79-4903-a3c4-44e8e4a4baf8" sboTerm="SBO:0000290" id="e" name="extracellular space" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_9ea6d3a9-dd79-4903-a3c4-44e8e4a4baf8">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/e"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </compartment>
-      <compartment metaid="_15afc92b-afdd-4e68-9551-911277ead2a3" sboTerm="SBO:0000290" id="x" name="peroxisome/glyoxysome" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_15afc92b-afdd-4e68-9551-911277ead2a3">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/x"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </compartment>
-      <compartment metaid="fce79ec7-457d-4446-9060-1aec48ed8905" sboTerm="SBO:0000290" id="r" name="endoplasmic reticulum" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#fce79ec7-457d-4446-9060-1aec48ed8905">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.compartment/r"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="M_o2s_n" id="M_o2s_n" name="Superoxide anion" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2s_n">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_e" id="M_h_e" name="H+" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2_n" id="M_o2_n" name="O2 O2" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2_n">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="M_h2o2_e" id="M_h2o2_e" name="Hydrogen peroxide" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -194,10 +115,10 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_h_n" id="M_h_n" name="H+" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+      <species metaid="M_h_x" id="M_h_x" name="H+" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_n">
+            <rdf:Description rdf:about="#M_h_x">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
@@ -213,6 +134,100 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2s_m" id="M_o2s_m" name="Superoxide anion" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2s_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2s_n" id="M_o2s_n" name="Superoxide anion" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2s_n">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_m" id="M_h_m" name="H+" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2s_x" id="M_o2s_x" name="Superoxide anion" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2s_x">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -252,253 +267,33 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+      <species metaid="M_h2o2_x" id="M_h2o2_x" name="Hydrogen peroxide" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_c">
+            <rdf:Description rdf:about="#M_h2o2_x">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2_m" id="M_o2_m" name="O2 O2" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2s_e" id="M_o2s_e" name="Superoxide anion" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2s_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2_e" id="M_o2_e" name="O2 O2" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2_e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_x" id="M_h_x" name="H+" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_x">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2_r" id="M_o2_r" name="O2 O2" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h_m" id="M_h_m" name="H+" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2_c" id="M_o2_c" name="O2 O2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2_x" id="M_o2_x" name="O2 O2" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2_x">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -561,10 +356,368 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="M_o2_c" id="M_o2_c" name="O2 O2" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h2o2_r" id="M_h2o2_r" name="Hydrogen peroxide" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h2o2_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2_m" id="M_o2_m" name="O2 O2" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2_m">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2_e" id="M_o2_e" name="O2 O2" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_e" id="M_h_e" name="H+" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_e">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2_r" id="M_o2_r" name="O2 O2" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2_r">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h2o2_c" id="M_h2o2_c" name="Hydrogen peroxide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h2o2_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_o2s_c" id="M_o2s_c" name="Superoxide anion" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#M_o2s_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2_n" id="M_o2_n" name="O2 O2" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2_n">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2_x" id="M_o2_x" name="O2 O2" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2_x">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10745"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13416"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15379"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:23833"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:27140"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29097"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29793"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44742"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01377"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00007"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00007"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h_n" id="M_h_n" name="H+" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h_n">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_h2o2_n" id="M_h2o2_n" name="Hydrogen peroxide" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_h2o2_n">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_o2s_e" id="M_o2s_e" name="Superoxide anion" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_o2s_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
@@ -640,178 +793,25 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_h2o2_x" id="M_h2o2_x" name="Hydrogen peroxide" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
+      <species metaid="M_h_c" id="M_h_c" name="H+" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o2_x">
+            <rdf:Description rdf:about="#M_h_c">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2s_m" id="M_o2s_m" name="Superoxide anion" compartment="m" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2s_m">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h2o2_c" id="M_h2o2_c" name="Hydrogen peroxide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o2_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_o2s_x" id="M_o2s_x" name="Superoxide anion" compartment="x" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_o2s_x">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/o2s"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPER-OXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15143"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:18421"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25935"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26839"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:30492"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7710"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB02168"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00704"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM330"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h2o2_r" id="M_h2o2_r" name="Hydrogen peroxide" compartment="r" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o2_r">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_h2o2_n" id="M_h2o2_n" name="Hydrogen peroxide" compartment="n" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_h2o2_n">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h2o2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13354"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13355"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16240"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24637"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:25940"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29192"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29370"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44782"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44785"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44812"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB03125"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB06491"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00027"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17732"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C18566"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00008"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM22"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00025"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:10744"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13357"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:24636"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29233"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:5584"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -825,13 +825,13 @@
       <parameter sboTerm="SBO:0000625" id="cobra_0_bound" name="cobra 0 - bound" value="0" constant="true"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction metaid="R_SPODM" sboTerm="SBO:0000375" id="R_SPODM" name="Superoxide dismutase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_SPODMn" sboTerm="SBO:0000375" id="R_SPODMn" name="Superoxide dismutase, nuclear" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_SPODM">
+            <rdf:Description rdf:about="#R_SPODMn">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODM"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODMn"/>
                   <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPEROX-DISMUT-RXN"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.15.1.1"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00275"/>
@@ -846,12 +846,12 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h_c" stoichiometry="2" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_o2s_c" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h_n" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_o2s_n" stoichiometry="2" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_c" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_n" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_o2_n" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_6647_AT1"/>
@@ -889,13 +889,13 @@
           <fbc:geneProductRef fbc:geneProduct="G_847_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="R_SPODMx" sboTerm="SBO:0000375" id="R_SPODMx" name="Superoxide dismutase, peroxisome" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_SPODM" sboTerm="SBO:0000375" id="R_SPODM" name="Superoxide dismutase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_SPODMx">
+            <rdf:Description rdf:about="#R_SPODM">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODMx"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODM"/>
                   <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPEROX-DISMUT-RXN"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.15.1.1"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00275"/>
@@ -910,47 +910,15 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h_x" stoichiometry="2" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_o2s_x" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h_c" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_o2s_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_x" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_o2_x" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_o2_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_6647_AT1"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="R_SPODMe" sboTerm="SBO:0000375" id="R_SPODMe" name="Superoxide dismutase, extracellular" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_SPODMe">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODMe"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPEROX-DISMUT-RXN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.15.1.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00275"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104498"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/20696"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/20697"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/20698"/>
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/20699"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h_e" stoichiometry="2" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_o2s_e" stoichiometry="2" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_e" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_o2_e" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_6649_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="R_SPODMm" sboTerm="SBO:0000375" id="R_SPODMm" name="Superoxide dismutase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -985,6 +953,38 @@
           <fbc:geneProductRef fbc:geneProduct="G_6648_AT1"/>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction metaid="R_SPODMe" sboTerm="SBO:0000375" id="R_SPODMe" name="Superoxide dismutase, extracellular" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_SPODMe">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODMe"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPEROX-DISMUT-RXN"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.15.1.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00275"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104498"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/20696"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/20697"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/20698"/>
+                  <rdf:li rdf:resource="http://identifiers.org/rhea/20699"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" species="M_h_e" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_o2s_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_e" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_o2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_6649_AT1"/>
+        </fbc:geneProductAssociation>
+      </reaction>
       <reaction metaid="R_CATr" sboTerm="SBO:0000375" id="R_CATr" name="Catalase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -1005,13 +1005,13 @@
           <speciesReference sboTerm="SBO:0000011" species="M_o2_r" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="R_SPODMn" sboTerm="SBO:0000375" id="R_SPODMn" name="Superoxide dismutase, nuclear" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="R_SPODMx" sboTerm="SBO:0000375" id="R_SPODMx" name="Superoxide dismutase, peroxisome" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_SPODMn">
+            <rdf:Description rdf:about="#R_SPODMx">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODMn"/>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SPODMx"/>
                   <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SUPEROX-DISMUT-RXN"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.15.1.1"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00275"/>
@@ -1026,12 +1026,12 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference sboTerm="SBO:0000010" species="M_h_n" stoichiometry="2" constant="true"/>
-          <speciesReference sboTerm="SBO:0000010" species="M_o2s_n" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_h_x" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" species="M_o2s_x" stoichiometry="2" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_n" stoichiometry="1" constant="true"/>
-          <speciesReference sboTerm="SBO:0000011" species="M_o2_n" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_h2o2_x" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000011" species="M_o2_x" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_6647_AT1"/>
@@ -1055,29 +1055,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/uniprot/P08228"/>
                   <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000002115"/>
                   <rdf:li rdf:resource="https://identifiers.org/uniprot/P07632"/>
-                </rdf:Bag>
-              </bqbiol:isEncodedBy>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="G_6648_AT1" fbc:id="G_6648_AT1" fbc:label="6648_AT1">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#G_6648_AT1">
-              <bqbiol:isEncodedBy>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS34564.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS5265.1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6648"/>
-                  <rdf:li rdf:resource="http://identifiers.org/omim/147460"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSG00000112096"/>
-                  <rdf:li rdf:resource="https://identifiers.org/uniprot/P04179"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSMUSG00000006818"/>
-                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q4FJX9"/>
-                  <rdf:li rdf:resource="https://identifiers.org/uniprot/P09671"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000019048"/>
-                  <rdf:li rdf:resource="https://identifiers.org/uniprot/P07895"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
@@ -1123,6 +1100,29 @@
                   <rdf:li rdf:resource="https://identifiers.org/uniprot/P24270"/>
                   <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000008364"/>
                   <rdf:li rdf:resource="https://identifiers.org/uniprot/P04762"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_6648_AT1" fbc:id="G_6648_AT1" fbc:label="6648_AT1">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#G_6648_AT1">
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS34564.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ccds/CCDS5265.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/6648"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omim/147460"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSG00000112096"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/P04179"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSMUSG00000006818"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/Q4FJX9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/P09671"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ensemble/ENSRNOG00000019048"/>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/P07895"/>
                 </rdf:Bag>
               </bqbiol:isEncodedBy>
             </rdf:Description>
