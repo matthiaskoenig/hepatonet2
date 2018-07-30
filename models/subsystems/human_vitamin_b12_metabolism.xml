@@ -17,6 +17,34 @@
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
+      <species metaid="M_nad_c" id="M_nad_c" name="Nicotinamide adenine dinucleotide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_nad_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nad"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NAD"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13393"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13394"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15846"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21901"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29867"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44214"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44215"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44281"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57540"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7422"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00003"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00003"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="M_cbl2_c" id="M_cbl2_c" name="Cob II alamin C62H88CoN13O14P" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C62H92CoN13O14P">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -26,6 +54,45 @@
                   <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/cbl2"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM90580"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00423"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_nadh_c" id="M_nadh_c" name="Nicotinamide adenine dinucleotide - reduced" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_nadh_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nadh"/>
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NADH"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13395"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13396"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16908"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21902"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44216"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57945"/>
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7423"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01487"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00004"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM10"/>
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00004"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="M_aqcobal_c" id="M_aqcobal_c" name="Aquacob(III)alamin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C62H93CoN13O15P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#M_aqcobal_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/aqcobal"/>
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM92126"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -51,34 +118,6 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00080"/>
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM1"/>
                   <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00067"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_nad_c" id="M_nad_c" name="Nicotinamide adenine dinucleotide" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_nad_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nad"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NAD"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13393"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13394"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15846"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21901"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:29867"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44214"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44215"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44281"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57540"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7422"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00003"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.drug/D00002"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM8"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00003"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -141,48 +180,14 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="M_aqcobal_c" id="M_aqcobal_c" name="Aquacob(III)alamin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C62H93CoN13O15P">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_aqcobal_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/aqcobal"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM92126"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="M_nadh_c" id="M_nadh_c" name="Nicotinamide adenine dinucleotide - reduced" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#M_nadh_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/nadh"/>
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:NADH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13395"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:13396"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:16908"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:21902"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:44216"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:57945"/>
-                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:7423"/>
-                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB01487"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00004"/>
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM10"/>
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00004"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
     </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_lb" name="cobra default - lb" value="-1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_ub" name="cobra default - ub" value="1000" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="cobra_0_bound" name="cobra 0 - bound" value="0" constant="true"/>
+    </listOfParameters>
     <listOfReactions>
-      <reaction metaid="R_CBL2OR" sboTerm="SBO:0000375" id="R_CBL2OR" name="NADH:cob(III)alamine oxidoreductase" reversible="false">
+      <reaction metaid="R_CBL2OR" sboTerm="SBO:0000375" id="R_CBL2OR" name="NADH:cob(III)alamine oxidoreductase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_CBL2OR">

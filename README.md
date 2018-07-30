@@ -25,3 +25,21 @@ Constrained-based models for simulating core liver functions.
 - Semantic Annotations 
 - Easy extension to additional biological concepts & storage of additional information
 - Storage of things like proteins, protein complexes, allosteric regulations, sequences required for more complex constrained based models like RBA or kinetic models. Storage of parameters, e.g. Km, kcat or Delta G values needed for RBA or kinetic models
+
+
+## Installation
+```
+mkvirtualenv hepatonet2 --python=python3
+(hepatonet2) pip install -r requirements.txt
+```
+The necessary pip packages for the notebook are
+```
+(libsbml) pip install jupyterlab
+(libsbml) ipython kernel install --user --name=hepatonet2
+```
+Start the notebook via
+```
+jupyter lab
+```
+
+&copy; 2018 [Matthias König](https://livermetabolism.com)
